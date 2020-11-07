@@ -1,7 +1,7 @@
 /* --- menu items --- */
 var TREE_ITEMS =
 	[
-		['Proiektua', '../main/home_page.htm',
+		['Proiektua', '../main/home_page.html',
 			['Portada', '../Proiektua/Portada.pdf'],
 			['Laburpen Posterra', '../Proiektua/Laburpen Posterra.pdf'],
 			['Aurkezpena', '../Proiektua/Aurkezpena.pdf'],
