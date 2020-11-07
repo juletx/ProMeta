@@ -1,0 +1,723 @@
+; Mon Jul 06 18:23:00 CEST 2020
+; 
+;+ (version "3.5")
+;+ (build "Build 663")
+
+(definstances testCase_1
+([testCase_1_data_0] of  data
+
+	(_key "y")
+	(Text "238.24802"))
+
+([testCase_1_data_1] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([testCase_1_data_10] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([testCase_1_data_100] of  data
+
+	(_key "label")
+	(Text "Test Case"))
+
+([testCase_1_data_101] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([testCase_1_data_102] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([testCase_1_data_103] of  data
+
+	(_key "x")
+	(Text "-326.59473"))
+
+([testCase_1_data_11] of  data
+
+	(_key "x")
+	(Text "-127.37081"))
+
+([testCase_1_data_12] of  data
+
+	(_key "y")
+	(Text "-486.47995"))
+
+([testCase_1_data_13] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([testCase_1_data_14] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([testCase_1_data_15] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([testCase_1_data_16] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([testCase_1_data_17] of  data
+
+	(_key "url")
+	(Text "./Templates/TestCase.txt"))
+
+([testCase_1_data_18] of  data
+
+	(_key "x")
+	(Text "-234.39462"))
+
+([testCase_1_data_19] of  data
+
+	(_key "x")
+	(Text "489.93832"))
+
+([testCase_1_data_2] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([testCase_1_data_20] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([testCase_1_data_21] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([testCase_1_data_22] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([testCase_1_data_23] of  data
+
+	(_key "y")
+	(Text "-210.185"))
+
+([testCase_1_data_24] of  data
+
+	(_key "label")
+	(Text "lemonchiffon"))
+
+([testCase_1_data_25] of  data
+
+	(_key "y")
+	(Text "452.1912"))
+
+([testCase_1_data_26] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([testCase_1_data_27] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([testCase_1_data_28] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([testCase_1_data_29] of  data
+
+	(_key "label")
+	(Text "Start Test Case"))
+
+([testCase_1_data_3] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([testCase_1_data_30] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([testCase_1_data_31] of  data
+
+	(_key "label")
+	(Text "bgcolor"))
+
+([testCase_1_data_32] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([testCase_1_data_33] of  data
+
+	(_key "label")
+	(Text "fontname"))
+
+([testCase_1_data_34] of  data
+
+	(_key "label")
+	(Text "Test Case"))
+
+([testCase_1_data_35] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([testCase_1_data_36] of  data
+
+	(_key "x")
+	(Text "-351.74277"))
+
+([testCase_1_data_37] of  data
+
+	(_key "label")
+	(Text "16"))
+
+([testCase_1_data_38] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([testCase_1_data_39] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([testCase_1_data_4] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([testCase_1_data_40] of  data
+
+	(_key "y")
+	(Text "-359.78845"))
+
+([testCase_1_data_41] of  data
+
+	(_key "shape")
+	(Text "ellipse"))
+
+([testCase_1_data_42] of  data
+
+	(_key "label")
+	(Text "Arial"))
+
+([testCase_1_data_43] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([testCase_1_data_44] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([testCase_1_data_45] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([testCase_1_data_46] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([testCase_1_data_47] of  data
+
+	(_key "y")
+	(Text "232.96237"))
+
+([testCase_1_data_48] of  data
+
+	(_key "y")
+	(Text "-152.66531"))
+
+([testCase_1_data_49] of  data
+
+	(_key "label")
+	(Text "fontsize"))
+
+([testCase_1_data_5] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([testCase_1_data_50] of  data
+
+	(_key "label")
+	(Text "labelloc"))
+
+([testCase_1_data_51] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([testCase_1_data_52] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([testCase_1_data_53] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([testCase_1_data_54] of  data
+
+	(_key "fontsize")
+	(Text "12"))
+
+([testCase_1_data_55] of  data
+
+	(_key "x")
+	(Text "-292.11746"))
+
+([testCase_1_data_56] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([testCase_1_data_57] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([testCase_1_data_58] of  data
+
+	(_key "shape")
+	(Text "ellipse"))
+
+([testCase_1_data_59] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([testCase_1_data_6] of  data
+
+	(_key "x")
+	(Text "31.822853"))
+
+([testCase_1_data_60] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([testCase_1_data_61] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([testCase_1_data_62] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([testCase_1_data_63] of  data
+
+	(_key "shape")
+	(Text "component"))
+
+([testCase_1_data_64] of  data
+
+	(_key "fillcolor")
+	(Text "white"))
+
+([testCase_1_data_65] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([testCase_1_data_66] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([testCase_1_data_67] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([testCase_1_data_68] of  data
+
+	(_key "fontname")
+	(Text "Arial"))
+
+([testCase_1_data_69] of  data
+
+	(_key "weight")
+	(Text "1.0"))
+
+([testCase_1_data_7] of  data
+
+	(_key "x")
+	(Text "-348.79193"))
+
+([testCase_1_data_70] of  data
+
+	(_key "label")
+	(Text "End Test Case"))
+
+([testCase_1_data_71] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([testCase_1_data_72] of  data
+
+	(_key "weight")
+	(Text "1.0"))
+
+([testCase_1_data_73] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([testCase_1_data_74] of  data
+
+	(_key "y")
+	(Text "-33.736847"))
+
+([testCase_1_data_75] of  data
+
+	(_key "y")
+	(Text "174.4263"))
+
+([testCase_1_data_76] of  data
+
+	(_key "x")
+	(Text "52.405495"))
+
+([testCase_1_data_77] of  data
+
+	(_key "y")
+	(Text "-186.03"))
+
+([testCase_1_data_78] of  data
+
+	(_key "y")
+	(Text "-2.1011353"))
+
+([testCase_1_data_79] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([testCase_1_data_8] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([testCase_1_data_80] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([testCase_1_data_81] of  data
+
+	(_key "x")
+	(Text "500.26443"))
+
+([testCase_1_data_82] of  data
+
+	(_key "x")
+	(Text "507.37204"))
+
+([testCase_1_data_83] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([testCase_1_data_84] of  data
+
+	(_key "margin")
+	(Text "0.11,0.11"))
+
+([testCase_1_data_85] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([testCase_1_data_86] of  data
+
+	(_key "y")
+	(Text "-12.147247"))
+
+([testCase_1_data_87] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([testCase_1_data_88] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([testCase_1_data_89] of  data
+
+	(_key "label")
+	(Text "label"))
+
+([testCase_1_data_9] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([testCase_1_data_90] of  data
+
+	(_key "fillcolor")
+	(Text "royalblue3"))
+
+([testCase_1_data_91] of  data
+
+	(_key "fillcolor")
+	(Text "royalblue3"))
+
+([testCase_1_data_92] of  data
+
+	(_key "x")
+	(Text "174.90659"))
+
+([testCase_1_data_93] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([testCase_1_data_94] of  data
+
+	(_key "label")
+	(Text "t"))
+
+([testCase_1_data_95] of  data
+
+	(_key "fontcolor")
+	(Text "blue"))
+
+([testCase_1_data_96] of  data
+
+	(_key "x")
+	(Text "-75.69747"))
+
+([testCase_1_data_97] of  data
+
+	(_key "y")
+	(Text "345.30606"))
+
+([testCase_1_data_98] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([testCase_1_data_99] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([testCase_1_edge_0] of  edge
+
+	(_id "118")
+	(_source "Artifact SectionWT 1 2 1 3 7 15 0 Test Case | Templates/TestCase/TestCase.txt")
+	(_target "Artifact End 1 2 1 3 7 15 0 Test Case |")
+	(dataSlot [testCase_1_data_69]))
+
+([testCase_1_edge_1] of  edge
+
+	(_id "117")
+	(_source "Artifact Start 1 2 1 3 7 15 0 Test Case |")
+	(_target "Artifact SectionWT 1 2 1 3 7 15 0 Test Case | Templates/TestCase/TestCase.txt")
+	(dataSlot [testCase_1_data_72]))
+
+([testCase_1_graph_0] of  graph
+
+	(_edgedefault "directed")
+	(edgeSlot [testCase_1_edge_1])
+	(nodeSlot [testCase_1_node_7]))
+
+([testCase_1_key_0] of  key
+
+	(_attr.name "label")
+	(_attr.type "string")
+	(_for "node")
+	(_id "label"))
+
+([testCase_1_key_1] of  key
+
+	(_attr.name "margin")
+	(_attr.type "string")
+	(_for "node")
+	(_id "margin"))
+
+([testCase_1_key_10] of  key
+
+	(_attr.name "fontcolor")
+	(_attr.type "string")
+	(_for "node")
+	(_id "fontcolor"))
+
+([testCase_1_key_11] of  key
+
+	(_attr.name "y")
+	(_attr.type "float")
+	(_for "node")
+	(_id "y"))
+
+([testCase_1_key_12] of  key
+
+	(_attr.name "weight")
+	(_attr.type "double")
+	(_for "edge")
+	(_id "weight"))
+
+([testCase_1_key_13] of  key
+
+	(_attr.name "x")
+	(_attr.type "float")
+	(_for "node")
+	(_id "x"))
+
+([testCase_1_key_14] of  key
+
+	(_attr.name "fillcolor")
+	(_attr.type "string")
+	(_for "node")
+	(_id "fillcolor"))
+
+([testCase_1_key_15] of  key
+
+	(_attr.name "fontsize")
+	(_attr.type "string")
+	(_for "node")
+	(_id "fontsize"))
+
+([testCase_1_key_2] of  key
+
+	(_attr.name "shape")
+	(_attr.type "string")
+	(_for "node")
+	(_id "shape"))
+
+([testCase_1_key_3] of  key
+
+	(_attr.name "b")
+	(_attr.type "int")
+	(_for "node")
+	(_id "b"))
+
+([testCase_1_key_4] of  key
+
+	(_attr.name "r")
+	(_attr.type "int")
+	(_for "node")
+	(_id "r"))
+
+([testCase_1_key_5] of  key
+
+	(_attr.name "size")
+	(_attr.type "float")
+	(_for "node")
+	(_id "size"))
+
+([testCase_1_key_6] of  key
+
+	(_attr.name "url")
+	(_attr.type "string")
+	(_for "node")
+	(_id "url"))
+
+([testCase_1_key_7] of  key
+
+	(_attr.name "fontname")
+	(_attr.type "string")
+	(_for "node")
+	(_id "fontname"))
+
+([testCase_1_key_8] of  key
+
+	(_attr.name "Edge Label")
+	(_attr.type "string")
+	(_for "edge")
+	(_id "edgelabel"))
+
+([testCase_1_key_9] of  key
+
+	(_attr.name "g")
+	(_attr.type "int")
+	(_for "node")
+	(_id "g"))
+
+([testCase_1_node_0] of  node
+
+	(_id "labelloc")
+	(dataSlot [testCase_1_data_50]))
+
+([testCase_1_node_1] of  node
+
+	(_id "lemonchiffon")
+	(dataSlot [testCase_1_data_24]))
+
+([testCase_1_node_10] of  node
+
+	(_id "Test Case")
+	(dataSlot [testCase_1_data_100]))
+
+([testCase_1_node_11] of  node
+
+	(_id "t")
+	(dataSlot [testCase_1_data_94]))
+
+([testCase_1_node_12] of  node
+
+	(_id "Artifact End 1 2 1 3 7 15 0 Test Case |")
+	(dataSlot [testCase_1_data_70]))
+
+([testCase_1_node_2] of  node
+
+	(_id "Artifact Start 1 2 1 3 7 15 0 Test Case |")
+	(dataSlot [testCase_1_data_29]))
+
+([testCase_1_node_3] of  node
+
+	(_id "Artifact SectionWT 1 2 1 3 7 15 0 Test Case | Templates/TestCase/TestCase.txt")
+	(dataSlot [testCase_1_data_34]))
+
+([testCase_1_node_4] of  node
+
+	(_id "fontname")
+	(dataSlot [testCase_1_data_33]))
+
+([testCase_1_node_5] of  node
+
+	(_id "Arial")
+	(dataSlot [testCase_1_data_42]))
+
+([testCase_1_node_6] of  node
+
+	(_id "label")
+	(dataSlot [testCase_1_data_89]))
+
+([testCase_1_node_7] of  node
+
+	(_id "fontsize")
+	(dataSlot [testCase_1_data_49]))
+
+([testCase_1_node_8] of  node
+
+	(_id "16")
+	(dataSlot [testCase_1_data_37]))
+
+([testCase_1_node_9] of  node
+
+	(_id "bgcolor")
+	(dataSlot [testCase_1_data_31]))
+)

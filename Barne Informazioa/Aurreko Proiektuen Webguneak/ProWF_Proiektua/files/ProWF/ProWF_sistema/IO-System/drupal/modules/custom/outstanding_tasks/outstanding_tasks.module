@@ -1,0 +1,15 @@
+<?php
+
+
+function outstanding_tasks_page_attachments(array &$page){
+	$page['#attached']['library'][] = 'outstanding_tasks/outstanding_tasks_css';
+}
+
+
+function outstanding_tasks_theme($existing,$type,$theme,$path){
+	return array(
+		'indexOT' => array (
+			'variables' => array('artifacts' => array())
+		)
+	);
+}

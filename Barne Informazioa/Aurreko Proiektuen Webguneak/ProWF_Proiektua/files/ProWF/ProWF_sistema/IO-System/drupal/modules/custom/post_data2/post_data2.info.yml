@@ -1,0 +1,4 @@
+name: 'Post Data2'
+description: 'Post data from Assess Artifact Form'
+core: 8.x
+type: module

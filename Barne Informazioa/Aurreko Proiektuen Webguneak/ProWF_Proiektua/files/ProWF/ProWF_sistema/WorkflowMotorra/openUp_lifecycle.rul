@@ -1,0 +1,1601 @@
+; Mon Jul 06 13:09:08 CEST 2020
+; 
+;+ (version "3.5")
+;+ (build "Build 663")
+
+(definstances openUp_lifecycle
+([openUp_lifecycle_data_0] of  data
+
+	(_key "fillcolor")
+	(Text "#DCDCDC"))
+
+([openUp_lifecycle_data_1] of  data
+
+	(_key "x")
+	(Text "-224.57951"))
+
+([openUp_lifecycle_data_10] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([openUp_lifecycle_data_100] of  data
+
+	(_key "fillcolor")
+	(Text "#DCDCDC"))
+
+([openUp_lifecycle_data_101] of  data
+
+	(_key "shape")
+	(Text "ellipse"))
+
+([openUp_lifecycle_data_102] of  data
+
+	(_key "fillcolor")
+	(Text "#DCDCDC"))
+
+([openUp_lifecycle_data_103] of  data
+
+	(_key "margin")
+	(Text "0.11,0.11"))
+
+([openUp_lifecycle_data_104] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([openUp_lifecycle_data_105] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([openUp_lifecycle_data_106] of  data
+
+	(_key "label")
+	(Text "bgcolor"))
+
+([openUp_lifecycle_data_107] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([openUp_lifecycle_data_108] of  data
+
+	(_key "y")
+	(Text "492.33817"))
+
+([openUp_lifecycle_data_109] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([openUp_lifecycle_data_11] of  data
+
+	(_key "margin")
+	(Text "0.11,0.11"))
+
+([openUp_lifecycle_data_110] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([openUp_lifecycle_data_111] of  data
+
+	(_key "shape")
+	(Text "diamond"))
+
+([openUp_lifecycle_data_112] of  data
+
+	(_key "shape")
+	(Text "box3d"))
+
+([openUp_lifecycle_data_113] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([openUp_lifecycle_data_114] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([openUp_lifecycle_data_115] of  data
+
+	(_key "url")
+	(Text "./Transition/transition.html"))
+
+([openUp_lifecycle_data_116] of  data
+
+	(_key "url")
+	(Text "./Elaboration/elaboration.html"))
+
+([openUp_lifecycle_data_117] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([openUp_lifecycle_data_118] of  data
+
+	(_key "x")
+	(Text "416.27808"))
+
+([openUp_lifecycle_data_119] of  data
+
+	(_key "fillcolor")
+	(Text "royalblue3"))
+
+([openUp_lifecycle_data_12] of  data
+
+	(_key "fontsize")
+	(Text "12"))
+
+([openUp_lifecycle_data_120] of  data
+
+	(_key "label")
+	(Text "Assessments?"))
+
+([openUp_lifecycle_data_121] of  data
+
+	(_key "label")
+	(Text "Go to the next phase"))
+
+([openUp_lifecycle_data_122] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([openUp_lifecycle_data_123] of  data
+
+	(_key "shape")
+	(Text "diamond"))
+
+([openUp_lifecycle_data_124] of  data
+
+	(_key "fontname")
+	(Text "Arial"))
+
+([openUp_lifecycle_data_125] of  data
+
+	(_key "shape")
+	(Text "box"))
+
+([openUp_lifecycle_data_126] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([openUp_lifecycle_data_127] of  data
+
+	(_key "x")
+	(Text "139.42015"))
+
+([openUp_lifecycle_data_128] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([openUp_lifecycle_data_129] of  data
+
+	(_key "label")
+	(Text "t"))
+
+([openUp_lifecycle_data_13] of  data
+
+	(_key "fontsize")
+	(Text "12"))
+
+([openUp_lifecycle_data_130] of  data
+
+	(_key "shape")
+	(Text "box"))
+
+([openUp_lifecycle_data_131] of  data
+
+	(_key "margin")
+	(Text "0.11,0.11"))
+
+([openUp_lifecycle_data_132] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([openUp_lifecycle_data_133] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([openUp_lifecycle_data_134] of  data
+
+	(_key "label")
+	(Text "Assessments?"))
+
+([openUp_lifecycle_data_135] of  data
+
+	(_key "x")
+	(Text "384.15405"))
+
+([openUp_lifecycle_data_136] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([openUp_lifecycle_data_137] of  data
+
+	(_key "weight")
+	(Text "1.0"))
+
+([openUp_lifecycle_data_138] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([openUp_lifecycle_data_139] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([openUp_lifecycle_data_14] of  data
+
+	(_key "fillcolor")
+	(Text "#DCDCDC"))
+
+([openUp_lifecycle_data_140] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([openUp_lifecycle_data_141] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([openUp_lifecycle_data_142] of  data
+
+	(_key "edgelabel")
+	(Text "(not ?*allAssessmentIsCorrect*)"))
+
+([openUp_lifecycle_data_143] of  data
+
+	(_key "weight")
+	(Text "1.0"))
+
+([openUp_lifecycle_data_144] of  data
+
+	(_key "fontsize")
+	(Text "12"))
+
+([openUp_lifecycle_data_145] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([openUp_lifecycle_data_146] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([openUp_lifecycle_data_147] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([openUp_lifecycle_data_148] of  data
+
+	(_key "fillcolor")
+	(Text "#DCDCDC"))
+
+([openUp_lifecycle_data_149] of  data
+
+	(_key "label")
+	(Text "Go to the next phase"))
+
+([openUp_lifecycle_data_15] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([openUp_lifecycle_data_150] of  data
+
+	(_key "fillcolor")
+	(Text "#DCDCDC"))
+
+([openUp_lifecycle_data_151] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([openUp_lifecycle_data_152] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([openUp_lifecycle_data_153] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([openUp_lifecycle_data_154] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([openUp_lifecycle_data_155] of  data
+
+	(_key "y")
+	(Text "-152.59148"))
+
+([openUp_lifecycle_data_156] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([openUp_lifecycle_data_157] of  data
+
+	(_key "y")
+	(Text "-136.35316"))
+
+([openUp_lifecycle_data_158] of  data
+
+	(_key "y")
+	(Text "548.6442"))
+
+([openUp_lifecycle_data_159] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([openUp_lifecycle_data_16] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([openUp_lifecycle_data_160] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([openUp_lifecycle_data_161] of  data
+
+	(_key "fontsize")
+	(Text "12"))
+
+([openUp_lifecycle_data_162] of  data
+
+	(_key "y")
+	(Text "-408.21472"))
+
+([openUp_lifecycle_data_163] of  data
+
+	(_key "x")
+	(Text "-190.1681"))
+
+([openUp_lifecycle_data_164] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([openUp_lifecycle_data_165] of  data
+
+	(_key "weight")
+	(Text "1.0"))
+
+([openUp_lifecycle_data_166] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([openUp_lifecycle_data_167] of  data
+
+	(_key "y")
+	(Text "41.35954"))
+
+([openUp_lifecycle_data_168] of  data
+
+	(_key "x")
+	(Text "-56.634197"))
+
+([openUp_lifecycle_data_169] of  data
+
+	(_key "label")
+	(Text "labelloc"))
+
+([openUp_lifecycle_data_17] of  data
+
+	(_key "fontname")
+	(Text "Arial"))
+
+([openUp_lifecycle_data_170] of  data
+
+	(_key "shape")
+	(Text "ellipse"))
+
+([openUp_lifecycle_data_171] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([openUp_lifecycle_data_172] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([openUp_lifecycle_data_173] of  data
+
+	(_key "y")
+	(Text "-96.13011"))
+
+([openUp_lifecycle_data_174] of  data
+
+	(_key "y")
+	(Text "-364.1736"))
+
+([openUp_lifecycle_data_175] of  data
+
+	(_key "y")
+	(Text "415.6793"))
+
+([openUp_lifecycle_data_176] of  data
+
+	(_key "weight")
+	(Text "1.0"))
+
+([openUp_lifecycle_data_177] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([openUp_lifecycle_data_178] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([openUp_lifecycle_data_179] of  data
+
+	(_key "x")
+	(Text "-342.50293"))
+
+([openUp_lifecycle_data_18] of  data
+
+	(_key "label")
+	(Text "fontname"))
+
+([openUp_lifecycle_data_180] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([openUp_lifecycle_data_181] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([openUp_lifecycle_data_182] of  data
+
+	(_key "weight")
+	(Text "1.0"))
+
+([openUp_lifecycle_data_183] of  data
+
+	(_key "x")
+	(Text "398.74805"))
+
+([openUp_lifecycle_data_184] of  data
+
+	(_key "fillcolor")
+	(Text "white"))
+
+([openUp_lifecycle_data_185] of  data
+
+	(_key "fontsize")
+	(Text "12"))
+
+([openUp_lifecycle_data_186] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([openUp_lifecycle_data_187] of  data
+
+	(_key "label")
+	(Text "OpenUp Lyfecycle"))
+
+([openUp_lifecycle_data_188] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([openUp_lifecycle_data_189] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([openUp_lifecycle_data_19] of  data
+
+	(_key "edgelabel")
+	(Text "(not ?*allAssessmentIsCorrect*)"))
+
+([openUp_lifecycle_data_190] of  data
+
+	(_key "label")
+	(Text "Assessments?"))
+
+([openUp_lifecycle_data_191] of  data
+
+	(_key "margin")
+	(Text "0.11,0.11"))
+
+([openUp_lifecycle_data_192] of  data
+
+	(_key "fillcolor")
+	(Text "royalblue3"))
+
+([openUp_lifecycle_data_193] of  data
+
+	(_key "y")
+	(Text "-81.95473"))
+
+([openUp_lifecycle_data_194] of  data
+
+	(_key "fillcolor")
+	(Text "white"))
+
+([openUp_lifecycle_data_195] of  data
+
+	(_key "fontname")
+	(Text "Arial"))
+
+([openUp_lifecycle_data_196] of  data
+
+	(_key "weight")
+	(Text "1.0"))
+
+([openUp_lifecycle_data_197] of  data
+
+	(_key "weight")
+	(Text "1.0"))
+
+([openUp_lifecycle_data_198] of  data
+
+	(_key "fillcolor")
+	(Text "white"))
+
+([openUp_lifecycle_data_199] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([openUp_lifecycle_data_2] of  data
+
+	(_key "y")
+	(Text "-159.6715"))
+
+([openUp_lifecycle_data_20] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([openUp_lifecycle_data_200] of  data
+
+	(_key "x")
+	(Text "-333.56592"))
+
+([openUp_lifecycle_data_201] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([openUp_lifecycle_data_202] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([openUp_lifecycle_data_203] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([openUp_lifecycle_data_204] of  data
+
+	(_key "shape")
+	(Text "box"))
+
+([openUp_lifecycle_data_205] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([openUp_lifecycle_data_206] of  data
+
+	(_key "weight")
+	(Text "1.0"))
+
+([openUp_lifecycle_data_207] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([openUp_lifecycle_data_208] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([openUp_lifecycle_data_209] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([openUp_lifecycle_data_21] of  data
+
+	(_key "x")
+	(Text "-179.5565"))
+
+([openUp_lifecycle_data_210] of  data
+
+	(_key "y")
+	(Text "-329.8999"))
+
+([openUp_lifecycle_data_211] of  data
+
+	(_key "label")
+	(Text "label"))
+
+([openUp_lifecycle_data_212] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([openUp_lifecycle_data_213] of  data
+
+	(_key "fontsize")
+	(Text "12"))
+
+([openUp_lifecycle_data_214] of  data
+
+	(_key "url")
+	(Text "./Construction/construction.html"))
+
+([openUp_lifecycle_data_215] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([openUp_lifecycle_data_216] of  data
+
+	(_key "y")
+	(Text "-183.59291"))
+
+([openUp_lifecycle_data_217] of  data
+
+	(_key "y")
+	(Text "418.36917"))
+
+([openUp_lifecycle_data_218] of  data
+
+	(_key "x")
+	(Text "496.57147"))
+
+([openUp_lifecycle_data_219] of  data
+
+	(_key "edgelabel")
+	(Text "(?*allAssessmentIsCorrect*)"))
+
+([openUp_lifecycle_data_22] of  data
+
+	(_key "edgelabel")
+	(Text "(?*allAssessmentIsCorrect*)"))
+
+([openUp_lifecycle_data_220] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([openUp_lifecycle_data_221] of  data
+
+	(_key "y")
+	(Text "-126.13988"))
+
+([openUp_lifecycle_data_222] of  data
+
+	(_key "edgelabel")
+	(Text "(?*allAssessmentIsCorrect*)"))
+
+([openUp_lifecycle_data_223] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([openUp_lifecycle_data_224] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([openUp_lifecycle_data_225] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([openUp_lifecycle_data_226] of  data
+
+	(_key "y")
+	(Text "-82.00154"))
+
+([openUp_lifecycle_data_227] of  data
+
+	(_key "label")
+	(Text "Construction"))
+
+([openUp_lifecycle_data_228] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([openUp_lifecycle_data_229] of  data
+
+	(_key "weight")
+	(Text "1.0"))
+
+([openUp_lifecycle_data_23] of  data
+
+	(_key "weight")
+	(Text "1.0"))
+
+([openUp_lifecycle_data_230] of  data
+
+	(_key "x")
+	(Text "-191.60667"))
+
+([openUp_lifecycle_data_231] of  data
+
+	(_key "x")
+	(Text "-266.37878"))
+
+([openUp_lifecycle_data_232] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([openUp_lifecycle_data_233] of  data
+
+	(_key "x")
+	(Text "-426.91547"))
+
+([openUp_lifecycle_data_234] of  data
+
+	(_key "x")
+	(Text "163.00859"))
+
+([openUp_lifecycle_data_235] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([openUp_lifecycle_data_236] of  data
+
+	(_key "shape")
+	(Text "box3d"))
+
+([openUp_lifecycle_data_237] of  data
+
+	(_key "label")
+	(Text "Start OpenUp Lifecycle"))
+
+([openUp_lifecycle_data_238] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([openUp_lifecycle_data_239] of  data
+
+	(_key "weight")
+	(Text "1.0"))
+
+([openUp_lifecycle_data_24] of  data
+
+	(_key "fillcolor")
+	(Text "#DCDCDC"))
+
+([openUp_lifecycle_data_240] of  data
+
+	(_key "url")
+	(Text "./Inception/inception.html"))
+
+([openUp_lifecycle_data_241] of  data
+
+	(_key "label")
+	(Text "lemonchiffon"))
+
+([openUp_lifecycle_data_242] of  data
+
+	(_key "label")
+	(Text "fontsize"))
+
+([openUp_lifecycle_data_243] of  data
+
+	(_key "fillcolor")
+	(Text "#DCDCDC"))
+
+([openUp_lifecycle_data_244] of  data
+
+	(_key "y")
+	(Text "356.3889"))
+
+([openUp_lifecycle_data_245] of  data
+
+	(_key "edgelabel")
+	(Text "(not ?*allAssessmentIsCorrect*)"))
+
+([openUp_lifecycle_data_246] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([openUp_lifecycle_data_247] of  data
+
+	(_key "fontname")
+	(Text "Arial"))
+
+([openUp_lifecycle_data_248] of  data
+
+	(_key "fontsize")
+	(Text "12"))
+
+([openUp_lifecycle_data_25] of  data
+
+	(_key "weight")
+	(Text "1.0"))
+
+([openUp_lifecycle_data_26] of  data
+
+	(_key "label")
+	(Text "Go to the next phase"))
+
+([openUp_lifecycle_data_27] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([openUp_lifecycle_data_28] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([openUp_lifecycle_data_29] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([openUp_lifecycle_data_3] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([openUp_lifecycle_data_30] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([openUp_lifecycle_data_31] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([openUp_lifecycle_data_32] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([openUp_lifecycle_data_33] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([openUp_lifecycle_data_34] of  data
+
+	(_key "y")
+	(Text "-331.58908"))
+
+([openUp_lifecycle_data_35] of  data
+
+	(_key "x")
+	(Text "-163.9745"))
+
+([openUp_lifecycle_data_36] of  data
+
+	(_key "label")
+	(Text "Inception"))
+
+([openUp_lifecycle_data_37] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([openUp_lifecycle_data_38] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([openUp_lifecycle_data_39] of  data
+
+	(_key "edgelabel")
+	(Text "(not ?*allAssessmentIsCorrect*)"))
+
+([openUp_lifecycle_data_4] of  data
+
+	(_key "y")
+	(Text "355.33298"))
+
+([openUp_lifecycle_data_40] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([openUp_lifecycle_data_41] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([openUp_lifecycle_data_42] of  data
+
+	(_key "weight")
+	(Text "1.0"))
+
+([openUp_lifecycle_data_43] of  data
+
+	(_key "fontsize")
+	(Text "12"))
+
+([openUp_lifecycle_data_44] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([openUp_lifecycle_data_45] of  data
+
+	(_key "shape")
+	(Text "box3d"))
+
+([openUp_lifecycle_data_46] of  data
+
+	(_key "label")
+	(Text "Elaboration"))
+
+([openUp_lifecycle_data_47] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([openUp_lifecycle_data_48] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([openUp_lifecycle_data_49] of  data
+
+	(_key "fontname")
+	(Text "Arial"))
+
+([openUp_lifecycle_data_5] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([openUp_lifecycle_data_50] of  data
+
+	(_key "margin")
+	(Text "0.11,0.11"))
+
+([openUp_lifecycle_data_51] of  data
+
+	(_key "x")
+	(Text "489.6219"))
+
+([openUp_lifecycle_data_52] of  data
+
+	(_key "margin")
+	(Text "0.11,0.11"))
+
+([openUp_lifecycle_data_53] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([openUp_lifecycle_data_54] of  data
+
+	(_key "x")
+	(Text "124.92296"))
+
+([openUp_lifecycle_data_55] of  data
+
+	(_key "shape")
+	(Text "diamond"))
+
+([openUp_lifecycle_data_56] of  data
+
+	(_key "margin")
+	(Text "0.11,0.11"))
+
+([openUp_lifecycle_data_57] of  data
+
+	(_key "weight")
+	(Text "1.0"))
+
+([openUp_lifecycle_data_58] of  data
+
+	(_key "shape")
+	(Text "box3d"))
+
+([openUp_lifecycle_data_59] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([openUp_lifecycle_data_6] of  data
+
+	(_key "fontname")
+	(Text "Arial"))
+
+([openUp_lifecycle_data_60] of  data
+
+	(_key "x")
+	(Text "307.88074"))
+
+([openUp_lifecycle_data_61] of  data
+
+	(_key "x")
+	(Text "-54.157696"))
+
+([openUp_lifecycle_data_62] of  data
+
+	(_key "x")
+	(Text "-411.6821"))
+
+([openUp_lifecycle_data_63] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([openUp_lifecycle_data_64] of  data
+
+	(_key "weight")
+	(Text "1.0"))
+
+([openUp_lifecycle_data_65] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([openUp_lifecycle_data_66] of  data
+
+	(_key "y")
+	(Text "436.3113"))
+
+([openUp_lifecycle_data_67] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([openUp_lifecycle_data_68] of  data
+
+	(_key "y")
+	(Text "-158.3911"))
+
+([openUp_lifecycle_data_69] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([openUp_lifecycle_data_7] of  data
+
+	(_key "fontname")
+	(Text "Arial"))
+
+([openUp_lifecycle_data_70] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([openUp_lifecycle_data_71] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([openUp_lifecycle_data_72] of  data
+
+	(_key "label")
+	(Text "16"))
+
+([openUp_lifecycle_data_73] of  data
+
+	(_key "x")
+	(Text "492.77148"))
+
+([openUp_lifecycle_data_74] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([openUp_lifecycle_data_75] of  data
+
+	(_key "shape")
+	(Text "diamond"))
+
+([openUp_lifecycle_data_76] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([openUp_lifecycle_data_77] of  data
+
+	(_key "weight")
+	(Text "1.0"))
+
+([openUp_lifecycle_data_78] of  data
+
+	(_key "fontname")
+	(Text "Arial"))
+
+([openUp_lifecycle_data_79] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([openUp_lifecycle_data_8] of  data
+
+	(_key "label")
+	(Text "End Project"))
+
+([openUp_lifecycle_data_80] of  data
+
+	(_key "label")
+	(Text "Arial"))
+
+([openUp_lifecycle_data_81] of  data
+
+	(_key "label")
+	(Text "End OpenUp Lifecycle"))
+
+([openUp_lifecycle_data_82] of  data
+
+	(_key "x")
+	(Text "-306.64996"))
+
+([openUp_lifecycle_data_83] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([openUp_lifecycle_data_84] of  data
+
+	(_key "fillcolor")
+	(Text "white"))
+
+([openUp_lifecycle_data_85] of  data
+
+	(_key "label")
+	(Text "Assessments?"))
+
+([openUp_lifecycle_data_86] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([openUp_lifecycle_data_87] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([openUp_lifecycle_data_88] of  data
+
+	(_key "shape")
+	(Text "box"))
+
+([openUp_lifecycle_data_89] of  data
+
+	(_key "y")
+	(Text "-289.71213"))
+
+([openUp_lifecycle_data_9] of  data
+
+	(_key "y")
+	(Text "218.21715"))
+
+([openUp_lifecycle_data_90] of  data
+
+	(_key "margin")
+	(Text "0.11,0.11"))
+
+([openUp_lifecycle_data_91] of  data
+
+	(_key "label")
+	(Text "Transition"))
+
+([openUp_lifecycle_data_92] of  data
+
+	(_key "y")
+	(Text "-382.22498"))
+
+([openUp_lifecycle_data_93] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([openUp_lifecycle_data_94] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([openUp_lifecycle_data_95] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([openUp_lifecycle_data_96] of  data
+
+	(_key "edgelabel")
+	(Text "(?*allAssessmentIsCorrect*)"))
+
+([openUp_lifecycle_data_97] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([openUp_lifecycle_data_98] of  data
+
+	(_key "weight")
+	(Text "1.0"))
+
+([openUp_lifecycle_data_99] of  data
+
+	(_key "x")
+	(Text "-265.00497"))
+
+([openUp_lifecycle_edge_0] of  edge
+
+	(_id "16")
+	(_source "Methodology Decision 1 4 0 0 0 0 0 Transition |")
+	(_target "Methodology End 1 0 0 0 0 0 0 O OpenUp Lifecycle | Alpha")
+	(dataSlot [openUp_lifecycle_data_222]))
+
+([openUp_lifecycle_edge_1] of  edge
+
+	(_id "7")
+	(_source "Methodology Decision 1 2 0 0 0 0 0 Elaboration |")
+	(_target "Methodology Phase 1 2 0 0 0 0 0 Elaboration |")
+	(dataSlot [openUp_lifecycle_data_245]))
+
+([openUp_lifecycle_edge_10] of  edge
+
+	(_id "6")
+	(_source "Methodology Question 1 2 0 0 0 0 0 Elaboration |")
+	(_target "Methodology Decision 1 2 0 0 0 0 0 Elaboration |")
+	(dataSlot [openUp_lifecycle_data_196]))
+
+([openUp_lifecycle_edge_11] of  edge
+
+	(_id "15")
+	(_source "Methodology Decision 1 4 0 0 0 0 0 Transition |")
+	(_target "Methodology Phase 1 4 0 0 0 0 0 Transition |")
+	(dataSlot [openUp_lifecycle_data_142]))
+
+([openUp_lifecycle_edge_12] of  edge
+
+	(_id "10")
+	(_source "Methodology Question 1 3 0 0 0 0 0 Construction |")
+	(_target "Methodology Decision 1 3 0 0 0 0 0 Construction |")
+	(dataSlot [openUp_lifecycle_data_25]))
+
+([openUp_lifecycle_edge_13] of  edge
+
+	(_id "1")
+	(_source "Methodology Phase 1 1 0 0 0 0 0 Inception |")
+	(_target "Methodology Question 1 1 0 0 0 0 0 Inception |")
+	(dataSlot [openUp_lifecycle_data_42]))
+
+([openUp_lifecycle_edge_14] of  edge
+
+	(_id "12")
+	(_source "Methodology Decision 1 3 0 0 0 0 0 Construction |")
+	(_target "Methodology Phase 1 4 0 0 0 0 0 Transition |")
+	(dataSlot [openUp_lifecycle_data_96]))
+
+([openUp_lifecycle_edge_15] of  edge
+
+	(_id "3")
+	(_source "Methodology Decision 1 1 0 0 0 0 0 Inception |")
+	(_target "Methodology Phase 1 1 0 0 0 0 0 Inception |")
+	(dataSlot [openUp_lifecycle_data_39]))
+
+([openUp_lifecycle_edge_16] of  edge
+
+	(_id "8")
+	(_source "Methodology Decision 1 2 0 0 0 0 0 Elaboration |")
+	(_target "Methodology Phase 1 3 0 0 0 0 0 Construction |")
+	(dataSlot [openUp_lifecycle_data_22]))
+
+([openUp_lifecycle_edge_2] of  edge
+
+	(_id "0")
+	(_source "Methodology Start 1 0 0 0 0 0 0 OpenUp Lifecycle | Alpha")
+	(_target "Methodology Phase 1 1 0 0 0 0 0 Inception |")
+	(dataSlot [openUp_lifecycle_data_239]))
+
+([openUp_lifecycle_edge_3] of  edge
+
+	(_id "11")
+	(_source "Methodology Decision 1 3 0 0 0 0 0 Construction |")
+	(_target "Methodology Phase 1 3 0 0 0 0 0 Construction |")
+	(dataSlot [openUp_lifecycle_data_19]))
+
+([openUp_lifecycle_edge_4] of  edge
+
+	(_id "14")
+	(_source "Methodology Question 1 4 0 0 0 0 0 Transition |")
+	(_target "Methodology Decision 1 4 0 0 0 0 0 Transition |")
+	(dataSlot [openUp_lifecycle_data_77]))
+
+([openUp_lifecycle_edge_5] of  edge
+
+	(_id "2")
+	(_source "Methodology Question 1 1 0 0 0 0 0 Inception |")
+	(_target "Methodology Decision 1 1 0 0 0 0 0 Inception |")
+	(dataSlot [openUp_lifecycle_data_176]))
+
+([openUp_lifecycle_edge_6] of  edge
+
+	(_id "4")
+	(_source "Methodology Decision 1 1 0 0 0 0 0 Inception |")
+	(_target "Methodology Phase 1 2 0 0 0 0 0 Elaboration |")
+	(dataSlot [openUp_lifecycle_data_219]))
+
+([openUp_lifecycle_edge_7] of  edge
+
+	(_id "13")
+	(_source "Methodology Phase 1 4 0 0 0 0 0 Transition |")
+	(_target "Methodology Question 1 4 0 0 0 0 0 Transition |")
+	(dataSlot [openUp_lifecycle_data_182]))
+
+([openUp_lifecycle_edge_8] of  edge
+
+	(_id "5")
+	(_source "Methodology Phase 1 2 0 0 0 0 0 Elaboration |")
+	(_target "Methodology Question 1 2 0 0 0 0 0 Elaboration |")
+	(dataSlot [openUp_lifecycle_data_23]))
+
+([openUp_lifecycle_edge_9] of  edge
+
+	(_id "9")
+	(_source "Methodology Phase 1 3 0 0 0 0 0 Construction |")
+	(_target "Methodology Question 1 3 0 0 0 0 0 Construction |")
+	(dataSlot [openUp_lifecycle_data_229]))
+
+([openUp_lifecycle_graph_0] of  graph
+
+	(_edgedefault "directed")
+	(edgeSlot [openUp_lifecycle_edge_2])
+	(nodeSlot [openUp_lifecycle_node_1]))
+
+([openUp_lifecycle_key_0] of  key
+
+	(_attr.name "url")
+	(_attr.type "string")
+	(_for "node")
+	(_id "url"))
+
+([openUp_lifecycle_key_1] of  key
+
+	(_attr.name "weight")
+	(_attr.type "double")
+	(_for "edge")
+	(_id "weight"))
+
+([openUp_lifecycle_key_10] of  key
+
+	(_attr.name "b")
+	(_attr.type "int")
+	(_for "node")
+	(_id "b"))
+
+([openUp_lifecycle_key_11] of  key
+
+	(_attr.name "fontname")
+	(_attr.type "string")
+	(_for "node")
+	(_id "fontname"))
+
+([openUp_lifecycle_key_12] of  key
+
+	(_attr.name "size")
+	(_attr.type "float")
+	(_for "node")
+	(_id "size"))
+
+([openUp_lifecycle_key_13] of  key
+
+	(_attr.name "label")
+	(_attr.type "string")
+	(_for "node")
+	(_id "label"))
+
+([openUp_lifecycle_key_14] of  key
+
+	(_attr.name "shape")
+	(_attr.type "string")
+	(_for "node")
+	(_id "shape"))
+
+([openUp_lifecycle_key_2] of  key
+
+	(_attr.name "r")
+	(_attr.type "int")
+	(_for "node")
+	(_id "r"))
+
+([openUp_lifecycle_key_3] of  key
+
+	(_attr.name "Edge Label")
+	(_attr.type "string")
+	(_for "edge")
+	(_id "edgelabel"))
+
+([openUp_lifecycle_key_4] of  key
+
+	(_attr.name "margin")
+	(_attr.type "string")
+	(_for "node")
+	(_id "margin"))
+
+([openUp_lifecycle_key_5] of  key
+
+	(_attr.name "x")
+	(_attr.type "float")
+	(_for "node")
+	(_id "x"))
+
+([openUp_lifecycle_key_6] of  key
+
+	(_attr.name "y")
+	(_attr.type "float")
+	(_for "node")
+	(_id "y"))
+
+([openUp_lifecycle_key_7] of  key
+
+	(_attr.name "g")
+	(_attr.type "int")
+	(_for "node")
+	(_id "g"))
+
+([openUp_lifecycle_key_8] of  key
+
+	(_attr.name "fontsize")
+	(_attr.type "string")
+	(_for "node")
+	(_id "fontsize"))
+
+([openUp_lifecycle_key_9] of  key
+
+	(_attr.name "fillcolor")
+	(_attr.type "string")
+	(_for "node")
+	(_id "fillcolor"))
+
+([openUp_lifecycle_node_0] of  node
+
+	(_id "labelloc")
+	(dataSlot [openUp_lifecycle_data_169]))
+
+([openUp_lifecycle_node_1] of  node
+
+	(_id "fontsize")
+	(dataSlot [openUp_lifecycle_data_242]))
+
+([openUp_lifecycle_node_10] of  node
+
+	(_id "t")
+	(dataSlot [openUp_lifecycle_data_129]))
+
+([openUp_lifecycle_node_11] of  node
+
+	(_id "lemonchiffon")
+	(dataSlot [openUp_lifecycle_data_241]))
+
+([openUp_lifecycle_node_12] of  node
+
+	(_id "Methodology Question 1 4 0 0 0 0 0 Transition |")
+	(dataSlot [openUp_lifecycle_data_120]))
+
+([openUp_lifecycle_node_13] of  node
+
+	(_id "Methodology Phase 1 3 0 0 0 0 0 Construction |")
+	(dataSlot [openUp_lifecycle_data_227]))
+
+([openUp_lifecycle_node_14] of  node
+
+	(_id "OpenUp Lyfecycle")
+	(dataSlot [openUp_lifecycle_data_187]))
+
+([openUp_lifecycle_node_15] of  node
+
+	(_id "Methodology Decision 1 2 0 0 0 0 0 Elaboration |")
+	(dataSlot [openUp_lifecycle_data_149]))
+
+([openUp_lifecycle_node_16] of  node
+
+	(_id "Methodology Question 1 2 0 0 0 0 0 Elaboration |")
+	(dataSlot [openUp_lifecycle_data_190]))
+
+([openUp_lifecycle_node_17] of  node
+
+	(_id "Methodology Decision 1 1 0 0 0 0 0 Inception |")
+	(dataSlot [openUp_lifecycle_data_26]))
+
+([openUp_lifecycle_node_18] of  node
+
+	(_id "Methodology End 1 0 0 0 0 0 0 O OpenUp Lifecycle | Alpha")
+	(dataSlot [openUp_lifecycle_data_81]))
+
+([openUp_lifecycle_node_19] of  node
+
+	(_id "Methodology Phase 1 2 0 0 0 0 0 Elaboration |")
+	(dataSlot [openUp_lifecycle_data_46]))
+
+([openUp_lifecycle_node_2] of  node
+
+	(_id "Methodology Question 1 1 0 0 0 0 0 Inception |")
+	(dataSlot [openUp_lifecycle_data_134]))
+
+([openUp_lifecycle_node_20] of  node
+
+	(_id "Methodology Decision 1 3 0 0 0 0 0 Construction |")
+	(dataSlot [openUp_lifecycle_data_121]))
+
+([openUp_lifecycle_node_21] of  node
+
+	(_id "bgcolor")
+	(dataSlot [openUp_lifecycle_data_106]))
+
+([openUp_lifecycle_node_22] of  node
+
+	(_id "Methodology Decision 1 4 0 0 0 0 0 Transition |")
+	(dataSlot [openUp_lifecycle_data_8]))
+
+([openUp_lifecycle_node_23] of  node
+
+	(_id "Methodology Question 1 3 0 0 0 0 0 Construction |")
+	(dataSlot [openUp_lifecycle_data_85]))
+
+([openUp_lifecycle_node_3] of  node
+
+	(_id "label")
+	(dataSlot [openUp_lifecycle_data_211]))
+
+([openUp_lifecycle_node_4] of  node
+
+	(_id "Methodology Phase 1 4 0 0 0 0 0 Transition |")
+	(dataSlot [openUp_lifecycle_data_91]))
+
+([openUp_lifecycle_node_5] of  node
+
+	(_id "16")
+	(dataSlot [openUp_lifecycle_data_72]))
+
+([openUp_lifecycle_node_6] of  node
+
+	(_id "Methodology Start 1 0 0 0 0 0 0 OpenUp Lifecycle | Alpha")
+	(dataSlot [openUp_lifecycle_data_237]))
+
+([openUp_lifecycle_node_7] of  node
+
+	(_id "fontname")
+	(dataSlot [openUp_lifecycle_data_18]))
+
+([openUp_lifecycle_node_8] of  node
+
+	(_id "Methodology Phase 1 1 0 0 0 0 0 Inception |")
+	(dataSlot [openUp_lifecycle_data_36]))
+
+([openUp_lifecycle_node_9] of  node
+
+	(_id "Arial")
+	(dataSlot [openUp_lifecycle_data_80]))
+)

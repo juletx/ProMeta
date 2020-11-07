@@ -1,0 +1,1158 @@
+; Mon Jul 06 18:38:41 CEST 2020
+; 
+;+ (version "3.5")
+;+ (build "Build 663")
+
+(definstances projectPlan_4
+([projectPlan_4_data_0] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([projectPlan_4_data_1] of  data
+
+	(_key "x")
+	(Text "-70.65964"))
+
+([projectPlan_4_data_10] of  data
+
+	(_key "x")
+	(Text "-336.98776"))
+
+([projectPlan_4_data_100] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([projectPlan_4_data_101] of  data
+
+	(_key "fontcolor")
+	(Text "blue"))
+
+([projectPlan_4_data_102] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([projectPlan_4_data_103] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([projectPlan_4_data_104] of  data
+
+	(_key "fontname")
+	(Text "Arial"))
+
+([projectPlan_4_data_105] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([projectPlan_4_data_106] of  data
+
+	(_key "url")
+	(Text "./Templates/ProjectPracticesAndMeasurements.txt"))
+
+([projectPlan_4_data_107] of  data
+
+	(_key "label")
+	(Text "1. Introduction"))
+
+([projectPlan_4_data_108] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([projectPlan_4_data_109] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([projectPlan_4_data_11] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([projectPlan_4_data_110] of  data
+
+	(_key "fontsize")
+	(Text "12"))
+
+([projectPlan_4_data_111] of  data
+
+	(_key "y")
+	(Text "508.71906"))
+
+([projectPlan_4_data_112] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([projectPlan_4_data_113] of  data
+
+	(_key "fontcolor")
+	(Text "blue"))
+
+([projectPlan_4_data_114] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([projectPlan_4_data_115] of  data
+
+	(_key "url")
+	(Text "./Templates/LessonsLearned.txt"))
+
+([projectPlan_4_data_116] of  data
+
+	(_key "fillcolor")
+	(Text "white"))
+
+([projectPlan_4_data_117] of  data
+
+	(_key "margin")
+	(Text "0.11,0.11"))
+
+([projectPlan_4_data_118] of  data
+
+	(_key "y")
+	(Text "-384.33392"))
+
+([projectPlan_4_data_119] of  data
+
+	(_key "margin")
+	(Text "0.11,0.11"))
+
+([projectPlan_4_data_12] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([projectPlan_4_data_120] of  data
+
+	(_key "shape")
+	(Text "component"))
+
+([projectPlan_4_data_121] of  data
+
+	(_key "fontname")
+	(Text "Arial"))
+
+([projectPlan_4_data_122] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([projectPlan_4_data_123] of  data
+
+	(_key "x")
+	(Text "-367.8495"))
+
+([projectPlan_4_data_124] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([projectPlan_4_data_125] of  data
+
+	(_key "weight")
+	(Text "1.0"))
+
+([projectPlan_4_data_126] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([projectPlan_4_data_127] of  data
+
+	(_key "shape")
+	(Text "component"))
+
+([projectPlan_4_data_128] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([projectPlan_4_data_129] of  data
+
+	(_key "y")
+	(Text "484.5697"))
+
+([projectPlan_4_data_13] of  data
+
+	(_key "weight")
+	(Text "1.0"))
+
+([projectPlan_4_data_130] of  data
+
+	(_key "y")
+	(Text "-312.36835"))
+
+([projectPlan_4_data_131] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([projectPlan_4_data_132] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([projectPlan_4_data_133] of  data
+
+	(_key "url")
+	(Text "./Templates/Introduction.txt"))
+
+([projectPlan_4_data_134] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([projectPlan_4_data_135] of  data
+
+	(_key "fillcolor")
+	(Text "white"))
+
+([projectPlan_4_data_136] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([projectPlan_4_data_137] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([projectPlan_4_data_138] of  data
+
+	(_key "fontsize")
+	(Text "12"))
+
+([projectPlan_4_data_139] of  data
+
+	(_key "label")
+	(Text "Arial"))
+
+([projectPlan_4_data_14] of  data
+
+	(_key "weight")
+	(Text "1.0"))
+
+([projectPlan_4_data_140] of  data
+
+	(_key "x")
+	(Text "-193.5662"))
+
+([projectPlan_4_data_141] of  data
+
+	(_key "fillcolor")
+	(Text "royalblue3"))
+
+([projectPlan_4_data_142] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([projectPlan_4_data_143] of  data
+
+	(_key "fontcolor")
+	(Text "blue"))
+
+([projectPlan_4_data_144] of  data
+
+	(_key "url")
+	(Text "./Templates/Deployment.txt"))
+
+([projectPlan_4_data_145] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([projectPlan_4_data_146] of  data
+
+	(_key "url")
+	(Text "./Templates/ProjectMilestonesAndObjectives.txt"))
+
+([projectPlan_4_data_147] of  data
+
+	(_key "x")
+	(Text "40.53244"))
+
+([projectPlan_4_data_148] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([projectPlan_4_data_149] of  data
+
+	(_key "label")
+	(Text "3. Project practices and measurements"))
+
+([projectPlan_4_data_15] of  data
+
+	(_key "fontsize")
+	(Text "12"))
+
+([projectPlan_4_data_150] of  data
+
+	(_key "x")
+	(Text "595.18555"))
+
+([projectPlan_4_data_151] of  data
+
+	(_key "label")
+	(Text "16"))
+
+([projectPlan_4_data_152] of  data
+
+	(_key "label")
+	(Text "Start Project Plan"))
+
+([projectPlan_4_data_153] of  data
+
+	(_key "fontname")
+	(Text "Arial"))
+
+([projectPlan_4_data_154] of  data
+
+	(_key "fontsize")
+	(Text "12"))
+
+([projectPlan_4_data_155] of  data
+
+	(_key "y")
+	(Text "397.23468"))
+
+([projectPlan_4_data_156] of  data
+
+	(_key "margin")
+	(Text "0.11,0.11"))
+
+([projectPlan_4_data_157] of  data
+
+	(_key "y")
+	(Text "-315.2213"))
+
+([projectPlan_4_data_158] of  data
+
+	(_key "fillcolor")
+	(Text "white"))
+
+([projectPlan_4_data_159] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([projectPlan_4_data_16] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([projectPlan_4_data_160] of  data
+
+	(_key "shape")
+	(Text "ellipse"))
+
+([projectPlan_4_data_161] of  data
+
+	(_key "label")
+	(Text "2. Project organization"))
+
+([projectPlan_4_data_162] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([projectPlan_4_data_163] of  data
+
+	(_key "x")
+	(Text "83.25662"))
+
+([projectPlan_4_data_164] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([projectPlan_4_data_165] of  data
+
+	(_key "shape")
+	(Text "component"))
+
+([projectPlan_4_data_166] of  data
+
+	(_key "shape")
+	(Text "ellipse"))
+
+([projectPlan_4_data_167] of  data
+
+	(_key "label")
+	(Text "Project Plan"))
+
+([projectPlan_4_data_168] of  data
+
+	(_key "x")
+	(Text "408.70883"))
+
+([projectPlan_4_data_169] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([projectPlan_4_data_17] of  data
+
+	(_key "label")
+	(Text "t"))
+
+([projectPlan_4_data_170] of  data
+
+	(_key "margin")
+	(Text "0.11,0.11"))
+
+([projectPlan_4_data_171] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([projectPlan_4_data_172] of  data
+
+	(_key "x")
+	(Text "63.980957"))
+
+([projectPlan_4_data_173] of  data
+
+	(_key "label")
+	(Text "fontname"))
+
+([projectPlan_4_data_174] of  data
+
+	(_key "label")
+	(Text "5. Deployment"))
+
+([projectPlan_4_data_175] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([projectPlan_4_data_176] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([projectPlan_4_data_177] of  data
+
+	(_key "label")
+	(Text "4. Project milestones and objectives"))
+
+([projectPlan_4_data_178] of  data
+
+	(_key "weight")
+	(Text "1.0"))
+
+([projectPlan_4_data_18] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([projectPlan_4_data_19] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([projectPlan_4_data_2] of  data
+
+	(_key "y")
+	(Text "-52.253273"))
+
+([projectPlan_4_data_20] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([projectPlan_4_data_21] of  data
+
+	(_key "fontcolor")
+	(Text "blue"))
+
+([projectPlan_4_data_22] of  data
+
+	(_key "y")
+	(Text "516.1713"))
+
+([projectPlan_4_data_23] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([projectPlan_4_data_24] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([projectPlan_4_data_25] of  data
+
+	(_key "label")
+	(Text "lemonchiffon"))
+
+([projectPlan_4_data_26] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([projectPlan_4_data_27] of  data
+
+	(_key "fontsize")
+	(Text "12"))
+
+([projectPlan_4_data_28] of  data
+
+	(_key "y")
+	(Text "159.25163"))
+
+([projectPlan_4_data_29] of  data
+
+	(_key "label")
+	(Text "bgcolor"))
+
+([projectPlan_4_data_3] of  data
+
+	(_key "y")
+	(Text "154.58379"))
+
+([projectPlan_4_data_30] of  data
+
+	(_key "fontcolor")
+	(Text "blue"))
+
+([projectPlan_4_data_31] of  data
+
+	(_key "shape")
+	(Text "component"))
+
+([projectPlan_4_data_32] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([projectPlan_4_data_33] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([projectPlan_4_data_34] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([projectPlan_4_data_35] of  data
+
+	(_key "y")
+	(Text "-242.56029"))
+
+([projectPlan_4_data_36] of  data
+
+	(_key "weight")
+	(Text "1.0"))
+
+([projectPlan_4_data_37] of  data
+
+	(_key "x")
+	(Text "-170.04929"))
+
+([projectPlan_4_data_38] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([projectPlan_4_data_39] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([projectPlan_4_data_4] of  data
+
+	(_key "label")
+	(Text "labelloc"))
+
+([projectPlan_4_data_40] of  data
+
+	(_key "y")
+	(Text "-244.68611"))
+
+([projectPlan_4_data_41] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([projectPlan_4_data_42] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([projectPlan_4_data_43] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([projectPlan_4_data_44] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([projectPlan_4_data_45] of  data
+
+	(_key "fillcolor")
+	(Text "white"))
+
+([projectPlan_4_data_46] of  data
+
+	(_key "x")
+	(Text "151.29056"))
+
+([projectPlan_4_data_47] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([projectPlan_4_data_48] of  data
+
+	(_key "url")
+	(Text "./Templates/ProjectOrganization.txt"))
+
+([projectPlan_4_data_49] of  data
+
+	(_key "y")
+	(Text "-297.33044"))
+
+([projectPlan_4_data_5] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([projectPlan_4_data_50] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([projectPlan_4_data_51] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([projectPlan_4_data_52] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([projectPlan_4_data_53] of  data
+
+	(_key "fontname")
+	(Text "Arial"))
+
+([projectPlan_4_data_54] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([projectPlan_4_data_55] of  data
+
+	(_key "fillcolor")
+	(Text "white"))
+
+([projectPlan_4_data_56] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([projectPlan_4_data_57] of  data
+
+	(_key "shape")
+	(Text "component"))
+
+([projectPlan_4_data_58] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([projectPlan_4_data_59] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([projectPlan_4_data_6] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([projectPlan_4_data_60] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([projectPlan_4_data_61] of  data
+
+	(_key "weight")
+	(Text "1.0"))
+
+([projectPlan_4_data_62] of  data
+
+	(_key "fontname")
+	(Text "Arial"))
+
+([projectPlan_4_data_63] of  data
+
+	(_key "x")
+	(Text "313.14603"))
+
+([projectPlan_4_data_64] of  data
+
+	(_key "margin")
+	(Text "0.11,0.11"))
+
+([projectPlan_4_data_65] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([projectPlan_4_data_66] of  data
+
+	(_key "weight")
+	(Text "1.0"))
+
+([projectPlan_4_data_67] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([projectPlan_4_data_68] of  data
+
+	(_key "x")
+	(Text "-367.46063"))
+
+([projectPlan_4_data_69] of  data
+
+	(_key "y")
+	(Text "449.97998"))
+
+([projectPlan_4_data_7] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([projectPlan_4_data_70] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([projectPlan_4_data_71] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([projectPlan_4_data_72] of  data
+
+	(_key "y")
+	(Text "-451.19266"))
+
+([projectPlan_4_data_73] of  data
+
+	(_key "y")
+	(Text "93.612724"))
+
+([projectPlan_4_data_74] of  data
+
+	(_key "shape")
+	(Text "component"))
+
+([projectPlan_4_data_75] of  data
+
+	(_key "margin")
+	(Text "0.11,0.11"))
+
+([projectPlan_4_data_76] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([projectPlan_4_data_77] of  data
+
+	(_key "x")
+	(Text "543.2295"))
+
+([projectPlan_4_data_78] of  data
+
+	(_key "x")
+	(Text "-224.39682"))
+
+([projectPlan_4_data_79] of  data
+
+	(_key "y")
+	(Text "-90.57249"))
+
+([projectPlan_4_data_8] of  data
+
+	(_key "label")
+	(Text "End Project Plan"))
+
+([projectPlan_4_data_80] of  data
+
+	(_key "fillcolor")
+	(Text "royalblue3"))
+
+([projectPlan_4_data_81] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([projectPlan_4_data_82] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([projectPlan_4_data_83] of  data
+
+	(_key "fontname")
+	(Text "Arial"))
+
+([projectPlan_4_data_84] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([projectPlan_4_data_85] of  data
+
+	(_key "fontsize")
+	(Text "12"))
+
+([projectPlan_4_data_86] of  data
+
+	(_key "x")
+	(Text "-147.98358"))
+
+([projectPlan_4_data_87] of  data
+
+	(_key "label")
+	(Text "label"))
+
+([projectPlan_4_data_88] of  data
+
+	(_key "fontcolor")
+	(Text "blue"))
+
+([projectPlan_4_data_89] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([projectPlan_4_data_9] of  data
+
+	(_key "label")
+	(Text "6. Lessons learned"))
+
+([projectPlan_4_data_90] of  data
+
+	(_key "fillcolor")
+	(Text "white"))
+
+([projectPlan_4_data_91] of  data
+
+	(_key "label")
+	(Text "fontsize"))
+
+([projectPlan_4_data_92] of  data
+
+	(_key "y")
+	(Text "-373.60397"))
+
+([projectPlan_4_data_93] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([projectPlan_4_data_94] of  data
+
+	(_key "x")
+	(Text "-240.70297"))
+
+([projectPlan_4_data_95] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([projectPlan_4_data_96] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([projectPlan_4_data_97] of  data
+
+	(_key "x")
+	(Text "-79.67404"))
+
+([projectPlan_4_data_98] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([projectPlan_4_data_99] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([projectPlan_4_edge_0] of  edge
+
+	(_id "211")
+	(_source "Artifact SectionWT 1 2 2 3 5 7 4 Project milestones and objectives | Templates/ProjectPlan/ProjectMilestonesAndObjectives.txt")
+	(_target "Artifact SectionWT 1 2 2 3 5 7 5 Deployment | Templates/ProjectPlan/Deployment.txt")
+	(dataSlot [projectPlan_4_data_178]))
+
+([projectPlan_4_edge_1] of  edge
+
+	(_id "208")
+	(_source "Artifact SectionWT 1 2 2 3 5 7 1 Introduction | Templates/ProjectPlan/Introduction.txt")
+	(_target "Artifact SectionWT 1 2 2 3 5 7 2 Project organization | Templates/ProjectPlan/ProjectOrganization.txt")
+	(dataSlot [projectPlan_4_data_14]))
+
+([projectPlan_4_edge_2] of  edge
+
+	(_id "207")
+	(_source "Artifact Start 1 2 2 3 5 7 0 Project Plan |")
+	(_target "Artifact SectionWT 1 2 2 3 5 7 1 Introduction | Templates/ProjectPlan/Introduction.txt")
+	(dataSlot [projectPlan_4_data_66]))
+
+([projectPlan_4_edge_3] of  edge
+
+	(_id "213")
+	(_source "Artifact SectionWT 1 2 2 3 5 7 6 Lessons learned | Templates/ProjectPlan/LessonsLearned.txt")
+	(_target "Artifact End 1 2 2 3 5 7 0 Project Plan |")
+	(dataSlot [projectPlan_4_data_36]))
+
+([projectPlan_4_edge_4] of  edge
+
+	(_id "210")
+	(_source "Artifact SectionWT 1 2 2 3 5 7 3 Project practices and measurements | Templates/ProjectPlan/ProjectPracticesAndMeasurements.txt")
+	(_target "Artifact SectionWT 1 2 2 3 5 7 4 Project milestones and objectives | Templates/ProjectPlan/ProjectMilestonesAndObjectives.txt")
+	(dataSlot [projectPlan_4_data_61]))
+
+([projectPlan_4_edge_5] of  edge
+
+	(_id "209")
+	(_source "Artifact SectionWT 1 2 2 3 5 7 2 Project organization | Templates/ProjectPlan/ProjectOrganization.txt")
+	(_target "Artifact SectionWT 1 2 2 3 5 7 3 Project practices and measurements | Templates/ProjectPlan/ProjectPracticesAndMeasurements.txt")
+	(dataSlot [projectPlan_4_data_125]))
+
+([projectPlan_4_edge_6] of  edge
+
+	(_id "212")
+	(_source "Artifact SectionWT 1 2 2 3 5 7 5 Deployment | Templates/ProjectPlan/Deployment.txt")
+	(_target "Artifact SectionWT 1 2 2 3 5 7 6 Lessons learned | Templates/ProjectPlan/LessonsLearned.txt")
+	(dataSlot [projectPlan_4_data_13]))
+
+([projectPlan_4_graph_0] of  graph
+
+	(_edgedefault "directed")
+	(edgeSlot [projectPlan_4_edge_2])
+	(nodeSlot [projectPlan_4_node_0]))
+
+([projectPlan_4_key_0] of  key
+
+	(_attr.name "shape")
+	(_attr.type "string")
+	(_for "node")
+	(_id "shape"))
+
+([projectPlan_4_key_1] of  key
+
+	(_attr.name "r")
+	(_attr.type "int")
+	(_for "node")
+	(_id "r"))
+
+([projectPlan_4_key_10] of  key
+
+	(_attr.name "x")
+	(_attr.type "float")
+	(_for "node")
+	(_id "x"))
+
+([projectPlan_4_key_11] of  key
+
+	(_attr.name "fontsize")
+	(_attr.type "string")
+	(_for "node")
+	(_id "fontsize"))
+
+([projectPlan_4_key_12] of  key
+
+	(_attr.name "margin")
+	(_attr.type "string")
+	(_for "node")
+	(_id "margin"))
+
+([projectPlan_4_key_13] of  key
+
+	(_attr.name "g")
+	(_attr.type "int")
+	(_for "node")
+	(_id "g"))
+
+([projectPlan_4_key_14] of  key
+
+	(_attr.name "url")
+	(_attr.type "string")
+	(_for "node")
+	(_id "url"))
+
+([projectPlan_4_key_15] of  key
+
+	(_attr.name "label")
+	(_attr.type "string")
+	(_for "node")
+	(_id "label"))
+
+([projectPlan_4_key_2] of  key
+
+	(_attr.name "b")
+	(_attr.type "int")
+	(_for "node")
+	(_id "b"))
+
+([projectPlan_4_key_3] of  key
+
+	(_attr.name "weight")
+	(_attr.type "double")
+	(_for "edge")
+	(_id "weight"))
+
+([projectPlan_4_key_4] of  key
+
+	(_attr.name "size")
+	(_attr.type "float")
+	(_for "node")
+	(_id "size"))
+
+([projectPlan_4_key_5] of  key
+
+	(_attr.name "fillcolor")
+	(_attr.type "string")
+	(_for "node")
+	(_id "fillcolor"))
+
+([projectPlan_4_key_6] of  key
+
+	(_attr.name "fontcolor")
+	(_attr.type "string")
+	(_for "node")
+	(_id "fontcolor"))
+
+([projectPlan_4_key_7] of  key
+
+	(_attr.name "y")
+	(_attr.type "float")
+	(_for "node")
+	(_id "y"))
+
+([projectPlan_4_key_8] of  key
+
+	(_attr.name "fontname")
+	(_attr.type "string")
+	(_for "node")
+	(_id "fontname"))
+
+([projectPlan_4_key_9] of  key
+
+	(_attr.name "Edge Label")
+	(_attr.type "string")
+	(_for "edge")
+	(_id "edgelabel"))
+
+([projectPlan_4_node_0] of  node
+
+	(_id "fontsize")
+	(dataSlot [projectPlan_4_data_91]))
+
+([projectPlan_4_node_1] of  node
+
+	(_id "fontname")
+	(dataSlot [projectPlan_4_data_173]))
+
+([projectPlan_4_node_10] of  node
+
+	(_id "Artifact SectionWT 1 2 2 3 5 7 3 Project practices and measurements | Templates/ProjectPlan/ProjectPracticesAndMeasurements.txt")
+	(dataSlot [projectPlan_4_data_149]))
+
+([projectPlan_4_node_11] of  node
+
+	(_id "Project Plan")
+	(dataSlot [projectPlan_4_data_167]))
+
+([projectPlan_4_node_12] of  node
+
+	(_id "Artifact End 1 2 2 3 5 7 0 Project Plan |")
+	(dataSlot [projectPlan_4_data_8]))
+
+([projectPlan_4_node_13] of  node
+
+	(_id "Artifact Start 1 2 2 3 5 7 0 Project Plan |")
+	(dataSlot [projectPlan_4_data_152]))
+
+([projectPlan_4_node_14] of  node
+
+	(_id "Artifact SectionWT 1 2 2 3 5 7 2 Project organization | Templates/ProjectPlan/ProjectOrganization.txt")
+	(dataSlot [projectPlan_4_data_161]))
+
+([projectPlan_4_node_15] of  node
+
+	(_id "labelloc")
+	(dataSlot [projectPlan_4_data_4]))
+
+([projectPlan_4_node_16] of  node
+
+	(_id "bgcolor")
+	(dataSlot [projectPlan_4_data_29]))
+
+([projectPlan_4_node_17] of  node
+
+	(_id "Artifact SectionWT 1 2 2 3 5 7 6 Lessons learned | Templates/ProjectPlan/LessonsLearned.txt")
+	(dataSlot [projectPlan_4_data_9]))
+
+([projectPlan_4_node_2] of  node
+
+	(_id "label")
+	(dataSlot [projectPlan_4_data_87]))
+
+([projectPlan_4_node_3] of  node
+
+	(_id "Artifact SectionWT 1 2 2 3 5 7 1 Introduction | Templates/ProjectPlan/Introduction.txt")
+	(dataSlot [projectPlan_4_data_107]))
+
+([projectPlan_4_node_4] of  node
+
+	(_id "Arial")
+	(dataSlot [projectPlan_4_data_139]))
+
+([projectPlan_4_node_5] of  node
+
+	(_id "t")
+	(dataSlot [projectPlan_4_data_17]))
+
+([projectPlan_4_node_6] of  node
+
+	(_id "lemonchiffon")
+	(dataSlot [projectPlan_4_data_25]))
+
+([projectPlan_4_node_7] of  node
+
+	(_id "16")
+	(dataSlot [projectPlan_4_data_151]))
+
+([projectPlan_4_node_8] of  node
+
+	(_id "Artifact SectionWT 1 2 2 3 5 7 4 Project milestones and objectives | Templates/ProjectPlan/ProjectMilestonesAndObjectives.txt")
+	(dataSlot [projectPlan_4_data_177]))
+
+([projectPlan_4_node_9] of  node
+
+	(_id "Artifact SectionWT 1 2 2 3 5 7 5 Deployment | Templates/ProjectPlan/Deployment.txt")
+	(dataSlot [projectPlan_4_data_174]))
+)

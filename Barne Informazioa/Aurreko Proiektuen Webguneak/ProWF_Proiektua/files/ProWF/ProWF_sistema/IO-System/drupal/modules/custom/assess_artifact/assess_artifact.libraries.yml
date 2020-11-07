@@ -1,0 +1,5 @@
+assess_artifact_css:
+    version: 1.0
+    css:
+        theme:
+            css/assess_artifact.css: {}

@@ -1,0 +1,40 @@
+
+User Registration Password 8.x-1.0 2017-xx-xx
+---------------------------------------------
+
+These are all fixed issues since the initial port.
+
+  - Bug: Not able to select "let users set their password" option on user
+    account setting page
+  https://www.drupal.org/project/user_registrationpassword/issues/2805963
+
+  - Task: Replace deprecated method getUsername() with getDisplayName()
+  https://www.drupal.org/project/user_registrationpassword/issues/2888414
+
+  - New: Unable to add translation on
+    admin/config/people/accounts/translate/[langcode]/add
+  https://www.drupal.org/project/user_registrationpassword/issues/2847989
+
+  - Task: Deprecate mail_edit hooks
+  https://www.drupal.org/project/user_registrationpassword/issues/2917944
+
+  - Task: Deprecate _user_registrationpassword_mail_text() / fix hook_mail
+  https://www.drupal.org/project/user_registrationpassword/issues/2917950
+
+  - Task: Rename 'register_withpassword' to 'register_confirmation_with_pass'
+  https://www.drupal.org/project/user_registrationpassword/issues/2917955
+
+  - Task: Rewrite user_registrationpassword_confirmation_url() to match core
+  https://www.drupal.org/project/user_registrationpassword/issues/2917958
+
+  - Task: Rewrite message to match core text
+  https://www.drupal.org/project/user_registrationpassword/issues/2917965
+
+  - Task: Port / implement uninstall hook
+  https://www.drupal.org/project/user_registrationpassword/issues/2917998
+
+  - Task: Finalize install hook
+  https://www.drupal.org/project/user_registrationpassword/issues/2917996
+
+  - Task: Update README for Drupal 8
+  https://www.drupal.org/project/user_registrationpassword/issues/2910834

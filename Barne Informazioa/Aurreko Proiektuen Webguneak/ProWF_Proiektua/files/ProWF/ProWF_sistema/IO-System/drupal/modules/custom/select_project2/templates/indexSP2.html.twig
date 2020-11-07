@@ -1,0 +1,52 @@
+{% if projects %}
+	<div class="ex1">
+	{% set cont = 0 %}
+	{% for project in projects %}
+		{% set result = project|split(';') %}
+		{% if cont == 0 %}
+		
+			<div class="left">
+				<a href="http:\\localhost\drupal\select_artifact?project={{ result[3] }}">
+					<img src="http:\\localhost\drupal\images\project_image.png" alt="PROJECT IMAGE" width="90" height="150">
+				</a><br>
+				<b>{{ result[0] }}</b> <br>
+				Start date: {{ result[1] }} <br>
+				Version: {{ result[2] }} <br>
+			</div>
+			
+			{% set cont = 1 %}
+		{% elseif cont==1 %}
+			
+			<div class="center">
+				<a href="http:\\localhost\drupal\select_artifact?project={{ result[3] }}">
+					<img src="http:\\localhost\drupal\images\project_image.png" alt="PROJECT IMAGE" width="90" height="150">
+				</a><br>
+				<b>{{ result[0] }}</b> <br>
+				Start date: {{ result[1] }} <br>
+				Version: {{ result[2] }} <br>
+			</div>
+			
+			{% set cont = 2 %}
+		{% else %}
+			
+			<div class="right">
+				<a href="http:\\localhost\drupal\select_artifact?project={{ result[3] }}">
+					<img src="http:\\localhost\drupal\images\project_image.png" alt="PROJECT IMAGE" width="90" height="150">
+				</a><br>
+				<b>{{ result[0] }}</b> <br>
+				Start date: {{ result[1] }} <br>
+				Version: {{ result[2] }} <br>
+			</div>
+			<br><br>
+			
+			{% set cont = 0 %}
+		{% endif %}
+	{% endfor %}
+	</div>
+{% else %}
+
+<p><b>No projects associated with your username</b></p>
+
+{% endif %}
+
+

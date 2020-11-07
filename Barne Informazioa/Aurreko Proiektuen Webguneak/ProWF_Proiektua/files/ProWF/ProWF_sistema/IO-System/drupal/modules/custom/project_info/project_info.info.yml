@@ -1,0 +1,4 @@
+name: 'Info del proyecto'
+description: 'Muestra la información del proyecto'
+core: 8.x
+type: module

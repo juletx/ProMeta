@@ -1,0 +1,711 @@
+; Mon Jul 06 13:13:49 CEST 2020
+; 
+;+ (version "3.5")
+;+ (build "Build 663")
+
+(definstances agreeOnTheTechnicalApproach
+([agreeOnTheTechnicalApproach_data_0] of  data
+
+	(_key "shape")
+	(Text "ellipse"))
+
+([agreeOnTheTechnicalApproach_data_1] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([agreeOnTheTechnicalApproach_data_10] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([agreeOnTheTechnicalApproach_data_100] of  data
+
+	(_key "x")
+	(Text "75.89282"))
+
+([agreeOnTheTechnicalApproach_data_101] of  data
+
+	(_key "url")
+	(Text "./OutlineTheArchitecture/outlineTheArchitecture.html"))
+
+([agreeOnTheTechnicalApproach_data_102] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([agreeOnTheTechnicalApproach_data_11] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([agreeOnTheTechnicalApproach_data_12] of  data
+
+	(_key "y")
+	(Text "-95.50227"))
+
+([agreeOnTheTechnicalApproach_data_13] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([agreeOnTheTechnicalApproach_data_14] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([agreeOnTheTechnicalApproach_data_15] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([agreeOnTheTechnicalApproach_data_16] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([agreeOnTheTechnicalApproach_data_17] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([agreeOnTheTechnicalApproach_data_18] of  data
+
+	(_key "label")
+	(Text "bgcolor"))
+
+([agreeOnTheTechnicalApproach_data_19] of  data
+
+	(_key "x")
+	(Text "281.48682"))
+
+([agreeOnTheTechnicalApproach_data_2] of  data
+
+	(_key "weight")
+	(Text "1.0"))
+
+([agreeOnTheTechnicalApproach_data_20] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([agreeOnTheTechnicalApproach_data_21] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([agreeOnTheTechnicalApproach_data_22] of  data
+
+	(_key "shape")
+	(Text "cds"))
+
+([agreeOnTheTechnicalApproach_data_23] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([agreeOnTheTechnicalApproach_data_24] of  data
+
+	(_key "label")
+	(Text "Agree on the Technical Approach"))
+
+([agreeOnTheTechnicalApproach_data_25] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([agreeOnTheTechnicalApproach_data_26] of  data
+
+	(_key "y")
+	(Text "109.25038"))
+
+([agreeOnTheTechnicalApproach_data_27] of  data
+
+	(_key "y")
+	(Text "-267.02985"))
+
+([agreeOnTheTechnicalApproach_data_28] of  data
+
+	(_key "label")
+	(Text "labelloc"))
+
+([agreeOnTheTechnicalApproach_data_29] of  data
+
+	(_key "y")
+	(Text "-86.0002"))
+
+([agreeOnTheTechnicalApproach_data_3] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([agreeOnTheTechnicalApproach_data_30] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([agreeOnTheTechnicalApproach_data_31] of  data
+
+	(_key "label")
+	(Text "16"))
+
+([agreeOnTheTechnicalApproach_data_32] of  data
+
+	(_key "label")
+	(Text "fontname"))
+
+([agreeOnTheTechnicalApproach_data_33] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([agreeOnTheTechnicalApproach_data_34] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([agreeOnTheTechnicalApproach_data_35] of  data
+
+	(_key "x")
+	(Text "-203.59753"))
+
+([agreeOnTheTechnicalApproach_data_36] of  data
+
+	(_key "y")
+	(Text "-283.85117"))
+
+([agreeOnTheTechnicalApproach_data_37] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([agreeOnTheTechnicalApproach_data_38] of  data
+
+	(_key "label")
+	(Text "t"))
+
+([agreeOnTheTechnicalApproach_data_39] of  data
+
+	(_key "x")
+	(Text "178.10199"))
+
+([agreeOnTheTechnicalApproach_data_4] of  data
+
+	(_key "label")
+	(Text "Arial"))
+
+([agreeOnTheTechnicalApproach_data_40] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([agreeOnTheTechnicalApproach_data_41] of  data
+
+	(_key "fillcolor")
+	(Text "#ffff80"))
+
+([agreeOnTheTechnicalApproach_data_42] of  data
+
+	(_key "label")
+	(Text "End Agree on the Technical Approach"))
+
+([agreeOnTheTechnicalApproach_data_43] of  data
+
+	(_key "shape")
+	(Text "ellipse"))
+
+([agreeOnTheTechnicalApproach_data_44] of  data
+
+	(_key "margin")
+	(Text "0.11,0.11"))
+
+([agreeOnTheTechnicalApproach_data_45] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([agreeOnTheTechnicalApproach_data_46] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([agreeOnTheTechnicalApproach_data_47] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([agreeOnTheTechnicalApproach_data_48] of  data
+
+	(_key "fillcolor")
+	(Text "royalblue3"))
+
+([agreeOnTheTechnicalApproach_data_49] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([agreeOnTheTechnicalApproach_data_5] of  data
+
+	(_key "y")
+	(Text "-258.07755"))
+
+([agreeOnTheTechnicalApproach_data_50] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([agreeOnTheTechnicalApproach_data_51] of  data
+
+	(_key "label")
+	(Text "lemonchiffon"))
+
+([agreeOnTheTechnicalApproach_data_52] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([agreeOnTheTechnicalApproach_data_53] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([agreeOnTheTechnicalApproach_data_54] of  data
+
+	(_key "x")
+	(Text "-408.49756"))
+
+([agreeOnTheTechnicalApproach_data_55] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([agreeOnTheTechnicalApproach_data_56] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([agreeOnTheTechnicalApproach_data_57] of  data
+
+	(_key "fontname")
+	(Text "Arial"))
+
+([agreeOnTheTechnicalApproach_data_58] of  data
+
+	(_key "x")
+	(Text "-264.0656"))
+
+([agreeOnTheTechnicalApproach_data_59] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([agreeOnTheTechnicalApproach_data_6] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([agreeOnTheTechnicalApproach_data_60] of  data
+
+	(_key "x")
+	(Text "-404.8184"))
+
+([agreeOnTheTechnicalApproach_data_61] of  data
+
+	(_key "x")
+	(Text "246.25153"))
+
+([agreeOnTheTechnicalApproach_data_62] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([agreeOnTheTechnicalApproach_data_63] of  data
+
+	(_key "y")
+	(Text "-101.63553"))
+
+([agreeOnTheTechnicalApproach_data_64] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([agreeOnTheTechnicalApproach_data_65] of  data
+
+	(_key "x")
+	(Text "204.34515"))
+
+([agreeOnTheTechnicalApproach_data_66] of  data
+
+	(_key "label")
+	(Text "<<Architect>> \n Outline the Architecture"))
+
+([agreeOnTheTechnicalApproach_data_67] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([agreeOnTheTechnicalApproach_data_68] of  data
+
+	(_key "weight")
+	(Text "1.0"))
+
+([agreeOnTheTechnicalApproach_data_69] of  data
+
+	(_key "x")
+	(Text "245.90875"))
+
+([agreeOnTheTechnicalApproach_data_7] of  data
+
+	(_key "label")
+	(Text "label"))
+
+([agreeOnTheTechnicalApproach_data_70] of  data
+
+	(_key "y")
+	(Text "-306.37088"))
+
+([agreeOnTheTechnicalApproach_data_71] of  data
+
+	(_key "label")
+	(Text "fontsize"))
+
+([agreeOnTheTechnicalApproach_data_72] of  data
+
+	(_key "label")
+	(Text "Start Agree on the Technical Approach"))
+
+([agreeOnTheTechnicalApproach_data_73] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([agreeOnTheTechnicalApproach_data_74] of  data
+
+	(_key "y")
+	(Text "366.9157"))
+
+([agreeOnTheTechnicalApproach_data_75] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([agreeOnTheTechnicalApproach_data_76] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([agreeOnTheTechnicalApproach_data_77] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([agreeOnTheTechnicalApproach_data_78] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([agreeOnTheTechnicalApproach_data_79] of  data
+
+	(_key "y")
+	(Text "454.19977"))
+
+([agreeOnTheTechnicalApproach_data_8] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([agreeOnTheTechnicalApproach_data_80] of  data
+
+	(_key "y")
+	(Text "138.18141"))
+
+([agreeOnTheTechnicalApproach_data_81] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([agreeOnTheTechnicalApproach_data_82] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([agreeOnTheTechnicalApproach_data_83] of  data
+
+	(_key "x")
+	(Text "159.41443"))
+
+([agreeOnTheTechnicalApproach_data_84] of  data
+
+	(_key "y")
+	(Text "-206.05275"))
+
+([agreeOnTheTechnicalApproach_data_85] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([agreeOnTheTechnicalApproach_data_86] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([agreeOnTheTechnicalApproach_data_87] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([agreeOnTheTechnicalApproach_data_88] of  data
+
+	(_key "x")
+	(Text "-450.10443"))
+
+([agreeOnTheTechnicalApproach_data_89] of  data
+
+	(_key "y")
+	(Text "535.97284"))
+
+([agreeOnTheTechnicalApproach_data_9] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([agreeOnTheTechnicalApproach_data_90] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([agreeOnTheTechnicalApproach_data_91] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([agreeOnTheTechnicalApproach_data_92] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([agreeOnTheTechnicalApproach_data_93] of  data
+
+	(_key "x")
+	(Text "339.68207"))
+
+([agreeOnTheTechnicalApproach_data_94] of  data
+
+	(_key "fillcolor")
+	(Text "royalblue3"))
+
+([agreeOnTheTechnicalApproach_data_95] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([agreeOnTheTechnicalApproach_data_96] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([agreeOnTheTechnicalApproach_data_97] of  data
+
+	(_key "fontsize")
+	(Text "12"))
+
+([agreeOnTheTechnicalApproach_data_98] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([agreeOnTheTechnicalApproach_data_99] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([agreeOnTheTechnicalApproach_edge_0] of  edge
+
+	(_id "25")
+	(_source "Activity Start 1 1 4 0 0 0 0 Agree on the Technical Approach |")
+	(_target "Activity Task 1 1 4 1 3 0 0 Outline the Architecture | Architect")
+	(dataSlot [agreeOnTheTechnicalApproach_data_68]))
+
+([agreeOnTheTechnicalApproach_edge_1] of  edge
+
+	(_id "26")
+	(_source "Activity Task 1 1 4 1 3 0 0 Outline the Architecture | Architect")
+	(_target "Activity End 1 1 4 0 0 0 0 Agree on the Technical Approach |")
+	(dataSlot [agreeOnTheTechnicalApproach_data_2]))
+
+([agreeOnTheTechnicalApproach_graph_0] of  graph
+
+	(_edgedefault "directed")
+	(edgeSlot [agreeOnTheTechnicalApproach_edge_0])
+	(nodeSlot [agreeOnTheTechnicalApproach_node_2]))
+
+([agreeOnTheTechnicalApproach_key_0] of  key
+
+	(_attr.name "x")
+	(_attr.type "float")
+	(_for "node")
+	(_id "x"))
+
+([agreeOnTheTechnicalApproach_key_1] of  key
+
+	(_attr.name "shape")
+	(_attr.type "string")
+	(_for "node")
+	(_id "shape"))
+
+([agreeOnTheTechnicalApproach_key_10] of  key
+
+	(_attr.name "y")
+	(_attr.type "float")
+	(_for "node")
+	(_id "y"))
+
+([agreeOnTheTechnicalApproach_key_11] of  key
+
+	(_attr.name "g")
+	(_attr.type "int")
+	(_for "node")
+	(_id "g"))
+
+([agreeOnTheTechnicalApproach_key_12] of  key
+
+	(_attr.name "size")
+	(_attr.type "float")
+	(_for "node")
+	(_id "size"))
+
+([agreeOnTheTechnicalApproach_key_13] of  key
+
+	(_attr.name "url")
+	(_attr.type "string")
+	(_for "node")
+	(_id "url"))
+
+([agreeOnTheTechnicalApproach_key_14] of  key
+
+	(_attr.name "label")
+	(_attr.type "string")
+	(_for "node")
+	(_id "label"))
+
+([agreeOnTheTechnicalApproach_key_2] of  key
+
+	(_attr.name "weight")
+	(_attr.type "double")
+	(_for "edge")
+	(_id "weight"))
+
+([agreeOnTheTechnicalApproach_key_3] of  key
+
+	(_attr.name "Edge Label")
+	(_attr.type "string")
+	(_for "edge")
+	(_id "edgelabel"))
+
+([agreeOnTheTechnicalApproach_key_4] of  key
+
+	(_attr.name "r")
+	(_attr.type "int")
+	(_for "node")
+	(_id "r"))
+
+([agreeOnTheTechnicalApproach_key_5] of  key
+
+	(_attr.name "fontname")
+	(_attr.type "string")
+	(_for "node")
+	(_id "fontname"))
+
+([agreeOnTheTechnicalApproach_key_6] of  key
+
+	(_attr.name "b")
+	(_attr.type "int")
+	(_for "node")
+	(_id "b"))
+
+([agreeOnTheTechnicalApproach_key_7] of  key
+
+	(_attr.name "fontsize")
+	(_attr.type "string")
+	(_for "node")
+	(_id "fontsize"))
+
+([agreeOnTheTechnicalApproach_key_8] of  key
+
+	(_attr.name "fillcolor")
+	(_attr.type "string")
+	(_for "node")
+	(_id "fillcolor"))
+
+([agreeOnTheTechnicalApproach_key_9] of  key
+
+	(_attr.name "margin")
+	(_attr.type "string")
+	(_for "node")
+	(_id "margin"))
+
+([agreeOnTheTechnicalApproach_node_0] of  node
+
+	(_id "Arial")
+	(dataSlot [agreeOnTheTechnicalApproach_data_4]))
+
+([agreeOnTheTechnicalApproach_node_1] of  node
+
+	(_id "t")
+	(dataSlot [agreeOnTheTechnicalApproach_data_38]))
+
+([agreeOnTheTechnicalApproach_node_10] of  node
+
+	(_id "16")
+	(dataSlot [agreeOnTheTechnicalApproach_data_31]))
+
+([agreeOnTheTechnicalApproach_node_11] of  node
+
+	(_id "lemonchiffon")
+	(dataSlot [agreeOnTheTechnicalApproach_data_51]))
+
+([agreeOnTheTechnicalApproach_node_12] of  node
+
+	(_id "Activity Start 1 1 4 0 0 0 0 Agree on the Technical Approach |")
+	(dataSlot [agreeOnTheTechnicalApproach_data_72]))
+
+([agreeOnTheTechnicalApproach_node_2] of  node
+
+	(_id "fontsize")
+	(dataSlot [agreeOnTheTechnicalApproach_data_71]))
+
+([agreeOnTheTechnicalApproach_node_3] of  node
+
+	(_id "Activity End 1 1 4 0 0 0 0 Agree on the Technical Approach |")
+	(dataSlot [agreeOnTheTechnicalApproach_data_42]))
+
+([agreeOnTheTechnicalApproach_node_4] of  node
+
+	(_id "label")
+	(dataSlot [agreeOnTheTechnicalApproach_data_7]))
+
+([agreeOnTheTechnicalApproach_node_5] of  node
+
+	(_id "Activity Task 1 1 4 1 3 0 0 Outline the Architecture | Architect")
+	(dataSlot [agreeOnTheTechnicalApproach_data_66]))
+
+([agreeOnTheTechnicalApproach_node_6] of  node
+
+	(_id "bgcolor")
+	(dataSlot [agreeOnTheTechnicalApproach_data_18]))
+
+([agreeOnTheTechnicalApproach_node_7] of  node
+
+	(_id "labelloc")
+	(dataSlot [agreeOnTheTechnicalApproach_data_28]))
+
+([agreeOnTheTechnicalApproach_node_8] of  node
+
+	(_id "Agree on the Technical Approach")
+	(dataSlot [agreeOnTheTechnicalApproach_data_24]))
+
+([agreeOnTheTechnicalApproach_node_9] of  node
+
+	(_id "fontname")
+	(dataSlot [agreeOnTheTechnicalApproach_data_32]))
+)

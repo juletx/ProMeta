@@ -1,0 +1,4 @@
+name: Upload Graph
+description: Form to upload graph
+core: 8.x
+type: module

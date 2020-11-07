@@ -1,0 +1,4 @@
+name: 'Select Project 2'
+description: 'Project selection menu 2'
+core: 8.x
+type: module

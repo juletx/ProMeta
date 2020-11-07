@@ -1,0 +1,930 @@
+; Mon Jul 06 13:41:44 CEST 2020
+; 
+;+ (version "3.5")
+;+ (build "Build 663")
+
+(definstances detailRequirements_1
+([detailRequirements_1_data_0] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([detailRequirements_1_data_1] of  data
+
+	(_key "fillcolor")
+	(Text "white"))
+
+([detailRequirements_1_data_10] of  data
+
+	(_key "fillcolor")
+	(Text "white"))
+
+([detailRequirements_1_data_100] of  data
+
+	(_key "x")
+	(Text "284.4672"))
+
+([detailRequirements_1_data_101] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([detailRequirements_1_data_102] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([detailRequirements_1_data_103] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([detailRequirements_1_data_104] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([detailRequirements_1_data_105] of  data
+
+	(_key "x")
+	(Text "132.59085"))
+
+([detailRequirements_1_data_106] of  data
+
+	(_key "y")
+	(Text "-230.33003"))
+
+([detailRequirements_1_data_107] of  data
+
+	(_key "fillcolor")
+	(Text "white"))
+
+([detailRequirements_1_data_108] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([detailRequirements_1_data_109] of  data
+
+	(_key "x")
+	(Text "-272.63754"))
+
+([detailRequirements_1_data_11] of  data
+
+	(_key "x")
+	(Text "122.11008"))
+
+([detailRequirements_1_data_110] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([detailRequirements_1_data_111] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([detailRequirements_1_data_112] of  data
+
+	(_key "url")
+	(Text "./Artifacts/UseCase/useCase.html"))
+
+([detailRequirements_1_data_113] of  data
+
+	(_key "y")
+	(Text "161.20625"))
+
+([detailRequirements_1_data_114] of  data
+
+	(_key "fontname")
+	(Text "Arial"))
+
+([detailRequirements_1_data_115] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([detailRequirements_1_data_116] of  data
+
+	(_key "x")
+	(Text "-184.53192"))
+
+([detailRequirements_1_data_117] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([detailRequirements_1_data_118] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([detailRequirements_1_data_119] of  data
+
+	(_key "label")
+	(Text "fontname"))
+
+([detailRequirements_1_data_12] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([detailRequirements_1_data_120] of  data
+
+	(_key "shape")
+	(Text "note"))
+
+([detailRequirements_1_data_121] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([detailRequirements_1_data_122] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([detailRequirements_1_data_123] of  data
+
+	(_key "y")
+	(Text "187.49986"))
+
+([detailRequirements_1_data_124] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([detailRequirements_1_data_125] of  data
+
+	(_key "label")
+	(Text "Use-Case Model"))
+
+([detailRequirements_1_data_126] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([detailRequirements_1_data_127] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([detailRequirements_1_data_128] of  data
+
+	(_key "label")
+	(Text "t"))
+
+([detailRequirements_1_data_129] of  data
+
+	(_key "x")
+	(Text "481.86716"))
+
+([detailRequirements_1_data_13] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([detailRequirements_1_data_130] of  data
+
+	(_key "y")
+	(Text "590.301"))
+
+([detailRequirements_1_data_131] of  data
+
+	(_key "url")
+	(Text "./Artifacts/Glossary/glossary.html"))
+
+([detailRequirements_1_data_132] of  data
+
+	(_key "x")
+	(Text "-306.1711"))
+
+([detailRequirements_1_data_133] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([detailRequirements_1_data_134] of  data
+
+	(_key "y")
+	(Text "9.602679"))
+
+([detailRequirements_1_data_135] of  data
+
+	(_key "label")
+	(Text "labelloc"))
+
+([detailRequirements_1_data_136] of  data
+
+	(_key "y")
+	(Text "-259.81366"))
+
+([detailRequirements_1_data_137] of  data
+
+	(_key "y")
+	(Text "152.47945"))
+
+([detailRequirements_1_data_138] of  data
+
+	(_key "label")
+	(Text "fontsize"))
+
+([detailRequirements_1_data_139] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([detailRequirements_1_data_14] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([detailRequirements_1_data_140] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([detailRequirements_1_data_15] of  data
+
+	(_key "label")
+	(Text "lemonchiffon"))
+
+([detailRequirements_1_data_16] of  data
+
+	(_key "fontname")
+	(Text "Arial"))
+
+([detailRequirements_1_data_17] of  data
+
+	(_key "x")
+	(Text "223.89633"))
+
+([detailRequirements_1_data_18] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([detailRequirements_1_data_19] of  data
+
+	(_key "fontsize")
+	(Text "12"))
+
+([detailRequirements_1_data_2] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([detailRequirements_1_data_20] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([detailRequirements_1_data_21] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([detailRequirements_1_data_22] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([detailRequirements_1_data_23] of  data
+
+	(_key "x")
+	(Text "44.354645"))
+
+([detailRequirements_1_data_24] of  data
+
+	(_key "label")
+	(Text "Glossary"))
+
+([detailRequirements_1_data_25] of  data
+
+	(_key "url")
+	(Text "./Artifacts/UseCaseModel/useCaseModel.html"))
+
+([detailRequirements_1_data_26] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([detailRequirements_1_data_27] of  data
+
+	(_key "y")
+	(Text "-28.41322"))
+
+([detailRequirements_1_data_28] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([detailRequirements_1_data_29] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([detailRequirements_1_data_3] of  data
+
+	(_key "weight")
+	(Text "1.0"))
+
+([detailRequirements_1_data_30] of  data
+
+	(_key "fontsize")
+	(Text "12"))
+
+([detailRequirements_1_data_31] of  data
+
+	(_key "y")
+	(Text "-332.19815"))
+
+([detailRequirements_1_data_32] of  data
+
+	(_key "x")
+	(Text "-67.26199"))
+
+([detailRequirements_1_data_33] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([detailRequirements_1_data_34] of  data
+
+	(_key "label")
+	(Text "label"))
+
+([detailRequirements_1_data_35] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([detailRequirements_1_data_36] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([detailRequirements_1_data_37] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([detailRequirements_1_data_38] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([detailRequirements_1_data_39] of  data
+
+	(_key "weight")
+	(Text "1.0"))
+
+([detailRequirements_1_data_4] of  data
+
+	(_key "url")
+	(Text "./Artifacts/SupportingRequirements/supportingRequirements.html"))
+
+([detailRequirements_1_data_40] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([detailRequirements_1_data_41] of  data
+
+	(_key "label")
+	(Text "Supporting Requirements"))
+
+([detailRequirements_1_data_42] of  data
+
+	(_key "shape")
+	(Text "note"))
+
+([detailRequirements_1_data_43] of  data
+
+	(_key "x")
+	(Text "-256.8856"))
+
+([detailRequirements_1_data_44] of  data
+
+	(_key "y")
+	(Text "-67.36571"))
+
+([detailRequirements_1_data_45] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([detailRequirements_1_data_46] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([detailRequirements_1_data_47] of  data
+
+	(_key "label")
+	(Text "Use Case"))
+
+([detailRequirements_1_data_48] of  data
+
+	(_key "label")
+	(Text "Detail Requirements"))
+
+([detailRequirements_1_data_49] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([detailRequirements_1_data_5] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([detailRequirements_1_data_50] of  data
+
+	(_key "label")
+	(Text "Start Detail Requirements"))
+
+([detailRequirements_1_data_51] of  data
+
+	(_key "fontsize")
+	(Text "12"))
+
+([detailRequirements_1_data_52] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([detailRequirements_1_data_53] of  data
+
+	(_key "x")
+	(Text "481.8715"))
+
+([detailRequirements_1_data_54] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([detailRequirements_1_data_55] of  data
+
+	(_key "shape")
+	(Text "ellipse"))
+
+([detailRequirements_1_data_56] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([detailRequirements_1_data_57] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([detailRequirements_1_data_58] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([detailRequirements_1_data_59] of  data
+
+	(_key "weight")
+	(Text "1.0"))
+
+([detailRequirements_1_data_6] of  data
+
+	(_key "weight")
+	(Text "1.0"))
+
+([detailRequirements_1_data_60] of  data
+
+	(_key "y")
+	(Text "240.90086"))
+
+([detailRequirements_1_data_61] of  data
+
+	(_key "shape")
+	(Text "note"))
+
+([detailRequirements_1_data_62] of  data
+
+	(_key "label")
+	(Text "Arial"))
+
+([detailRequirements_1_data_63] of  data
+
+	(_key "x")
+	(Text "-268.28494"))
+
+([detailRequirements_1_data_64] of  data
+
+	(_key "label")
+	(Text "End Detail Requirements"))
+
+([detailRequirements_1_data_65] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([detailRequirements_1_data_66] of  data
+
+	(_key "y")
+	(Text "-193.00597"))
+
+([detailRequirements_1_data_67] of  data
+
+	(_key "fillcolor")
+	(Text "royalblue3"))
+
+([detailRequirements_1_data_68] of  data
+
+	(_key "fontsize")
+	(Text "12"))
+
+([detailRequirements_1_data_69] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([detailRequirements_1_data_7] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([detailRequirements_1_data_70] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([detailRequirements_1_data_71] of  data
+
+	(_key "shape")
+	(Text "ellipse"))
+
+([detailRequirements_1_data_72] of  data
+
+	(_key "y")
+	(Text "-14.205762"))
+
+([detailRequirements_1_data_73] of  data
+
+	(_key "label")
+	(Text "16"))
+
+([detailRequirements_1_data_74] of  data
+
+	(_key "weight")
+	(Text "1.0"))
+
+([detailRequirements_1_data_75] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([detailRequirements_1_data_76] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([detailRequirements_1_data_77] of  data
+
+	(_key "y")
+	(Text "144.54826"))
+
+([detailRequirements_1_data_78] of  data
+
+	(_key "fontname")
+	(Text "Arial"))
+
+([detailRequirements_1_data_79] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([detailRequirements_1_data_8] of  data
+
+	(_key "fontname")
+	(Text "Arial"))
+
+([detailRequirements_1_data_80] of  data
+
+	(_key "label")
+	(Text "bgcolor"))
+
+([detailRequirements_1_data_81] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([detailRequirements_1_data_82] of  data
+
+	(_key "y")
+	(Text "-90.42456"))
+
+([detailRequirements_1_data_83] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([detailRequirements_1_data_84] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([detailRequirements_1_data_85] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([detailRequirements_1_data_86] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([detailRequirements_1_data_87] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([detailRequirements_1_data_88] of  data
+
+	(_key "fillcolor")
+	(Text "white"))
+
+([detailRequirements_1_data_89] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([detailRequirements_1_data_9] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([detailRequirements_1_data_90] of  data
+
+	(_key "fillcolor")
+	(Text "royalblue3"))
+
+([detailRequirements_1_data_91] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([detailRequirements_1_data_92] of  data
+
+	(_key "x")
+	(Text "-250.37323"))
+
+([detailRequirements_1_data_93] of  data
+
+	(_key "y")
+	(Text "-270.7813"))
+
+([detailRequirements_1_data_94] of  data
+
+	(_key "shape")
+	(Text "note"))
+
+([detailRequirements_1_data_95] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([detailRequirements_1_data_96] of  data
+
+	(_key "x")
+	(Text "-185.84375"))
+
+([detailRequirements_1_data_97] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([detailRequirements_1_data_98] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([detailRequirements_1_data_99] of  data
+
+	(_key "x")
+	(Text "20.832365"))
+
+([detailRequirements_1_edge_0] of  edge
+
+	(_id "100")
+	(_source "Task Artifact 1 2 1 2 1 10 0 Glossary |")
+	(_target "Task Artifact 1 2 1 2 1 12 0 Use Case |")
+	(dataSlot [detailRequirements_1_data_39]))
+
+([detailRequirements_1_edge_1] of  edge
+
+	(_id "102")
+	(_source "Task Artifact 1 2 1 2 1 13 0 Use-Case Model |")
+	(_target "Task End 1 2 1 2 1 0 0 Detail Requirements |")
+	(dataSlot [detailRequirements_1_data_59]))
+
+([detailRequirements_1_edge_2] of  edge
+
+	(_id "101")
+	(_source "Task Artifact 1 2 1 2 1 12 0 Use Case |")
+	(_target "Task Artifact 1 2 1 2 1 13 0 Use-Case Model |")
+	(dataSlot [detailRequirements_1_data_6]))
+
+([detailRequirements_1_edge_3] of  edge
+
+	(_id "98")
+	(_source "Task Start 1 2 1 2 1 0 0 Detail Requirements |")
+	(_target "Task Artifact 1 2 1 2 1 11 0 Supporting Requirements |")
+	(dataSlot [detailRequirements_1_data_3]))
+
+([detailRequirements_1_edge_4] of  edge
+
+	(_id "99")
+	(_source "Task Artifact 1 2 1 2 1 11 0 Supporting Requirements |")
+	(_target "Task Artifact 1 2 1 2 1 10 0 Glossary |")
+	(dataSlot [detailRequirements_1_data_74]))
+
+([detailRequirements_1_graph_0] of  graph
+
+	(_edgedefault "directed")
+	(edgeSlot [detailRequirements_1_edge_3])
+	(nodeSlot [detailRequirements_1_node_13]))
+
+([detailRequirements_1_key_0] of  key
+
+	(_attr.name "weight")
+	(_attr.type "double")
+	(_for "edge")
+	(_id "weight"))
+
+([detailRequirements_1_key_1] of  key
+
+	(_attr.name "size")
+	(_attr.type "float")
+	(_for "node")
+	(_id "size"))
+
+([detailRequirements_1_key_10] of  key
+
+	(_attr.name "fontname")
+	(_attr.type "string")
+	(_for "node")
+	(_id "fontname"))
+
+([detailRequirements_1_key_11] of  key
+
+	(_attr.name "Edge Label")
+	(_attr.type "string")
+	(_for "edge")
+	(_id "edgelabel"))
+
+([detailRequirements_1_key_12] of  key
+
+	(_attr.name "fontsize")
+	(_attr.type "string")
+	(_for "node")
+	(_id "fontsize"))
+
+([detailRequirements_1_key_13] of  key
+
+	(_attr.name "url")
+	(_attr.type "string")
+	(_for "node")
+	(_id "url"))
+
+([detailRequirements_1_key_2] of  key
+
+	(_attr.name "label")
+	(_attr.type "string")
+	(_for "node")
+	(_id "label"))
+
+([detailRequirements_1_key_3] of  key
+
+	(_attr.name "fillcolor")
+	(_attr.type "string")
+	(_for "node")
+	(_id "fillcolor"))
+
+([detailRequirements_1_key_4] of  key
+
+	(_attr.name "y")
+	(_attr.type "float")
+	(_for "node")
+	(_id "y"))
+
+([detailRequirements_1_key_5] of  key
+
+	(_attr.name "r")
+	(_attr.type "int")
+	(_for "node")
+	(_id "r"))
+
+([detailRequirements_1_key_6] of  key
+
+	(_attr.name "x")
+	(_attr.type "float")
+	(_for "node")
+	(_id "x"))
+
+([detailRequirements_1_key_7] of  key
+
+	(_attr.name "shape")
+	(_attr.type "string")
+	(_for "node")
+	(_id "shape"))
+
+([detailRequirements_1_key_8] of  key
+
+	(_attr.name "b")
+	(_attr.type "int")
+	(_for "node")
+	(_id "b"))
+
+([detailRequirements_1_key_9] of  key
+
+	(_attr.name "g")
+	(_attr.type "int")
+	(_for "node")
+	(_id "g"))
+
+([detailRequirements_1_node_0] of  node
+
+	(_id "Task End 1 2 1 2 1 0 0 Detail Requirements |")
+	(dataSlot [detailRequirements_1_data_64]))
+
+([detailRequirements_1_node_1] of  node
+
+	(_id "labelloc")
+	(dataSlot [detailRequirements_1_data_135]))
+
+([detailRequirements_1_node_10] of  node
+
+	(_id "t")
+	(dataSlot [detailRequirements_1_data_128]))
+
+([detailRequirements_1_node_11] of  node
+
+	(_id "Task Artifact 1 2 1 2 1 12 0 Use Case |")
+	(dataSlot [detailRequirements_1_data_47]))
+
+([detailRequirements_1_node_12] of  node
+
+	(_id "Task Artifact 1 2 1 2 1 11 0 Supporting Requirements |")
+	(dataSlot [detailRequirements_1_data_41]))
+
+([detailRequirements_1_node_13] of  node
+
+	(_id "fontsize")
+	(dataSlot [detailRequirements_1_data_138]))
+
+([detailRequirements_1_node_14] of  node
+
+	(_id "Task Start 1 2 1 2 1 0 0 Detail Requirements |")
+	(dataSlot [detailRequirements_1_data_50]))
+
+([detailRequirements_1_node_15] of  node
+
+	(_id "Detail Requirements")
+	(dataSlot [detailRequirements_1_data_48]))
+
+([detailRequirements_1_node_2] of  node
+
+	(_id "Task Artifact 1 2 1 2 1 13 0 Use-Case Model |")
+	(dataSlot [detailRequirements_1_data_125]))
+
+([detailRequirements_1_node_3] of  node
+
+	(_id "Arial")
+	(dataSlot [detailRequirements_1_data_62]))
+
+([detailRequirements_1_node_4] of  node
+
+	(_id "lemonchiffon")
+	(dataSlot [detailRequirements_1_data_15]))
+
+([detailRequirements_1_node_5] of  node
+
+	(_id "label")
+	(dataSlot [detailRequirements_1_data_34]))
+
+([detailRequirements_1_node_6] of  node
+
+	(_id "Task Artifact 1 2 1 2 1 10 0 Glossary |")
+	(dataSlot [detailRequirements_1_data_24]))
+
+([detailRequirements_1_node_7] of  node
+
+	(_id "bgcolor")
+	(dataSlot [detailRequirements_1_data_80]))
+
+([detailRequirements_1_node_8] of  node
+
+	(_id "16")
+	(dataSlot [detailRequirements_1_data_73]))
+
+([detailRequirements_1_node_9] of  node
+
+	(_id "fontname")
+	(dataSlot [detailRequirements_1_data_119]))
+)

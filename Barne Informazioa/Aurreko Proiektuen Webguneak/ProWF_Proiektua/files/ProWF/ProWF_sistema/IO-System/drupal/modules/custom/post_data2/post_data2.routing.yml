@@ -1,0 +1,7 @@
+post_data2.routing:
+   path: postData2
+   defaults:
+      _controller: Drupal\post_data2\Controller\PostData2Controller::test
+   requirements:
+      _permission: 'access content+access user profiles'
+      _role: 'project_quality_manager'

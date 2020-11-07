@@ -1,0 +1,4 @@
+name: 'Show LifeCycle'
+description: 'Show the workflow of the lifecycle'
+core: 8.x
+type: module

@@ -1,0 +1,8 @@
+select_project.routing:
+   path: select-project
+   defaults:
+      _title: 'Select Project'
+      _controller: Drupal\select_project\Controller\SelectProjectController::test
+   requirements:
+      _permission: 'access content+access user profiles'
+      _role: 'project_analyst'

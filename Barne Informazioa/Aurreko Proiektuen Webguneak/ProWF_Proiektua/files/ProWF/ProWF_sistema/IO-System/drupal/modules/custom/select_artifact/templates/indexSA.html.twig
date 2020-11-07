@@ -1,0 +1,49 @@
+{% if artifacts %}
+	<div class="ex1">
+	{% set cont = 0 %}
+	{% for artifact in artifacts %}
+		{% set result = artifact|split(';') %}
+		{% if cont == 0 %}
+			<div class="left">
+				<a href="http:\\localhost\drupal\assessArtifact?project={{ result[0] }}&p_id={{ result[1] }}&a_id={{ result[2] }}&t_id={{ result[3] }}&id={{ result[4] }}">
+					<img src="http:\\localhost\drupal\images\assess_image.png" alt="ASSESS IMAGE" width="90" height="150">
+				</a><br>
+				<b>{{ result[5] }}</b> <br>
+				Version: {{ result[6] }} <br>
+				Start date: {{ result[7] }} <br>
+				Editor's assessment: {{ result[8] }} <br>
+			</div>
+			{% set cont = 1 %}
+		{% elseif cont==1 %}
+			<div class="center">
+				<a href="http:\\localhost\drupal\assessArtifact?project={{ result[0] }}&p_id={{ result[1] }}&a_id={{ result[2] }}&t_id={{ result[3] }}&id={{ result[4] }}">
+					<img src="http:\\localhost\drupal\images\assess_image.png" alt="ASSESS IMAGE" width="90" height="150">
+				</a><br>
+				<b>{{ result[5] }}</b> <br>
+				Version: {{ result[6] }} <br>
+				Start date: {{ result[7] }} <br>
+				Editor's assessment: {{ result[8] }} <br>
+			</div>
+			{% set cont = 2 %}
+		{% else %}
+			<div class="right">
+				<a href="http:\\localhost\drupal\assessArtifact?project={{ result[0] }}&p_id={{ result[1] }}&a_id={{ result[2] }}&t_id={{ result[3] }}&id={{ result[4] }}">
+					<img src="http:\\localhost\drupal\images\assess_image.png" alt="ASSESS IMAGE" width="90" height="150">
+				</a><br>
+				<b>{{ result[5] }}</b> <br>
+				Version: {{ result[6] }} <br>
+				Start date: {{ result[7] }} <br>
+				Editor's assessment: {{ result[8] }} <br>
+			</div>
+			<br><br>
+			{% set cont = 0 %}
+		{% endif %}
+	{% endfor %}
+	</div>
+
+{% else %}
+
+<p><b>All artifacts assessed</b></p>
+
+{% endif %}
+

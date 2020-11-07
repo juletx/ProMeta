@@ -1,0 +1,7 @@
+views_database_connector.settings:
+  path: /admin/config/development/views_database_connector
+  defaults:
+    _form: Drupal\views_database_connector\Form\ViewsDatabaseConnectorConfigForm
+    _title: 'Views Database Connector Settings'
+  requirements:
+    _permission: 'administer site configuration'

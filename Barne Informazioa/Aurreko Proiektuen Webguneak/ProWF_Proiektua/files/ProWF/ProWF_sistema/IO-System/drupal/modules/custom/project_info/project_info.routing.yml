@@ -1,0 +1,7 @@
+project_info.routing:
+   path: project_info
+   defaults:
+      _title: 'Project Information'
+      _controller: Drupal\project_info\Controller\ProjectInfoController::test
+   requirements:
+      _permission: 'access content+access user profiles'

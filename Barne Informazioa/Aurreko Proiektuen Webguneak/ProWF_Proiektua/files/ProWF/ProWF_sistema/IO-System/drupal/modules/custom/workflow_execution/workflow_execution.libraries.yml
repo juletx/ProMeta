@@ -1,0 +1,6 @@
+workflow_execution_css:
+    version: 1.0
+    css:
+        theme:
+            css/workflow_execution.css: {}
+    

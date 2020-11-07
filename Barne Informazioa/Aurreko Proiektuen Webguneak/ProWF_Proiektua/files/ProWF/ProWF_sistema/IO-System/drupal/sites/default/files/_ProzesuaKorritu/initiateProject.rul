@@ -1,0 +1,793 @@
+; Mon Jul 06 13:26:22 CEST 2020
+; 
+;+ (version "3.5")
+;+ (build "Build 663")
+
+(definstances initiateProject
+([initiateProject_data_0] of  data
+
+	(_key "label")
+	(Text "bgcolor"))
+
+([initiateProject_data_1] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([initiateProject_data_10] of  data
+
+	(_key "label")
+	(Text "<<Analyst>> \n Define Vision"))
+
+([initiateProject_data_100] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([initiateProject_data_101] of  data
+
+	(_key "shape")
+	(Text "ellipse"))
+
+([initiateProject_data_102] of  data
+
+	(_key "fontname")
+	(Text "Arial"))
+
+([initiateProject_data_103] of  data
+
+	(_key "shape")
+	(Text "cds"))
+
+([initiateProject_data_104] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([initiateProject_data_105] of  data
+
+	(_key "x")
+	(Text "426.58618"))
+
+([initiateProject_data_106] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([initiateProject_data_107] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([initiateProject_data_108] of  data
+
+	(_key "y")
+	(Text "-110.37411"))
+
+([initiateProject_data_109] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([initiateProject_data_11] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([initiateProject_data_110] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([initiateProject_data_111] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([initiateProject_data_112] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([initiateProject_data_113] of  data
+
+	(_key "shape")
+	(Text "cds"))
+
+([initiateProject_data_114] of  data
+
+	(_key "label")
+	(Text "fontsize"))
+
+([initiateProject_data_115] of  data
+
+	(_key "label")
+	(Text "Arial"))
+
+([initiateProject_data_116] of  data
+
+	(_key "margin")
+	(Text "0.11,0.11"))
+
+([initiateProject_data_12] of  data
+
+	(_key "fontsize")
+	(Text "12"))
+
+([initiateProject_data_13] of  data
+
+	(_key "y")
+	(Text "-486.48587"))
+
+([initiateProject_data_14] of  data
+
+	(_key "y")
+	(Text "-290.187"))
+
+([initiateProject_data_15] of  data
+
+	(_key "url")
+	(Text "./PlanProject/planProject.html"))
+
+([initiateProject_data_16] of  data
+
+	(_key "x")
+	(Text "303.84625"))
+
+([initiateProject_data_17] of  data
+
+	(_key "label")
+	(Text "<<Project Manager>> \n Plan Project"))
+
+([initiateProject_data_18] of  data
+
+	(_key "x")
+	(Text "124.4444"))
+
+([initiateProject_data_19] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([initiateProject_data_2] of  data
+
+	(_key "label")
+	(Text "fontname"))
+
+([initiateProject_data_20] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([initiateProject_data_21] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([initiateProject_data_22] of  data
+
+	(_key "fillcolor")
+	(Text "#ffff80"))
+
+([initiateProject_data_23] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([initiateProject_data_24] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([initiateProject_data_25] of  data
+
+	(_key "x")
+	(Text "-231.57834"))
+
+([initiateProject_data_26] of  data
+
+	(_key "y")
+	(Text "428.36676"))
+
+([initiateProject_data_27] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([initiateProject_data_28] of  data
+
+	(_key "x")
+	(Text "238.01105"))
+
+([initiateProject_data_29] of  data
+
+	(_key "y")
+	(Text "-490.66223"))
+
+([initiateProject_data_3] of  data
+
+	(_key "y")
+	(Text "418.78717"))
+
+([initiateProject_data_30] of  data
+
+	(_key "y")
+	(Text "-193.41231"))
+
+([initiateProject_data_31] of  data
+
+	(_key "y")
+	(Text "131.21382"))
+
+([initiateProject_data_32] of  data
+
+	(_key "label")
+	(Text "t"))
+
+([initiateProject_data_33] of  data
+
+	(_key "x")
+	(Text "-45.37186"))
+
+([initiateProject_data_34] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([initiateProject_data_35] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([initiateProject_data_36] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([initiateProject_data_37] of  data
+
+	(_key "label")
+	(Text "label"))
+
+([initiateProject_data_38] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([initiateProject_data_39] of  data
+
+	(_key "x")
+	(Text "-20.310488"))
+
+([initiateProject_data_4] of  data
+
+	(_key "fillcolor")
+	(Text "royalblue3"))
+
+([initiateProject_data_40] of  data
+
+	(_key "fontname")
+	(Text "Arial"))
+
+([initiateProject_data_41] of  data
+
+	(_key "weight")
+	(Text "1.0"))
+
+([initiateProject_data_42] of  data
+
+	(_key "label")
+	(Text "labelloc"))
+
+([initiateProject_data_43] of  data
+
+	(_key "label")
+	(Text "Initiate Project"))
+
+([initiateProject_data_44] of  data
+
+	(_key "fontsize")
+	(Text "12"))
+
+([initiateProject_data_45] of  data
+
+	(_key "label")
+	(Text "Start Initiate Project"))
+
+([initiateProject_data_46] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([initiateProject_data_47] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([initiateProject_data_48] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([initiateProject_data_49] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([initiateProject_data_5] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([initiateProject_data_50] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([initiateProject_data_51] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([initiateProject_data_52] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([initiateProject_data_53] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([initiateProject_data_54] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([initiateProject_data_55] of  data
+
+	(_key "x")
+	(Text "-492.58893"))
+
+([initiateProject_data_56] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([initiateProject_data_57] of  data
+
+	(_key "y")
+	(Text "-276.65137"))
+
+([initiateProject_data_58] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([initiateProject_data_59] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([initiateProject_data_6] of  data
+
+	(_key "x")
+	(Text "257.50763"))
+
+([initiateProject_data_60] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([initiateProject_data_61] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([initiateProject_data_62] of  data
+
+	(_key "y")
+	(Text "-413.0545"))
+
+([initiateProject_data_63] of  data
+
+	(_key "shape")
+	(Text "ellipse"))
+
+([initiateProject_data_64] of  data
+
+	(_key "weight")
+	(Text "1.0"))
+
+([initiateProject_data_65] of  data
+
+	(_key "label")
+	(Text "lemonchiffon"))
+
+([initiateProject_data_66] of  data
+
+	(_key "label")
+	(Text "End Initiate Project"))
+
+([initiateProject_data_67] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([initiateProject_data_68] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([initiateProject_data_69] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([initiateProject_data_7] of  data
+
+	(_key "x")
+	(Text "-39.408604"))
+
+([initiateProject_data_70] of  data
+
+	(_key "url")
+	(Text "./DefineVision/defineVision.html"))
+
+([initiateProject_data_71] of  data
+
+	(_key "y")
+	(Text "479.32477"))
+
+([initiateProject_data_72] of  data
+
+	(_key "fillcolor")
+	(Text "#ffff80"))
+
+([initiateProject_data_73] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([initiateProject_data_74] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([initiateProject_data_75] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([initiateProject_data_76] of  data
+
+	(_key "y")
+	(Text "17.650951"))
+
+([initiateProject_data_77] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([initiateProject_data_78] of  data
+
+	(_key "fillcolor")
+	(Text "royalblue3"))
+
+([initiateProject_data_79] of  data
+
+	(_key "x")
+	(Text "-165.24298"))
+
+([initiateProject_data_8] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([initiateProject_data_80] of  data
+
+	(_key "x")
+	(Text "-54.03461"))
+
+([initiateProject_data_81] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([initiateProject_data_82] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([initiateProject_data_83] of  data
+
+	(_key "margin")
+	(Text "0.11,0.11"))
+
+([initiateProject_data_84] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([initiateProject_data_85] of  data
+
+	(_key "x")
+	(Text "176.58423"))
+
+([initiateProject_data_86] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([initiateProject_data_87] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([initiateProject_data_88] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([initiateProject_data_89] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([initiateProject_data_9] of  data
+
+	(_key "weight")
+	(Text "1.0"))
+
+([initiateProject_data_90] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([initiateProject_data_91] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([initiateProject_data_92] of  data
+
+	(_key "y")
+	(Text "421.38184"))
+
+([initiateProject_data_93] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([initiateProject_data_94] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([initiateProject_data_95] of  data
+
+	(_key "label")
+	(Text "16"))
+
+([initiateProject_data_96] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([initiateProject_data_97] of  data
+
+	(_key "x")
+	(Text "-478.4439"))
+
+([initiateProject_data_98] of  data
+
+	(_key "y")
+	(Text "364.102"))
+
+([initiateProject_data_99] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([initiateProject_edge_0] of  edge
+
+	(_id "50")
+	(_source "Activity Task 1 1 1 2 5 0 0 Plan Project | Project Manager")
+	(_target "Activity End 1 1 1 0 0 0 0 Initiate Project |")
+	(dataSlot [initiateProject_data_64]))
+
+([initiateProject_edge_1] of  edge
+
+	(_id "49")
+	(_source "Activity Task 1 1 1 1 1 0 0 Define Vision | Analyst")
+	(_target "Activity Task 1 1 1 2 5 0 0 Plan Project | Project Manager")
+	(dataSlot [initiateProject_data_9]))
+
+([initiateProject_edge_2] of  edge
+
+	(_id "48")
+	(_source "Activity Start 1 1 1 0 0 0 0 Initiate Project |")
+	(_target "Activity Task 1 1 1 1 1 0 0 Define Vision | Analyst")
+	(dataSlot [initiateProject_data_41]))
+
+([initiateProject_graph_0] of  graph
+
+	(_edgedefault "directed")
+	(edgeSlot [initiateProject_edge_2])
+	(nodeSlot [initiateProject_node_11]))
+
+([initiateProject_key_0] of  key
+
+	(_attr.name "y")
+	(_attr.type "float")
+	(_for "node")
+	(_id "y"))
+
+([initiateProject_key_1] of  key
+
+	(_attr.name "margin")
+	(_attr.type "string")
+	(_for "node")
+	(_id "margin"))
+
+([initiateProject_key_10] of  key
+
+	(_attr.name "fontname")
+	(_attr.type "string")
+	(_for "node")
+	(_id "fontname"))
+
+([initiateProject_key_11] of  key
+
+	(_attr.name "fontsize")
+	(_attr.type "string")
+	(_for "node")
+	(_id "fontsize"))
+
+([initiateProject_key_12] of  key
+
+	(_attr.name "Edge Label")
+	(_attr.type "string")
+	(_for "edge")
+	(_id "edgelabel"))
+
+([initiateProject_key_13] of  key
+
+	(_attr.name "weight")
+	(_attr.type "double")
+	(_for "edge")
+	(_id "weight"))
+
+([initiateProject_key_14] of  key
+
+	(_attr.name "size")
+	(_attr.type "float")
+	(_for "node")
+	(_id "size"))
+
+([initiateProject_key_2] of  key
+
+	(_attr.name "r")
+	(_attr.type "int")
+	(_for "node")
+	(_id "r"))
+
+([initiateProject_key_3] of  key
+
+	(_attr.name "x")
+	(_attr.type "float")
+	(_for "node")
+	(_id "x"))
+
+([initiateProject_key_4] of  key
+
+	(_attr.name "fillcolor")
+	(_attr.type "string")
+	(_for "node")
+	(_id "fillcolor"))
+
+([initiateProject_key_5] of  key
+
+	(_attr.name "label")
+	(_attr.type "string")
+	(_for "node")
+	(_id "label"))
+
+([initiateProject_key_6] of  key
+
+	(_attr.name "url")
+	(_attr.type "string")
+	(_for "node")
+	(_id "url"))
+
+([initiateProject_key_7] of  key
+
+	(_attr.name "g")
+	(_attr.type "int")
+	(_for "node")
+	(_id "g"))
+
+([initiateProject_key_8] of  key
+
+	(_attr.name "shape")
+	(_attr.type "string")
+	(_for "node")
+	(_id "shape"))
+
+([initiateProject_key_9] of  key
+
+	(_attr.name "b")
+	(_attr.type "int")
+	(_for "node")
+	(_id "b"))
+
+([initiateProject_node_0] of  node
+
+	(_id "fontname")
+	(dataSlot [initiateProject_data_2]))
+
+([initiateProject_node_1] of  node
+
+	(_id "Initiate Project")
+	(dataSlot [initiateProject_data_43]))
+
+([initiateProject_node_10] of  node
+
+	(_id "16")
+	(dataSlot [initiateProject_data_95]))
+
+([initiateProject_node_11] of  node
+
+	(_id "fontsize")
+	(dataSlot [initiateProject_data_114]))
+
+([initiateProject_node_12] of  node
+
+	(_id "Activity End 1 1 1 0 0 0 0 Initiate Project |")
+	(dataSlot [initiateProject_data_66]))
+
+([initiateProject_node_13] of  node
+
+	(_id "Activity Task 1 1 1 2 5 0 0 Plan Project | Project Manager")
+	(dataSlot [initiateProject_data_17]))
+
+([initiateProject_node_2] of  node
+
+	(_id "Activity Task 1 1 1 1 1 0 0 Define Vision | Analyst")
+	(dataSlot [initiateProject_data_10]))
+
+([initiateProject_node_3] of  node
+
+	(_id "Arial")
+	(dataSlot [initiateProject_data_115]))
+
+([initiateProject_node_4] of  node
+
+	(_id "labelloc")
+	(dataSlot [initiateProject_data_42]))
+
+([initiateProject_node_5] of  node
+
+	(_id "t")
+	(dataSlot [initiateProject_data_32]))
+
+([initiateProject_node_6] of  node
+
+	(_id "lemonchiffon")
+	(dataSlot [initiateProject_data_65]))
+
+([initiateProject_node_7] of  node
+
+	(_id "Activity Start 1 1 1 0 0 0 0 Initiate Project |")
+	(dataSlot [initiateProject_data_45]))
+
+([initiateProject_node_8] of  node
+
+	(_id "label")
+	(dataSlot [initiateProject_data_37]))
+
+([initiateProject_node_9] of  node
+
+	(_id "bgcolor")
+	(dataSlot [initiateProject_data_0]))
+)

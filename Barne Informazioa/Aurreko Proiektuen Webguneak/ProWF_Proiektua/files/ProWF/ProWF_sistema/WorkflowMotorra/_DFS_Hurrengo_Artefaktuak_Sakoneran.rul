@@ -1,0 +1,611 @@
+;Workflow-a exekutatzerako orduan hurrengoa kontuan izan behar da:
+
+;- Nodoen izenak beti hurrengo egitura izango dute:
+
+;	"PROZESU_MOTA NODO_MOTA KODE_MULTZOA NODOAREN_IZENA | {BERTSIOA edo ROLA edo KARDINALITATEA edo URLa}"
+	
+;	- PROZESU_MOTA: egungo prozesu edo azpi-prozesuaren mota da --> {Methodology, Phase, Activity, Task, Artifact}
+	
+;	- NODO_MOTA: nodoaren mota da
+;			- Start: prozesu edo azpi-prozesuaren hasiera.
+;				- "Methodology Start 1 0 0 0 0 0 0 OpenUp Lifecycle | Alpha"    Start nodoen salbuespena
+;				- "Phase Start 1 1 0 0 0 0 0 Inception |"						Start nodoen formatua
+;			- End: prozesu edo azpi-prozesuaren amaiera.
+;				- "Methodology End 1 0 0 0 0 0 0 O OpenUp Lifecycle | Alpha"	End salbuespena
+;				- "Phase End 1 1 0 0 0 0 0 Inception |"							End nodoen formatua
+;			- Phase: nodoak "Phase" motako azpi-prozesua du.
+;				- "Phase Activity 1 1 4 0 0 0 0 Agree on the Technical Approach |"
+;			- Activity: nodoak "Activity" motako azpi-prozesua du.
+;				- "Activity Task 1 1 4 1 3 0 0 Outline the Architecture | Architect"
+; ;				- "Activity Task 1 1 2 1 5 0 0 Plan Iteration | Project Manager"
+;			- Task: nodoak "Task" motako azpi-prozesua du.
+;				- "Task Artifact 1 1 4 1 3 1 0 Architecture Notebook |" 
+;			- Artifact: nodoak "Artifact" motako azpi-prozesua du. 
+;				- Section: nodoa idatzi beharreko sekzioa da. 
+;					- "Artifact Section 1 1 1 1 1 14 3 Stakeholder Descriptions |"
+;				- SectionWT: (With Template) nodoa idatzi beharreko sekzioa da eta txantiloia du. 
+;					- "Artifact SectionWT 1 1 4 1 3 1 7 Key abstractions | Templates/ArchitectureNotebook/KeyAbstractions.txt"
+;				- UploadGraph: nodoa igo beharreko grafoa da, hau bakarrik "Use-Case Model" artefaktuan erabiliko da.
+;			- Join: elkartze erromboa da.
+;				- "Phase Join 1 1 0 0 0 0 0 End access | 3 1"
+;			- Question: galdera da.
+;				- "Methodology Question 1 2 0 0 0 0 0 Elaboration |"
+;			- Decision: erabaki erromboa da.
+;				- "Methodology Decision 1 2 0 0 0 0 0 Elaboration |"
+			
+;	- KODE_MULTZOA: informazioa datu-basean gordetzeko erabiliko diren identifikatzaileak (zenbakiak).	
+;			- method_id: metodologia identifikatzeko zenbakia.
+;			- phase_id: fasea identifikatzeko zenbakia.
+;			- activity_id: aktibitatea identifikatzeko zenbakia.
+;			- task_id: jarduera identifikatzeko zenbakia.
+;			- role_id: rola identifikatzeko zenbakia.
+;			- artifact_id: artefaktua identifikatzeko zenbakia.
+;			- section_number: sekzioaren zenbakia (float)
+			
+;	- NODOAREN_IZENA: nodoaren izena (karaktere kate bat baino gehiago izan daiteke).
+	
+;	- BERTSIOA: metodologiaren START eta END nodoetan agertuko da bakarrik, metodologiaren bertsioa adierazteko
+	
+;	- ROLA: jardueren (task) kasuan agertuko da bakarrik, rolaren izena adierazteko
+	
+;	- KARDINALITATEA: JOIN motako nodoen kasuan agertuko da, bere kardinalitatea adieraziko da, adibidez: bi sarrera, irteera bat --> 2 1
+	
+;	- URLa: SectionWT motako nodoetan agertuko da bakarrik, sekzioaren txantiloia non gordetzen den adierazteko (path)
+	
+
+;- OpenUp-eko Inception fasea osorik inplementantu da eta Elaboration faseko hasiera, fase aldaketa ikusi ahal izateko. 
+
+
+;- Exekutatzeratzean datu-basea ezabatu eta berria sortzeaz aparte, .csv fitxategi bat bueltatuko da, assesment atributuetan 10 bat ez duten artefaktuekin.
+;Bi assesment atributu daude datu-basean editorearen eta errebisatzailearena (Kalitate Arduraduna).
+;Aurreko bertsioan:CSV fitxategiak
+; ->                            phase_id;activity_id;task_id;role_id;artifact_id;mota (Write | UploadGraph);editorearen_nota (0-10);errebisatzailearen_nota (0-10)
+;Adibidez: 1;1;2;4;14;Write;10;8
+
+;;Azken bertsioan:CSV fitxategiak 
+; -> project_id;methodology_id;phase_id;activity_id;task_id;role_id;artifact_id;mota(Write|UploadGraph) 
+;; --> Adibidez: 1111;1;1;1;3;4;14;Write  
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+
+
+	
+
+; Objketu izenetik grafo izena atera
+(deffunction grafoIzena (?objketuIzenaKortxeteekin)             ;; [openUp_lifecycle_edge_5]
+(bind  ?objketuIzena  (str-cat ?objketuIzenaKortxeteekin))
+
+(if (str-index  "_graph" ?objketuIzena)
+	then  
+		(return (str-cat (sub-string 1 (- (str-index  "_graph" ?objketuIzena) 1) ?objketuIzena)))
+	else
+		(if (str-index  "_edge" ?objketuIzena)
+				then
+					(return (str-cat (sub-string 1 (- (str-index  "_edge" ?objketuIzena) 1) ?objketuIzena)))
+				else
+					(if (str-index  "_node" ?objketuIzena)
+							then
+								(return (str-cat (sub-string 1 (- (str-index  "_node" ?objketuIzena) 1) ?objketuIzena)))
+							else
+								(if (str-index  "_data" ?objketuIzena)
+										then
+											(return (str-cat (sub-string 1 (- (str-index  "_data" ?objketuIzena) 1) ?objketuIzena)))))))
+	)
+								
+; (str-cat (sub-string 2 (- (str-index  "_edge" [openUp_lifecycle_edge_5]) 1) [openUp_lifecycle_edge_5]))     	=> "penUp_lifecycle"
+; (str-cat (sub-string 2 (- (str-index  "_edge" "[openUp_lifecycle_edge_5]") 1) "[openUp_lifecycle_edge_5]"))  => "openUp_lifecycle"
+; (str-cat (sub-string 2 (- (str-index  "_edge" "openUp_lifecycle_edge_5") 1) "openUp_lifecycle_edge_5"))  => "penUp_lifecycle"
+; (str-cat (sub-string 1 (- (str-index  "_edge" "openUp_lifecycle_edge_5") 1) "openUp_lifecycle_edge_5"))  => "openUp_lifecycle"
+
+(deffunction WorkflowBerekoObjektuIzenak (?objketuIzenaKortxeteekin1 ?objketuIzenaKortxeteekin2 )	
+	(return (eq (grafoIzena ?objketuIzenaKortxeteekin1)
+				(grafoIzena ?objketuIzenaKortxeteekin2)))
+)
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;	
+	
+	
+(deffunction DeiarenAzpiprozesua (?erpina)
+;	- Azpiprozesuak hierarkia honetako elementuetan sakonduko dut task-en mailara arte 
+;	  rolak aparte geratzen dira eta sekzioak sekuentzialki aztertuko dira:
+;		- method_id: metodologia identifikatzeko zenbakia.
+;		- phase_id: fasea identifikatzeko zenbakia.
+;		- activity_id: aktibitatea identifikatzeko zenbakia.
+;		- task_id: jarduera identifikatzeko zenbakia.
+;			> role_id: rola identifikatzeko zenbakia.
+;			> artifact_id: artefaktua identifikatzeko zenbakia.
+;			> section_number: sekzioaren zenbakia (float)
+
+; Workflow bateko deia....: "Methodology Phase 1 1 0 0 0 0 0 Inception |"   (daiearen ?erpina)  
+; Azpiworkflowaren bukaera: "Phase Start 1 1 0 0 0 0 0 Inception |"   (bueltatuko den erpin izena)
+
+; Workflow bateko deia....: "Activity Task 1 1 1 1 1 0 0 Define Vision | Analyst"
+; Azpiworkflowaren bukaera:    "Task Start 1 1 1 1 1 0 0 Define Vision |"    (bueltatuko den erpin izena)
+
+
+	(bind ?prozesuPosizioa		(member$ (nth$ 1 (explode$ ?erpina))  (create$ Methodology Phase Activity Task Artifact)))
+	(bind ?azpiprozesuMota		(nth$ (+ ?prozesuPosizioa 1) (create$ Methodology Phase Activity Task Artifact))) 
+	(bind ?erpinMota			(nth$ 2 (explode$ ?erpina)))
+	(bind ?erpinKodeHasieraPos	(+  (str-index ?erpinMota ?erpina) (str-length ?erpinMota) 1))
+	(bind ?erpinIzenBukaeraPos	(str-index "|" ?erpina))										
+	
+;	(printout t crlf ">erpina> " ?erpina "  >erpinMota> " ?erpinMota "  >erpinKodeHasieraPos> " ?erpinKodeHasieraPos  crlf)
+	
+	(return   (str-cat  ?erpinMota 
+						" "
+						Start						
+						" "
+						(sub-string   ?erpinKodeHasieraPos ?erpinIzenBukaeraPos ?erpina)
+				))
+	)
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;	
+ 
+ 
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;	
+
+(defglobal
+	?*log*  = null
+	?*log-egin*  = TRUE
+	?*allAssessmentIsCorrectInception*  = TRUE
+	?*allAssessmentIsCorrectElaboration*  = TRUE
+	?*allAssessmentIsCorrectConstruction*  = TRUE
+	?*allAssessmentIsCorrectTransition*  = TRUE
+	?*BDconnected* = 0
+	?*BDdisconnected* = 0
+	?*BisitaOrdena* = 0
+	?*nodoenKontagailua* = 0
+	?*bisitatuGabekoenKontagailua* = 0
+	?*DatuBaseraKonektatu* = TRUE                          ;; Datu basera konektatu gabe probatu ahal izateko
+	)
+	
+	
+(deffacts hasierakoEgitateak
+	(SoftwarearenBertsioIdentifikatzaileak  (create$ "Pre-alpha" "Alpha" "Beta" "Release candidate" "RTM" "GA" "Production"))
+	;;Bertsioen identifikatzaileak (https://en.wikipedia.org/wiki/Software_release_life_cycle)  
+	;;	- Proba edo garapen garaia:
+	;;		- Pre-alpha edo development releases edo nightly builds
+	;;		- Alpha
+	;;		- Beta
+	;;		- Release candidate edo gamma edo delta
+	;;	- Azken bertsioen garaia:
+	;;		- RTM edo Release to manufacturing edo release to marketing
+	;;		- GA edo General availability
+	;;		- Production or live release edo Gold
+
+	(NodoKopurua 0)
+)
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;	
+	
+(defrule DatuBaseraKonektatu
+	(declare (salience 100))
+		(ProcessDataDB 		?DBsource )					
+=>
+(if ?*DatuBaseraKonektatu*
+	then      ;---------------------------------------------------------------------------------------- KONEXIOA 
+		(bind ?*BDconnected*  (SQLConnect ?DBsource))
+
+		(if (= ?*BDconnected* 0)
+			then 
+				(printout ?*log* crlf "Ez da konektatu " ?DBsource " datu basera " ?*BDconnected* " "(GetTime))
+			else 
+				(printout ?*log* crlf "Konektatu da " ?DBsource " datu basera " ?*BDconnected* " " (GetTime))
+				(assert (Data base connected to ?DBsource ?*BDconnected*  ))
+			)
+	else      ;---------------------------------------------------------------------------------------- KONEXIO GABE 
+		(assert (Data base connected to ?DBsource 0  ))
+		)		
+ ;----------------------------------------------------------------------------------------  
+ )
+ 
+ 
+ ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;	
+	
+(defrule Bukatu
+	(declare (salience -100))
+	(Data base connected to ?DBsource ?BDconnected)
+=>
+
+;;(printout ?*log* crlf "Grafoa aztertua: Bisitatu gabekoak = " ?*bisitatuGabekoenKontagailua* " / "  ?*nodoenKontagailua* "  Bisitatutakoak = " (- ?*nodoenKontagailua* ?*bisitatuGabekoenKontagailua*))
+(printout ?*log* crlf "Hurrengo artefaktuen bilaketa bukatua")
+(if ?*DatuBaseraKonektatu*
+	then      ;---------------------------------------------------------------------------------------- KONEXIOA 
+
+		(bind ?*BDdisconnected*  (SQLDisconnect ?BDconnected))  ;; argumentua zenbakia izan behar da
+
+		(if (= ?*BDdisconnected* 0)
+			then 
+				(printout ?*log* crlf "Ez da deskonektatu " ?DBsource " datu basera " ?*BDdisconnected* " "(GetTime))
+			else 
+				(printout ?*log* crlf "Deskonektatu da " ?DBsource " datu basera " ?*BDdisconnected* " " (GetTime))
+				(assert (Data base connected to ?DBsource ?*BDdisconnected*  ))
+			) 
+		)	
+(close ?*log*)
+)
+
+
+
+
+
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;	
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;	
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; Probatutako datu basean.
+;; INSERT INTO projects (id,methodology_id,current_phase_id,current_activity_id, current_task_id) VALUES ('1111',1,1,2,1);
+;; Txertatua
+;;projects taula:
+;; id	name	methodology_id	current_phase_id	current_activity_id	current_task_id	architect	analyst	analyst_username	process_creator	process_creator_username	project_manager	project_manager_username	quality_manager	quality_manager_username	tester	developer	stakeholder	start_date	end_date	version	description 	
+;; 1111 		1 	1 	2 	1 	NULL 	NULL 		NULL 		NULL 		NULL 		NULL 	NULL 	NULL 	NULL 	NULL 	NULL 	
+;; 2222 		1 	1 	3 	2 	NULL 	NULL 		NULL 		NULL 		NULL 		NULL 	NULL 	NULL 	NULL 	NULL 	NULL 	
+;; 3333 		1 	3 	1 	1   NULL 	NULL 		NULL 		NULL 		NULL 		NULL 	NULL 	NULL 	NULL 	NULL 	NULL 
+;;SELECT DISTINCT
+;;	P.id,
+;;	P.methodology_id, 	
+;;	P.current_phase_id, 	
+;;	P.current_activity_id, 	
+;;	P.current_task_id,
+;;	T.name,
+;;	R.name
+;;FROM process_db.projects as P 
+;;	inner join process_db.methodologies as M on P.methodology_id = M.id
+;;	inner join process_db.phases as PH on P.current_phase_id = PH.id
+;;	inner join process_db.activities as A on P.current_activity_id = A.id
+;;	inner join process_db.tasks as T on P.methodology_id = T.methodology_id and  P.current_phase_id  = T.phase_id  and  P.current_activity_id =   T. activity_id and     P.current_task_id = T.id 
+;;  inner join process_db.roles as R on T.role = R.id						 
+;;ORDER BY P.id
+;; Jasotako informazioa jasoa  
+;;id	methodology_id	current_phase_id	current_activity_id	current_task_id	role	name	name 	
+;; Erantzun okerra, falta dira rol izenak
+;; Descendente 1	methodology_id	current_phase_id	current_activity_id	current_task_id	role	name	name 	
+;; 1111 	1 	1 	2 	1 	Plan Iteration 			Project Manager
+;; 2222 	1 	1 	3 	2 	Detail Requirements 	Analyst
+
+;; ;;Azken bertsioan:CSV fitxategiak 
+;           -> project_id;methodology_id;phase_id;activity_id;task_id;role_id;artifact_id;mota(Write|UploadGraph) 
+; -> Adibidez:       1111;1             ;1       ;          1;3      ;4      ;14         ;Write 
+
+(defrule ProiektuGuztienEgoera_DBtikIrakurri
+	(declare (salience 100))
+		(ProcessDataDB 		?DBsource )
+		(Data base connected to ?DBsource ?ok  )
+		(not (projects has been read ?selected))		
+=>
+(if ?*DatuBaseraKonektatu*
+	then      ;---------------------------------------------------------------------------------------- KONEXIOA 
+		(bind 	?Select  	
+				(eval (format nil "\"SELECT DISTINCT
+							P.id,
+							P.methodology_id, 	
+							P.current_phase_id, 	
+							P.current_activity_id, 	
+							P.current_task_id,
+							T.role,
+							T.name,
+							R.name
+						FROM %s.projects as P 
+							 inner join %s.methodologies as M on P.methodology_id = M.id
+							 inner join %s.phases as PH on P.current_phase_id = PH.id
+							 inner join %s.activities as A on P.current_activity_id = A.id
+							 inner join %s.tasks as T on P.methodology_id = T.methodology_id and  P.current_phase_id = T.phase_id  and  P.current_activity_id =  T. activity_id and  P.current_task_id = T.id 	
+							 inner join %s.roles as R on T.role = R.id						 
+						ORDER BY P.id \" " ?DBsource ?DBsource ?DBsource ?DBsource ?DBsource ?DBsource)))						
+		(bind ?selected	(SQLExecute ?*BDconnected*  ?Select  ))
+
+		(if (= ?selected 0)
+			then 
+				(printout ?*log* crlf "projects: No se han leido   "(GetTime))
+			else 
+				(printout ?*log* crlf "projects: Se han leido   "(GetTime))
+				(assert (projects has been read ?selected))
+				;; (SQL ?proiektua ?metodologia ?fasea ?jarduera ?ataza ?rola ?atazaIzena ?rolIzena)    
+			)
+	else      ;---------------------------------------------------------------------------------------- KONEXIO GABE
+		; probak egiteko.............................
+		;DBan jarritako informazioa:  1111 1 1 2 1 
+		;;"Phase Activity 1 1 2 0 0 0 0 Plan and Manage Iteration |" jardueraren ondorengo 1 1 2 1 ataza:
+		;; "Activity Task 1 1 2 1 5 0 0 Plan Iteration | Project Manager"
+		
+		(assert (SQL 1111 1 1 2 1 5 "Plan Iteration" "Project Manager"))
+  
+		;DBan jarritako informazioa:  2222 1 1 1 2 
+		;;"Phase Activity 1 1 1 0 0 0 0 Initiate Project |"  jardueraren ondorengo 1 1 1 2 ataza:
+		;; "Activity Task 1 1 1 2 5 0 0 Plan Project | Project Manager"
+		
+		(assert (SQL 2222 1 1 1 2 5 "Plan Project" "Project Manager"))
+	)
+)
+	
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;		
+
+;; Grafoaren hasierako erpina finkatu. Adbidez, "Activity Task 1 1 4 1 3 0 0 Outline the Architecture | Architect"
+
+(defrule HasierakoErpina  
+	(declare (salience 90))
+	?S<-(SQL ?proiektua ?metodologia ?fasea ?jarduera ?ataza ?rola ?atazaIzena ?rolIzena)
+	(not (AtazaBatenHurrengoenBilaketaEgin ? ?proiektua))
+=>
+(bind ?atazaErpina	(str-cat "Activity Task " ?metodologia " " ?fasea " " ?jarduera " " ?ataza " " ?rola " 0 0 " ?atazaIzena " | " ?rolIzena))
+
+(printout ?*log* crlf "HasierakoErpina: atazaErpina = " (str-cat "Activity Task " ?metodologia " " ?fasea " " ?jarduera " " ?ataza " " ?rola " 0 0 " ?atazaIzena " | " ?rolIzena) "     " (GetTime))
+
+(assert (AtazaBatenHurrengoenBilaketaEgin  ?atazaErpina ?proiektua))
+(retract ?S)
+)
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;		
+
+;; Grafoaren hasierako erpina finkatu. Adbidez, "Activity Task 1 1 4 1 3 0 0 Outline the Architecture | Architect"
+
+(defrule ProiketuarenCSVireki  
+	(declare (salience 91))
+	(AtazaBatenHurrengoenBilaketaEgin  ?atazaErpina ?proiektua)
+	(not (ProiektuarenZereginenFitxategia ?proiektua  ?izenLogikoa  irekita ?irekita))
+=>
+;; Irteerako fitxategia ireki
+;(bind ?tokia 		"E:/karpeta/")  ;; Non geratuko den adierazi 
+(bind ?tokia 		"")  			;; EHSIS exekutatzn den tokian geratuko da
+(bind ?fitxategia 	(str-cat ?proiektua "-ToDo.csv"))   	;; fitxategia karpetan existitzea ezinbestekoa  
+(bind ?izenLogikoa 	(str-cat ?proiektua "-zereginak"))						;;
+(bind ?atzipena 	w)								;; idazteko gainean
+
+;; Proiketuari dagokion irteera fitxategia ireki
+(bind ?irekita (eval (format nil "(open \"%s\" %s \"%s\")" (str-cat ?tokia ?fitxategia)  ?izenLogikoa ?atzipena)))
+
+(assert (ProiektuarenZereginenFitxategia ?proiektua  ?izenLogikoa  irekita ?irekita))
+
+;;Fitxategiaren lehen lerroa idatzi
+;; ;;Azken bertsioan:CSV fitxategiak 
+;           -> project_id;methodology_id;phase_id;activity_id;task_id;role_id;artifact_id;mota(Write|UploadGraph) 
+; -> Adibidez:       1111;1             ;1       ;          1;3      ;4      ;14         ;Write 
+
+(printout ?izenLogikoa "Project;Methodology;Phase;Activity;Task;Role;Artifact;Type;")
+)	
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+(defrule AtazaBatenOndorengoenBilaketa  
+	(declare (salience 40))
+	(AtazaBatenHurrengoenBilaketaEgin  ?atazaErpina ?proiektua)
+	(not (Bilaketa egiten ?proiektua))
+=>
+(assert (Bilaketa egiten ?proiektua))
+(assert (GrafoBatenHasierakoErpina  ?atazaErpina ?proiektua))
+)
+	
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;	
+	
+
+(defrule FitxategiakItxi
+	(declare (salience -90))
+	?A<-(AtazaBatenHurrengoenBilaketaEgin  ?atazaErpina ?proiektua)
+	?B<-(Bilaketa egiten ?proiektua)
+		(ProiektuarenZereginenFitxategia ?proiektua  ?izenLogikoa  irekita ?irekita)
+		(Aztertuta ?proiektua ?erpinIzena ?bisitatutakoak)
+		(test (eq (nth$ 1 (explode$ ?erpinIzena)) Activity))
+		(test (eq (nth$ 2 (explode$ ?erpinIzena)) End))
+		(test (> ?bisitatutakoak 0))
+=>
+(close ?izenLogikoa)
+(printout ?*log* crlf (str-cat ?proiektua "-ToDo.csv") " fitxategia itxita")
+(retract ?A ?B)
+)	
+
+		
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;		
+	
+	
+(defrule SakonerakoBilaketa  
+	(declare (salience 40))
+	(GrafoBatenHasierakoErpina  ?oraingoErpina ?proiektua)
+														;; Grafoak ez konektatuak direnez, grafo bakarra aztertuko du. 
+														;; Haiseran "Methodology Start 1 0 0 0 0 0 0    1 OpenUp Lifecycle alpha 1" erpinetik abiatuko da 
+														;; Gero, azpiprozesu bakoitzaren hasiaeratik sakonrako ordenean
+	?erpin<-(object (is-a  node)
+					(name 		?erpinObjektua)
+					(_id 		?erpinIzena)             
+					)	
+		(test (eq (upcase ?oraingoErpina) (upcase ?erpinIzena)))   		;;Testuen idazkera okerra konparaketan gainditzeko 
+;		(test (eq (nth$ 2 (explode$ ?erpinIzena)) Start))
+=>
+(assert (GrafoBereanJarraitu  ?erpinIzena ?proiektua))		
+(printout ?*log* crlf crlf "SakonerakoBilaketa: hemendik hasi= " ?erpinObjektua " = " ?erpinIzena )				;;
+;; ==> f-15    (GrafoBereanJarraitu "Activity Task 1 1 1 2 5 0 0 Plan Project | Project Manager" 2222) CF 1.00 			
+)
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+
+(defrule AztertuGrafoaErpinBatetikHasita     
+	;;"Erpin batetik (edozein) hasita atzigarriak diren erpinak aztertzen ditu"
+	(declare (salience 31))
+	?O<-(GrafoBereanJarraitu  ?oraingoErpina ?proiektua)
+
+	?erpin<-(object (is-a  node)
+					(name 		?erpinObjektua)
+					(_id 		?erpinIzena)             
+					)
+		(test (eq (upcase ?oraingoErpina) (upcase ?erpinIzena)))   		;;Testuen idazkera okerra konparaketan gainditzeko 
+		(not (Aztertuta  ?proiektua ?oraingoErpina	?bisita))					
+	?ertza<-(object (is-a  edge)
+				(_source 	?erpinIzena)						
+				(_target  	?hurrengoErpina)									
+				)	
+;	?erpin2<-(object (is-a  node)
+;					(name 		?erpinObjektua2)
+;					(_id 		?hurrengoErpina)             
+;					)				
+;	(test (WorkflowBerekoObjektuIzenak ?erpinObjektua2 ?erpinObjektua))
+=>
+(bind ?*BisitaOrdena* (+ ?*BisitaOrdena* 1))
+(assert (Aztertuta ?proiektua ?erpinIzena	?*BisitaOrdena*))
+
+;; Bisita aurreko ekintzak ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+(assert (ProiketukoZereginakIdatzi ?proiektua ?erpinIzena))	
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+(assert  (GrafoBereanJarraitu  ?hurrengoErpina ?proiektua))
+;(retract ?O)
+(printout ?*log* crlf  crlf ?*BisitaOrdena* " proiektua: " ?proiektua " ---------->> AztertuGrafoaEpinBatetikHasita: Aztertuta = " ?erpinObjektua " (" ?erpinIzena ")"   crlf "     -------------------->> Hurrengoa = "  " (" ?hurrengoErpina ") " )	
+)	
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+
+(defrule AztertuGrafoaErpinBatetikHasitaEnd     
+	;;"Erpin batetik (edozein) hasita atzigarriak diren erpinak aztertzen ditu"
+	(declare (salience 31))
+	?O<-(GrafoBereanJarraitu  ?oraingoErpina ?proiektua)
+	?erpin<-(object (is-a  node)
+					(name 		?erpinObjektua)
+					(_id 		?erpinIzena)             
+					)
+		(test (eq (upcase ?oraingoErpina) (upcase ?erpinIzena)))   		;;Testuen idazkera okerra konparaketan gainditzeko 
+		(not (Aztertuta ?proiektua ?oraingoErpina	?bisita))					
+	(not(object (is-a  edge)
+				(name 		?erpinObjektua2&:(eq (grafoIzena ?erpinObjektua2) (grafoIzena ?erpinObjektua)))  ;;grafo berekoak dira
+				(_source 	?erpinIzena)															
+				))	
+=>
+(bind ?*BisitaOrdena* (+ ?*BisitaOrdena* 1))
+(assert (Aztertuta ?proiektua ?oraingoErpina	?*BisitaOrdena*))
+;; Bisita aurreko ekintzak
+
+(printout ?*log* crlf  crlf ?*BisitaOrdena* " proiektua: " ?proiektua " |---------->> AztertuGrafoaEpinBatetikHasita: Aztertuta = " ?erpinObjektua " (" ?erpinIzena ") -----------||" )	
+)	
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+(defrule AztertuGrafoaErpinBatetikHasitaBesteBideBat     
+	;;"Erpin batetik (edozein) hasita atzigarriak diren erpinak aztertzen ditu"
+	(declare (salience 31))
+	?O<-(GrafoBereanJarraitu  ?oraingoErpina ?proiektua)
+	?erpin<-(object (is-a  node)
+					(name 		?erpinObjektua)
+					(_id 		?erpinIzena)             
+					)
+		(test (eq (upcase ?oraingoErpina) (upcase ?erpinIzena)))   		;;Testuen idazkera okerra konparaketan gainditzeko 
+			(Aztertuta ?proiektua ?erpinIzena	?bisita)				
+	?ertza<-(object (is-a  edge)
+				(_source 	?erpinIzena)						
+				(_target  	?hurrengoErpina)									
+				)	
+	?erpin2<-(object (is-a  node)
+					(name 		?erpinObjektua2)
+					(_id 		?hurrengoErpina)             
+					)				
+			(not(Aztertuta ?proiektua ?hurrengoErpina	?bisita))					
+	(test (WorkflowBerekoObjektuIzenak ?erpinObjektua2 ?erpinObjektua))
+=>
+;; Bisita aurreko ekintzak
+(assert  (GrafoBereanJarraitu  ?hurrengoErpina ?proiektua))
+(printout ?*log* crlf  crlf ?*BisitaOrdena* " proiektua: " ?proiektua " ############> AztertuGrafoaErpinBatetikHasitaBesteBideBat: Aztertuta = " ?erpinObjektua " (" ?erpinIzena ")" crlf "-------------------->> Hurrengoa = " ?erpinObjektua2 " (" ?hurrengoErpina ") " )	
+)	
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+(defrule BesteGrafoBateanSakondu  					
+	;; Zenbaki guztiak dituen ekintza batetik sakonduko da, azpiprozesuko lehenari (Start nodo bat) ere zenbakiak jarri
+	(declare (salience 40))
+		(GrafoBereanJarraitu  ?oraingoErpina ?proiektua)	
+	?erpin<-(object (is-a  node)
+					(name 		?erpinObjektua)
+					(_id 		?erpinIzena)             
+					)
+		(test (eq (upcase ?oraingoErpina) (upcase ?erpinIzena)))   		;;Testuen idazkera okerra konparaketan gainditzeko 
+		(test (member$ (nth$ 1 (explode$ ?erpinIzena))   (create$ Methodology Phase Activity Task Artifact) ))
+		(test (member$ (nth$ 2 (explode$ ?erpinIzena))   (create$ Phase Activity Task Artifact Section SectionWT UploadGraph) ))
+=>	
+
+(bind 	?hurrengoaSakoneran	(DeiarenAzpiprozesua ?erpinIzena ))		
+(assert (GrafoBatenHasierakoErpina  ?hurrengoaSakoneran ?proiektua))			
+
+(printout ?*log* crlf crlf "       \\\\\\\\\\\\\\>> BesteGrafoBateanSakondu: oraingoErpina = " ?erpinObjektua " (" ?erpinIzena ") "   crlf "        \\\\\\\\\\\\\\>> azpiprozesuko Lehena = "  ?hurrengoaSakoneran  )						
+)
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; BISITATUTKO ERPINEI DAGOZKIEN EKINTZAK  ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;			- Artifact: nodoak "Artifact" motako azpi-prozesua du. 
+;				- Section: nodoa idatzi beharreko sekzioa da. 
+;					- "Artifact Section 1 1 1 1 1 14 3 Stakeholder Descriptions |"
+;				- SectionWT: (With Template) nodoa idatzi beharreko sekzioa da eta txantiloia du. 
+;					- "Artifact SectionWT 1 1 4 1 3 1 7 Key abstractions | Templates/ArchitectureNotebook/KeyAbstractions.txt"
+;				- UploadGraph: nodoa igo beharreko grafoa da, hau bakarrik "Use-Case Model" artefaktuan erabiliko da.
+;; ;;Azken bertsioan:CSV fitxategiak 
+;           -> project_id;methodology_id;phase_id;activity_id;task_id;role_id;artifact_id;mota(Write|UploadGraph) 
+; -> Adibidez:       1111;1             ;1       ;          1;3      ;4      ;14         ;Write 
+
+
+(defrule ProiketukoZereginakIdatzi  
+		(ProiketukoZereginakIdatzi ?proiektua ?oraingoErpina)	
+		(ProiektuarenZereginenFitxategia ?proiektua  ?izenLogikoa  irekita TRUE)
+	?erpin<-(object (is-a  node)
+					(name 		?erpinObjektua)
+					(_id 		?erpinIzena)             
+					)
+		(test (eq (upcase ?oraingoErpina) (upcase ?erpinIzena)))   		;;Testuen idazkera okerra konparaketan gainditzeko 
+		(test (eq (nth$ 1 (explode$ ?erpinIzena)) Artifact))    
+		(test (member$ (nth$ 2 (explode$ ?erpinIzena))   (create$ Section SectionWT UploadGraph) ))
+
+=>
+(bind ?metodologia 	(nth$ 3 (explode$ ?erpinIzena)))
+(bind ?fasea 		(nth$ 4 (explode$ ?erpinIzena)))
+(bind ?jarduera 	(nth$ 5 (explode$ ?erpinIzena)))
+(bind ?ataza 		(nth$ 6 (explode$ ?erpinIzena)))
+(bind ?rol 			(nth$ 7 (explode$ ?erpinIzena)))
+(bind ?artefaktua 	(nth$ 8 (explode$ ?erpinIzena)))
+(bind ?sekzioa 		(nth$ 9 (explode$ ?erpinIzena)))
+(bind ?barraPos		(member$ "|" (explode$ ?erpinIzena)))
+(bind ?izena		(implode$ (subseq$ (explode$ ?erpinIzena) 10 (- ?barraPos 1))))
+(bind ?gida			(nth$ (+ ?barraPos 1) (explode$ ?erpinIzena)))
+(if (eq (nth$ 2 (explode$ ?erpinIzena)) UploadGraph)
+	then
+		(printout ?izenLogikoa crlf ?proiektua ";" ?metodologia ";" ?fasea ";" ?jarduera  ";" ?ataza ";" ?rol  ";" ?artefaktua ";UploadGraph;")
+	else
+		(printout ?izenLogikoa crlf ?proiektua ";" ?metodologia ";" ?fasea ";" ?jarduera  ";" ?ataza ";" ?rol  ";" ?artefaktua ";Write;")
+		)
+)
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; SAKONERAKO ALGORITMOAREN FUNTZIONAMENDUA AZTERTZEKO METRIKAK ;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+ 
+
+;(defrule NodoakZenbatu  
+;	(declare (salience -1))
+;	?erpin<-(object (is-a  node)
+;					(name 		?erpinObjektua)
+;					(_id 		?oraingoErpina)             
+;					)
+;	(test (member$ (nth$ 1 (explode$ ?oraingoErpina))   (create$ Methodology Phase Activity Task Artifact) ))					
+;	?N<-(NodoKopurua ?kop)
+;		(not (KopuruaKalkulatua))
+;=>
+;(retract ?N)
+;(assert (NodoKopurua (+ ?kop 1)))
+;)      
+
+;(defrule NodoakZenbatu2  
+;	(declare (salience -10))
+;	(NodoKopurua ?kop&:(> ?kop 0))				
+;=>
+;(assert (KopuruaKalkulatua))
+;)    
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+

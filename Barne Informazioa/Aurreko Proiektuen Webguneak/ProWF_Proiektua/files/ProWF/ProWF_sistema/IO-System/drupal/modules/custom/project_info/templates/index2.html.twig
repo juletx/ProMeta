@@ -1,0 +1,55 @@
+
+<h1>{{ name }}</h1>
+
+</br>
+
+<textarea rows="2" cols="140" readonly>
+{{ description }}
+</textarea>
+
+</br></br>
+
+<p>Start date: {{ start_date }} | End date: {% if end_date %} {{ end_date }} {% else %} undefined {% endif %}</p>
+
+
+<p>Version: {{ version }}</p>
+
+
+<table id="teamtable">
+  <tr>
+    <th>Role</th>
+    <th>Name</th>
+  </tr>
+  <tr>
+    <td>Project Manager</td>
+    <td>{{ project_manager }}</td>
+  </tr>
+  <tr>
+    <td>Analyst</td>
+    <td>{{ analyst }}</td>
+  </tr>
+  <tr>
+    <td>Process Creator</td>
+    <td>{{ process_creator }}</td>
+  </tr>
+  <tr>
+    <td>Architect</td>
+    <td>{{ architect }} </td>
+  </tr>
+  <tr>
+    <td>Developer</td>
+    <td>{{ developer }}</td>
+  </tr>
+  <tr>
+    <td>Tester</td>
+    <td>{{ tester }}</td>
+  </tr>
+  <tr>
+    <td>Stakeholder</td>
+    <td>{{ stakeholder }}</td>
+  </tr>
+</table>
+
+
+
+

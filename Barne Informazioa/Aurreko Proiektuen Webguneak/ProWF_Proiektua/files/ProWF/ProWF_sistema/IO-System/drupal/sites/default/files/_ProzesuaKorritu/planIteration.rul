@@ -1,0 +1,853 @@
+; Mon Jul 06 13:31:01 CEST 2020
+; 
+;+ (version "3.5")
+;+ (build "Build 663")
+
+(definstances planIteration
+([planIteration_node__data_0] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([planIteration_node__data_1] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([planIteration_node__data_10] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([planIteration_node__data_100] of  data
+
+	(_key "x")
+	(Text "-131.66171"))
+
+([planIteration_node__data_101] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([planIteration_node__data_102] of  data
+
+	(_key "shape")
+	(Text "note"))
+
+([planIteration_node__data_103] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([planIteration_node__data_104] of  data
+
+	(_key "label")
+	(Text "Work Items List"))
+
+([planIteration_node__data_105] of  data
+
+	(_key "url")
+	(Text "./Artifacts/IterationPlan/iterationPlan.html"))
+
+([planIteration_node__data_106] of  data
+
+	(_key "y")
+	(Text "33.951134"))
+
+([planIteration_node__data_107] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([planIteration_node__data_108] of  data
+
+	(_key "fontsize")
+	(Text "12"))
+
+([planIteration_node__data_109] of  data
+
+	(_key "y")
+	(Text "-265.65564"))
+
+([planIteration_node__data_11] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([planIteration_node__data_110] of  data
+
+	(_key "label")
+	(Text "fontname"))
+
+([planIteration_node__data_111] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([planIteration_node__data_112] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([planIteration_node__data_113] of  data
+
+	(_key "x")
+	(Text "150.36972"))
+
+([planIteration_node__data_114] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([planIteration_node__data_115] of  data
+
+	(_key "shape")
+	(Text "ellipse"))
+
+([planIteration_node__data_116] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([planIteration_node__data_117] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([planIteration_node__data_118] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([planIteration_node__data_119] of  data
+
+	(_key "x")
+	(Text "-164.45697"))
+
+([planIteration_node__data_12] of  data
+
+	(_key "shape")
+	(Text "note"))
+
+([planIteration_node__data_120] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([planIteration_node__data_121] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([planIteration_node__data_122] of  data
+
+	(_key "label")
+	(Text "t"))
+
+([planIteration_node__data_123] of  data
+
+	(_key "weight")
+	(Text "1.0"))
+
+([planIteration_node__data_124] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([planIteration_node__data_125] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([planIteration_node__data_126] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([planIteration_node__data_127] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([planIteration_node__data_13] of  data
+
+	(_key "x")
+	(Text "-54.330116"))
+
+([planIteration_node__data_14] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([planIteration_node__data_15] of  data
+
+	(_key "label")
+	(Text "Iteration Plan"))
+
+([planIteration_node__data_16] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([planIteration_node__data_17] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([planIteration_node__data_18] of  data
+
+	(_key "x")
+	(Text "198.7208"))
+
+([planIteration_node__data_19] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([planIteration_node__data_2] of  data
+
+	(_key "y")
+	(Text "-8.045388"))
+
+([planIteration_node__data_20] of  data
+
+	(_key "label")
+	(Text "labelloc"))
+
+([planIteration_node__data_21] of  data
+
+	(_key "y")
+	(Text "-308.75854"))
+
+([planIteration_node__data_22] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([planIteration_node__data_23] of  data
+
+	(_key "label")
+	(Text "16"))
+
+([planIteration_node__data_24] of  data
+
+	(_key "fontname")
+	(Text "Arial"))
+
+([planIteration_node__data_25] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([planIteration_node__data_26] of  data
+
+	(_key "fillcolor")
+	(Text "white"))
+
+([planIteration_node__data_27] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([planIteration_node__data_28] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([planIteration_node__data_29] of  data
+
+	(_key "y")
+	(Text "-220.75017"))
+
+([planIteration_node__data_3] of  data
+
+	(_key "x")
+	(Text "-404.47235"))
+
+([planIteration_node__data_30] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([planIteration_node__data_31] of  data
+
+	(_key "y")
+	(Text "516.6738"))
+
+([planIteration_node__data_32] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([planIteration_node__data_33] of  data
+
+	(_key "url")
+	(Text "./Artifacts/RiskList/riskList.html"))
+
+([planIteration_node__data_34] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([planIteration_node__data_35] of  data
+
+	(_key "y")
+	(Text "-386.05508"))
+
+([planIteration_node__data_36] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([planIteration_node__data_37] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([planIteration_node__data_38] of  data
+
+	(_key "weight")
+	(Text "1.0"))
+
+([planIteration_node__data_39] of  data
+
+	(_key "fillcolor")
+	(Text "white"))
+
+([planIteration_node__data_4] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([planIteration_node__data_40] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([planIteration_node__data_41] of  data
+
+	(_key "y")
+	(Text "-39.2631"))
+
+([planIteration_node__data_42] of  data
+
+	(_key "shape")
+	(Text "note"))
+
+([planIteration_node__data_43] of  data
+
+	(_key "x")
+	(Text "-197.01309"))
+
+([planIteration_node__data_44] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([planIteration_node__data_45] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([planIteration_node__data_46] of  data
+
+	(_key "weight")
+	(Text "1.0"))
+
+([planIteration_node__data_47] of  data
+
+	(_key "label")
+	(Text "End Plan Iteration"))
+
+([planIteration_node__data_48] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([planIteration_node__data_49] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([planIteration_node__data_5] of  data
+
+	(_key "y")
+	(Text "-273.09055"))
+
+([planIteration_node__data_50] of  data
+
+	(_key "fontname")
+	(Text "Arial"))
+
+([planIteration_node__data_51] of  data
+
+	(_key "y")
+	(Text "-15.134469"))
+
+([planIteration_node__data_52] of  data
+
+	(_key "label")
+	(Text "Start Plan Iteration"))
+
+([planIteration_node__data_53] of  data
+
+	(_key "fillcolor")
+	(Text "royalblue3"))
+
+([planIteration_node__data_54] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([planIteration_node__data_55] of  data
+
+	(_key "fontsize")
+	(Text "12"))
+
+([planIteration_node__data_56] of  data
+
+	(_key "y")
+	(Text "552.74524"))
+
+([planIteration_node__data_57] of  data
+
+	(_key "x")
+	(Text "119.50338"))
+
+([planIteration_node__data_58] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([planIteration_node__data_59] of  data
+
+	(_key "fontname")
+	(Text "Arial"))
+
+([planIteration_node__data_6] of  data
+
+	(_key "label")
+	(Text "bgcolor"))
+
+([planIteration_node__data_60] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([planIteration_node__data_61] of  data
+
+	(_key "label")
+	(Text "Arial"))
+
+([planIteration_node__data_62] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([planIteration_node__data_63] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([planIteration_node__data_64] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([planIteration_node__data_65] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([planIteration_node__data_66] of  data
+
+	(_key "fontsize")
+	(Text "12"))
+
+([planIteration_node__data_67] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([planIteration_node__data_68] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([planIteration_node__data_69] of  data
+
+	(_key "x")
+	(Text "-56.700417"))
+
+([planIteration_node__data_7] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([planIteration_node__data_70] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([planIteration_node__data_71] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([planIteration_node__data_72] of  data
+
+	(_key "label")
+	(Text "lemonchiffon"))
+
+([planIteration_node__data_73] of  data
+
+	(_key "fillcolor")
+	(Text "white"))
+
+([planIteration_node__data_74] of  data
+
+	(_key "label")
+	(Text "fontsize"))
+
+([planIteration_node__data_75] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([planIteration_node__data_76] of  data
+
+	(_key "weight")
+	(Text "1.0"))
+
+([planIteration_node__data_77] of  data
+
+	(_key "x")
+	(Text "-411.19644"))
+
+([planIteration_node__data_78] of  data
+
+	(_key "url")
+	(Text "./Artifacts/WorkItemsList/workItemsList.html"))
+
+([planIteration_node__data_79] of  data
+
+	(_key "x")
+	(Text "377.70175"))
+
+([planIteration_node__data_8] of  data
+
+	(_key "x")
+	(Text "116.93569"))
+
+([planIteration_node__data_80] of  data
+
+	(_key "y")
+	(Text "-370.29605"))
+
+([planIteration_node__data_81] of  data
+
+	(_key "fillcolor")
+	(Text "royalblue3"))
+
+([planIteration_node__data_82] of  data
+
+	(_key "label")
+	(Text "Risk List"))
+
+([planIteration_node__data_83] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([planIteration_node__data_84] of  data
+
+	(_key "y")
+	(Text "-88.07792"))
+
+([planIteration_node__data_85] of  data
+
+	(_key "x")
+	(Text "255.6818"))
+
+([planIteration_node__data_86] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([planIteration_node__data_87] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([planIteration_node__data_88] of  data
+
+	(_key "x")
+	(Text "51.89785"))
+
+([planIteration_node__data_89] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([planIteration_node__data_9] of  data
+
+	(_key "y")
+	(Text "334.53952"))
+
+([planIteration_node__data_90] of  data
+
+	(_key "label")
+	(Text "label"))
+
+([planIteration_node__data_91] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([planIteration_node__data_92] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([planIteration_node__data_93] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([planIteration_node__data_94] of  data
+
+	(_key "y")
+	(Text "537.21716"))
+
+([planIteration_node__data_95] of  data
+
+	(_key "shape")
+	(Text "ellipse"))
+
+([planIteration_node__data_96] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([planIteration_node__data_97] of  data
+
+	(_key "label")
+	(Text "Plan Iteration"))
+
+([planIteration_node__data_98] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([planIteration_node__data_99] of  data
+
+	(_key "x")
+	(Text "149.02017"))
+
+([planIteration_node__edge_0] of  edge
+
+	(_id "78")
+	(_source "Task Artifact 1 1 2 1 5 8 0 Risk List |")
+	(_target "Task End 1 1 2 1 5 0 0 Plan Iteration |")
+	(dataSlot [planIteration_node__data_123]))
+
+([planIteration_node__edge_1] of  edge
+
+	(_id "77")
+	(_source "Task Artifact 1 1 2 1 5 9 0 Work Items List |")
+	(_target "Task Artifact 1 1 2 1 5 8 0 Risk List |")
+	(dataSlot [planIteration_node__data_76]))
+
+([planIteration_node__edge_2] of  edge
+
+	(_id "75")
+	(_source "Task Start 1 1 2 1 5 0 0 Plan Iteration |")
+	(_target "Task Artifact 1 1 2 1 5 6 0 Iteration Plan |")
+	(dataSlot [planIteration_node__data_38]))
+
+([planIteration_node__edge_3] of  edge
+
+	(_id "76")
+	(_source "Task Artifact 1 1 2 1 5 6 0 Iteration Plan |")
+	(_target "Task Artifact 1 1 2 1 5 9 0 Work Items List |")
+	(dataSlot [planIteration_node__data_46]))
+
+([planIteration_node__graph_0] of  graph
+
+	(_edgedefault "directed")
+	(edgeSlot [planIteration_node__edge_2])
+	(nodeSlot [planIteration_node__node_0]))
+
+([planIteration_node__key_0] of  key
+
+	(_attr.name "label")
+	(_attr.type "string")
+	(_for "node")
+	(_id "label"))
+
+([planIteration_node__key_1] of  key
+
+	(_attr.name "Edge Label")
+	(_attr.type "string")
+	(_for "edge")
+	(_id "edgelabel"))
+
+([planIteration_node__key_10] of  key
+
+	(_attr.name "b")
+	(_attr.type "int")
+	(_for "node")
+	(_id "b"))
+
+([planIteration_node__key_11] of  key
+
+	(_attr.name "fontname")
+	(_attr.type "string")
+	(_for "node")
+	(_id "fontname"))
+
+([planIteration_node__key_12] of  key
+
+	(_attr.name "y")
+	(_attr.type "float")
+	(_for "node")
+	(_id "y"))
+
+([planIteration_node__key_13] of  key
+
+	(_attr.name "shape")
+	(_attr.type "string")
+	(_for "node")
+	(_id "shape"))
+
+([planIteration_node__key_2] of  key
+
+	(_attr.name "url")
+	(_attr.type "string")
+	(_for "node")
+	(_id "url"))
+
+([planIteration_node__key_3] of  key
+
+	(_attr.name "fontsize")
+	(_attr.type "string")
+	(_for "node")
+	(_id "fontsize"))
+
+([planIteration_node__key_4] of  key
+
+	(_attr.name "g")
+	(_attr.type "int")
+	(_for "node")
+	(_id "g"))
+
+([planIteration_node__key_5] of  key
+
+	(_attr.name "fillcolor")
+	(_attr.type "string")
+	(_for "node")
+	(_id "fillcolor"))
+
+([planIteration_node__key_6] of  key
+
+	(_attr.name "size")
+	(_attr.type "float")
+	(_for "node")
+	(_id "size"))
+
+([planIteration_node__key_7] of  key
+
+	(_attr.name "r")
+	(_attr.type "int")
+	(_for "node")
+	(_id "r"))
+
+([planIteration_node__key_8] of  key
+
+	(_attr.name "weight")
+	(_attr.type "double")
+	(_for "edge")
+	(_id "weight"))
+
+([planIteration_node__key_9] of  key
+
+	(_attr.name "x")
+	(_attr.type "float")
+	(_for "node")
+	(_id "x"))
+
+([planIteration_node__node_0] of  node
+
+	(_id "fontsize")
+	(dataSlot [planIteration_node__data_74]))
+
+([planIteration_node__node_1] of  node
+
+	(_id "Task Artifact 1 1 2 1 5 8 0 Risk List |")
+	(dataSlot [planIteration_node__data_82]))
+
+([planIteration_node__node_10] of  node
+
+	(_id "label")
+	(dataSlot [planIteration_node__data_90]))
+
+([planIteration_node__node_11] of  node
+
+	(_id "labelloc")
+	(dataSlot [planIteration_node__data_20]))
+
+([planIteration_node__node_12] of  node
+
+	(_id "lemonchiffon")
+	(dataSlot [planIteration_node__data_72]))
+
+([planIteration_node__node_13] of  node
+
+	(_id "Task End 1 1 2 1 5 0 0 Plan Iteration |")
+	(dataSlot [planIteration_node__data_47]))
+
+([planIteration_node__node_14] of  node
+
+	(_id "Task Start 1 1 2 1 5 0 0 Plan Iteration |")
+	(dataSlot [planIteration_node__data_52]))
+
+([planIteration_node__node_2] of  node
+
+	(_id "Arial")
+	(dataSlot [planIteration_node__data_61]))
+
+([planIteration_node__node_3] of  node
+
+	(_id "Task Artifact 1 1 2 1 5 9 0 Work Items List |")
+	(dataSlot [planIteration_node__data_104]))
+
+([planIteration_node__node_4] of  node
+
+	(_id "16")
+	(dataSlot [planIteration_node__data_23]))
+
+([planIteration_node__node_5] of  node
+
+	(_id "Plan Iteration")
+	(dataSlot [planIteration_node__data_97]))
+
+([planIteration_node__node_6] of  node
+
+	(_id "bgcolor")
+	(dataSlot [planIteration_node__data_6]))
+
+([planIteration_node__node_7] of  node
+
+	(_id "Task Artifact 1 1 2 1 5 6 0 Iteration Plan |")
+	(dataSlot [planIteration_node__data_15]))
+
+([planIteration_node__node_8] of  node
+
+	(_id "fontname")
+	(dataSlot [planIteration_node__data_110]))
+
+([planIteration_node__node_9] of  node
+
+	(_id "t")
+	(dataSlot [planIteration_node__data_122]))
+)

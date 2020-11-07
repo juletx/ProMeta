@@ -1,0 +1,1043 @@
+; Mon Jul 06 17:33:14 CEST 2020
+; 
+;+ (version "3.5")
+;+ (build "Build 663")
+
+(definstances inception
+([inception_data_0] of  data
+
+	(_key "fillcolor")
+	(Text "royalblue3"))
+
+([inception_data_1] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([inception_data_10] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([inception_data_100] of  data
+
+	(_key "x")
+	(Text "449.43103"))
+
+([inception_data_101] of  data
+
+	(_key "y")
+	(Text "59.340027"))
+
+([inception_data_102] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([inception_data_103] of  data
+
+	(_key "fontsize")
+	(Text "12"))
+
+([inception_data_104] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([inception_data_105] of  data
+
+	(_key "margin")
+	(Text "0.11,0.11"))
+
+([inception_data_106] of  data
+
+	(_key "label")
+	(Text "fontname"))
+
+([inception_data_107] of  data
+
+	(_key "y")
+	(Text "34.577393"))
+
+([inception_data_108] of  data
+
+	(_key "margin")
+	(Text "0.11,0.11"))
+
+([inception_data_109] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([inception_data_11] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([inception_data_110] of  data
+
+	(_key "label")
+	(Text "fontsize"))
+
+([inception_data_111] of  data
+
+	(_key "y")
+	(Text "-443.19424"))
+
+([inception_data_112] of  data
+
+	(_key "shape")
+	(Text "box3d"))
+
+([inception_data_113] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([inception_data_114] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([inception_data_115] of  data
+
+	(_key "weight")
+	(Text "1.0"))
+
+([inception_data_116] of  data
+
+	(_key "y")
+	(Text "-464.18448"))
+
+([inception_data_117] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([inception_data_118] of  data
+
+	(_key "x")
+	(Text "640.58234"))
+
+([inception_data_119] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([inception_data_12] of  data
+
+	(_key "fillcolor")
+	(Text "#DCDCDC"))
+
+([inception_data_120] of  data
+
+	(_key "y")
+	(Text "289.36505"))
+
+([inception_data_121] of  data
+
+	(_key "weight")
+	(Text "1.0"))
+
+([inception_data_122] of  data
+
+	(_key "fontsize")
+	(Text "12"))
+
+([inception_data_123] of  data
+
+	(_key "fontsize")
+	(Text "12"))
+
+([inception_data_124] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([inception_data_125] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([inception_data_126] of  data
+
+	(_key "shape")
+	(Text "ellipse"))
+
+([inception_data_127] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([inception_data_128] of  data
+
+	(_key "x")
+	(Text "171.7489"))
+
+([inception_data_129] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([inception_data_13] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([inception_data_130] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([inception_data_131] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([inception_data_132] of  data
+
+	(_key "label")
+	(Text "Identify and Refine Requirements"))
+
+([inception_data_133] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([inception_data_134] of  data
+
+	(_key "x")
+	(Text "-172.9585"))
+
+([inception_data_135] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([inception_data_136] of  data
+
+	(_key "x")
+	(Text "-196.95303"))
+
+([inception_data_137] of  data
+
+	(_key "weight")
+	(Text "1.0"))
+
+([inception_data_138] of  data
+
+	(_key "fontsize")
+	(Text "12"))
+
+([inception_data_139] of  data
+
+	(_key "y")
+	(Text "65.031555"))
+
+([inception_data_14] of  data
+
+	(_key "y")
+	(Text "27.935667"))
+
+([inception_data_140] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([inception_data_141] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([inception_data_142] of  data
+
+	(_key "y")
+	(Text "122.03302"))
+
+([inception_data_143] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([inception_data_144] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([inception_data_145] of  data
+
+	(_key "y")
+	(Text "-291.6756"))
+
+([inception_data_146] of  data
+
+	(_key "shape")
+	(Text "ellipse"))
+
+([inception_data_147] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([inception_data_148] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([inception_data_149] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([inception_data_15] of  data
+
+	(_key "fontname")
+	(Text "Arial"))
+
+([inception_data_150] of  data
+
+	(_key "shape")
+	(Text "box3d"))
+
+([inception_data_151] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([inception_data_152] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([inception_data_153] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([inception_data_154] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([inception_data_155] of  data
+
+	(_key "label")
+	(Text "t"))
+
+([inception_data_156] of  data
+
+	(_key "x")
+	(Text "14.546272"))
+
+([inception_data_16] of  data
+
+	(_key "x")
+	(Text "-269.1282"))
+
+([inception_data_17] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([inception_data_18] of  data
+
+	(_key "x")
+	(Text "-240.8034"))
+
+([inception_data_19] of  data
+
+	(_key "y")
+	(Text "252.82843"))
+
+([inception_data_2] of  data
+
+	(_key "label")
+	(Text "Plan and Manage Iteration"))
+
+([inception_data_20] of  data
+
+	(_key "fillcolor")
+	(Text "#DCDCDC"))
+
+([inception_data_21] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([inception_data_22] of  data
+
+	(_key "x")
+	(Text "-313.2144"))
+
+([inception_data_23] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([inception_data_24] of  data
+
+	(_key "x")
+	(Text "383.393"))
+
+([inception_data_25] of  data
+
+	(_key "weight")
+	(Text "1.0"))
+
+([inception_data_26] of  data
+
+	(_key "label")
+	(Text "Start Inception"))
+
+([inception_data_27] of  data
+
+	(_key "x")
+	(Text "-24.870476"))
+
+([inception_data_28] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([inception_data_29] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([inception_data_3] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([inception_data_30] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([inception_data_31] of  data
+
+	(_key "x")
+	(Text "178.27106"))
+
+([inception_data_32] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([inception_data_33] of  data
+
+	(_key "url")
+	(Text "./IdentifyAndRefineRequirements/identifyAndRefineRequirements.html"))
+
+([inception_data_34] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([inception_data_35] of  data
+
+	(_key "label")
+	(Text "labelloc"))
+
+([inception_data_36] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([inception_data_37] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([inception_data_38] of  data
+
+	(_key "url")
+	(Text "./InitiateProject/initiateProject.html"))
+
+([inception_data_39] of  data
+
+	(_key "y")
+	(Text "267.83905"))
+
+([inception_data_4] of  data
+
+	(_key "fillcolor")
+	(Text "royalblue3"))
+
+([inception_data_40] of  data
+
+	(_key "fontname")
+	(Text "Arial"))
+
+([inception_data_41] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([inception_data_42] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([inception_data_43] of  data
+
+	(_key "label")
+	(Text "Inception"))
+
+([inception_data_44] of  data
+
+	(_key "fillcolor")
+	(Text "#DCDCDC"))
+
+([inception_data_45] of  data
+
+	(_key "margin")
+	(Text "0.11,0.11"))
+
+([inception_data_46] of  data
+
+	(_key "y")
+	(Text "238.3291"))
+
+([inception_data_47] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([inception_data_48] of  data
+
+	(_key "label")
+	(Text "lemonchiffon"))
+
+([inception_data_49] of  data
+
+	(_key "label")
+	(Text "bgcolor"))
+
+([inception_data_5] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([inception_data_50] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([inception_data_51] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([inception_data_52] of  data
+
+	(_key "label")
+	(Text "Join"))
+
+([inception_data_53] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([inception_data_54] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([inception_data_55] of  data
+
+	(_key "fontname")
+	(Text "Arial"))
+
+([inception_data_56] of  data
+
+	(_key "fontname")
+	(Text "Arial"))
+
+([inception_data_57] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([inception_data_58] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([inception_data_59] of  data
+
+	(_key "label")
+	(Text "16"))
+
+([inception_data_6] of  data
+
+	(_key "margin")
+	(Text "0.11,0.11"))
+
+([inception_data_60] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([inception_data_61] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([inception_data_62] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([inception_data_63] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([inception_data_64] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([inception_data_65] of  data
+
+	(_key "x")
+	(Text "-297.69025"))
+
+([inception_data_66] of  data
+
+	(_key "x")
+	(Text "89.22416"))
+
+([inception_data_67] of  data
+
+	(_key "weight")
+	(Text "1.0"))
+
+([inception_data_68] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([inception_data_69] of  data
+
+	(_key "x")
+	(Text "-300.8024"))
+
+([inception_data_7] of  data
+
+	(_key "weight")
+	(Text "1.0"))
+
+([inception_data_70] of  data
+
+	(_key "label")
+	(Text "Agree on the Technical Approach"))
+
+([inception_data_71] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([inception_data_72] of  data
+
+	(_key "weight")
+	(Text "1.0"))
+
+([inception_data_73] of  data
+
+	(_key "y")
+	(Text "171.52612"))
+
+([inception_data_74] of  data
+
+	(_key "label")
+	(Text "Initiate Project"))
+
+([inception_data_75] of  data
+
+	(_key "y")
+	(Text "344.4483"))
+
+([inception_data_76] of  data
+
+	(_key "shape")
+	(Text "box3d"))
+
+([inception_data_77] of  data
+
+	(_key "y")
+	(Text "15.229063"))
+
+([inception_data_78] of  data
+
+	(_key "url")
+	(Text "./AgreeOnTheTechnicalApproach/agreeOnTheTechnicalApproach.html"))
+
+([inception_data_79] of  data
+
+	(_key "shape")
+	(Text "box3d"))
+
+([inception_data_8] of  data
+
+	(_key "label")
+	(Text "label"))
+
+([inception_data_80] of  data
+
+	(_key "fillcolor")
+	(Text "#DCDCDC"))
+
+([inception_data_81] of  data
+
+	(_key "x")
+	(Text "-17.88137"))
+
+([inception_data_82] of  data
+
+	(_key "weight")
+	(Text "1.0"))
+
+([inception_data_83] of  data
+
+	(_key "y")
+	(Text "-156.01279"))
+
+([inception_data_84] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([inception_data_85] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([inception_data_86] of  data
+
+	(_key "fillcolor")
+	(Text "white"))
+
+([inception_data_87] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([inception_data_88] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([inception_data_89] of  data
+
+	(_key "shape")
+	(Text "diamond"))
+
+([inception_data_9] of  data
+
+	(_key "y")
+	(Text "-533.41565"))
+
+([inception_data_90] of  data
+
+	(_key "x")
+	(Text "-92.89483"))
+
+([inception_data_91] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([inception_data_92] of  data
+
+	(_key "label")
+	(Text "Arial"))
+
+([inception_data_93] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([inception_data_94] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([inception_data_95] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([inception_data_96] of  data
+
+	(_key "url")
+	(Text "./PlanAndManageIteration/planAndManageIteration.html"))
+
+([inception_data_97] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([inception_data_98] of  data
+
+	(_key "label")
+	(Text "End Inception"))
+
+([inception_data_99] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([inception_edge_0] of  edge
+
+	(_id "213")
+	(_source "Phase Activity 1 1 4 0 0 0 0 Agree on the Technical Approach |")
+	(_target "Phase Join 1 1 0 0 0 0 0 End access | 3 1")
+	(dataSlot [inception_data_115]))
+
+([inception_edge_1] of  edge
+
+	(_id "211")
+	(_source "Phase Activity 1 1 2 0 0 0 0 Plan and Manage Iteration |")
+	(_target "Phase Join 1 1 0 0 0 0 0 End access | 3 1")
+	(dataSlot [inception_data_82]))
+
+([inception_edge_2] of  edge
+
+	(_id "214")
+	(_source "Phase Join 1 1 0 0 0 0 0 End access | 3 1")
+	(_target "Phase End 1 1 0 0 0 0 0 Inception |")
+	(dataSlot [inception_data_137]))
+
+([inception_edge_3] of  edge
+
+	(_id "207")
+	(_source "Phase Start 1 1 0 0 0 0 0 Inception |")
+	(_target "Phase Activity 1 1 1 0 0 0 0 Initiate Project |")
+	(dataSlot [inception_data_121]))
+
+([inception_edge_4] of  edge
+
+	(_id "208")
+	(_source "Phase Start 1 1 0 0 0 0 0 Inception |")
+	(_target "Phase Activity 1 1 2 0 0 0 0 Plan and Manage Iteration |")
+	(dataSlot [inception_data_7]))
+
+([inception_edge_5] of  edge
+
+	(_id "212")
+	(_source "Phase Activity 1 1 3 0 0 0 0 Identify and Refine Requirements |")
+	(_target "Phase Join 1 1 0 0 0 0 0 End access | 3 1")
+	(dataSlot [inception_data_67]))
+
+([inception_edge_6] of  edge
+
+	(_id "210")
+	(_source "Phase Activity 1 1 1 0 0 0 0 Initiate Project |")
+	(_target "Phase Activity 1 1 4 0 0 0 0 Agree on the Technical Approach |")
+	(dataSlot [inception_data_72]))
+
+([inception_edge_7] of  edge
+
+	(_id "209")
+	(_source "Phase Activity 1 1 1 0 0 0 0 Initiate Project |")
+	(_target "Phase Activity 1 1 3 0 0 0 0 Identify and Refine Requirements |")
+	(dataSlot [inception_data_25]))
+
+([inception_graph_0] of  graph
+
+	(_edgedefault "directed")
+	(edgeSlot [inception_edge_3])
+	(nodeSlot [inception_node_8]))
+
+([inception_key_0] of  key
+
+	(_attr.name "g")
+	(_attr.type "int")
+	(_for "node")
+	(_id "g"))
+
+([inception_key_1] of  key
+
+	(_attr.name "shape")
+	(_attr.type "string")
+	(_for "node")
+	(_id "shape"))
+
+([inception_key_10] of  key
+
+	(_attr.name "fillcolor")
+	(_attr.type "string")
+	(_for "node")
+	(_id "fillcolor"))
+
+([inception_key_11] of  key
+
+	(_attr.name "Edge Label")
+	(_attr.type "string")
+	(_for "edge")
+	(_id "edgelabel"))
+
+([inception_key_12] of  key
+
+	(_attr.name "size")
+	(_attr.type "float")
+	(_for "node")
+	(_id "size"))
+
+([inception_key_13] of  key
+
+	(_attr.name "margin")
+	(_attr.type "string")
+	(_for "node")
+	(_id "margin"))
+
+([inception_key_14] of  key
+
+	(_attr.name "r")
+	(_attr.type "int")
+	(_for "node")
+	(_id "r"))
+
+([inception_key_2] of  key
+
+	(_attr.name "weight")
+	(_attr.type "double")
+	(_for "edge")
+	(_id "weight"))
+
+([inception_key_3] of  key
+
+	(_attr.name "y")
+	(_attr.type "float")
+	(_for "node")
+	(_id "y"))
+
+([inception_key_4] of  key
+
+	(_attr.name "x")
+	(_attr.type "float")
+	(_for "node")
+	(_id "x"))
+
+([inception_key_5] of  key
+
+	(_attr.name "fontsize")
+	(_attr.type "string")
+	(_for "node")
+	(_id "fontsize"))
+
+([inception_key_6] of  key
+
+	(_attr.name "url")
+	(_attr.type "string")
+	(_for "node")
+	(_id "url"))
+
+([inception_key_7] of  key
+
+	(_attr.name "b")
+	(_attr.type "int")
+	(_for "node")
+	(_id "b"))
+
+([inception_key_8] of  key
+
+	(_attr.name "label")
+	(_attr.type "string")
+	(_for "node")
+	(_id "label"))
+
+([inception_key_9] of  key
+
+	(_attr.name "fontname")
+	(_attr.type "string")
+	(_for "node")
+	(_id "fontname"))
+
+([inception_node_0] of  node
+
+	(_id "Inception")
+	(dataSlot [inception_data_43]))
+
+([inception_node_1] of  node
+
+	(_id "labelloc")
+	(dataSlot [inception_data_35]))
+
+([inception_node_10] of  node
+
+	(_id "label")
+	(dataSlot [inception_data_8]))
+
+([inception_node_11] of  node
+
+	(_id "fontname")
+	(dataSlot [inception_data_106]))
+
+([inception_node_12] of  node
+
+	(_id "16")
+	(dataSlot [inception_data_59]))
+
+([inception_node_13] of  node
+
+	(_id "lemonchiffon")
+	(dataSlot [inception_data_48]))
+
+([inception_node_14] of  node
+
+	(_id "Arial")
+	(dataSlot [inception_data_92]))
+
+([inception_node_15] of  node
+
+	(_id "Phase Start 1 1 0 0 0 0 0 Inception |")
+	(dataSlot [inception_data_26]))
+
+([inception_node_16] of  node
+
+	(_id "Phase End 1 1 0 0 0 0 0 Inception |")
+	(dataSlot [inception_data_98]))
+
+([inception_node_2] of  node
+
+	(_id "t")
+	(dataSlot [inception_data_155]))
+
+([inception_node_3] of  node
+
+	(_id "bgcolor")
+	(dataSlot [inception_data_49]))
+
+([inception_node_4] of  node
+
+	(_id "Phase Activity 1 1 2 0 0 0 0 Plan and Manage Iteration |")
+	(dataSlot [inception_data_2]))
+
+([inception_node_5] of  node
+
+	(_id "Phase Activity 1 1 3 0 0 0 0 Identify and Refine Requirements |")
+	(dataSlot [inception_data_132]))
+
+([inception_node_6] of  node
+
+	(_id "Phase Activity 1 1 4 0 0 0 0 Agree on the Technical Approach |")
+	(dataSlot [inception_data_70]))
+
+([inception_node_7] of  node
+
+	(_id "Phase Join 1 1 0 0 0 0 0 End access | 3 1")
+	(dataSlot [inception_data_52]))
+
+([inception_node_8] of  node
+
+	(_id "fontsize")
+	(dataSlot [inception_data_110]))
+
+([inception_node_9] of  node
+
+	(_id "Phase Activity 1 1 1 0 0 0 0 Initiate Project |")
+	(dataSlot [inception_data_74]))
+)

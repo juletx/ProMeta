@@ -1,0 +1,1419 @@
+; Mon Jul 06 13:48:10 CEST 2020
+; 
+;+ (version "3.5")
+;+ (build "Build 663")
+
+(definstances architectureNotebook
+([architectureNotebook_data_0] of  data
+
+	(_key "weight")
+	(Text "1.0"))
+
+([architectureNotebook_data_1] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([architectureNotebook_data_10] of  data
+
+	(_key "fillcolor")
+	(Text "royalblue3"))
+
+([architectureNotebook_data_100] of  data
+
+	(_key "weight")
+	(Text "1.0"))
+
+([architectureNotebook_data_101] of  data
+
+	(_key "margin")
+	(Text "0.11,0.11"))
+
+([architectureNotebook_data_102] of  data
+
+	(_key "shape")
+	(Text "component"))
+
+([architectureNotebook_data_103] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([architectureNotebook_data_104] of  data
+
+	(_key "fontsize")
+	(Text "12"))
+
+([architectureNotebook_data_105] of  data
+
+	(_key "label")
+	(Text "6. Architectural Mechanisms"))
+
+([architectureNotebook_data_106] of  data
+
+	(_key "label")
+	(Text "2. Architectural goals and philosophy"))
+
+([architectureNotebook_data_107] of  data
+
+	(_key "url")
+	(Text "./Templates/ArchitecturalViews.txt"))
+
+([architectureNotebook_data_108] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([architectureNotebook_data_109] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([architectureNotebook_data_11] of  data
+
+	(_key "y")
+	(Text "-41.464165"))
+
+([architectureNotebook_data_110] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([architectureNotebook_data_111] of  data
+
+	(_key "weight")
+	(Text "1.0"))
+
+([architectureNotebook_data_112] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([architectureNotebook_data_113] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([architectureNotebook_data_114] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([architectureNotebook_data_115] of  data
+
+	(_key "y")
+	(Text "381.78223"))
+
+([architectureNotebook_data_116] of  data
+
+	(_key "fontname")
+	(Text "Arial"))
+
+([architectureNotebook_data_117] of  data
+
+	(_key "shape")
+	(Text "component"))
+
+([architectureNotebook_data_118] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([architectureNotebook_data_119] of  data
+
+	(_key "fillcolor")
+	(Text "white"))
+
+([architectureNotebook_data_12] of  data
+
+	(_key "margin")
+	(Text "0.11,0.11"))
+
+([architectureNotebook_data_120] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([architectureNotebook_data_121] of  data
+
+	(_key "fillcolor")
+	(Text "white"))
+
+([architectureNotebook_data_122] of  data
+
+	(_key "x")
+	(Text "-203.79617"))
+
+([architectureNotebook_data_123] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([architectureNotebook_data_124] of  data
+
+	(_key "label")
+	(Text "9. Architectural views"))
+
+([architectureNotebook_data_125] of  data
+
+	(_key "fontsize")
+	(Text "12"))
+
+([architectureNotebook_data_126] of  data
+
+	(_key "fontname")
+	(Text "Arial"))
+
+([architectureNotebook_data_127] of  data
+
+	(_key "fontsize")
+	(Text "12"))
+
+([architectureNotebook_data_128] of  data
+
+	(_key "fontname")
+	(Text "Arial"))
+
+([architectureNotebook_data_129] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([architectureNotebook_data_13] of  data
+
+	(_key "fontcolor")
+	(Text "blue"))
+
+([architectureNotebook_data_130] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([architectureNotebook_data_131] of  data
+
+	(_key "fontcolor")
+	(Text "blue"))
+
+([architectureNotebook_data_132] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([architectureNotebook_data_133] of  data
+
+	(_key "shape")
+	(Text "component"))
+
+([architectureNotebook_data_134] of  data
+
+	(_key "margin")
+	(Text "0.11,0.11"))
+
+([architectureNotebook_data_135] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([architectureNotebook_data_136] of  data
+
+	(_key "label")
+	(Text "7. Key abstractions"))
+
+([architectureNotebook_data_137] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([architectureNotebook_data_138] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([architectureNotebook_data_139] of  data
+
+	(_key "x")
+	(Text "86.840614"))
+
+([architectureNotebook_data_14] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([architectureNotebook_data_140] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([architectureNotebook_data_141] of  data
+
+	(_key "label")
+	(Text "Arial"))
+
+([architectureNotebook_data_142] of  data
+
+	(_key "fontsize")
+	(Text "12"))
+
+([architectureNotebook_data_143] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([architectureNotebook_data_144] of  data
+
+	(_key "shape")
+	(Text "component"))
+
+([architectureNotebook_data_145] of  data
+
+	(_key "weight")
+	(Text "1.0"))
+
+([architectureNotebook_data_146] of  data
+
+	(_key "fontname")
+	(Text "Arial"))
+
+([architectureNotebook_data_147] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([architectureNotebook_data_148] of  data
+
+	(_key "x")
+	(Text "-147.84387"))
+
+([architectureNotebook_data_149] of  data
+
+	(_key "margin")
+	(Text "0.11,0.11"))
+
+([architectureNotebook_data_15] of  data
+
+	(_key "y")
+	(Text "-125.16558"))
+
+([architectureNotebook_data_150] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([architectureNotebook_data_151] of  data
+
+	(_key "shape")
+	(Text "ellipse"))
+
+([architectureNotebook_data_152] of  data
+
+	(_key "fillcolor")
+	(Text "white"))
+
+([architectureNotebook_data_153] of  data
+
+	(_key "y")
+	(Text "327.62115"))
+
+([architectureNotebook_data_154] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([architectureNotebook_data_155] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([architectureNotebook_data_156] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([architectureNotebook_data_157] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([architectureNotebook_data_158] of  data
+
+	(_key "x")
+	(Text "331.22415"))
+
+([architectureNotebook_data_159] of  data
+
+	(_key "x")
+	(Text "159.45486"))
+
+([architectureNotebook_data_16] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([architectureNotebook_data_160] of  data
+
+	(_key "fontname")
+	(Text "Arial"))
+
+([architectureNotebook_data_161] of  data
+
+	(_key "y")
+	(Text "-180.27846"))
+
+([architectureNotebook_data_162] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([architectureNotebook_data_163] of  data
+
+	(_key "label")
+	(Text "fontsize"))
+
+([architectureNotebook_data_164] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([architectureNotebook_data_165] of  data
+
+	(_key "fontcolor")
+	(Text "blue"))
+
+([architectureNotebook_data_166] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([architectureNotebook_data_167] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([architectureNotebook_data_168] of  data
+
+	(_key "url")
+	(Text "./Templates/ArchitecturalGoalsAndPhilosophy.txt"))
+
+([architectureNotebook_data_169] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([architectureNotebook_data_17] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([architectureNotebook_data_170] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([architectureNotebook_data_171] of  data
+
+	(_key "y")
+	(Text "159.34566"))
+
+([architectureNotebook_data_172] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([architectureNotebook_data_173] of  data
+
+	(_key "url")
+	(Text "./Templates/ArchitecturallySignificantRequirements.txt"))
+
+([architectureNotebook_data_174] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([architectureNotebook_data_175] of  data
+
+	(_key "x")
+	(Text "419.56375"))
+
+([architectureNotebook_data_176] of  data
+
+	(_key "label")
+	(Text "labelloc"))
+
+([architectureNotebook_data_177] of  data
+
+	(_key "label")
+	(Text "3. Assumptions and dependencies"))
+
+([architectureNotebook_data_178] of  data
+
+	(_key "fillcolor")
+	(Text "white"))
+
+([architectureNotebook_data_179] of  data
+
+	(_key "x")
+	(Text "212.65573"))
+
+([architectureNotebook_data_18] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([architectureNotebook_data_180] of  data
+
+	(_key "fontname")
+	(Text "Arial"))
+
+([architectureNotebook_data_181] of  data
+
+	(_key "margin")
+	(Text "0.11,0.11"))
+
+([architectureNotebook_data_182] of  data
+
+	(_key "x")
+	(Text "267.223"))
+
+([architectureNotebook_data_183] of  data
+
+	(_key "fontname")
+	(Text "Arial"))
+
+([architectureNotebook_data_184] of  data
+
+	(_key "label")
+	(Text "fontname"))
+
+([architectureNotebook_data_185] of  data
+
+	(_key "weight")
+	(Text "1.0"))
+
+([architectureNotebook_data_186] of  data
+
+	(_key "fontcolor")
+	(Text "blue"))
+
+([architectureNotebook_data_187] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([architectureNotebook_data_188] of  data
+
+	(_key "url")
+	(Text "./Templates/KeyAbstractions.txt"))
+
+([architectureNotebook_data_189] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([architectureNotebook_data_19] of  data
+
+	(_key "fontsize")
+	(Text "12"))
+
+([architectureNotebook_data_190] of  data
+
+	(_key "label")
+	(Text "Start Architecture Notebook"))
+
+([architectureNotebook_data_191] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([architectureNotebook_data_192] of  data
+
+	(_key "shape")
+	(Text "component"))
+
+([architectureNotebook_data_193] of  data
+
+	(_key "fontcolor")
+	(Text "blue"))
+
+([architectureNotebook_data_194] of  data
+
+	(_key "fontsize")
+	(Text "12"))
+
+([architectureNotebook_data_195] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([architectureNotebook_data_196] of  data
+
+	(_key "label")
+	(Text "5. Decisions, constraints, and justifications"))
+
+([architectureNotebook_data_197] of  data
+
+	(_key "fontcolor")
+	(Text "blue"))
+
+([architectureNotebook_data_198] of  data
+
+	(_key "weight")
+	(Text "1.0"))
+
+([architectureNotebook_data_199] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([architectureNotebook_data_2] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([architectureNotebook_data_20] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([architectureNotebook_data_200] of  data
+
+	(_key "label")
+	(Text "Architecture Notebook"))
+
+([architectureNotebook_data_201] of  data
+
+	(_key "y")
+	(Text "-305.74744"))
+
+([architectureNotebook_data_202] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([architectureNotebook_data_203] of  data
+
+	(_key "label")
+	(Text "End Architecture Notebook"))
+
+([architectureNotebook_data_204] of  data
+
+	(_key "label")
+	(Text "8. Layers or architectural framework"))
+
+([architectureNotebook_data_205] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([architectureNotebook_data_206] of  data
+
+	(_key "y")
+	(Text "13.530038"))
+
+([architectureNotebook_data_207] of  data
+
+	(_key "y")
+	(Text "212.22292"))
+
+([architectureNotebook_data_208] of  data
+
+	(_key "shape")
+	(Text "component"))
+
+([architectureNotebook_data_209] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([architectureNotebook_data_21] of  data
+
+	(_key "y")
+	(Text "119.751045"))
+
+([architectureNotebook_data_210] of  data
+
+	(_key "fontsize")
+	(Text "12"))
+
+([architectureNotebook_data_211] of  data
+
+	(_key "y")
+	(Text "-371.96667"))
+
+([architectureNotebook_data_212] of  data
+
+	(_key "label")
+	(Text "t"))
+
+([architectureNotebook_data_213] of  data
+
+	(_key "fontcolor")
+	(Text "blue"))
+
+([architectureNotebook_data_214] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([architectureNotebook_data_215] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([architectureNotebook_data_216] of  data
+
+	(_key "x")
+	(Text "146.2775"))
+
+([architectureNotebook_data_217] of  data
+
+	(_key "label")
+	(Text "4. Architecturally significant requirements"))
+
+([architectureNotebook_data_218] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([architectureNotebook_data_219] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([architectureNotebook_data_22] of  data
+
+	(_key "url")
+	(Text "./Templates/Purpose.txt"))
+
+([architectureNotebook_data_220] of  data
+
+	(_key "weight")
+	(Text "1.0"))
+
+([architectureNotebook_data_221] of  data
+
+	(_key "y")
+	(Text "90.72944"))
+
+([architectureNotebook_data_222] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([architectureNotebook_data_223] of  data
+
+	(_key "x")
+	(Text "-396.4946"))
+
+([architectureNotebook_data_23] of  data
+
+	(_key "fontsize")
+	(Text "12"))
+
+([architectureNotebook_data_24] of  data
+
+	(_key "url")
+	(Text "./Templates/ArchitecturalMechanisms.txt"))
+
+([architectureNotebook_data_25] of  data
+
+	(_key "y")
+	(Text "111.932014"))
+
+([architectureNotebook_data_26] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([architectureNotebook_data_27] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([architectureNotebook_data_28] of  data
+
+	(_key "shape")
+	(Text "component"))
+
+([architectureNotebook_data_29] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([architectureNotebook_data_3] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([architectureNotebook_data_30] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([architectureNotebook_data_31] of  data
+
+	(_key "x")
+	(Text "-45.1155"))
+
+([architectureNotebook_data_32] of  data
+
+	(_key "fillcolor")
+	(Text "white"))
+
+([architectureNotebook_data_33] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([architectureNotebook_data_34] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([architectureNotebook_data_35] of  data
+
+	(_key "fillcolor")
+	(Text "royalblue3"))
+
+([architectureNotebook_data_36] of  data
+
+	(_key "label")
+	(Text "label"))
+
+([architectureNotebook_data_37] of  data
+
+	(_key "fontsize")
+	(Text "12"))
+
+([architectureNotebook_data_38] of  data
+
+	(_key "fontname")
+	(Text "Arial"))
+
+([architectureNotebook_data_39] of  data
+
+	(_key "fillcolor")
+	(Text "white"))
+
+([architectureNotebook_data_4] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([architectureNotebook_data_40] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([architectureNotebook_data_41] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([architectureNotebook_data_42] of  data
+
+	(_key "label")
+	(Text "1. Purpose"))
+
+([architectureNotebook_data_43] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([architectureNotebook_data_44] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([architectureNotebook_data_45] of  data
+
+	(_key "fillcolor")
+	(Text "white"))
+
+([architectureNotebook_data_46] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([architectureNotebook_data_47] of  data
+
+	(_key "label")
+	(Text "16"))
+
+([architectureNotebook_data_48] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([architectureNotebook_data_49] of  data
+
+	(_key "x")
+	(Text "86.78672"))
+
+([architectureNotebook_data_5] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([architectureNotebook_data_50] of  data
+
+	(_key "url")
+	(Text "./Templates/LayersOrArchitecturalFramework.txt"))
+
+([architectureNotebook_data_51] of  data
+
+	(_key "fillcolor")
+	(Text "white"))
+
+([architectureNotebook_data_52] of  data
+
+	(_key "fontcolor")
+	(Text "blue"))
+
+([architectureNotebook_data_53] of  data
+
+	(_key "y")
+	(Text "358.0407"))
+
+([architectureNotebook_data_54] of  data
+
+	(_key "x")
+	(Text "-88.096"))
+
+([architectureNotebook_data_55] of  data
+
+	(_key "y")
+	(Text "-527.9217"))
+
+([architectureNotebook_data_56] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([architectureNotebook_data_57] of  data
+
+	(_key "y")
+	(Text "223.20973"))
+
+([architectureNotebook_data_58] of  data
+
+	(_key "x")
+	(Text "-313.5852"))
+
+([architectureNotebook_data_59] of  data
+
+	(_key "shape")
+	(Text "component"))
+
+([architectureNotebook_data_6] of  data
+
+	(_key "y")
+	(Text "253.98775"))
+
+([architectureNotebook_data_60] of  data
+
+	(_key "label")
+	(Text "bgcolor"))
+
+([architectureNotebook_data_61] of  data
+
+	(_key "weight")
+	(Text "1.0"))
+
+([architectureNotebook_data_62] of  data
+
+	(_key "margin")
+	(Text "0.11,0.11"))
+
+([architectureNotebook_data_63] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([architectureNotebook_data_64] of  data
+
+	(_key "y")
+	(Text "41.396065"))
+
+([architectureNotebook_data_65] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([architectureNotebook_data_66] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([architectureNotebook_data_67] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([architectureNotebook_data_68] of  data
+
+	(_key "x")
+	(Text "290.19223"))
+
+([architectureNotebook_data_69] of  data
+
+	(_key "margin")
+	(Text "0.11,0.11"))
+
+([architectureNotebook_data_7] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([architectureNotebook_data_70] of  data
+
+	(_key "y")
+	(Text "-528.0195"))
+
+([architectureNotebook_data_71] of  data
+
+	(_key "url")
+	(Text "./Templates/AssumptionsAndDependencies.txt"))
+
+([architectureNotebook_data_72] of  data
+
+	(_key "x")
+	(Text "-315.39316"))
+
+([architectureNotebook_data_73] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([architectureNotebook_data_74] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([architectureNotebook_data_75] of  data
+
+	(_key "x")
+	(Text "-56.2073"))
+
+([architectureNotebook_data_76] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([architectureNotebook_data_77] of  data
+
+	(_key "label")
+	(Text "lemonchiffon"))
+
+([architectureNotebook_data_78] of  data
+
+	(_key "url")
+	(Text "./Templates/DecisionsConstraintsAndJustifications.txt"))
+
+([architectureNotebook_data_79] of  data
+
+	(_key "weight")
+	(Text "1.0"))
+
+([architectureNotebook_data_8] of  data
+
+	(_key "x")
+	(Text "36.296913"))
+
+([architectureNotebook_data_80] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([architectureNotebook_data_81] of  data
+
+	(_key "y")
+	(Text "-36.232414"))
+
+([architectureNotebook_data_82] of  data
+
+	(_key "x")
+	(Text "-498.94034"))
+
+([architectureNotebook_data_83] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([architectureNotebook_data_84] of  data
+
+	(_key "x")
+	(Text "337.34116"))
+
+([architectureNotebook_data_85] of  data
+
+	(_key "fontcolor")
+	(Text "blue"))
+
+([architectureNotebook_data_86] of  data
+
+	(_key "shape")
+	(Text "component"))
+
+([architectureNotebook_data_87] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([architectureNotebook_data_88] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([architectureNotebook_data_89] of  data
+
+	(_key "margin")
+	(Text "0.11,0.11"))
+
+([architectureNotebook_data_9] of  data
+
+	(_key "y")
+	(Text "-176.75288"))
+
+([architectureNotebook_data_90] of  data
+
+	(_key "fontname")
+	(Text "Arial"))
+
+([architectureNotebook_data_91] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([architectureNotebook_data_92] of  data
+
+	(_key "shape")
+	(Text "ellipse"))
+
+([architectureNotebook_data_93] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([architectureNotebook_data_94] of  data
+
+	(_key "fillcolor")
+	(Text "white"))
+
+([architectureNotebook_data_95] of  data
+
+	(_key "weight")
+	(Text "1.0"))
+
+([architectureNotebook_data_96] of  data
+
+	(_key "margin")
+	(Text "0.11,0.11"))
+
+([architectureNotebook_data_97] of  data
+
+	(_key "x")
+	(Text "-308.38455"))
+
+([architectureNotebook_data_98] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([architectureNotebook_data_99] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([architectureNotebook_edge_0] of  edge
+
+	(_id "135")
+	(_source "Artifact SectionWT 1 1 4 1 3 1 6 Architectural Mechanisms | Templates/ArchitectureNotebook/ArchitecturalMechanisms.txt")
+	(_target "Artifact SectionWT 1 1 4 1 3 1 7 Key abstractions | Templates/ArchitectureNotebook/KeyAbstractions.txt")
+	(dataSlot [architectureNotebook_data_0]))
+
+([architectureNotebook_edge_1] of  edge
+
+	(_id "133")
+	(_source "Artifact SectionWT 1 1 4 1 3 1 4 Architecturally significant requirements | Templates/ArchitectureNotebook/ArchitecturallySignificantRequirements.txt")
+	(_target "Artifact SectionWT 1 1 4 1 3 1 5 Decisions, constraints, and justifications | Templates/ArchitectureNotebook/DecisionsConstraintsAndJustifications.txt")
+	(dataSlot [architectureNotebook_data_220]))
+
+([architectureNotebook_edge_2] of  edge
+
+	(_id "130")
+	(_source "Artifact SectionWT 1 1 4 1 3 1 1 Purpose | Templates/ArchitectureNotebook/Purpose.txt")
+	(_target "Artifact SectionWT 1 1 4 1 3 1 2 Architectural goals and philosophy | Templates/ArchitectureNotebook/ArchitecturalGoalsAndPhilosophy.txt")
+	(dataSlot [architectureNotebook_data_198]))
+
+([architectureNotebook_edge_3] of  edge
+
+	(_id "132")
+	(_source "Artifact SectionWT 1 1 4 1 3 1 3 Assumptions and dependencies | Templates/ArchitectureNotebook/AssumptionsAndDependencies.txt")
+	(_target "Artifact SectionWT 1 1 4 1 3 1 4 Architecturally significant requirements | Templates/ArchitectureNotebook/ArchitecturallySignificantRequirements.txt")
+	(dataSlot [architectureNotebook_data_111]))
+
+([architectureNotebook_edge_4] of  edge
+
+	(_id "129")
+	(_source "Artifact Start 1 1 4 1 3 1 0 Architecture Notebook |")
+	(_target "Artifact SectionWT 1 1 4 1 3 1 1 Purpose | Templates/ArchitectureNotebook/Purpose.txt")
+	(dataSlot [architectureNotebook_data_61]))
+
+([architectureNotebook_edge_5] of  edge
+
+	(_id "134")
+	(_source "Artifact SectionWT 1 1 4 1 3 1 5 Decisions, constraints, and justifications | Templates/ArchitectureNotebook/DecisionsConstraintsAndJustifications.txt")
+	(_target "Artifact SectionWT 1 1 4 1 3 1 6 Architectural Mechanisms | Templates/ArchitectureNotebook/ArchitecturalMechanisms.txt")
+	(dataSlot [architectureNotebook_data_145]))
+
+([architectureNotebook_edge_6] of  edge
+
+	(_id "136")
+	(_source "Artifact SectionWT 1 1 4 1 3 1 7 Key abstractions | Templates/ArchitectureNotebook/KeyAbstractions.txt")
+	(_target "Artifact SectionWT 1 1 4 1 3 1 8 Layers or architectural framework | Templates/ArchitectureNotebook/LayersOrArchitecturalFramework.txt")
+	(dataSlot [architectureNotebook_data_95]))
+
+([architectureNotebook_edge_7] of  edge
+
+	(_id "137")
+	(_source "Artifact SectionWT 1 1 4 1 3 1 8 Layers or architectural framework | Templates/ArchitectureNotebook/LayersOrArchitecturalFramework.txt")
+	(_target "Artifact SectionWT 1 1 4 1 3 1 9 Architectural views | Templates/ArchitectureNotebook/ArchitecturalViews.txt")
+	(dataSlot [architectureNotebook_data_79]))
+
+([architectureNotebook_edge_8] of  edge
+
+	(_id "131")
+	(_source "Artifact SectionWT 1 1 4 1 3 1 2 Architectural goals and philosophy | Templates/ArchitectureNotebook/ArchitecturalGoalsAndPhilosophy.txt")
+	(_target "Artifact SectionWT 1 1 4 1 3 1 3 Assumptions and dependencies | Templates/ArchitectureNotebook/AssumptionsAndDependencies.txt")
+	(dataSlot [architectureNotebook_data_100]))
+
+([architectureNotebook_edge_9] of  edge
+
+	(_id "138")
+	(_source "Artifact SectionWT 1 1 4 1 3 1 9 Architectural views | Templates/ArchitectureNotebook/ArchitecturalViews.txt")
+	(_target "Artifact End 1 1 4 1 3 1 0 Architecture Notebook |")
+	(dataSlot [architectureNotebook_data_185]))
+
+([architectureNotebook_graph_0] of  graph
+
+	(_edgedefault "directed")
+	(edgeSlot [architectureNotebook_edge_4])
+	(nodeSlot [architectureNotebook_node_15]))
+
+([architectureNotebook_key_0] of  key
+
+	(_attr.name "fontcolor")
+	(_attr.type "string")
+	(_for "node")
+	(_id "fontcolor"))
+
+([architectureNotebook_key_1] of  key
+
+	(_attr.name "fillcolor")
+	(_attr.type "string")
+	(_for "node")
+	(_id "fillcolor"))
+
+([architectureNotebook_key_10] of  key
+
+	(_attr.name "y")
+	(_attr.type "float")
+	(_for "node")
+	(_id "y"))
+
+([architectureNotebook_key_11] of  key
+
+	(_attr.name "shape")
+	(_attr.type "string")
+	(_for "node")
+	(_id "shape"))
+
+([architectureNotebook_key_12] of  key
+
+	(_attr.name "x")
+	(_attr.type "float")
+	(_for "node")
+	(_id "x"))
+
+([architectureNotebook_key_13] of  key
+
+	(_attr.name "b")
+	(_attr.type "int")
+	(_for "node")
+	(_id "b"))
+
+([architectureNotebook_key_14] of  key
+
+	(_attr.name "fontname")
+	(_attr.type "string")
+	(_for "node")
+	(_id "fontname"))
+
+([architectureNotebook_key_15] of  key
+
+	(_attr.name "fontsize")
+	(_attr.type "string")
+	(_for "node")
+	(_id "fontsize"))
+
+([architectureNotebook_key_2] of  key
+
+	(_attr.name "size")
+	(_attr.type "float")
+	(_for "node")
+	(_id "size"))
+
+([architectureNotebook_key_3] of  key
+
+	(_attr.name "Edge Label")
+	(_attr.type "string")
+	(_for "edge")
+	(_id "edgelabel"))
+
+([architectureNotebook_key_4] of  key
+
+	(_attr.name "label")
+	(_attr.type "string")
+	(_for "node")
+	(_id "label"))
+
+([architectureNotebook_key_5] of  key
+
+	(_attr.name "weight")
+	(_attr.type "double")
+	(_for "edge")
+	(_id "weight"))
+
+([architectureNotebook_key_6] of  key
+
+	(_attr.name "margin")
+	(_attr.type "string")
+	(_for "node")
+	(_id "margin"))
+
+([architectureNotebook_key_7] of  key
+
+	(_attr.name "url")
+	(_attr.type "string")
+	(_for "node")
+	(_id "url"))
+
+([architectureNotebook_key_8] of  key
+
+	(_attr.name "r")
+	(_attr.type "int")
+	(_for "node")
+	(_id "r"))
+
+([architectureNotebook_key_9] of  key
+
+	(_attr.name "g")
+	(_attr.type "int")
+	(_for "node")
+	(_id "g"))
+
+([architectureNotebook_node_0] of  node
+
+	(_id "Artifact SectionWT 1 1 4 1 3 1 7 Key abstractions | Templates/ArchitectureNotebook/KeyAbstractions.txt")
+	(dataSlot [architectureNotebook_data_136]))
+
+([architectureNotebook_node_1] of  node
+
+	(_id "Artifact SectionWT 1 1 4 1 3 1 3 Assumptions and dependencies | Templates/ArchitectureNotebook/AssumptionsAndDependencies.txt")
+	(dataSlot [architectureNotebook_data_177]))
+
+([architectureNotebook_node_10] of  node
+
+	(_id "Artifact SectionWT 1 1 4 1 3 1 6 Architectural Mechanisms | Templates/ArchitectureNotebook/ArchitecturalMechanisms.txt")
+	(dataSlot [architectureNotebook_data_105]))
+
+([architectureNotebook_node_11] of  node
+
+	(_id "Artifact SectionWT 1 1 4 1 3 1 8 Layers or architectural framework | Templates/ArchitectureNotebook/LayersOrArchitecturalFramework.txt")
+	(dataSlot [architectureNotebook_data_204]))
+
+([architectureNotebook_node_12] of  node
+
+	(_id "bgcolor")
+	(dataSlot [architectureNotebook_data_60]))
+
+([architectureNotebook_node_13] of  node
+
+	(_id "Artifact SectionWT 1 1 4 1 3 1 1 Purpose | Templates/ArchitectureNotebook/Purpose.txt")
+	(dataSlot [architectureNotebook_data_42]))
+
+([architectureNotebook_node_14] of  node
+
+	(_id "16")
+	(dataSlot [architectureNotebook_data_47]))
+
+([architectureNotebook_node_15] of  node
+
+	(_id "fontsize")
+	(dataSlot [architectureNotebook_data_163]))
+
+([architectureNotebook_node_16] of  node
+
+	(_id "lemonchiffon")
+	(dataSlot [architectureNotebook_data_77]))
+
+([architectureNotebook_node_17] of  node
+
+	(_id "Artifact Start 1 1 4 1 3 1 0 Architecture Notebook |")
+	(dataSlot [architectureNotebook_data_190]))
+
+([architectureNotebook_node_18] of  node
+
+	(_id "Artifact SectionWT 1 1 4 1 3 1 5 Decisions, constraints, and justifications | Templates/ArchitectureNotebook/DecisionsConstraintsAndJustifications.txt")
+	(dataSlot [architectureNotebook_data_196]))
+
+([architectureNotebook_node_19] of  node
+
+	(_id "Artifact SectionWT 1 1 4 1 3 1 4 Architecturally significant requirements | Templates/ArchitectureNotebook/ArchitecturallySignificantRequirements.txt")
+	(dataSlot [architectureNotebook_data_217]))
+
+([architectureNotebook_node_2] of  node
+
+	(_id "fontname")
+	(dataSlot [architectureNotebook_data_184]))
+
+([architectureNotebook_node_20] of  node
+
+	(_id "label")
+	(dataSlot [architectureNotebook_data_36]))
+
+([architectureNotebook_node_3] of  node
+
+	(_id "Arial")
+	(dataSlot [architectureNotebook_data_141]))
+
+([architectureNotebook_node_4] of  node
+
+	(_id "Architecture Notebook")
+	(dataSlot [architectureNotebook_data_200]))
+
+([architectureNotebook_node_5] of  node
+
+	(_id "Artifact SectionWT 1 1 4 1 3 1 2 Architectural goals and philosophy | Templates/ArchitectureNotebook/ArchitecturalGoalsAndPhilosophy.txt")
+	(dataSlot [architectureNotebook_data_106]))
+
+([architectureNotebook_node_6] of  node
+
+	(_id "labelloc")
+	(dataSlot [architectureNotebook_data_176]))
+
+([architectureNotebook_node_7] of  node
+
+	(_id "t")
+	(dataSlot [architectureNotebook_data_212]))
+
+([architectureNotebook_node_8] of  node
+
+	(_id "Artifact SectionWT 1 1 4 1 3 1 9 Architectural views | Templates/ArchitectureNotebook/ArchitecturalViews.txt")
+	(dataSlot [architectureNotebook_data_124]))
+
+([architectureNotebook_node_9] of  node
+
+	(_id "Artifact End 1 1 4 1 3 1 0 Architecture Notebook |")
+	(dataSlot [architectureNotebook_data_203]))
+)

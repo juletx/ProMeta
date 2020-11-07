@@ -1,0 +1,8 @@
+outstanding_tasks.routing:
+   path: outstanding_tasks
+   defaults:
+      _title: 'Outstanding Artifacts'
+      _controller: Drupal\outstanding_tasks\Controller\OutstandingTasksController::test
+   requirements:
+      _permission: 'access content+access user profiles'
+      _role: 'project_analyst'

@@ -1,0 +1,4 @@
+name: 'Workflow Execution'
+description: 'Shows current phase, activity and task and executes the workflow'
+core: 8.x
+type: module

@@ -1,0 +1,71 @@
+.role-image-text{
+  vertical-align: middle;
+}
+
+#assess-input input{
+	float:left;
+}
+
+.section-guide{
+	color: #4040bf;
+}
+
+.WA-tab {
+  display: none;
+}
+
+/*
+.WA-tab:first-child {
+    display: inline;
+}*/
+
+.WA-buttonContainer{
+	text-align: center;
+}
+.WA-button {
+  margin:0 2px 0;
+  background-color: #20232c;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 17px;
+  font-family: Raleway;
+  cursor: pointer;
+}
+
+.WA-button:hover {
+  opacity: 0.8;
+}
+
+#WA-submit{
+	background-color: #206040;
+}
+
+#prevBtn {
+  background-color: #8e8ea4;
+  display: none;
+}
+
+
+#teamtable {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#teamtable td, #teamtable th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#teamtable tr:nth-child(even){background-color: #f2f2f2;}
+
+#teamtable tr:hover {background-color: #ddd;}
+
+#teamtable th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4d4d4d;
+  color: white;
+}

@@ -1,0 +1,7 @@
+workflow_execution.routing:
+   path: workflow_execution
+   defaults:
+      _controller: Drupal\workflow_execution\Controller\WorkflowExecutionController::test
+   requirements:
+      _permission: 'access content+access user profiles'
+      _role: 'project_analyst'

@@ -1,0 +1,7 @@
+
+{% set result = document|split(';') %}
+<a href="http://localhost/drupal/sites/default/files/{{ result[1] }}" download>
+  <img class="role-image-text" src="http:\\localhost\drupal\images\pdf_image.png" alt="ROLE IMAGE" width="40" height="85">    Download {{ result[0] }}
+</a>
+<br>
+Version: {{ result[2] }}

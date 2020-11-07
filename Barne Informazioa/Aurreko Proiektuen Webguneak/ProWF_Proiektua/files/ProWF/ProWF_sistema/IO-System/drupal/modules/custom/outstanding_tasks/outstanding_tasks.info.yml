@@ -1,0 +1,4 @@
+name: 'Tareas pendientes'
+description: 'Muestra las tareas pendientes'
+core: 8.x
+type: module

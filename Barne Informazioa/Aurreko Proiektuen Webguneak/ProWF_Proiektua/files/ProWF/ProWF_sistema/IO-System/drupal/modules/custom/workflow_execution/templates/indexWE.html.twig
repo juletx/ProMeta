@@ -1,0 +1,68 @@
+{% set aux = method|split(';') %}
+<h2>{{ aux[0] }} v{{ aux[1] }} - Project: {{ project }}</h2>
+{% if func == "initiate" %}
+	<center>
+		<button onclick="location.href = 'http://localhost/drupal/workflow_execution?project={{ project }}&next=yes';">Initiate Lifecycle</button>
+	</center>
+{% elseif func=="execute" %}
+	{% set aux = current_task|split(';') %}
+	<h2>Current task</h2>
+	<table>
+	  <tr>
+		<th>Phase</th>
+		<th>Activity</th>
+		<th>Task</th>
+		<th>Role</th>
+	  </tr>
+	  <tr>
+		<td>{{ aux[0] }}</td>
+		<td>{{ aux[1] }}</td>
+		<td>{{ aux[2] }}</td>
+		<td>{{ aux[3] }}</td>
+	  </tr>
+	</table>
+
+	<h2>Completed artifacts of the current task</h2>
+	{% if project_artifacts %}
+		<table>
+		  <tr>
+			<th>Artifact</th>
+			<th>Start date</th>
+			<th>Version</th>
+			<th>Hours worked</th>
+			<th>Editor's assessment</th>
+			<th>Qulity Manager's assessment</th>
+		  </tr>
+		  {% for artifact in project_artifacts %}
+			{% set aux = artifact|split(';') %}
+			  <tr>
+				<td>{{ aux[0] }}</td>
+				<td>{{ aux[2] }}</td>
+				<td>{{ aux[1] }}</td>
+				<td>{{ aux[3] }}</td>
+				<td>{{ aux[4] }}</td>
+				<td>{% if aux[5] %}{{ aux[5] }}{% else %}Not assessed{% endif %}</td>
+			  </tr>
+		 {% endfor %}
+		</table>
+	{% else %}
+		<p>No artifact has been completed yet</p>
+	{% endif %}
+	<br>
+	<center>
+		<button onclick="location.href = 'http://localhost/drupal/workflow_execution?project={{ project }}&next=yes';">Go to the next task</button>
+	</center>
+{% else %}
+<br>
+<p>Project finished</p>
+
+{% endif %}
+
+
+
+
+
+
+
+
+

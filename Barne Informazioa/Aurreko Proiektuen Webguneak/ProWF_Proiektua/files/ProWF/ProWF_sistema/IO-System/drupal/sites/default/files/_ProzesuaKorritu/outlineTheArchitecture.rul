@@ -1,0 +1,699 @@
+; Mon Jul 06 13:14:25 CEST 2020
+; 
+;+ (version "3.5")
+;+ (build "Build 663")
+
+(definstances outlineTheArchitecture
+([outlineTheArchitecture_data_0] of  data
+
+	(_key "shape")
+	(Text "ellipse"))
+
+([outlineTheArchitecture_data_1] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([outlineTheArchitecture_data_10] of  data
+
+	(_key "x")
+	(Text "457.87894"))
+
+([outlineTheArchitecture_data_100] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([outlineTheArchitecture_data_101] of  data
+
+	(_key "label")
+	(Text "t"))
+
+([outlineTheArchitecture_data_11] of  data
+
+	(_key "y")
+	(Text "-241.13971"))
+
+([outlineTheArchitecture_data_12] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([outlineTheArchitecture_data_13] of  data
+
+	(_key "y")
+	(Text "291.56442"))
+
+([outlineTheArchitecture_data_14] of  data
+
+	(_key "y")
+	(Text "347.37454"))
+
+([outlineTheArchitecture_data_15] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([outlineTheArchitecture_data_16] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([outlineTheArchitecture_data_17] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([outlineTheArchitecture_data_18] of  data
+
+	(_key "label")
+	(Text "Outline The Architecture"))
+
+([outlineTheArchitecture_data_19] of  data
+
+	(_key "y")
+	(Text "26.451998"))
+
+([outlineTheArchitecture_data_2] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([outlineTheArchitecture_data_20] of  data
+
+	(_key "label")
+	(Text "labelloc"))
+
+([outlineTheArchitecture_data_21] of  data
+
+	(_key "x")
+	(Text "66.14793"))
+
+([outlineTheArchitecture_data_22] of  data
+
+	(_key "label")
+	(Text "label"))
+
+([outlineTheArchitecture_data_23] of  data
+
+	(_key "shape")
+	(Text "ellipse"))
+
+([outlineTheArchitecture_data_24] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([outlineTheArchitecture_data_25] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([outlineTheArchitecture_data_26] of  data
+
+	(_key "weight")
+	(Text "1.0"))
+
+([outlineTheArchitecture_data_27] of  data
+
+	(_key "x")
+	(Text "9.929998"))
+
+([outlineTheArchitecture_data_28] of  data
+
+	(_key "label")
+	(Text "Start Outline The Architecture"))
+
+([outlineTheArchitecture_data_29] of  data
+
+	(_key "y")
+	(Text "-504.1222"))
+
+([outlineTheArchitecture_data_3] of  data
+
+	(_key "label")
+	(Text "bgcolor"))
+
+([outlineTheArchitecture_data_30] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([outlineTheArchitecture_data_31] of  data
+
+	(_key "label")
+	(Text "16"))
+
+([outlineTheArchitecture_data_32] of  data
+
+	(_key "weight")
+	(Text "1.0"))
+
+([outlineTheArchitecture_data_33] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([outlineTheArchitecture_data_34] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([outlineTheArchitecture_data_35] of  data
+
+	(_key "x")
+	(Text "-363.7207"))
+
+([outlineTheArchitecture_data_36] of  data
+
+	(_key "y")
+	(Text "10.810091"))
+
+([outlineTheArchitecture_data_37] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([outlineTheArchitecture_data_38] of  data
+
+	(_key "x")
+	(Text "236.88217"))
+
+([outlineTheArchitecture_data_39] of  data
+
+	(_key "fillcolor")
+	(Text "white"))
+
+([outlineTheArchitecture_data_4] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([outlineTheArchitecture_data_40] of  data
+
+	(_key "label")
+	(Text "lemonchiffon"))
+
+([outlineTheArchitecture_data_41] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([outlineTheArchitecture_data_42] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([outlineTheArchitecture_data_43] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([outlineTheArchitecture_data_44] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([outlineTheArchitecture_data_45] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([outlineTheArchitecture_data_46] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([outlineTheArchitecture_data_47] of  data
+
+	(_key "label")
+	(Text "Architecture Notebook"))
+
+([outlineTheArchitecture_data_48] of  data
+
+	(_key "x")
+	(Text "263.95078"))
+
+([outlineTheArchitecture_data_49] of  data
+
+	(_key "y")
+	(Text "-278.5144"))
+
+([outlineTheArchitecture_data_5] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([outlineTheArchitecture_data_50] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([outlineTheArchitecture_data_51] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([outlineTheArchitecture_data_52] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([outlineTheArchitecture_data_53] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([outlineTheArchitecture_data_54] of  data
+
+	(_key "x")
+	(Text "-254.73119"))
+
+([outlineTheArchitecture_data_55] of  data
+
+	(_key "x")
+	(Text "-316.7125"))
+
+([outlineTheArchitecture_data_56] of  data
+
+	(_key "y")
+	(Text "-564.8062"))
+
+([outlineTheArchitecture_data_57] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([outlineTheArchitecture_data_58] of  data
+
+	(_key "fontname")
+	(Text "Arial"))
+
+([outlineTheArchitecture_data_59] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([outlineTheArchitecture_data_6] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([outlineTheArchitecture_data_60] of  data
+
+	(_key "fontsize")
+	(Text "12"))
+
+([outlineTheArchitecture_data_61] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([outlineTheArchitecture_data_62] of  data
+
+	(_key "url")
+	(Text "./Artifacts/ArchitectureNotebook/architectureNotebook.html"))
+
+([outlineTheArchitecture_data_63] of  data
+
+	(_key "y")
+	(Text "-129.32043"))
+
+([outlineTheArchitecture_data_64] of  data
+
+	(_key "y")
+	(Text "400.59055"))
+
+([outlineTheArchitecture_data_65] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([outlineTheArchitecture_data_66] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([outlineTheArchitecture_data_67] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([outlineTheArchitecture_data_68] of  data
+
+	(_key "x")
+	(Text "445.6799"))
+
+([outlineTheArchitecture_data_69] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([outlineTheArchitecture_data_7] of  data
+
+	(_key "x")
+	(Text "-25.835596"))
+
+([outlineTheArchitecture_data_70] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([outlineTheArchitecture_data_71] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([outlineTheArchitecture_data_72] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([outlineTheArchitecture_data_73] of  data
+
+	(_key "label")
+	(Text "fontname"))
+
+([outlineTheArchitecture_data_74] of  data
+
+	(_key "y")
+	(Text "56.320896"))
+
+([outlineTheArchitecture_data_75] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([outlineTheArchitecture_data_76] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([outlineTheArchitecture_data_77] of  data
+
+	(_key "y")
+	(Text "209.82877"))
+
+([outlineTheArchitecture_data_78] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([outlineTheArchitecture_data_79] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([outlineTheArchitecture_data_8] of  data
+
+	(_key "label")
+	(Text "fontsize"))
+
+([outlineTheArchitecture_data_80] of  data
+
+	(_key "shape")
+	(Text "note"))
+
+([outlineTheArchitecture_data_81] of  data
+
+	(_key "y")
+	(Text "374.9617"))
+
+([outlineTheArchitecture_data_82] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([outlineTheArchitecture_data_83] of  data
+
+	(_key "label")
+	(Text "End Outline The Architecture"))
+
+([outlineTheArchitecture_data_84] of  data
+
+	(_key "fillcolor")
+	(Text "royalblue3"))
+
+([outlineTheArchitecture_data_85] of  data
+
+	(_key "x")
+	(Text "-230.5657"))
+
+([outlineTheArchitecture_data_86] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([outlineTheArchitecture_data_87] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([outlineTheArchitecture_data_88] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([outlineTheArchitecture_data_89] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([outlineTheArchitecture_data_9] of  data
+
+	(_key "x")
+	(Text "-273.02176"))
+
+([outlineTheArchitecture_data_90] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([outlineTheArchitecture_data_91] of  data
+
+	(_key "label")
+	(Text "Arial"))
+
+([outlineTheArchitecture_data_92] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([outlineTheArchitecture_data_93] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([outlineTheArchitecture_data_94] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([outlineTheArchitecture_data_95] of  data
+
+	(_key "x")
+	(Text "-15.8823185"))
+
+([outlineTheArchitecture_data_96] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([outlineTheArchitecture_data_97] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([outlineTheArchitecture_data_98] of  data
+
+	(_key "fillcolor")
+	(Text "royalblue3"))
+
+([outlineTheArchitecture_data_99] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([outlineTheArchitecture_edge_0] of  edge
+
+	(_id "27")
+	(_source "Task Start 1 1 4 1 3 0 0 Outline The Architecture |")
+	(_target "Task Artifact 1 1 4 1 3 1 0 Architecture Notebook |")
+	(dataSlot [outlineTheArchitecture_data_32]))
+
+([outlineTheArchitecture_edge_1] of  edge
+
+	(_id "28")
+	(_source "Task Artifact 1 1 4 1 3 1 0 Architecture Notebook |")
+	(_target "Task End 1 1 4 1 3 0 0 Outline The Architecture |")
+	(dataSlot [outlineTheArchitecture_data_26]))
+
+([outlineTheArchitecture_graph_0] of  graph
+
+	(_edgedefault "directed")
+	(edgeSlot [outlineTheArchitecture_edge_0])
+	(nodeSlot [outlineTheArchitecture_node_3]))
+
+([outlineTheArchitecture_key_0] of  key
+
+	(_attr.name "Edge Label")
+	(_attr.type "string")
+	(_for "edge")
+	(_id "edgelabel"))
+
+([outlineTheArchitecture_key_1] of  key
+
+	(_attr.name "g")
+	(_attr.type "int")
+	(_for "node")
+	(_id "g"))
+
+([outlineTheArchitecture_key_10] of  key
+
+	(_attr.name "label")
+	(_attr.type "string")
+	(_for "node")
+	(_id "label"))
+
+([outlineTheArchitecture_key_11] of  key
+
+	(_attr.name "r")
+	(_attr.type "int")
+	(_for "node")
+	(_id "r"))
+
+([outlineTheArchitecture_key_12] of  key
+
+	(_attr.name "size")
+	(_attr.type "float")
+	(_for "node")
+	(_id "size"))
+
+([outlineTheArchitecture_key_13] of  key
+
+	(_attr.name "fontname")
+	(_attr.type "string")
+	(_for "node")
+	(_id "fontname"))
+
+([outlineTheArchitecture_key_2] of  key
+
+	(_attr.name "weight")
+	(_attr.type "double")
+	(_for "edge")
+	(_id "weight"))
+
+([outlineTheArchitecture_key_3] of  key
+
+	(_attr.name "y")
+	(_attr.type "float")
+	(_for "node")
+	(_id "y"))
+
+([outlineTheArchitecture_key_4] of  key
+
+	(_attr.name "shape")
+	(_attr.type "string")
+	(_for "node")
+	(_id "shape"))
+
+([outlineTheArchitecture_key_5] of  key
+
+	(_attr.name "b")
+	(_attr.type "int")
+	(_for "node")
+	(_id "b"))
+
+([outlineTheArchitecture_key_6] of  key
+
+	(_attr.name "url")
+	(_attr.type "string")
+	(_for "node")
+	(_id "url"))
+
+([outlineTheArchitecture_key_7] of  key
+
+	(_attr.name "fillcolor")
+	(_attr.type "string")
+	(_for "node")
+	(_id "fillcolor"))
+
+([outlineTheArchitecture_key_8] of  key
+
+	(_attr.name "x")
+	(_attr.type "float")
+	(_for "node")
+	(_id "x"))
+
+([outlineTheArchitecture_key_9] of  key
+
+	(_attr.name "fontsize")
+	(_attr.type "string")
+	(_for "node")
+	(_id "fontsize"))
+
+([outlineTheArchitecture_node_0] of  node
+
+	(_id "labelloc")
+	(dataSlot [outlineTheArchitecture_data_20]))
+
+([outlineTheArchitecture_node_1] of  node
+
+	(_id "Task End 1 1 4 1 3 0 0 Outline The Architecture |")
+	(dataSlot [outlineTheArchitecture_data_83]))
+
+([outlineTheArchitecture_node_10] of  node
+
+	(_id "Task Artifact 1 1 4 1 3 1 0 Architecture Notebook |")
+	(dataSlot [outlineTheArchitecture_data_47]))
+
+([outlineTheArchitecture_node_11] of  node
+
+	(_id "bgcolor")
+	(dataSlot [outlineTheArchitecture_data_3]))
+
+([outlineTheArchitecture_node_12] of  node
+
+	(_id "Arial")
+	(dataSlot [outlineTheArchitecture_data_91]))
+
+([outlineTheArchitecture_node_2] of  node
+
+	(_id "Task Start 1 1 4 1 3 0 0 Outline The Architecture |")
+	(dataSlot [outlineTheArchitecture_data_28]))
+
+([outlineTheArchitecture_node_3] of  node
+
+	(_id "fontsize")
+	(dataSlot [outlineTheArchitecture_data_8]))
+
+([outlineTheArchitecture_node_4] of  node
+
+	(_id "fontname")
+	(dataSlot [outlineTheArchitecture_data_73]))
+
+([outlineTheArchitecture_node_5] of  node
+
+	(_id "Outline The Architecture")
+	(dataSlot [outlineTheArchitecture_data_18]))
+
+([outlineTheArchitecture_node_6] of  node
+
+	(_id "16")
+	(dataSlot [outlineTheArchitecture_data_31]))
+
+([outlineTheArchitecture_node_7] of  node
+
+	(_id "t")
+	(dataSlot [outlineTheArchitecture_data_101]))
+
+([outlineTheArchitecture_node_8] of  node
+
+	(_id "lemonchiffon")
+	(dataSlot [outlineTheArchitecture_data_40]))
+
+([outlineTheArchitecture_node_9] of  node
+
+	(_id "label")
+	(dataSlot [outlineTheArchitecture_data_22]))
+)

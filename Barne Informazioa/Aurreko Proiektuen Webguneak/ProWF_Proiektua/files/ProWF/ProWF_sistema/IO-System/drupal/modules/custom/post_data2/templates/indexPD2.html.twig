@@ -1,0 +1,35 @@
+{% set aux = info|split(';') %}
+
+<h2><b>{{ aux[0] }}</b></h2>
+<br>
+<img class="role-image-text" src="http:\\localhost\drupal\images\role_image.png" alt="ROLE IMAGE" width="40" height="85">{{ aux[4] }}
+<br><br>
+<ul>
+	<li>Start date: {{ aux[5] }}</li>
+	<li>Version: {{ aux[6] }}</li>
+	<li>Dedicated hours: {{ aux[7] }}</li>
+</ul>
+
+<table id="teamtable">
+  <tr>
+    <th>Phase</th>
+    <th>Activity</th>
+    <th>Task</th>
+  </tr>
+  <tr>
+    <td>{{ aux[1] }}</td>
+    <td>{{ aux[2] }}</td>
+	<td>{{ aux[3] }}</td>
+  </tr>
+</table>
+
+<table id="teamtable">
+  <tr>
+    <th>{{ aux[4] }}'s assessment</th>
+    <th>Quality Manager's assessment</th>
+  </tr>
+  <tr>
+    <td>{% if aux[8] %} {{ aux[8] }} {% else %} - {% endif %}</td>
+    <td>{% if aux[9] %} {{ aux[9] }} {% else %} - {% endif %}</td>
+  </tr>
+</table>

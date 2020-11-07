@@ -1,0 +1,28 @@
+<?php
+
+
+function project_info_page_attachments(array &$page){
+	$page['#attached']['library'][] = 'project_info/project_info_css';
+}
+
+
+function project_info_theme($existing,$type,$theme,$path){
+	return array(
+		'index2' => array (
+			'variables' => array(
+				'name' => '',
+				'description' => '',
+				'start_date' => '',
+				'end_date' => '',
+				'version' => '',
+				'project_manager' => '',
+				'analyst' => '',
+				'process_creator' => '',
+				'architect' => '',
+				'developer' => '',
+				'tester' => '',
+				'stakeholder' => ''
+			)
+		)
+	);
+}

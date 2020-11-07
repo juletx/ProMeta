@@ -1,0 +1,7 @@
+assess_artifact.routing:
+   path: assessArtifact
+   defaults:
+      _controller: Drupal\assess_artifact\Controller\AssessArtifactController::test
+   requirements:
+      _permission: 'access content+access user profiles'
+      _role: 'project_quality_manager'

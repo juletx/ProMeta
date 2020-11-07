@@ -1,0 +1,182 @@
+﻿;;
+;;  ADI!!  
+;;	Instantziak fitxategi desberdinetan daude eta independenteki sortuak izan dira, ondorioz:
+;;	-	Objektu izenak, instantzia fitxategi bakoitzean errepikatu egiten dira.
+;;	-	Objektu errepikatu batek, aurrekoa ezabatzen du
+;;	Konponbidea: Objektu bakoitzaren hasieran instantzia multzoaren izena jarri: 
+;;	-	openUp_lifecycle fitzategian, [openUp_lifecycle_data_0] sortua izan den [data_0]-ren ordez
+
+;Workflow-a exekutatzerako orduan hurrengoa kontuan izan behar da:
+
+;- Nodoen izenak beti hiru elementuz osatuta egongo dira:
+
+;	"PROZESU_MOTA NODO_MOTA KODE_MULTZOA NODOAREN_IZENA | {ROLA edo URLa}"
+	
+;	- PROZESU_MOTA: egungo prozesu edo azpi-prozesuaren mota da --> {Methodology, Phase, Activity, Task, Artifact}
+	
+;	- NODO_MOTA: nodoaren mota da
+;			- Start: prozesu edo azpi-prozesuaren hasiera.
+;			- End: prozesu edo azpi-prozesuaren amaiera.
+;			- Phase: nodoak "Phase" motako azpi-prozesua du.
+;			- Activity: nodoak "Activity" motako azpi-prozesua du.
+;			- Task: nodoak "Task" motako azpi-prozesua du. 
+;			- Artifact: nodoak "Artifact" motako azpi-prozesua du. 
+;				- Section: nodoa idatzi beharreko sekzioa da. 
+;				- SectionWT: (With Template) nodoa idatzi beharreko sekzioa da eta txantiloia du. 
+;				- UploadGraph: nodoa igo beharreko grafoa da, hau bakarrik "Use-Case Model" artefaktuan erabiliko da.
+;			- Join: elkartze erromboa da.
+;			- Question: galdera da.
+;			- Decision: erabaki erromboa da.
+			
+;	- KODE_MULTZOA: informazioa datu-basean gordetzeko erabiliko diren identifikatzaileak (zenbakiak).	
+;			- method_id: metodologia identifikatzeko zenbakia.
+;			- phase_id: fasea identifikatzeko zenbakia.
+;			- activity_id: aktibitatea identifikatzeko zenbakia.
+;			- task_id: jarduera identifikatzeko zenbakia.
+;			- role_id: rola identifikatzeko zenbakia.
+;			- artifact_id: artefaktua identifikatzeko zenbakia.
+;			- section_number: sekzioaren zenbakia (float)
+			
+;	- NODOAREN_IZENA: nodoaren izena (karaktere kate bat baino gehiago izan daiteke).
+;			- Join motako nodoen kasuan joinaren kardinalitatea agertuko da, adibidez "3 1" (hiru sarrera, irteera bat)
+	
+;	- ROLA: jardueren (task) kasuan agertuko da bakarrik, rolaren izena adierazteko
+	
+;	- URLa: SectionWT motako nodoetan agertuko da bakarrik, sekzioaren txantiloia non gordetzen den adierazteko (path)
+	
+
+;- OpenUp-eko Inception fasea osorik inplementantu da eta Elaboration faseko hasiera, fase aldaketa ikusi ahal izateko.  nodoaren izena (Task motako nodoen kasuan "Task_name  | Role_name" agertuko da)
+;	
+;- Exekutatzeratzean datu-basea ezabatu eta berria sortzeaz aparte, .csv fitxategi bat bueltatuko da, assesment atributuetan 10 bat ez duten artefaktuekin.
+;Bi assesment atributu daude datu-basean editorearen eta errebisatzailearena (Kalitate Arduraduna).
+;CSV fitxategia -> phase_id;activity_id;task_id;role_id;artifact_id;mota (Write | UploadGraph);editorearen_nota (0-10);errebisatzailearen_nota (0-10)
+;Adibidez: 1;1;2;4;14;Write;10;8
+
+;;- Exekutatzeratzean .csv fitxategi bat bueltatuko da, assesment atributuetan 10 bat ez duten artefaktuekin.
+;; Bi assesment atributu daude datu-basean editorearen eta errebisatzailearena.
+;; CSV fitxategia -> artefaktuaren_id, txantiloia bai edo ez (1/0), editorearen_nota (0-10), errebisatzailearen_nota (0-10)
+;;
+;; - OpenUp-eko Inception fasea osorik inplementantu da eta Elaboration faseko hasiera, fase aldaketa ikusi ahal izateko. 
+;; 
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+(clear)
+ (watch compilations) 
+;(watch statistics) 
+;(watch messages) 
+;(watch deffunctions) 
+;(watch globals) 
+ (watch rules ) 
+(watch activations) 
+ (watch facts ) 
+ (watch instances ) 
+ (watch slots) 
+
+;(unwatch )
+
+;;----------------------------------------------------------------KLASEAK
+								  ;; klase konkretuetan (pattern-match reactive) gehitu
+(load "_graphml_klaseak.rul")
+;(load "_exekuziorako_klaseak-eta-aldagai-orokorrak.rul")
+
+;;----------------------------------------------------------------INSTANTZIAK
+								  ;; (definstances <izena> )
+								  ;; instantzia guztien izenak aldatu:
+								  ;; 	workflow edo azpiworkflowaren aurretik
+
+(load "agreeOnTheTechnicalApproach.rul")
+(load "architectureNotebook.rul")
+(load "assessResults.rul")
+(load "assessResults_1.rul")
+(load "createTestCases.rul")
+(load "createTestCases_1.rul")
+(load "defineVision.rul")
+(load "detailRequirements.rul")
+(load "detailRequirements_1.rul")
+(load "elaboration.rul")
+(load "findAndOutlineRequirements.rul")
+(load "findAndOutlineRequirements_1.rul")
+(load "glossary.rul")
+(load "glossary_1.rul")
+(load "glossary_2.rul")
+(load "glossary_3.rul")
+(load "glossary_4.rul")
+(load "identifyAndRefineRequirements.rul")
+(load "identifyAndRefineRequirements_1.rul")
+(load "inception.rul")
+(load "initiateProject.rul")
+(load "iterationPlan.rul")
+(load "iterationPlan_1.rul")
+(load "iterationPlan_2.rul")
+(load "iterationPlan_3.rul")
+(load "iterationPlan_4.rul")
+(load "iterationPlan_5.rul")
+(load "manageIteration.rul")
+(load "manageIteration_1.rul")
+(load "openUp_lifecycle.rul")        ;; Workflow nagusia
+(load "outlineTheArchitecture.rul")
+(load "planAndManageIteration.rul")
+(load "planAndManageIteration_1.rul")
+(load "planIteration.rul")
+(load "planIteration_1.rul")
+(load "planProject.rul")
+(load "projectPlan.rul")
+(load "projectPlan_1.rul")
+(load "projectPlan_2.rul")
+(load "projectPlan_3.rul")
+(load "projectPlan_4.rul")
+(load "riskList.rul")
+(load "riskList_1.rul")
+(load "riskList_2.rul")
+(load "riskList_3.rul")
+(load "riskList_4.rul")
+(load "supportingRequirements.rul")
+(load "supportingRequirements_1.rul")
+(load "supportingRequirements_2.rul")
+(load "supportingRequirements_3.rul")
+(load "testCase.rul")
+(load "testCase_1.rul")
+(load "useCase.rul")
+(load "useCase_1.rul")
+(load "useCase_2.rul")
+(load "useCase_3.rul")
+(load "useCaseModel.rul")
+(load "useCaseModel_1.rul")
+(load "useCaseModel_2.rul")
+(load "useCaseModel_3.rul")
+(load "vision.rul")
+(load "workItemsList.rul")
+(load "workItemsList_1.rul")
+(load "workItemsList_2.rul")
+(load "workItemsList_3.rul")
+(load "workItemsList_4.rul")
+(load "workItemsList_5.rul")
+(load "workItemsList_6.rul")
+(load "workItemsList_7.rul")
+(load "workItemsList_8.rul")
+(load "workItemsList_9.rul")
+
+;;----------------------------------------------------------------ERREGELAK
+
+(load "_DFS_SakonerakoBilaketaGrafoan.rul")
+
+(reset)
+
+
+;(assert (CreateHTM (create$ ReadVariablesList ReadParameters  CreateHTMNetwork ReadSDRs)))
+	
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; Files in CSV format (use LibreOffice Calc to manage)
+
+(assert (GrafoBatenHasierakoErpina  "Methodology Start 1 0 0 0 0 0 0 OpenUp Lifecycle | Alpha"))
+
+(open "_log.txt" log  "w")
+(bind ?*log* log)                  	;; log fitategiaren izen lodikoa aldagai orokor batean eskuragarri
+
+					;;Con conector de 64 bits no funciona, el de 32 bits si. Data base connected? 81279520
+(assert (ProcessDataDB "process_db" ))  ;; "process_db"  MySql. 
+(assert (DocumentsDB "document_db" ))  	;; "document_db"  MySql. 
+					;;64 bitekoa behar bada ez dabil, 32 bitekoa bai. Data base connected?  
+
+(run)
+;;;;

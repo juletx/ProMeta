@@ -1,0 +1,15 @@
+<?php
+
+
+function select_project_page_attachments(array &$page){
+	$page['#attached']['library'][] = 'select_project/select_project_css';
+}
+
+
+function select_project_theme($existing,$type,$theme,$path){
+	return array(
+		'indexSP' => array (
+			'variables' => array('projects' => array(),'goTo'=>'')
+		)
+	);
+}

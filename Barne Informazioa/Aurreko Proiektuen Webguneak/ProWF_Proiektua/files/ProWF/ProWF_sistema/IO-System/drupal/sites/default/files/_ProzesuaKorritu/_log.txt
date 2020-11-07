@@ -1,0 +1,551 @@
+
+Konektatu da process_db datu basera 32531200 (11 12 31)
+projects: Se han leido   (11 12 31)
+HasierakoErpina: atazaErpina = Activity Task 1 1 1 2 5 0 0 Plan Project | Project Manager     (11 12 31)
+HasierakoErpina: atazaErpina = Activity Task 1 1 1 1 1 0 0 Define Vision | Analyst     (11 12 31)
+
+SakonerakoBilaketa: hemendik hasi= [initiateProject_node_2] = Activity Task 1 1 1 1 1 0 0 Define Vision | Analyst
+
+       \\\\\\\>> BesteGrafoBateanSakondu: oraingoErpina = [initiateProject_node_2] (Activity Task 1 1 1 1 1 0 0 Define Vision | Analyst) 
+        \\\\\\\>> azpiprozesuko Lehena = Task Start 1 1 1 1 1 0 0 Define Vision |
+
+SakonerakoBilaketa: hemendik hasi= [defineVision_node_4] = Task Start 1 1 1 1 1 0 0 Define Vision |
+
+SakonerakoBilaketa: hemendik hasi= [initiateProject_node_13] = Activity Task 1 1 1 2 5 0 0 Plan Project | Project Manager
+
+       \\\\\\\>> BesteGrafoBateanSakondu: oraingoErpina = [initiateProject_node_13] (Activity Task 1 1 1 2 5 0 0 Plan Project | Project Manager) 
+        \\\\\\\>> azpiprozesuko Lehena = Task Start 1 1 1 2 5 0 0 Plan Project |
+
+SakonerakoBilaketa: hemendik hasi= [planProject_node_7] = Task Start 1 1 1 2 5 0 0 Plan Project |
+
+1 proiektua: 2222 ---------->> AztertuGrafoaEpinBatetikHasita: Aztertuta = [planProject_node_7] (Task Start 1 1 1 2 5 0 0 Plan Project |)
+     -------------------->> Hurrengoa =  (Task Artifact 1 1 1 2 5 7 0 Project Plan |) 
+
+       \\\\\\\>> BesteGrafoBateanSakondu: oraingoErpina = [planProject_node_10] (Task Artifact 1 1 1 2 5 7 0 Project Plan |) 
+        \\\\\\\>> azpiprozesuko Lehena = Artifact Start 1 1 1 2 5 7 0 Project Plan |
+
+SakonerakoBilaketa: hemendik hasi= [projectPlan_node_2] = Artifact Start 1 1 1 2 5 7 0 Project Plan |
+
+2 proiektua: 2222 ---------->> AztertuGrafoaEpinBatetikHasita: Aztertuta = [projectPlan_node_2] (Artifact Start 1 1 1 2 5 7 0 Project Plan |)
+     -------------------->> Hurrengoa =  (Artifact SectionWT 1 1 1 2 5 7 1 Introduction | Templates/ProjectPlan/Introduction.txt) 
+
+       \\\\\\\>> BesteGrafoBateanSakondu: oraingoErpina = [projectPlan_node_9] (Artifact SectionWT 1 1 1 2 5 7 1 Introduction | Templates/ProjectPlan/Introduction.txt) 
+        \\\\\\\>> azpiprozesuko Lehena = SectionWT Start 1 1 1 2 5 7 1 Introduction |
+
+3 proiektua: 2222 ---------->> AztertuGrafoaEpinBatetikHasita: Aztertuta = [projectPlan_node_9] (Artifact SectionWT 1 1 1 2 5 7 1 Introduction | Templates/ProjectPlan/Introduction.txt)
+     -------------------->> Hurrengoa =  (Artifact SectionWT 1 1 1 2 5 7 2 Project organization | Templates/ProjectPlan/ProjectOrganization.txt) 
+
+       \\\\\\\>> BesteGrafoBateanSakondu: oraingoErpina = [projectPlan_node_10] (Artifact SectionWT 1 1 1 2 5 7 2 Project organization | Templates/ProjectPlan/ProjectOrganization.txt) 
+        \\\\\\\>> azpiprozesuko Lehena = SectionWT Start 1 1 1 2 5 7 2 Project organization |
+
+4 proiektua: 2222 ---------->> AztertuGrafoaEpinBatetikHasita: Aztertuta = [projectPlan_node_10] (Artifact SectionWT 1 1 1 2 5 7 2 Project organization | Templates/ProjectPlan/ProjectOrganization.txt)
+     -------------------->> Hurrengoa =  (Artifact SectionWT 1 1 1 2 5 7 3 Project practices and measurements | Templates/ProjectPlan/ProjectPracticesAndMeasurements.txt) 
+
+       \\\\\\\>> BesteGrafoBateanSakondu: oraingoErpina = [projectPlan_node_4] (Artifact SectionWT 1 1 1 2 5 7 3 Project practices and measurements | Templates/ProjectPlan/ProjectPracticesAndMeasurements.txt) 
+        \\\\\\\>> azpiprozesuko Lehena = SectionWT Start 1 1 1 2 5 7 3 Project practices and measurements |
+
+5 proiektua: 2222 ---------->> AztertuGrafoaEpinBatetikHasita: Aztertuta = [projectPlan_node_4] (Artifact SectionWT 1 1 1 2 5 7 3 Project practices and measurements | Templates/ProjectPlan/ProjectPracticesAndMeasurements.txt)
+     -------------------->> Hurrengoa =  (Artifact SectionWT 1 1 1 2 5 7 4 Project milestones and objectives | Templates/ProjectPlan/ProjectMilestonesAndObjectives.txt) 
+
+       \\\\\\\>> BesteGrafoBateanSakondu: oraingoErpina = [projectPlan_node_3] (Artifact SectionWT 1 1 1 2 5 7 4 Project milestones and objectives | Templates/ProjectPlan/ProjectMilestonesAndObjectives.txt) 
+        \\\\\\\>> azpiprozesuko Lehena = SectionWT Start 1 1 1 2 5 7 4 Project milestones and objectives |
+
+6 proiektua: 2222 ---------->> AztertuGrafoaEpinBatetikHasita: Aztertuta = [projectPlan_node_3] (Artifact SectionWT 1 1 1 2 5 7 4 Project milestones and objectives | Templates/ProjectPlan/ProjectMilestonesAndObjectives.txt)
+     -------------------->> Hurrengoa =  (Artifact SectionWT 1 1 1 2 5 7 5 Deployment | Templates/ProjectPlan/Deployment.txt) 
+
+       \\\\\\\>> BesteGrafoBateanSakondu: oraingoErpina = [projectPlan_node_14] (Artifact SectionWT 1 1 1 2 5 7 5 Deployment | Templates/ProjectPlan/Deployment.txt) 
+        \\\\\\\>> azpiprozesuko Lehena = SectionWT Start 1 1 1 2 5 7 5 Deployment |
+
+7 proiektua: 2222 ---------->> AztertuGrafoaEpinBatetikHasita: Aztertuta = [projectPlan_node_14] (Artifact SectionWT 1 1 1 2 5 7 5 Deployment | Templates/ProjectPlan/Deployment.txt)
+     -------------------->> Hurrengoa =  (Artifact SectionWT 1 1 1 2 5 7 6 Lessons learned | Templates/ProjectPlan/LessonsLearned.txt) 
+
+       \\\\\\\>> BesteGrafoBateanSakondu: oraingoErpina = [projectPlan_node_6] (Artifact SectionWT 1 1 1 2 5 7 6 Lessons learned | Templates/ProjectPlan/LessonsLearned.txt) 
+        \\\\\\\>> azpiprozesuko Lehena = SectionWT Start 1 1 1 2 5 7 6 Lessons learned |
+
+8 proiektua: 2222 ---------->> AztertuGrafoaEpinBatetikHasita: Aztertuta = [projectPlan_node_6] (Artifact SectionWT 1 1 1 2 5 7 6 Lessons learned | Templates/ProjectPlan/LessonsLearned.txt)
+     -------------------->> Hurrengoa =  (Artifact End 1 1 1 2 5 7 0 Project Plan |) 
+
+9 proiektua: 2222 |---------->> AztertuGrafoaEpinBatetikHasita: Aztertuta = [projectPlan_node_1] (Artifact End 1 1 1 2 5 7 0 Project Plan |) -----------||
+
+9 proiektua: 2222 ############> AztertuGrafoaErpinBatetikHasitaBesteBideBat: Aztertuta = [projectPlan_node_6] (Artifact SectionWT 1 1 1 2 5 7 6 Lessons learned | Templates/ProjectPlan/LessonsLearned.txt)
+-------------------->> Hurrengoa = [projectPlan_node_1] (Artifact End 1 1 1 2 5 7 0 Project Plan |) 
+
+9 proiektua: 2222 ############> AztertuGrafoaErpinBatetikHasitaBesteBideBat: Aztertuta = [projectPlan_node_14] (Artifact SectionWT 1 1 1 2 5 7 5 Deployment | Templates/ProjectPlan/Deployment.txt)
+-------------------->> Hurrengoa = [projectPlan_node_6] (Artifact SectionWT 1 1 1 2 5 7 6 Lessons learned | Templates/ProjectPlan/LessonsLearned.txt) 
+
+9 proiektua: 2222 ############> AztertuGrafoaErpinBatetikHasitaBesteBideBat: Aztertuta = [projectPlan_node_3] (Artifact SectionWT 1 1 1 2 5 7 4 Project milestones and objectives | Templates/ProjectPlan/ProjectMilestonesAndObjectives.txt)
+-------------------->> Hurrengoa = [projectPlan_node_14] (Artifact SectionWT 1 1 1 2 5 7 5 Deployment | Templates/ProjectPlan/Deployment.txt) 
+
+9 proiektua: 2222 ############> AztertuGrafoaErpinBatetikHasitaBesteBideBat: Aztertuta = [projectPlan_node_4] (Artifact SectionWT 1 1 1 2 5 7 3 Project practices and measurements | Templates/ProjectPlan/ProjectPracticesAndMeasurements.txt)
+-------------------->> Hurrengoa = [projectPlan_node_3] (Artifact SectionWT 1 1 1 2 5 7 4 Project milestones and objectives | Templates/ProjectPlan/ProjectMilestonesAndObjectives.txt) 
+
+9 proiektua: 2222 ############> AztertuGrafoaErpinBatetikHasitaBesteBideBat: Aztertuta = [projectPlan_node_10] (Artifact SectionWT 1 1 1 2 5 7 2 Project organization | Templates/ProjectPlan/ProjectOrganization.txt)
+-------------------->> Hurrengoa = [projectPlan_node_4] (Artifact SectionWT 1 1 1 2 5 7 3 Project practices and measurements | Templates/ProjectPlan/ProjectPracticesAndMeasurements.txt) 
+
+9 proiektua: 2222 ############> AztertuGrafoaErpinBatetikHasitaBesteBideBat: Aztertuta = [projectPlan_node_9] (Artifact SectionWT 1 1 1 2 5 7 1 Introduction | Templates/ProjectPlan/Introduction.txt)
+-------------------->> Hurrengoa = [projectPlan_node_10] (Artifact SectionWT 1 1 1 2 5 7 2 Project organization | Templates/ProjectPlan/ProjectOrganization.txt) 
+
+9 proiektua: 2222 ############> AztertuGrafoaErpinBatetikHasitaBesteBideBat: Aztertuta = [projectPlan_node_2] (Artifact Start 1 1 1 2 5 7 0 Project Plan |)
+-------------------->> Hurrengoa = [projectPlan_node_9] (Artifact SectionWT 1 1 1 2 5 7 1 Introduction | Templates/ProjectPlan/Introduction.txt) 
+
+10 proiektua: 2222 ---------->> AztertuGrafoaEpinBatetikHasita: Aztertuta = [planProject_node_10] (Task Artifact 1 1 1 2 5 7 0 Project Plan |)
+     -------------------->> Hurrengoa =  (Task Artifact 1 1 1 2 5 9 0 Work Items List |) 
+
+       \\\\\\\>> BesteGrafoBateanSakondu: oraingoErpina = [planProject_node_11] (Task Artifact 1 1 1 2 5 9 0 Work Items List |) 
+        \\\\\\\>> azpiprozesuko Lehena = Artifact Start 1 1 1 2 5 9 0 Work Items List |
+
+SakonerakoBilaketa: hemendik hasi= [workItemsList_1_node_9] = Artifact Start 1 1 1 2 5 9 0 Work Items List |
+
+11 proiektua: 2222 ---------->> AztertuGrafoaEpinBatetikHasita: Aztertuta = [workItemsList_1_node_9] (Artifact Start 1 1 1 2 5 9 0 Work Items List |)
+     -------------------->> Hurrengoa =  (Artifact SectionWT 1 1 1 2 5 9 0 Fill table | Templates/WorkItemsList/FillTable.txt) 
+
+       \\\\\\\>> BesteGrafoBateanSakondu: oraingoErpina = [workItemsList_1_node_12] (Artifact SectionWT 1 1 1 2 5 9 0 Fill table | Templates/WorkItemsList/FillTable.txt) 
+        \\\\\\\>> azpiprozesuko Lehena = SectionWT Start 1 1 1 2 5 9 0 Fill table |
+
+12 proiektua: 2222 ---------->> AztertuGrafoaEpinBatetikHasita: Aztertuta = [workItemsList_1_node_12] (Artifact SectionWT 1 1 1 2 5 9 0 Fill table | Templates/WorkItemsList/FillTable.txt)
+     -------------------->> Hurrengoa =  (Artifact End 1 1 1 2 5 9 0 Work Items List |) 
+
+13 proiektua: 2222 |---------->> AztertuGrafoaEpinBatetikHasita: Aztertuta = [workItemsList_1_node_4] (Artifact End 1 1 1 2 5 9 0 Work Items List |) -----------||
+
+13 proiektua: 2222 ############> AztertuGrafoaErpinBatetikHasitaBesteBideBat: Aztertuta = [workItemsList_1_node_12] (Artifact SectionWT 1 1 1 2 5 9 0 Fill table | Templates/WorkItemsList/FillTable.txt)
+-------------------->> Hurrengoa = [workItemsList_1_node_4] (Artifact End 1 1 1 2 5 9 0 Work Items List |) 
+
+13 proiektua: 2222 ############> AztertuGrafoaErpinBatetikHasitaBesteBideBat: Aztertuta = [workItemsList_1_node_9] (Artifact Start 1 1 1 2 5 9 0 Work Items List |)
+-------------------->> Hurrengoa = [workItemsList_1_node_12] (Artifact SectionWT 1 1 1 2 5 9 0 Fill table | Templates/WorkItemsList/FillTable.txt) 
+
+14 proiektua: 2222 ---------->> AztertuGrafoaEpinBatetikHasita: Aztertuta = [planProject_node_11] (Task Artifact 1 1 1 2 5 9 0 Work Items List |)
+     -------------------->> Hurrengoa =  (Task Artifact 1 1 1 2 5 8 0 Risk List |) 
+
+       \\\\\\\>> BesteGrafoBateanSakondu: oraingoErpina = [planProject_node_13] (Task Artifact 1 1 1 2 5 8 0 Risk List |) 
+        \\\\\\\>> azpiprozesuko Lehena = Artifact Start 1 1 1 2 5 8 0 Risk List |
+
+SakonerakoBilaketa: hemendik hasi= [riskList_node_9] = Artifact Start 1 1 1 2 5 8 0 Risk List |
+
+15 proiektua: 2222 ---------->> AztertuGrafoaEpinBatetikHasita: Aztertuta = [riskList_node_9] (Artifact Start 1 1 1 2 5 8 0 Risk List |)
+     -------------------->> Hurrengoa =  (Artifact SectionWT 1 1 1 2 5 8 0 Fill table | Templates/RiskList/FillTable.txt) 
+
+       \\\\\\\>> BesteGrafoBateanSakondu: oraingoErpina = [riskList_node_10] (Artifact SectionWT 1 1 1 2 5 8 0 Fill table | Templates/RiskList/FillTable.txt) 
+        \\\\\\\>> azpiprozesuko Lehena = SectionWT Start 1 1 1 2 5 8 0 Fill table |
+
+16 proiektua: 2222 ---------->> AztertuGrafoaEpinBatetikHasita: Aztertuta = [riskList_node_10] (Artifact SectionWT 1 1 1 2 5 8 0 Fill table | Templates/RiskList/FillTable.txt)
+     -------------------->> Hurrengoa =  (Artifact End 1 1 1 2 5 8 0 Risk List |) 
+
+17 proiektua: 2222 |---------->> AztertuGrafoaEpinBatetikHasita: Aztertuta = [riskList_node_12] (Artifact End 1 1 1 2 5 8 0 Risk List |) -----------||
+
+17 proiektua: 2222 ############> AztertuGrafoaErpinBatetikHasitaBesteBideBat: Aztertuta = [riskList_node_10] (Artifact SectionWT 1 1 1 2 5 8 0 Fill table | Templates/RiskList/FillTable.txt)
+-------------------->> Hurrengoa = [riskList_node_12] (Artifact End 1 1 1 2 5 8 0 Risk List |) 
+
+17 proiektua: 2222 ############> AztertuGrafoaErpinBatetikHasitaBesteBideBat: Aztertuta = [riskList_node_9] (Artifact Start 1 1 1 2 5 8 0 Risk List |)
+-------------------->> Hurrengoa = [riskList_node_10] (Artifact SectionWT 1 1 1 2 5 8 0 Fill table | Templates/RiskList/FillTable.txt) 
+
+18 proiektua: 2222 ---------->> AztertuGrafoaEpinBatetikHasita: Aztertuta = [planProject_node_13] (Task Artifact 1 1 1 2 5 8 0 Risk List |)
+     -------------------->> Hurrengoa =  (Task End 1 1 1 2 5 0 0 Plan Project |) 
+
+19 proiektua: 2222 |---------->> AztertuGrafoaEpinBatetikHasita: Aztertuta = [planProject_node_4] (Task End 1 1 1 2 5 0 0 Plan Project |) -----------||
+
+19 proiektua: 2222 ############> AztertuGrafoaErpinBatetikHasitaBesteBideBat: Aztertuta = [planProject_node_13] (Task Artifact 1 1 1 2 5 8 0 Risk List |)
+-------------------->> Hurrengoa = [planProject_node_4] (Task End 1 1 1 2 5 0 0 Plan Project |) 
+
+19 proiektua: 2222 ############> AztertuGrafoaErpinBatetikHasitaBesteBideBat: Aztertuta = [planProject_node_11] (Task Artifact 1 1 1 2 5 9 0 Work Items List |)
+-------------------->> Hurrengoa = [planProject_node_13] (Task Artifact 1 1 1 2 5 8 0 Risk List |) 
+
+19 proiektua: 2222 ############> AztertuGrafoaErpinBatetikHasitaBesteBideBat: Aztertuta = [planProject_node_10] (Task Artifact 1 1 1 2 5 7 0 Project Plan |)
+-------------------->> Hurrengoa = [planProject_node_11] (Task Artifact 1 1 1 2 5 9 0 Work Items List |) 
+
+19 proiektua: 2222 ############> AztertuGrafoaErpinBatetikHasitaBesteBideBat: Aztertuta = [planProject_node_7] (Task Start 1 1 1 2 5 0 0 Plan Project |)
+-------------------->> Hurrengoa = [planProject_node_10] (Task Artifact 1 1 1 2 5 7 0 Project Plan |) 
+
+20 proiektua: 2222 ---------->> AztertuGrafoaEpinBatetikHasita: Aztertuta = [initiateProject_node_13] (Activity Task 1 1 1 2 5 0 0 Plan Project | Project Manager)
+     -------------------->> Hurrengoa =  (Activity End 1 1 1 0 0 0 0 Initiate Project |) 
+
+21 proiektua: 2222 |---------->> AztertuGrafoaEpinBatetikHasita: Aztertuta = [initiateProject_node_12] (Activity End 1 1 1 0 0 0 0 Initiate Project |) -----------||
+
+21 proiektua: 2222 ############> AztertuGrafoaErpinBatetikHasitaBesteBideBat: Aztertuta = [initiateProject_node_13] (Activity Task 1 1 1 2 5 0 0 Plan Project | Project Manager)
+-------------------->> Hurrengoa = [initiateProject_node_12] (Activity End 1 1 1 0 0 0 0 Initiate Project |) 
+
+22 proiektua: 1111 ---------->> AztertuGrafoaEpinBatetikHasita: Aztertuta = [defineVision_node_4] (Task Start 1 1 1 1 1 0 0 Define Vision |)
+     -------------------->> Hurrengoa =  (Task Artifact 1 1 1 1 1 14 0 Vision |) 
+
+       \\\\\\\>> BesteGrafoBateanSakondu: oraingoErpina = [defineVision_node_8] (Task Artifact 1 1 1 1 1 14 0 Vision |) 
+        \\\\\\\>> azpiprozesuko Lehena = Artifact Start 1 1 1 1 1 14 0 Vision |
+
+SakonerakoBilaketa: hemendik hasi= [vision_node_1] = Artifact Start 1 1 1 1 1 14 0 Vision |
+
+23 proiektua: 1111 ---------->> AztertuGrafoaEpinBatetikHasita: Aztertuta = [vision_node_1] (Artifact Start 1 1 1 1 1 14 0 Vision |)
+     -------------------->> Hurrengoa =  (Artifact Section 1 1 1 1 1 14 1 Introduction |) 
+
+       \\\\\\\>> BesteGrafoBateanSakondu: oraingoErpina = [vision_node_8] (Artifact Section 1 1 1 1 1 14 1 Introduction |) 
+        \\\\\\\>> azpiprozesuko Lehena = Section Start 1 1 1 1 1 14 1 Introduction |
+
+24 proiektua: 1111 ---------->> AztertuGrafoaEpinBatetikHasita: Aztertuta = [vision_node_8] (Artifact Section 1 1 1 1 1 14 1 Introduction |)
+     -------------------->> Hurrengoa =  (Artifact Section 1 1 1 1 1 14 2 Positioning |) 
+
+       \\\\\\\>> BesteGrafoBateanSakondu: oraingoErpina = [vision_node_12] (Artifact Section 1 1 1 1 1 14 2 Positioning |) 
+        \\\\\\\>> azpiprozesuko Lehena = Section Start 1 1 1 1 1 14 2 Positioning |
+
+25 proiektua: 1111 ---------->> AztertuGrafoaEpinBatetikHasita: Aztertuta = [vision_node_12] (Artifact Section 1 1 1 1 1 14 2 Positioning |)
+     -------------------->> Hurrengoa =  (Artifact SectionWT 1 1 1 1 1 14 2.1 Problem Statement | Templates/Vision/problemStatement.txt) 
+
+       \\\\\\\>> BesteGrafoBateanSakondu: oraingoErpina = [vision_node_4] (Artifact SectionWT 1 1 1 1 1 14 2.1 Problem Statement | Templates/Vision/problemStatement.txt) 
+        \\\\\\\>> azpiprozesuko Lehena = SectionWT Start 1 1 1 1 1 14 2.1 Problem Statement |
+
+26 proiektua: 1111 ---------->> AztertuGrafoaEpinBatetikHasita: Aztertuta = [vision_node_4] (Artifact SectionWT 1 1 1 1 1 14 2.1 Problem Statement | Templates/Vision/problemStatement.txt)
+     -------------------->> Hurrengoa =  (Artifact SectionWT 1 1 1 1 1 14 2.2 Product Position Statement | Templates/Vision/productPositionStatement.txt) 
+
+       \\\\\\\>> BesteGrafoBateanSakondu: oraingoErpina = [vision_node_7] (Artifact SectionWT 1 1 1 1 1 14 2.2 Product Position Statement | Templates/Vision/productPositionStatement.txt) 
+        \\\\\\\>> azpiprozesuko Lehena = SectionWT Start 1 1 1 1 1 14 2.2 Product Position Statement |
+
+27 proiektua: 1111 ---------->> AztertuGrafoaEpinBatetikHasita: Aztertuta = [vision_node_7] (Artifact SectionWT 1 1 1 1 1 14 2.2 Product Position Statement | Templates/Vision/productPositionStatement.txt)
+     -------------------->> Hurrengoa =  (Artifact Section 1 1 1 1 1 14 3 Stakeholder Descriptions |) 
+
+       \\\\\\\>> BesteGrafoBateanSakondu: oraingoErpina = [vision_node_19] (Artifact Section 1 1 1 1 1 14 3 Stakeholder Descriptions |) 
+        \\\\\\\>> azpiprozesuko Lehena = Section Start 1 1 1 1 1 14 3 Stakeholder Descriptions |
+
+28 proiektua: 1111 ---------->> AztertuGrafoaEpinBatetikHasita: Aztertuta = [vision_node_19] (Artifact Section 1 1 1 1 1 14 3 Stakeholder Descriptions |)
+     -------------------->> Hurrengoa =  (Artifact SectionWT 1 1 1 1 1 14 3.1 Stakeholder Summary | Templates/Vision/stakeholderSummary.txt) 
+
+       \\\\\\\>> BesteGrafoBateanSakondu: oraingoErpina = [vision_node_18] (Artifact SectionWT 1 1 1 1 1 14 3.1 Stakeholder Summary | Templates/Vision/stakeholderSummary.txt) 
+        \\\\\\\>> azpiprozesuko Lehena = SectionWT Start 1 1 1 1 1 14 3.1 Stakeholder Summary |
+
+29 proiektua: 1111 ---------->> AztertuGrafoaEpinBatetikHasita: Aztertuta = [vision_node_18] (Artifact SectionWT 1 1 1 1 1 14 3.1 Stakeholder Summary | Templates/Vision/stakeholderSummary.txt)
+     -------------------->> Hurrengoa =  (Artifact SectionWT 1 1 1 1 1 14 3.2 User Environment | Templates/Vision/userEnvironment.txt) 
+
+       \\\\\\\>> BesteGrafoBateanSakondu: oraingoErpina = [vision_node_13] (Artifact SectionWT 1 1 1 1 1 14 3.2 User Environment | Templates/Vision/userEnvironment.txt) 
+        \\\\\\\>> azpiprozesuko Lehena = SectionWT Start 1 1 1 1 1 14 3.2 User Environment |
+
+30 proiektua: 1111 ---------->> AztertuGrafoaEpinBatetikHasita: Aztertuta = [vision_node_13] (Artifact SectionWT 1 1 1 1 1 14 3.2 User Environment | Templates/Vision/userEnvironment.txt)
+     -------------------->> Hurrengoa =  (Artifact Section 1 1 1 1 1 14 4 Product Overview |) 
+
+       \\\\\\\>> BesteGrafoBateanSakondu: oraingoErpina = [vision_node_21] (Artifact Section 1 1 1 1 1 14 4 Product Overview |) 
+        \\\\\\\>> azpiprozesuko Lehena = Section Start 1 1 1 1 1 14 4 Product Overview |
+
+31 proiektua: 1111 ---------->> AztertuGrafoaEpinBatetikHasita: Aztertuta = [vision_node_21] (Artifact Section 1 1 1 1 1 14 4 Product Overview |)
+     -------------------->> Hurrengoa =  (Artifact SectionWT 1 1 1 1 1 14 4.1 Needs and Features | Templates/Vision/needsAndFeatures.txt) 
+
+       \\\\\\\>> BesteGrafoBateanSakondu: oraingoErpina = [vision_node_3] (Artifact SectionWT 1 1 1 1 1 14 4.1 Needs and Features | Templates/Vision/needsAndFeatures.txt) 
+        \\\\\\\>> azpiprozesuko Lehena = SectionWT Start 1 1 1 1 1 14 4.1 Needs and Features |
+
+32 proiektua: 1111 ---------->> AztertuGrafoaEpinBatetikHasita: Aztertuta = [vision_node_3] (Artifact SectionWT 1 1 1 1 1 14 4.1 Needs and Features | Templates/Vision/needsAndFeatures.txt)
+     -------------------->> Hurrengoa =  (Artifact SectionWT 1 1 1 1 1 14 5 Other Product Requirements | Templates/Vision/otherProductRequirements.txt) 
+
+       \\\\\\\>> BesteGrafoBateanSakondu: oraingoErpina = [vision_node_16] (Artifact SectionWT 1 1 1 1 1 14 5 Other Product Requirements | Templates/Vision/otherProductRequirements.txt) 
+        \\\\\\\>> azpiprozesuko Lehena = SectionWT Start 1 1 1 1 1 14 5 Other Product Requirements |
+
+33 proiektua: 1111 ---------->> AztertuGrafoaEpinBatetikHasita: Aztertuta = [vision_node_16] (Artifact SectionWT 1 1 1 1 1 14 5 Other Product Requirements | Templates/Vision/otherProductRequirements.txt)
+     -------------------->> Hurrengoa =  (Artifact End 1 1 1 1 1 14 0 Vision |) 
+
+34 proiektua: 1111 |---------->> AztertuGrafoaEpinBatetikHasita: Aztertuta = [vision_node_0] (Artifact End 1 1 1 1 1 14 0 Vision |) -----------||
+
+34 proiektua: 1111 ############> AztertuGrafoaErpinBatetikHasitaBesteBideBat: Aztertuta = [vision_node_16] (Artifact SectionWT 1 1 1 1 1 14 5 Other Product Requirements | Templates/Vision/otherProductRequirements.txt)
+-------------------->> Hurrengoa = [vision_node_0] (Artifact End 1 1 1 1 1 14 0 Vision |) 
+
+34 proiektua: 1111 ############> AztertuGrafoaErpinBatetikHasitaBesteBideBat: Aztertuta = [vision_node_3] (Artifact SectionWT 1 1 1 1 1 14 4.1 Needs and Features | Templates/Vision/needsAndFeatures.txt)
+-------------------->> Hurrengoa = [vision_node_16] (Artifact SectionWT 1 1 1 1 1 14 5 Other Product Requirements | Templates/Vision/otherProductRequirements.txt) 
+
+34 proiektua: 1111 ############> AztertuGrafoaErpinBatetikHasitaBesteBideBat: Aztertuta = [vision_node_21] (Artifact Section 1 1 1 1 1 14 4 Product Overview |)
+-------------------->> Hurrengoa = [vision_node_3] (Artifact SectionWT 1 1 1 1 1 14 4.1 Needs and Features | Templates/Vision/needsAndFeatures.txt) 
+
+34 proiektua: 1111 ############> AztertuGrafoaErpinBatetikHasitaBesteBideBat: Aztertuta = [vision_node_13] (Artifact SectionWT 1 1 1 1 1 14 3.2 User Environment | Templates/Vision/userEnvironment.txt)
+-------------------->> Hurrengoa = [vision_node_21] (Artifact Section 1 1 1 1 1 14 4 Product Overview |) 
+
+34 proiektua: 1111 ############> AztertuGrafoaErpinBatetikHasitaBesteBideBat: Aztertuta = [vision_node_18] (Artifact SectionWT 1 1 1 1 1 14 3.1 Stakeholder Summary | Templates/Vision/stakeholderSummary.txt)
+-------------------->> Hurrengoa = [vision_node_13] (Artifact SectionWT 1 1 1 1 1 14 3.2 User Environment | Templates/Vision/userEnvironment.txt) 
+
+34 proiektua: 1111 ############> AztertuGrafoaErpinBatetikHasitaBesteBideBat: Aztertuta = [vision_node_19] (Artifact Section 1 1 1 1 1 14 3 Stakeholder Descriptions |)
+-------------------->> Hurrengoa = [vision_node_18] (Artifact SectionWT 1 1 1 1 1 14 3.1 Stakeholder Summary | Templates/Vision/stakeholderSummary.txt) 
+
+34 proiektua: 1111 ############> AztertuGrafoaErpinBatetikHasitaBesteBideBat: Aztertuta = [vision_node_7] (Artifact SectionWT 1 1 1 1 1 14 2.2 Product Position Statement | Templates/Vision/productPositionStatement.txt)
+-------------------->> Hurrengoa = [vision_node_19] (Artifact Section 1 1 1 1 1 14 3 Stakeholder Descriptions |) 
+
+34 proiektua: 1111 ############> AztertuGrafoaErpinBatetikHasitaBesteBideBat: Aztertuta = [vision_node_4] (Artifact SectionWT 1 1 1 1 1 14 2.1 Problem Statement | Templates/Vision/problemStatement.txt)
+-------------------->> Hurrengoa = [vision_node_7] (Artifact SectionWT 1 1 1 1 1 14 2.2 Product Position Statement | Templates/Vision/productPositionStatement.txt) 
+
+34 proiektua: 1111 ############> AztertuGrafoaErpinBatetikHasitaBesteBideBat: Aztertuta = [vision_node_12] (Artifact Section 1 1 1 1 1 14 2 Positioning |)
+-------------------->> Hurrengoa = [vision_node_4] (Artifact SectionWT 1 1 1 1 1 14 2.1 Problem Statement | Templates/Vision/problemStatement.txt) 
+
+34 proiektua: 1111 ############> AztertuGrafoaErpinBatetikHasitaBesteBideBat: Aztertuta = [vision_node_8] (Artifact Section 1 1 1 1 1 14 1 Introduction |)
+-------------------->> Hurrengoa = [vision_node_12] (Artifact Section 1 1 1 1 1 14 2 Positioning |) 
+
+34 proiektua: 1111 ############> AztertuGrafoaErpinBatetikHasitaBesteBideBat: Aztertuta = [vision_node_1] (Artifact Start 1 1 1 1 1 14 0 Vision |)
+-------------------->> Hurrengoa = [vision_node_8] (Artifact Section 1 1 1 1 1 14 1 Introduction |) 
+
+35 proiektua: 1111 ---------->> AztertuGrafoaEpinBatetikHasita: Aztertuta = [defineVision_node_8] (Task Artifact 1 1 1 1 1 14 0 Vision |)
+     -------------------->> Hurrengoa =  (Task Artifact 1 1 1 1 1 10 0 Glossary |) 
+
+       \\\\\\\>> BesteGrafoBateanSakondu: oraingoErpina = [defineVision_node_14] (Task Artifact 1 1 1 1 1 10 0 Glossary |) 
+        \\\\\\\>> azpiprozesuko Lehena = Artifact Start 1 1 1 1 1 10 0 Glossary |
+
+SakonerakoBilaketa: hemendik hasi= [glossary_2_node_9] = Artifact Start 1 1 1 1 1 10 0 Glossary |
+
+36 proiektua: 1111 ---------->> AztertuGrafoaEpinBatetikHasita: Aztertuta = [glossary_2_node_9] (Artifact Start 1 1 1 1 1 10 0 Glossary |)
+     -------------------->> Hurrengoa =  (Artifact SectionWT 1 1 1 1 1 10 1 Introduction | Templates/Glossary/Introduction.txt) 
+
+       \\\\\\\>> BesteGrafoBateanSakondu: oraingoErpina = [glossary_2_node_16] (Artifact SectionWT 1 1 1 1 1 10 1 Introduction | Templates/Glossary/Introduction.txt) 
+        \\\\\\\>> azpiprozesuko Lehena = SectionWT Start 1 1 1 1 1 10 1 Introduction |
+
+37 proiektua: 1111 ---------->> AztertuGrafoaEpinBatetikHasita: Aztertuta = [glossary_2_node_16] (Artifact SectionWT 1 1 1 1 1 10 1 Introduction | Templates/Glossary/Introduction.txt)
+     -------------------->> Hurrengoa =  (Artifact SectionWT 1 1 1 1 1 10 1.1 Purpose | Templates/Glossary/Purpose.txt) 
+
+       \\\\\\\>> BesteGrafoBateanSakondu: oraingoErpina = [glossary_2_node_2] (Artifact SectionWT 1 1 1 1 1 10 1.1 Purpose | Templates/Glossary/Purpose.txt) 
+        \\\\\\\>> azpiprozesuko Lehena = SectionWT Start 1 1 1 1 1 10 1.1 Purpose |
+
+38 proiektua: 1111 ---------->> AztertuGrafoaEpinBatetikHasita: Aztertuta = [glossary_2_node_2] (Artifact SectionWT 1 1 1 1 1 10 1.1 Purpose | Templates/Glossary/Purpose.txt)
+     -------------------->> Hurrengoa =  (Artifact SectionWT 1 1 1 1 1 10 1.2 Scope | Templates/Glossary/Scope.txt) 
+
+       \\\\\\\>> BesteGrafoBateanSakondu: oraingoErpina = [glossary_2_node_13] (Artifact SectionWT 1 1 1 1 1 10 1.2 Scope | Templates/Glossary/Scope.txt) 
+        \\\\\\\>> azpiprozesuko Lehena = SectionWT Start 1 1 1 1 1 10 1.2 Scope |
+
+39 proiektua: 1111 ---------->> AztertuGrafoaEpinBatetikHasita: Aztertuta = [glossary_2_node_13] (Artifact SectionWT 1 1 1 1 1 10 1.2 Scope | Templates/Glossary/Scope.txt)
+     -------------------->> Hurrengoa =  (Artifact SectionWT 1 1 1 1 1 10 1.3 References | Templates/Glossary/References.txt) 
+
+       \\\\\\\>> BesteGrafoBateanSakondu: oraingoErpina = [glossary_2_node_6] (Artifact SectionWT 1 1 1 1 1 10 1.3 References | Templates/Glossary/References.txt) 
+        \\\\\\\>> azpiprozesuko Lehena = SectionWT Start 1 1 1 1 1 10 1.3 References |
+
+40 proiektua: 1111 ---------->> AztertuGrafoaEpinBatetikHasita: Aztertuta = [glossary_2_node_6] (Artifact SectionWT 1 1 1 1 1 10 1.3 References | Templates/Glossary/References.txt)
+     -------------------->> Hurrengoa =  (Artifact SectionWT 1 1 1 1 1 10 1.4 Overview | Templates/Glossary/Overview.txt) 
+
+       \\\\\\\>> BesteGrafoBateanSakondu: oraingoErpina = [glossary_2_node_5] (Artifact SectionWT 1 1 1 1 1 10 1.4 Overview | Templates/Glossary/Overview.txt) 
+        \\\\\\\>> azpiprozesuko Lehena = SectionWT Start 1 1 1 1 1 10 1.4 Overview |
+
+41 proiektua: 1111 ---------->> AztertuGrafoaEpinBatetikHasita: Aztertuta = [glossary_2_node_5] (Artifact SectionWT 1 1 1 1 1 10 1.4 Overview | Templates/Glossary/Overview.txt)
+     -------------------->> Hurrengoa =  (Artifact SectionWT 1 1 1 1 1 10 2 Definitions | Templates/Glossary/Definitions.txt) 
+
+       \\\\\\\>> BesteGrafoBateanSakondu: oraingoErpina = [glossary_2_node_1] (Artifact SectionWT 1 1 1 1 1 10 2 Definitions | Templates/Glossary/Definitions.txt) 
+        \\\\\\\>> azpiprozesuko Lehena = SectionWT Start 1 1 1 1 1 10 2 Definitions |
+
+42 proiektua: 1111 ---------->> AztertuGrafoaEpinBatetikHasita: Aztertuta = [glossary_2_node_1] (Artifact SectionWT 1 1 1 1 1 10 2 Definitions | Templates/Glossary/Definitions.txt)
+     -------------------->> Hurrengoa =  (Artifact SectionWT 1 1 1 1 1 10 3 UML Stereotypes | Templates/Glossary/UMLStereotypes.txt) 
+
+       \\\\\\\>> BesteGrafoBateanSakondu: oraingoErpina = [glossary_2_node_0] (Artifact SectionWT 1 1 1 1 1 10 3 UML Stereotypes | Templates/Glossary/UMLStereotypes.txt) 
+        \\\\\\\>> azpiprozesuko Lehena = SectionWT Start 1 1 1 1 1 10 3 UML Stereotypes |
+
+43 proiektua: 1111 ---------->> AztertuGrafoaEpinBatetikHasita: Aztertuta = [glossary_2_node_0] (Artifact SectionWT 1 1 1 1 1 10 3 UML Stereotypes | Templates/Glossary/UMLStereotypes.txt)
+     -------------------->> Hurrengoa =  (Artifact End 1 1 1 1 1 10 0 Glossary |) 
+
+44 proiektua: 1111 |---------->> AztertuGrafoaEpinBatetikHasita: Aztertuta = [glossary_2_node_3] (Artifact End 1 1 1 1 1 10 0 Glossary |) -----------||
+
+44 proiektua: 1111 ############> AztertuGrafoaErpinBatetikHasitaBesteBideBat: Aztertuta = [glossary_2_node_0] (Artifact SectionWT 1 1 1 1 1 10 3 UML Stereotypes | Templates/Glossary/UMLStereotypes.txt)
+-------------------->> Hurrengoa = [glossary_2_node_3] (Artifact End 1 1 1 1 1 10 0 Glossary |) 
+
+44 proiektua: 1111 ############> AztertuGrafoaErpinBatetikHasitaBesteBideBat: Aztertuta = [glossary_2_node_1] (Artifact SectionWT 1 1 1 1 1 10 2 Definitions | Templates/Glossary/Definitions.txt)
+-------------------->> Hurrengoa = [glossary_2_node_0] (Artifact SectionWT 1 1 1 1 1 10 3 UML Stereotypes | Templates/Glossary/UMLStereotypes.txt) 
+
+44 proiektua: 1111 ############> AztertuGrafoaErpinBatetikHasitaBesteBideBat: Aztertuta = [glossary_2_node_5] (Artifact SectionWT 1 1 1 1 1 10 1.4 Overview | Templates/Glossary/Overview.txt)
+-------------------->> Hurrengoa = [glossary_2_node_1] (Artifact SectionWT 1 1 1 1 1 10 2 Definitions | Templates/Glossary/Definitions.txt) 
+
+44 proiektua: 1111 ############> AztertuGrafoaErpinBatetikHasitaBesteBideBat: Aztertuta = [glossary_2_node_6] (Artifact SectionWT 1 1 1 1 1 10 1.3 References | Templates/Glossary/References.txt)
+-------------------->> Hurrengoa = [glossary_2_node_5] (Artifact SectionWT 1 1 1 1 1 10 1.4 Overview | Templates/Glossary/Overview.txt) 
+
+44 proiektua: 1111 ############> AztertuGrafoaErpinBatetikHasitaBesteBideBat: Aztertuta = [glossary_2_node_13] (Artifact SectionWT 1 1 1 1 1 10 1.2 Scope | Templates/Glossary/Scope.txt)
+-------------------->> Hurrengoa = [glossary_2_node_6] (Artifact SectionWT 1 1 1 1 1 10 1.3 References | Templates/Glossary/References.txt) 
+
+44 proiektua: 1111 ############> AztertuGrafoaErpinBatetikHasitaBesteBideBat: Aztertuta = [glossary_2_node_2] (Artifact SectionWT 1 1 1 1 1 10 1.1 Purpose | Templates/Glossary/Purpose.txt)
+-------------------->> Hurrengoa = [glossary_2_node_13] (Artifact SectionWT 1 1 1 1 1 10 1.2 Scope | Templates/Glossary/Scope.txt) 
+
+44 proiektua: 1111 ############> AztertuGrafoaErpinBatetikHasitaBesteBideBat: Aztertuta = [glossary_2_node_16] (Artifact SectionWT 1 1 1 1 1 10 1 Introduction | Templates/Glossary/Introduction.txt)
+-------------------->> Hurrengoa = [glossary_2_node_2] (Artifact SectionWT 1 1 1 1 1 10 1.1 Purpose | Templates/Glossary/Purpose.txt) 
+
+44 proiektua: 1111 ############> AztertuGrafoaErpinBatetikHasitaBesteBideBat: Aztertuta = [glossary_2_node_9] (Artifact Start 1 1 1 1 1 10 0 Glossary |)
+-------------------->> Hurrengoa = [glossary_2_node_16] (Artifact SectionWT 1 1 1 1 1 10 1 Introduction | Templates/Glossary/Introduction.txt) 
+
+45 proiektua: 1111 ---------->> AztertuGrafoaEpinBatetikHasita: Aztertuta = [defineVision_node_14] (Task Artifact 1 1 1 1 1 10 0 Glossary |)
+     -------------------->> Hurrengoa =  (Task Artifact 1 1 1 1 1 9 0 Work Items List |) 
+
+       \\\\\\\>> BesteGrafoBateanSakondu: oraingoErpina = [defineVision_node_0] (Task Artifact 1 1 1 1 1 9 0 Work Items List |) 
+        \\\\\\\>> azpiprozesuko Lehena = Artifact Start 1 1 1 1 1 9 0 Work Items List |
+
+SakonerakoBilaketa: hemendik hasi= [workItemsList_2_node_2] = Artifact Start 1 1 1 1 1 9 0 Work Items List |
+
+46 proiektua: 1111 ---------->> AztertuGrafoaEpinBatetikHasita: Aztertuta = [workItemsList_2_node_2] (Artifact Start 1 1 1 1 1 9 0 Work Items List |)
+     -------------------->> Hurrengoa =  (Artifact SectionWT 1 1 1 1 1 9 0 Fill table | Templates/WorkItemsList/FillTable.txt) 
+
+       \\\\\\\>> BesteGrafoBateanSakondu: oraingoErpina = [workItemsList_2_node_0] (Artifact SectionWT 1 1 1 1 1 9 0 Fill table | Templates/WorkItemsList/FillTable.txt) 
+        \\\\\\\>> azpiprozesuko Lehena = SectionWT Start 1 1 1 1 1 9 0 Fill table |
+
+47 proiektua: 1111 ---------->> AztertuGrafoaEpinBatetikHasita: Aztertuta = [workItemsList_2_node_0] (Artifact SectionWT 1 1 1 1 1 9 0 Fill table | Templates/WorkItemsList/FillTable.txt)
+     -------------------->> Hurrengoa =  (Artifact End 1 1 1 1 1 9 0 Work Items List |) 
+
+48 proiektua: 1111 |---------->> AztertuGrafoaEpinBatetikHasita: Aztertuta = [workItemsList_2_node_1] (Artifact End 1 1 1 1 1 9 0 Work Items List |) -----------||
+
+48 proiektua: 1111 ############> AztertuGrafoaErpinBatetikHasitaBesteBideBat: Aztertuta = [workItemsList_2_node_0] (Artifact SectionWT 1 1 1 1 1 9 0 Fill table | Templates/WorkItemsList/FillTable.txt)
+-------------------->> Hurrengoa = [workItemsList_2_node_1] (Artifact End 1 1 1 1 1 9 0 Work Items List |) 
+
+48 proiektua: 1111 ############> AztertuGrafoaErpinBatetikHasitaBesteBideBat: Aztertuta = [workItemsList_2_node_2] (Artifact Start 1 1 1 1 1 9 0 Work Items List |)
+-------------------->> Hurrengoa = [workItemsList_2_node_0] (Artifact SectionWT 1 1 1 1 1 9 0 Fill table | Templates/WorkItemsList/FillTable.txt) 
+
+49 proiektua: 1111 ---------->> AztertuGrafoaEpinBatetikHasita: Aztertuta = [defineVision_node_0] (Task Artifact 1 1 1 1 1 9 0 Work Items List |)
+     -------------------->> Hurrengoa =  (Task End 1 1 1 1 1 0 0 Define Vision |) 
+
+50 proiektua: 1111 |---------->> AztertuGrafoaEpinBatetikHasita: Aztertuta = [defineVision_node_5] (Task End 1 1 1 1 1 0 0 Define Vision |) -----------||
+
+50 proiektua: 1111 ############> AztertuGrafoaErpinBatetikHasitaBesteBideBat: Aztertuta = [defineVision_node_0] (Task Artifact 1 1 1 1 1 9 0 Work Items List |)
+-------------------->> Hurrengoa = [defineVision_node_5] (Task End 1 1 1 1 1 0 0 Define Vision |) 
+
+50 proiektua: 1111 ############> AztertuGrafoaErpinBatetikHasitaBesteBideBat: Aztertuta = [defineVision_node_14] (Task Artifact 1 1 1 1 1 10 0 Glossary |)
+-------------------->> Hurrengoa = [defineVision_node_0] (Task Artifact 1 1 1 1 1 9 0 Work Items List |) 
+
+50 proiektua: 1111 ############> AztertuGrafoaErpinBatetikHasitaBesteBideBat: Aztertuta = [defineVision_node_8] (Task Artifact 1 1 1 1 1 14 0 Vision |)
+-------------------->> Hurrengoa = [defineVision_node_14] (Task Artifact 1 1 1 1 1 10 0 Glossary |) 
+
+50 proiektua: 1111 ############> AztertuGrafoaErpinBatetikHasitaBesteBideBat: Aztertuta = [defineVision_node_4] (Task Start 1 1 1 1 1 0 0 Define Vision |)
+-------------------->> Hurrengoa = [defineVision_node_8] (Task Artifact 1 1 1 1 1 14 0 Vision |) 
+
+51 proiektua: 1111 ---------->> AztertuGrafoaEpinBatetikHasita: Aztertuta = [initiateProject_node_2] (Activity Task 1 1 1 1 1 0 0 Define Vision | Analyst)
+     -------------------->> Hurrengoa =  (Activity Task 1 1 1 2 5 0 0 Plan Project | Project Manager) 
+
+       \\\\\\\>> BesteGrafoBateanSakondu: oraingoErpina = [initiateProject_node_13] (Activity Task 1 1 1 2 5 0 0 Plan Project | Project Manager) 
+        \\\\\\\>> azpiprozesuko Lehena = Task Start 1 1 1 2 5 0 0 Plan Project |
+
+SakonerakoBilaketa: hemendik hasi= [planProject_node_7] = Task Start 1 1 1 2 5 0 0 Plan Project |
+
+52 proiektua: 1111 ---------->> AztertuGrafoaEpinBatetikHasita: Aztertuta = [planProject_node_7] (Task Start 1 1 1 2 5 0 0 Plan Project |)
+     -------------------->> Hurrengoa =  (Task Artifact 1 1 1 2 5 7 0 Project Plan |) 
+
+       \\\\\\\>> BesteGrafoBateanSakondu: oraingoErpina = [planProject_node_10] (Task Artifact 1 1 1 2 5 7 0 Project Plan |) 
+        \\\\\\\>> azpiprozesuko Lehena = Artifact Start 1 1 1 2 5 7 0 Project Plan |
+
+SakonerakoBilaketa: hemendik hasi= [projectPlan_node_2] = Artifact Start 1 1 1 2 5 7 0 Project Plan |
+
+53 proiektua: 1111 ---------->> AztertuGrafoaEpinBatetikHasita: Aztertuta = [projectPlan_node_2] (Artifact Start 1 1 1 2 5 7 0 Project Plan |)
+     -------------------->> Hurrengoa =  (Artifact SectionWT 1 1 1 2 5 7 1 Introduction | Templates/ProjectPlan/Introduction.txt) 
+
+       \\\\\\\>> BesteGrafoBateanSakondu: oraingoErpina = [projectPlan_node_9] (Artifact SectionWT 1 1 1 2 5 7 1 Introduction | Templates/ProjectPlan/Introduction.txt) 
+        \\\\\\\>> azpiprozesuko Lehena = SectionWT Start 1 1 1 2 5 7 1 Introduction |
+
+54 proiektua: 1111 ---------->> AztertuGrafoaEpinBatetikHasita: Aztertuta = [projectPlan_node_9] (Artifact SectionWT 1 1 1 2 5 7 1 Introduction | Templates/ProjectPlan/Introduction.txt)
+     -------------------->> Hurrengoa =  (Artifact SectionWT 1 1 1 2 5 7 2 Project organization | Templates/ProjectPlan/ProjectOrganization.txt) 
+
+       \\\\\\\>> BesteGrafoBateanSakondu: oraingoErpina = [projectPlan_node_10] (Artifact SectionWT 1 1 1 2 5 7 2 Project organization | Templates/ProjectPlan/ProjectOrganization.txt) 
+        \\\\\\\>> azpiprozesuko Lehena = SectionWT Start 1 1 1 2 5 7 2 Project organization |
+
+55 proiektua: 1111 ---------->> AztertuGrafoaEpinBatetikHasita: Aztertuta = [projectPlan_node_10] (Artifact SectionWT 1 1 1 2 5 7 2 Project organization | Templates/ProjectPlan/ProjectOrganization.txt)
+     -------------------->> Hurrengoa =  (Artifact SectionWT 1 1 1 2 5 7 3 Project practices and measurements | Templates/ProjectPlan/ProjectPracticesAndMeasurements.txt) 
+
+       \\\\\\\>> BesteGrafoBateanSakondu: oraingoErpina = [projectPlan_node_4] (Artifact SectionWT 1 1 1 2 5 7 3 Project practices and measurements | Templates/ProjectPlan/ProjectPracticesAndMeasurements.txt) 
+        \\\\\\\>> azpiprozesuko Lehena = SectionWT Start 1 1 1 2 5 7 3 Project practices and measurements |
+
+56 proiektua: 1111 ---------->> AztertuGrafoaEpinBatetikHasita: Aztertuta = [projectPlan_node_4] (Artifact SectionWT 1 1 1 2 5 7 3 Project practices and measurements | Templates/ProjectPlan/ProjectPracticesAndMeasurements.txt)
+     -------------------->> Hurrengoa =  (Artifact SectionWT 1 1 1 2 5 7 4 Project milestones and objectives | Templates/ProjectPlan/ProjectMilestonesAndObjectives.txt) 
+
+       \\\\\\\>> BesteGrafoBateanSakondu: oraingoErpina = [projectPlan_node_3] (Artifact SectionWT 1 1 1 2 5 7 4 Project milestones and objectives | Templates/ProjectPlan/ProjectMilestonesAndObjectives.txt) 
+        \\\\\\\>> azpiprozesuko Lehena = SectionWT Start 1 1 1 2 5 7 4 Project milestones and objectives |
+
+57 proiektua: 1111 ---------->> AztertuGrafoaEpinBatetikHasita: Aztertuta = [projectPlan_node_3] (Artifact SectionWT 1 1 1 2 5 7 4 Project milestones and objectives | Templates/ProjectPlan/ProjectMilestonesAndObjectives.txt)
+     -------------------->> Hurrengoa =  (Artifact SectionWT 1 1 1 2 5 7 5 Deployment | Templates/ProjectPlan/Deployment.txt) 
+
+       \\\\\\\>> BesteGrafoBateanSakondu: oraingoErpina = [projectPlan_node_14] (Artifact SectionWT 1 1 1 2 5 7 5 Deployment | Templates/ProjectPlan/Deployment.txt) 
+        \\\\\\\>> azpiprozesuko Lehena = SectionWT Start 1 1 1 2 5 7 5 Deployment |
+
+58 proiektua: 1111 ---------->> AztertuGrafoaEpinBatetikHasita: Aztertuta = [projectPlan_node_14] (Artifact SectionWT 1 1 1 2 5 7 5 Deployment | Templates/ProjectPlan/Deployment.txt)
+     -------------------->> Hurrengoa =  (Artifact SectionWT 1 1 1 2 5 7 6 Lessons learned | Templates/ProjectPlan/LessonsLearned.txt) 
+
+       \\\\\\\>> BesteGrafoBateanSakondu: oraingoErpina = [projectPlan_node_6] (Artifact SectionWT 1 1 1 2 5 7 6 Lessons learned | Templates/ProjectPlan/LessonsLearned.txt) 
+        \\\\\\\>> azpiprozesuko Lehena = SectionWT Start 1 1 1 2 5 7 6 Lessons learned |
+
+59 proiektua: 1111 ---------->> AztertuGrafoaEpinBatetikHasita: Aztertuta = [projectPlan_node_6] (Artifact SectionWT 1 1 1 2 5 7 6 Lessons learned | Templates/ProjectPlan/LessonsLearned.txt)
+     -------------------->> Hurrengoa =  (Artifact End 1 1 1 2 5 7 0 Project Plan |) 
+
+60 proiektua: 1111 |---------->> AztertuGrafoaEpinBatetikHasita: Aztertuta = [projectPlan_node_1] (Artifact End 1 1 1 2 5 7 0 Project Plan |) -----------||
+
+60 proiektua: 1111 ############> AztertuGrafoaErpinBatetikHasitaBesteBideBat: Aztertuta = [projectPlan_node_6] (Artifact SectionWT 1 1 1 2 5 7 6 Lessons learned | Templates/ProjectPlan/LessonsLearned.txt)
+-------------------->> Hurrengoa = [projectPlan_node_1] (Artifact End 1 1 1 2 5 7 0 Project Plan |) 
+
+60 proiektua: 1111 ############> AztertuGrafoaErpinBatetikHasitaBesteBideBat: Aztertuta = [projectPlan_node_14] (Artifact SectionWT 1 1 1 2 5 7 5 Deployment | Templates/ProjectPlan/Deployment.txt)
+-------------------->> Hurrengoa = [projectPlan_node_6] (Artifact SectionWT 1 1 1 2 5 7 6 Lessons learned | Templates/ProjectPlan/LessonsLearned.txt) 
+
+60 proiektua: 1111 ############> AztertuGrafoaErpinBatetikHasitaBesteBideBat: Aztertuta = [projectPlan_node_3] (Artifact SectionWT 1 1 1 2 5 7 4 Project milestones and objectives | Templates/ProjectPlan/ProjectMilestonesAndObjectives.txt)
+-------------------->> Hurrengoa = [projectPlan_node_14] (Artifact SectionWT 1 1 1 2 5 7 5 Deployment | Templates/ProjectPlan/Deployment.txt) 
+
+60 proiektua: 1111 ############> AztertuGrafoaErpinBatetikHasitaBesteBideBat: Aztertuta = [projectPlan_node_4] (Artifact SectionWT 1 1 1 2 5 7 3 Project practices and measurements | Templates/ProjectPlan/ProjectPracticesAndMeasurements.txt)
+-------------------->> Hurrengoa = [projectPlan_node_3] (Artifact SectionWT 1 1 1 2 5 7 4 Project milestones and objectives | Templates/ProjectPlan/ProjectMilestonesAndObjectives.txt) 
+
+60 proiektua: 1111 ############> AztertuGrafoaErpinBatetikHasitaBesteBideBat: Aztertuta = [projectPlan_node_10] (Artifact SectionWT 1 1 1 2 5 7 2 Project organization | Templates/ProjectPlan/ProjectOrganization.txt)
+-------------------->> Hurrengoa = [projectPlan_node_4] (Artifact SectionWT 1 1 1 2 5 7 3 Project practices and measurements | Templates/ProjectPlan/ProjectPracticesAndMeasurements.txt) 
+
+60 proiektua: 1111 ############> AztertuGrafoaErpinBatetikHasitaBesteBideBat: Aztertuta = [projectPlan_node_9] (Artifact SectionWT 1 1 1 2 5 7 1 Introduction | Templates/ProjectPlan/Introduction.txt)
+-------------------->> Hurrengoa = [projectPlan_node_10] (Artifact SectionWT 1 1 1 2 5 7 2 Project organization | Templates/ProjectPlan/ProjectOrganization.txt) 
+
+60 proiektua: 1111 ############> AztertuGrafoaErpinBatetikHasitaBesteBideBat: Aztertuta = [projectPlan_node_2] (Artifact Start 1 1 1 2 5 7 0 Project Plan |)
+-------------------->> Hurrengoa = [projectPlan_node_9] (Artifact SectionWT 1 1 1 2 5 7 1 Introduction | Templates/ProjectPlan/Introduction.txt) 
+
+61 proiektua: 1111 ---------->> AztertuGrafoaEpinBatetikHasita: Aztertuta = [planProject_node_10] (Task Artifact 1 1 1 2 5 7 0 Project Plan |)
+     -------------------->> Hurrengoa =  (Task Artifact 1 1 1 2 5 9 0 Work Items List |) 
+
+       \\\\\\\>> BesteGrafoBateanSakondu: oraingoErpina = [planProject_node_11] (Task Artifact 1 1 1 2 5 9 0 Work Items List |) 
+        \\\\\\\>> azpiprozesuko Lehena = Artifact Start 1 1 1 2 5 9 0 Work Items List |
+
+SakonerakoBilaketa: hemendik hasi= [workItemsList_1_node_9] = Artifact Start 1 1 1 2 5 9 0 Work Items List |
+
+62 proiektua: 1111 ---------->> AztertuGrafoaEpinBatetikHasita: Aztertuta = [workItemsList_1_node_9] (Artifact Start 1 1 1 2 5 9 0 Work Items List |)
+     -------------------->> Hurrengoa =  (Artifact SectionWT 1 1 1 2 5 9 0 Fill table | Templates/WorkItemsList/FillTable.txt) 
+
+       \\\\\\\>> BesteGrafoBateanSakondu: oraingoErpina = [workItemsList_1_node_12] (Artifact SectionWT 1 1 1 2 5 9 0 Fill table | Templates/WorkItemsList/FillTable.txt) 
+        \\\\\\\>> azpiprozesuko Lehena = SectionWT Start 1 1 1 2 5 9 0 Fill table |
+
+63 proiektua: 1111 ---------->> AztertuGrafoaEpinBatetikHasita: Aztertuta = [workItemsList_1_node_12] (Artifact SectionWT 1 1 1 2 5 9 0 Fill table | Templates/WorkItemsList/FillTable.txt)
+     -------------------->> Hurrengoa =  (Artifact End 1 1 1 2 5 9 0 Work Items List |) 
+
+64 proiektua: 1111 |---------->> AztertuGrafoaEpinBatetikHasita: Aztertuta = [workItemsList_1_node_4] (Artifact End 1 1 1 2 5 9 0 Work Items List |) -----------||
+
+64 proiektua: 1111 ############> AztertuGrafoaErpinBatetikHasitaBesteBideBat: Aztertuta = [workItemsList_1_node_12] (Artifact SectionWT 1 1 1 2 5 9 0 Fill table | Templates/WorkItemsList/FillTable.txt)
+-------------------->> Hurrengoa = [workItemsList_1_node_4] (Artifact End 1 1 1 2 5 9 0 Work Items List |) 
+
+64 proiektua: 1111 ############> AztertuGrafoaErpinBatetikHasitaBesteBideBat: Aztertuta = [workItemsList_1_node_9] (Artifact Start 1 1 1 2 5 9 0 Work Items List |)
+-------------------->> Hurrengoa = [workItemsList_1_node_12] (Artifact SectionWT 1 1 1 2 5 9 0 Fill table | Templates/WorkItemsList/FillTable.txt) 
+
+65 proiektua: 1111 ---------->> AztertuGrafoaEpinBatetikHasita: Aztertuta = [planProject_node_11] (Task Artifact 1 1 1 2 5 9 0 Work Items List |)
+     -------------------->> Hurrengoa =  (Task Artifact 1 1 1 2 5 8 0 Risk List |) 
+
+       \\\\\\\>> BesteGrafoBateanSakondu: oraingoErpina = [planProject_node_13] (Task Artifact 1 1 1 2 5 8 0 Risk List |) 
+        \\\\\\\>> azpiprozesuko Lehena = Artifact Start 1 1 1 2 5 8 0 Risk List |
+
+SakonerakoBilaketa: hemendik hasi= [riskList_node_9] = Artifact Start 1 1 1 2 5 8 0 Risk List |
+
+66 proiektua: 1111 ---------->> AztertuGrafoaEpinBatetikHasita: Aztertuta = [riskList_node_9] (Artifact Start 1 1 1 2 5 8 0 Risk List |)
+     -------------------->> Hurrengoa =  (Artifact SectionWT 1 1 1 2 5 8 0 Fill table | Templates/RiskList/FillTable.txt) 
+
+       \\\\\\\>> BesteGrafoBateanSakondu: oraingoErpina = [riskList_node_10] (Artifact SectionWT 1 1 1 2 5 8 0 Fill table | Templates/RiskList/FillTable.txt) 
+        \\\\\\\>> azpiprozesuko Lehena = SectionWT Start 1 1 1 2 5 8 0 Fill table |
+
+67 proiektua: 1111 ---------->> AztertuGrafoaEpinBatetikHasita: Aztertuta = [riskList_node_10] (Artifact SectionWT 1 1 1 2 5 8 0 Fill table | Templates/RiskList/FillTable.txt)
+     -------------------->> Hurrengoa =  (Artifact End 1 1 1 2 5 8 0 Risk List |) 
+
+68 proiektua: 1111 |---------->> AztertuGrafoaEpinBatetikHasita: Aztertuta = [riskList_node_12] (Artifact End 1 1 1 2 5 8 0 Risk List |) -----------||
+
+68 proiektua: 1111 ############> AztertuGrafoaErpinBatetikHasitaBesteBideBat: Aztertuta = [riskList_node_10] (Artifact SectionWT 1 1 1 2 5 8 0 Fill table | Templates/RiskList/FillTable.txt)
+-------------------->> Hurrengoa = [riskList_node_12] (Artifact End 1 1 1 2 5 8 0 Risk List |) 
+
+68 proiektua: 1111 ############> AztertuGrafoaErpinBatetikHasitaBesteBideBat: Aztertuta = [riskList_node_9] (Artifact Start 1 1 1 2 5 8 0 Risk List |)
+-------------------->> Hurrengoa = [riskList_node_10] (Artifact SectionWT 1 1 1 2 5 8 0 Fill table | Templates/RiskList/FillTable.txt) 
+
+69 proiektua: 1111 ---------->> AztertuGrafoaEpinBatetikHasita: Aztertuta = [planProject_node_13] (Task Artifact 1 1 1 2 5 8 0 Risk List |)
+     -------------------->> Hurrengoa =  (Task End 1 1 1 2 5 0 0 Plan Project |) 
+
+70 proiektua: 1111 |---------->> AztertuGrafoaEpinBatetikHasita: Aztertuta = [planProject_node_4] (Task End 1 1 1 2 5 0 0 Plan Project |) -----------||
+
+70 proiektua: 1111 ############> AztertuGrafoaErpinBatetikHasitaBesteBideBat: Aztertuta = [planProject_node_13] (Task Artifact 1 1 1 2 5 8 0 Risk List |)
+-------------------->> Hurrengoa = [planProject_node_4] (Task End 1 1 1 2 5 0 0 Plan Project |) 
+
+70 proiektua: 1111 ############> AztertuGrafoaErpinBatetikHasitaBesteBideBat: Aztertuta = [planProject_node_11] (Task Artifact 1 1 1 2 5 9 0 Work Items List |)
+-------------------->> Hurrengoa = [planProject_node_13] (Task Artifact 1 1 1 2 5 8 0 Risk List |) 
+
+70 proiektua: 1111 ############> AztertuGrafoaErpinBatetikHasitaBesteBideBat: Aztertuta = [planProject_node_10] (Task Artifact 1 1 1 2 5 7 0 Project Plan |)
+-------------------->> Hurrengoa = [planProject_node_11] (Task Artifact 1 1 1 2 5 9 0 Work Items List |) 
+
+70 proiektua: 1111 ############> AztertuGrafoaErpinBatetikHasitaBesteBideBat: Aztertuta = [planProject_node_7] (Task Start 1 1 1 2 5 0 0 Plan Project |)
+-------------------->> Hurrengoa = [planProject_node_10] (Task Artifact 1 1 1 2 5 7 0 Project Plan |) 
+
+71 proiektua: 1111 ---------->> AztertuGrafoaEpinBatetikHasita: Aztertuta = [initiateProject_node_13] (Activity Task 1 1 1 2 5 0 0 Plan Project | Project Manager)
+     -------------------->> Hurrengoa =  (Activity End 1 1 1 0 0 0 0 Initiate Project |) 
+
+72 proiektua: 1111 |---------->> AztertuGrafoaEpinBatetikHasita: Aztertuta = [initiateProject_node_12] (Activity End 1 1 1 0 0 0 0 Initiate Project |) -----------||
+
+72 proiektua: 1111 ############> AztertuGrafoaErpinBatetikHasitaBesteBideBat: Aztertuta = [initiateProject_node_13] (Activity Task 1 1 1 2 5 0 0 Plan Project | Project Manager)
+-------------------->> Hurrengoa = [initiateProject_node_12] (Activity End 1 1 1 0 0 0 0 Initiate Project |) 
+
+72 proiektua: 1111 ############> AztertuGrafoaErpinBatetikHasitaBesteBideBat: Aztertuta = [initiateProject_node_2] (Activity Task 1 1 1 1 1 0 0 Define Vision | Analyst)
+-------------------->> Hurrengoa = [initiateProject_node_13] (Activity Task 1 1 1 2 5 0 0 Plan Project | Project Manager) 
+1111-ToDo.csv fitxategia itxita
+2222-ToDo.csv fitxategia itxita
+Hurrengo artefaktuen bilaketa bukatua
+Deskonektatu da process_db datu basera 1 (11 12 31)

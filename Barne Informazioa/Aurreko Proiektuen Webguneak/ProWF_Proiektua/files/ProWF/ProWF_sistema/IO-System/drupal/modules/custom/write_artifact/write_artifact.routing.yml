@@ -1,0 +1,7 @@
+write_artifact.routing:
+   path: writeArtifact
+   defaults:
+      _controller: Drupal\write_artifact\Controller\WriteArtifactController::test
+   requirements:
+      _permission: 'access content+access user profiles'
+      _role: 'project_analyst'

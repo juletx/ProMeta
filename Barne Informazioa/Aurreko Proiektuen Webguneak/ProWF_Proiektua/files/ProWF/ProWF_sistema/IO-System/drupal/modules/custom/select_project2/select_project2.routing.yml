@@ -1,0 +1,8 @@
+select_project2.routing:
+   path: select-project2
+   defaults:
+      _title: 'Select Project'
+      _controller: Drupal\select_project2\Controller\SelectProject2Controller::test
+   requirements:
+      _permission: 'access content+access user profiles'
+      _role: 'project_quality_manager'

@@ -1,0 +1,4 @@
+name: 'Post Data'
+description: 'Post data from Write Artifact Form'
+core: 8.x
+type: module

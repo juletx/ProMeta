@@ -1,0 +1,70 @@
+{% if projects %}
+	<div class="ex1">
+	{% set cont = 0 %}
+	{% for project in projects %}
+		{% set result = project|split(';') %}
+		{% if cont == 0 %}
+		
+			<div class="left">
+				{% if goTo == "OT" %}
+					<a href="http:\\localhost\drupal\outstanding_tasks?project={{ result[0] }}">
+						<img src="http:\\localhost\drupal\images\project_image.png" alt="PROJECT IMAGE" width="90" height="150">
+					</a><br>
+				{% else %}
+					<a href="http:\\localhost\drupal\workflow_execution?project={{ result[0] }}">
+						<img src="http:\\localhost\drupal\images\project_image.png" alt="PROJECT IMAGE" width="90" height="150">
+					</a><br>
+				{% endif %}
+				<b>{{ result[0] }}</b> <br>
+				Start date: {{ result[1] }} <br>
+				Version: {{ result[2] }} <br>
+			</div>
+			
+			{% set cont = 1 %}
+		{% elseif cont==1 %}
+			
+			<div class="center">
+				{% if goTo == "OT" %}
+					<a href="http:\\localhost\drupal\outstanding_tasks?project={{ result[0] }}">
+						<img src="http:\\localhost\drupal\images\project_image.png" alt="PROJECT IMAGE" width="90" height="150">
+					</a><br>
+				{% else %}
+					<a href="http:\\localhost\drupal\workflow_execution?project={{ result[0] }}">
+						<img src="http:\\localhost\drupal\images\project_image.png" alt="PROJECT IMAGE" width="90" height="150">
+					</a><br>
+				{% endif %}
+				<b>{{ result[0] }}</b> <br>
+				Start date: {{ result[1] }} <br>
+				Version: {{ result[2] }} <br>
+			</div>
+			
+			{% set cont = 2 %}
+		{% else %}
+			
+			<div class="right">
+				{% if goTo == "OT" %}
+					<a href="http:\\localhost\drupal\outstanding_tasks?project={{ result[0] }}">
+						<img src="http:\\localhost\drupal\images\project_image.png" alt="PROJECT IMAGE" width="90" height="150">
+					</a><br>
+				{% else %}
+					<a href="http:\\localhost\drupal\workflow_execution?project={{ result[0] }}">
+						<img src="http:\\localhost\drupal\images\project_image.png" alt="PROJECT IMAGE" width="90" height="150">
+					</a><br>
+				{% endif %}
+				<b>{{ result[0] }}</b> <br>
+				Start date: {{ result[1] }} <br>
+				Version: {{ result[2] }} <br>
+			</div>
+			<br><br>
+			
+			{% set cont = 0 %}
+		{% endif %}
+	{% endfor %}
+	</div>
+{% else %}
+
+<p><b>No projects associated with your username</b></p>
+
+{% endif %}
+
+

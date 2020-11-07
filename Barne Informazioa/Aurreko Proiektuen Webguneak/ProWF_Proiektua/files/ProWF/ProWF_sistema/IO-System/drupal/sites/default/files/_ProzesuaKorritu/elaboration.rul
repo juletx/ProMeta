@@ -1,0 +1,1269 @@
+; Mon Jul 06 17:35:39 CEST 2020
+; 
+;+ (version "3.5")
+;+ (build "Build 663")
+
+(definstances elaboration
+([elaboration_data_0] of  data
+
+	(_key "fontsize")
+	(Text "12"))
+
+([elaboration_data_1] of  data
+
+	(_key "weight")
+	(Text "1.0"))
+
+([elaboration_data_10] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([elaboration_data_100] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([elaboration_data_101] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([elaboration_data_102] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([elaboration_data_103] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([elaboration_data_104] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([elaboration_data_105] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([elaboration_data_106] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([elaboration_data_107] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([elaboration_data_108] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([elaboration_data_109] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([elaboration_data_11] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([elaboration_data_110] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([elaboration_data_111] of  data
+
+	(_key "fontsize")
+	(Text "12"))
+
+([elaboration_data_112] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([elaboration_data_113] of  data
+
+	(_key "x")
+	(Text "72.72652"))
+
+([elaboration_data_114] of  data
+
+	(_key "margin")
+	(Text "0.11,0.11"))
+
+([elaboration_data_115] of  data
+
+	(_key "fontname")
+	(Text "Arial"))
+
+([elaboration_data_116] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([elaboration_data_117] of  data
+
+	(_key "label")
+	(Text "Test Solution"))
+
+([elaboration_data_118] of  data
+
+	(_key "y")
+	(Text "-157.76189"))
+
+([elaboration_data_119] of  data
+
+	(_key "fontname")
+	(Text "Arial"))
+
+([elaboration_data_12] of  data
+
+	(_key "y")
+	(Text "-276.84036"))
+
+([elaboration_data_120] of  data
+
+	(_key "weight")
+	(Text "1.0"))
+
+([elaboration_data_121] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([elaboration_data_122] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([elaboration_data_123] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([elaboration_data_124] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([elaboration_data_125] of  data
+
+	(_key "shape")
+	(Text "box3d"))
+
+([elaboration_data_126] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([elaboration_data_127] of  data
+
+	(_key "y")
+	(Text "219.51125"))
+
+([elaboration_data_128] of  data
+
+	(_key "y")
+	(Text "25.473164"))
+
+([elaboration_data_129] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([elaboration_data_13] of  data
+
+	(_key "fillcolor")
+	(Text "#DCDCDC"))
+
+([elaboration_data_130] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([elaboration_data_131] of  data
+
+	(_key "fillcolor")
+	(Text "#DCDCDC"))
+
+([elaboration_data_132] of  data
+
+	(_key "y")
+	(Text "-119.091225"))
+
+([elaboration_data_133] of  data
+
+	(_key "y")
+	(Text "410.59726"))
+
+([elaboration_data_134] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([elaboration_data_135] of  data
+
+	(_key "fontsize")
+	(Text "12"))
+
+([elaboration_data_136] of  data
+
+	(_key "shape")
+	(Text "box3d"))
+
+([elaboration_data_137] of  data
+
+	(_key "x")
+	(Text "312.26642"))
+
+([elaboration_data_138] of  data
+
+	(_key "x")
+	(Text "-128.35143"))
+
+([elaboration_data_139] of  data
+
+	(_key "label")
+	(Text "Plan and Manage Iteration"))
+
+([elaboration_data_14] of  data
+
+	(_key "weight")
+	(Text "1.0"))
+
+([elaboration_data_140] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([elaboration_data_141] of  data
+
+	(_key "fillcolor")
+	(Text "#DCDCDC"))
+
+([elaboration_data_142] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([elaboration_data_143] of  data
+
+	(_key "weight")
+	(Text "1.0"))
+
+([elaboration_data_144] of  data
+
+	(_key "label")
+	(Text "label"))
+
+([elaboration_data_145] of  data
+
+	(_key "url")
+	(Text "./PlanAndManageIteration/planAndManageIteration.html"))
+
+([elaboration_data_146] of  data
+
+	(_key "x")
+	(Text "-116.67595"))
+
+([elaboration_data_147] of  data
+
+	(_key "url")
+	(Text "./IdentifyAndRefineRequirements/identifyAndRefineRequirements.html"))
+
+([elaboration_data_148] of  data
+
+	(_key "label")
+	(Text "labelloc"))
+
+([elaboration_data_149] of  data
+
+	(_key "fillcolor")
+	(Text "#DCDCDC"))
+
+([elaboration_data_15] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([elaboration_data_150] of  data
+
+	(_key "x")
+	(Text "332.10236"))
+
+([elaboration_data_151] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([elaboration_data_152] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([elaboration_data_153] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([elaboration_data_154] of  data
+
+	(_key "weight")
+	(Text "1.0"))
+
+([elaboration_data_155] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([elaboration_data_156] of  data
+
+	(_key "url")
+	(Text "./DevelopTheArchitecture/developTheArchitecture.html"))
+
+([elaboration_data_157] of  data
+
+	(_key "shape")
+	(Text "ellipse"))
+
+([elaboration_data_158] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([elaboration_data_159] of  data
+
+	(_key "label")
+	(Text "bgcolor"))
+
+([elaboration_data_16] of  data
+
+	(_key "url")
+	(Text "./TestSolution/testSolution.html"))
+
+([elaboration_data_160] of  data
+
+	(_key "x")
+	(Text "382.9212"))
+
+([elaboration_data_161] of  data
+
+	(_key "x")
+	(Text "-298.83997"))
+
+([elaboration_data_162] of  data
+
+	(_key "x")
+	(Text "-140.96162"))
+
+([elaboration_data_163] of  data
+
+	(_key "shape")
+	(Text "diamond"))
+
+([elaboration_data_164] of  data
+
+	(_key "x")
+	(Text "-68.57701"))
+
+([elaboration_data_165] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([elaboration_data_166] of  data
+
+	(_key "y")
+	(Text "367.90646"))
+
+([elaboration_data_167] of  data
+
+	(_key "label")
+	(Text "t"))
+
+([elaboration_data_168] of  data
+
+	(_key "shape")
+	(Text "box3d"))
+
+([elaboration_data_169] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([elaboration_data_17] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([elaboration_data_170] of  data
+
+	(_key "label")
+	(Text "Join"))
+
+([elaboration_data_171] of  data
+
+	(_key "fontname")
+	(Text "Arial"))
+
+([elaboration_data_172] of  data
+
+	(_key "x")
+	(Text "60.094986"))
+
+([elaboration_data_173] of  data
+
+	(_key "label")
+	(Text "Identify and Refine Requirements"))
+
+([elaboration_data_174] of  data
+
+	(_key "label")
+	(Text "Develop the Architecture"))
+
+([elaboration_data_175] of  data
+
+	(_key "y")
+	(Text "-213.34245"))
+
+([elaboration_data_176] of  data
+
+	(_key "x")
+	(Text "10.739456"))
+
+([elaboration_data_177] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([elaboration_data_178] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([elaboration_data_179] of  data
+
+	(_key "shape")
+	(Text "box3d"))
+
+([elaboration_data_18] of  data
+
+	(_key "x")
+	(Text "-15.91423"))
+
+([elaboration_data_180] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([elaboration_data_181] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([elaboration_data_182] of  data
+
+	(_key "fontsize")
+	(Text "12"))
+
+([elaboration_data_183] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([elaboration_data_184] of  data
+
+	(_key "y")
+	(Text "-5.6032515"))
+
+([elaboration_data_185] of  data
+
+	(_key "margin")
+	(Text "0.11,0.11"))
+
+([elaboration_data_186] of  data
+
+	(_key "fillcolor")
+	(Text "royalblue3"))
+
+([elaboration_data_187] of  data
+
+	(_key "weight")
+	(Text "1.0"))
+
+([elaboration_data_188] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([elaboration_data_189] of  data
+
+	(_key "margin")
+	(Text "0.11,0.11"))
+
+([elaboration_data_19] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([elaboration_data_190] of  data
+
+	(_key "y")
+	(Text "350.01657"))
+
+([elaboration_data_191] of  data
+
+	(_key "fillcolor")
+	(Text "#DCDCDC"))
+
+([elaboration_data_192] of  data
+
+	(_key "x")
+	(Text "-21.10521"))
+
+([elaboration_data_193] of  data
+
+	(_key "label")
+	(Text "Arial"))
+
+([elaboration_data_194] of  data
+
+	(_key "weight")
+	(Text "1.0"))
+
+([elaboration_data_2] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([elaboration_data_20] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([elaboration_data_21] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([elaboration_data_22] of  data
+
+	(_key "y")
+	(Text "100.87014"))
+
+([elaboration_data_23] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([elaboration_data_24] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([elaboration_data_25] of  data
+
+	(_key "shape")
+	(Text "diamond"))
+
+([elaboration_data_26] of  data
+
+	(_key "label")
+	(Text "Join"))
+
+([elaboration_data_27] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([elaboration_data_28] of  data
+
+	(_key "y")
+	(Text "9.20522"))
+
+([elaboration_data_29] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([elaboration_data_3] of  data
+
+	(_key "y")
+	(Text "-182.1249"))
+
+([elaboration_data_30] of  data
+
+	(_key "y")
+	(Text "71.80959"))
+
+([elaboration_data_31] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([elaboration_data_32] of  data
+
+	(_key "fillcolor")
+	(Text "white"))
+
+([elaboration_data_33] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([elaboration_data_34] of  data
+
+	(_key "x")
+	(Text "-265.92657"))
+
+([elaboration_data_35] of  data
+
+	(_key "fillcolor")
+	(Text "royalblue3"))
+
+([elaboration_data_36] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([elaboration_data_37] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([elaboration_data_38] of  data
+
+	(_key "y")
+	(Text "-364.08694"))
+
+([elaboration_data_39] of  data
+
+	(_key "x")
+	(Text "177.77974"))
+
+([elaboration_data_4] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([elaboration_data_40] of  data
+
+	(_key "shape")
+	(Text "box3d"))
+
+([elaboration_data_41] of  data
+
+	(_key "url")
+	(Text "./DevelopSolutionIncrement/developSolutionIncrement.html"))
+
+([elaboration_data_42] of  data
+
+	(_key "weight")
+	(Text "1.0"))
+
+([elaboration_data_43] of  data
+
+	(_key "x")
+	(Text "152.6526"))
+
+([elaboration_data_44] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([elaboration_data_45] of  data
+
+	(_key "fillcolor")
+	(Text "#DCDCDC"))
+
+([elaboration_data_46] of  data
+
+	(_key "fontname")
+	(Text "Arial"))
+
+([elaboration_data_47] of  data
+
+	(_key "fontsize")
+	(Text "12"))
+
+([elaboration_data_48] of  data
+
+	(_key "margin")
+	(Text "0.11,0.11"))
+
+([elaboration_data_49] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([elaboration_data_5] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([elaboration_data_50] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([elaboration_data_51] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([elaboration_data_52] of  data
+
+	(_key "y")
+	(Text "363.3234"))
+
+([elaboration_data_53] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([elaboration_data_54] of  data
+
+	(_key "y")
+	(Text "75.09292"))
+
+([elaboration_data_55] of  data
+
+	(_key "label")
+	(Text "fontname"))
+
+([elaboration_data_56] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([elaboration_data_57] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([elaboration_data_58] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([elaboration_data_59] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([elaboration_data_6] of  data
+
+	(_key "margin")
+	(Text "0.11,0.11"))
+
+([elaboration_data_60] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([elaboration_data_61] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([elaboration_data_62] of  data
+
+	(_key "y")
+	(Text "-286.60413"))
+
+([elaboration_data_63] of  data
+
+	(_key "shape")
+	(Text "box3d"))
+
+([elaboration_data_64] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([elaboration_data_65] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([elaboration_data_66] of  data
+
+	(_key "x")
+	(Text "5.5000153"))
+
+([elaboration_data_67] of  data
+
+	(_key "x")
+	(Text "-169.52275"))
+
+([elaboration_data_68] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([elaboration_data_69] of  data
+
+	(_key "shape")
+	(Text "ellipse"))
+
+([elaboration_data_7] of  data
+
+	(_key "label")
+	(Text "fontsize"))
+
+([elaboration_data_70] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([elaboration_data_71] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([elaboration_data_72] of  data
+
+	(_key "label")
+	(Text "16"))
+
+([elaboration_data_73] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([elaboration_data_74] of  data
+
+	(_key "fontname")
+	(Text "Arial"))
+
+([elaboration_data_75] of  data
+
+	(_key "label")
+	(Text "lemonchiffon"))
+
+([elaboration_data_76] of  data
+
+	(_key "label")
+	(Text "Develop Solution Increment"))
+
+([elaboration_data_77] of  data
+
+	(_key "weight")
+	(Text "1.0"))
+
+([elaboration_data_78] of  data
+
+	(_key "label")
+	(Text "End Elaboration"))
+
+([elaboration_data_79] of  data
+
+	(_key "weight")
+	(Text "1.0"))
+
+([elaboration_data_8] of  data
+
+	(_key "y")
+	(Text "-338.70514"))
+
+([elaboration_data_80] of  data
+
+	(_key "url")
+	(Text "./OngoingTasks/ongoingTasks.html"))
+
+([elaboration_data_81] of  data
+
+	(_key "fontname")
+	(Text "Arial"))
+
+([elaboration_data_82] of  data
+
+	(_key "fontsize")
+	(Text "12"))
+
+([elaboration_data_83] of  data
+
+	(_key "weight")
+	(Text "1.0"))
+
+([elaboration_data_84] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([elaboration_data_85] of  data
+
+	(_key "x")
+	(Text "21.683914"))
+
+([elaboration_data_86] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([elaboration_data_87] of  data
+
+	(_key "label")
+	(Text "Ongoing Tasks"))
+
+([elaboration_data_88] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([elaboration_data_89] of  data
+
+	(_key "y")
+	(Text "-49.64561"))
+
+([elaboration_data_9] of  data
+
+	(_key "margin")
+	(Text "0.11,0.11"))
+
+([elaboration_data_90] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([elaboration_data_91] of  data
+
+	(_key "label")
+	(Text "Start Elaboration"))
+
+([elaboration_data_92] of  data
+
+	(_key "label")
+	(Text "Elaboration"))
+
+([elaboration_data_93] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([elaboration_data_94] of  data
+
+	(_key "x")
+	(Text "-302.59253"))
+
+([elaboration_data_95] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([elaboration_data_96] of  data
+
+	(_key "fillcolor")
+	(Text "white"))
+
+([elaboration_data_97] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([elaboration_data_98] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([elaboration_data_99] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([elaboration_edge_0] of  edge
+
+	(_id "232")
+	(_source "Phase Join 1 2 0 0 0 0 0 Architecture access | 2 1")
+	(_target "Phase Activity 1 2 3 0 0 0 0 Develop the Architecture |")
+	(dataSlot [elaboration_data_154]))
+
+([elaboration_edge_1] of  edge
+
+	(_id "229")
+	(_source "Phase Start 1 2 0 0 0 0 0 Elaboration |")
+	(_target "Phase Activity 1 2 2 0 0 0 0 Plan and Manage Iteration |")
+	(dataSlot [elaboration_data_194]))
+
+([elaboration_edge_10] of  edge
+
+	(_id "228")
+	(_source "Phase Start 1 2 0 0 0 0 0 Elaboration |")
+	(_target "Phase Activity 1 2 1 0 0 0 0 Identify and Refine Requirements |")
+	(dataSlot [elaboration_data_42]))
+
+([elaboration_edge_2] of  edge
+
+	(_id "237")
+	(_source "Phase Join 1 2 0 0 0 0 0 Test access | 2 1")
+	(_target "Phase Activity 1 2 6 0 0 0 0 Test Solution |")
+	(dataSlot [elaboration_data_14]))
+
+([elaboration_edge_3] of  edge
+
+	(_id "234")
+	(_source "Phase Activity 1 2 3 0 0 0 0 Develop the Architecture |")
+	(_target "Phase Activity 1 2 5 0 0 0 0 Develop Solution Increment |")
+	(dataSlot [elaboration_data_143]))
+
+([elaboration_edge_4] of  edge
+
+	(_id "230")
+	(_source "Phase Activity 1 2 1 0 0 0 0 Identify and Refine Requirements |")
+	(_target "Phase Join 1 2 0 0 0 0 0 Architecture access | 2 1")
+	(dataSlot [elaboration_data_83]))
+
+([elaboration_edge_5] of  edge
+
+	(_id "231")
+	(_source "Phase Activity 1 2 2 0 0 0 0 Plan and Manage Iteration |")
+	(_target "Phase Join 1 2 0 0 0 0 0 Architecture access | 2 1")
+	(dataSlot [elaboration_data_187]))
+
+([elaboration_edge_6] of  edge
+
+	(_id "235")
+	(_source "Phase Activity 1 2 4 0 0 0 0 Ongoing Tasks |")
+	(_target "Phase Join 1 2 0 0 0 0 0 Test access | 2 1")
+	(dataSlot [elaboration_data_120]))
+
+([elaboration_edge_7] of  edge
+
+	(_id "238")
+	(_source "Phase Activity 1 2 6 0 0 0 0 Test Solution |")
+	(_target "Phase End 1 2 0 0 0 0 0 Elaboration |")
+	(dataSlot [elaboration_data_1]))
+
+([elaboration_edge_8] of  edge
+
+	(_id "236")
+	(_source "Phase Activity 1 2 5 0 0 0 0 Develop Solution Increment |")
+	(_target "Phase Join 1 2 0 0 0 0 0 Test access | 2 1")
+	(dataSlot [elaboration_data_79]))
+
+([elaboration_edge_9] of  edge
+
+	(_id "233")
+	(_source "Phase Activity 1 2 3 0 0 0 0 Develop the Architecture |")
+	(_target "Phase Activity 1 2 4 0 0 0 0 Ongoing Tasks |")
+	(dataSlot [elaboration_data_77]))
+
+([elaboration_graph_0] of  graph
+
+	(_edgedefault "directed")
+	(edgeSlot [elaboration_edge_10])
+	(nodeSlot [elaboration_node_17]))
+
+([elaboration_key_0] of  key
+
+	(_attr.name "fontname")
+	(_attr.type "string")
+	(_for "node")
+	(_id "fontname"))
+
+([elaboration_key_1] of  key
+
+	(_attr.name "x")
+	(_attr.type "float")
+	(_for "node")
+	(_id "x"))
+
+([elaboration_key_10] of  key
+
+	(_attr.name "g")
+	(_attr.type "int")
+	(_for "node")
+	(_id "g"))
+
+([elaboration_key_11] of  key
+
+	(_attr.name "shape")
+	(_attr.type "string")
+	(_for "node")
+	(_id "shape"))
+
+([elaboration_key_12] of  key
+
+	(_attr.name "r")
+	(_attr.type "int")
+	(_for "node")
+	(_id "r"))
+
+([elaboration_key_13] of  key
+
+	(_attr.name "size")
+	(_attr.type "float")
+	(_for "node")
+	(_id "size"))
+
+([elaboration_key_14] of  key
+
+	(_attr.name "Edge Label")
+	(_attr.type "string")
+	(_for "edge")
+	(_id "edgelabel"))
+
+([elaboration_key_2] of  key
+
+	(_attr.name "y")
+	(_attr.type "float")
+	(_for "node")
+	(_id "y"))
+
+([elaboration_key_3] of  key
+
+	(_attr.name "fillcolor")
+	(_attr.type "string")
+	(_for "node")
+	(_id "fillcolor"))
+
+([elaboration_key_4] of  key
+
+	(_attr.name "fontsize")
+	(_attr.type "string")
+	(_for "node")
+	(_id "fontsize"))
+
+([elaboration_key_5] of  key
+
+	(_attr.name "label")
+	(_attr.type "string")
+	(_for "node")
+	(_id "label"))
+
+([elaboration_key_6] of  key
+
+	(_attr.name "margin")
+	(_attr.type "string")
+	(_for "node")
+	(_id "margin"))
+
+([elaboration_key_7] of  key
+
+	(_attr.name "b")
+	(_attr.type "int")
+	(_for "node")
+	(_id "b"))
+
+([elaboration_key_8] of  key
+
+	(_attr.name "url")
+	(_attr.type "string")
+	(_for "node")
+	(_id "url"))
+
+([elaboration_key_9] of  key
+
+	(_attr.name "weight")
+	(_attr.type "double")
+	(_for "edge")
+	(_id "weight"))
+
+([elaboration_node_0] of  node
+
+	(_id "Phase End 1 2 0 0 0 0 0 Elaboration |")
+	(dataSlot [elaboration_data_78]))
+
+([elaboration_node_1] of  node
+
+	(_id "Phase Activity 1 2 5 0 0 0 0 Develop Solution Increment |")
+	(dataSlot [elaboration_data_76]))
+
+([elaboration_node_10] of  node
+
+	(_id "Arial")
+	(dataSlot [elaboration_data_193]))
+
+([elaboration_node_11] of  node
+
+	(_id "Phase Activity 1 2 1 0 0 0 0 Identify and Refine Requirements |")
+	(dataSlot [elaboration_data_173]))
+
+([elaboration_node_12] of  node
+
+	(_id "lemonchiffon")
+	(dataSlot [elaboration_data_75]))
+
+([elaboration_node_13] of  node
+
+	(_id "Phase Start 1 2 0 0 0 0 0 Elaboration |")
+	(dataSlot [elaboration_data_91]))
+
+([elaboration_node_14] of  node
+
+	(_id "Phase Join 1 2 0 0 0 0 0 Test access | 2 1")
+	(dataSlot [elaboration_data_26]))
+
+([elaboration_node_15] of  node
+
+	(_id "Elaboration")
+	(dataSlot [elaboration_data_92]))
+
+([elaboration_node_16] of  node
+
+	(_id "Phase Activity 1 2 2 0 0 0 0 Plan and Manage Iteration |")
+	(dataSlot [elaboration_data_139]))
+
+([elaboration_node_17] of  node
+
+	(_id "fontsize")
+	(dataSlot [elaboration_data_7]))
+
+([elaboration_node_18] of  node
+
+	(_id "Phase Activity 1 2 6 0 0 0 0 Test Solution |")
+	(dataSlot [elaboration_data_117]))
+
+([elaboration_node_19] of  node
+
+	(_id "labelloc")
+	(dataSlot [elaboration_data_148]))
+
+([elaboration_node_2] of  node
+
+	(_id "fontname")
+	(dataSlot [elaboration_data_55]))
+
+([elaboration_node_3] of  node
+
+	(_id "Phase Activity 1 2 4 0 0 0 0 Ongoing Tasks |")
+	(dataSlot [elaboration_data_87]))
+
+([elaboration_node_4] of  node
+
+	(_id "16")
+	(dataSlot [elaboration_data_72]))
+
+([elaboration_node_5] of  node
+
+	(_id "label")
+	(dataSlot [elaboration_data_144]))
+
+([elaboration_node_6] of  node
+
+	(_id "bgcolor")
+	(dataSlot [elaboration_data_159]))
+
+([elaboration_node_7] of  node
+
+	(_id "t")
+	(dataSlot [elaboration_data_167]))
+
+([elaboration_node_8] of  node
+
+	(_id "Phase Join 1 2 0 0 0 0 0 Architecture access | 2 1")
+	(dataSlot [elaboration_data_170]))
+
+([elaboration_node_9] of  node
+
+	(_id "Phase Activity 1 2 3 0 0 0 0 Develop the Architecture |")
+	(dataSlot [elaboration_data_174]))
+)

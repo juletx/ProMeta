@@ -1,0 +1,4 @@
+name: 'Write Artifact'
+description: 'Form to write an artifact'
+core: 8.x
+type: module

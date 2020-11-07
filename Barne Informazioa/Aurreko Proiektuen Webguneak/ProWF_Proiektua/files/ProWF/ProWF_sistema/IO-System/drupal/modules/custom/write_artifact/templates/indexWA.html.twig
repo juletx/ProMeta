@@ -1,0 +1,97 @@
+{% set aux = info|split(';') %}
+
+<h2><b>{{ aux[0] }}</b></h2>
+<br>
+<img class="role-image-text" src="http:\\localhost\drupal\images\role_image.png" alt="ROLE IMAGE" width="40" height="85">{{ aux[4] }}
+<br><br>
+<ul>
+	<li>Start date: {{ aux[5] }}</li>
+	<li>Version: {{ aux[6] }}</li>
+	<li>Hours worked: {{ aux[7] }}</li>
+</ul>
+
+<table id="teamtable">
+  <tr>
+    <th>Phase</th>
+    <th>Activity</th>
+    <th>Task</th>
+  </tr>
+  <tr>
+    <td>{{ aux[1] }}</td>
+    <td>{{ aux[2] }}</td>
+	<td>{{ aux[3] }}</td>
+  </tr>
+</table>
+
+<table id="teamtable">
+  <tr>
+    <th>{{ aux[4] }}'s assessment</th>
+    <th>Quality Manager's assessment</th>
+  </tr>
+  <tr>
+    <td>{% if aux[8] %} {{ aux[8] }} {% else %} - {% endif %}</td>
+    <td>{% if aux[9] %} {{ aux[9] }} {% else %} - {% endif %}</td>
+  </tr>
+</table>
+
+<br>
+
+<form id="write-artifact-form" action="http://localhost/drupal/postData?project={{ aux[11] }}&p_id={{ aux[12] }}&a_id={{ aux[13] }}&t_id={{ aux[14] }}&id={{ aux[10] }}"  method="post">
+	<input type="hidden" name="type" value="WriteArtifact">
+	{% set cont = 0 %}
+	{% for section in sections %}
+		{% set result = section|split(';') %}
+		{% if cont==0 %}
+		<div class="WA-tab" style="display:inline">
+		{% else %}
+		<div class="WA-tab">
+		{% endif %}
+			{% if result[0]!=0 %}
+				<h2>{{ result[0] }}. {{ result[1] }}</h2>
+				<br>
+			{% else %}
+				<h2>{{ result[1] }}</h2>
+				<br>
+			{% endif %}
+			{% if guides[cont] %}
+				<p class="section-guide">{{ guides[cont] }}</p>
+				<br>
+			{% endif %}
+			{% set number = result[0]|split('.') %}
+			<textarea name="{{ number[0] }}-{{ number[1] }}" id="{{ number[0] }}-{{ number[1] }}" rows="10" cols="140">{% if contents[cont] %}{{ contents[cont] }}{% endif %}</textarea>
+		</div>
+		{% set cont = cont + 1 %}
+	{% endfor %}
+	
+	{% set result = sections[0]|split(';') %}
+	{% if result[0]!=0 %}
+		<div style="overflow:auto;padding:3%">
+			<div class="WA-buttonContainer">
+			  <button type="button" class="WA-button" id="prevBtn" onclick="nextPrev(-1)">Previous</button>
+			  <button type="button" class="WA-button" id="nextBtn" onclick="nextPrev(1)">Next</button>
+			</div>
+		</div>
+	{% endif %}
+	
+	<div style="display:table;margin:0 auto;">
+		<div style="display: table-cell">
+			<label for="assessment_editor">Your assessment:</label><br>
+			<input type="number" min="0" max="10" step="1" name="assessment_editor" placeholder="{% if aux[8] %}{{ aux[8] }}{% else %}-{% endif %}" required>
+		</div>
+		<div style="display: table-cell">
+			<label for="version">Version:</label><br>
+			<input type="text" name="version" placeholder="{{ aux[6] }}" required>
+		</div>
+		<div style="display: table-cell">
+			<label for="hours">Hours worked:</label><br>
+			<input type="number" min="0" step="1" name="hours" placeholder="{{ aux[7] }}" required>
+		</div>
+	</div>
+	
+	<br>
+	<center>
+	<input id="WA-submit" class="WA-button" type="submit" value="Save">
+	</center>
+</form>
+
+

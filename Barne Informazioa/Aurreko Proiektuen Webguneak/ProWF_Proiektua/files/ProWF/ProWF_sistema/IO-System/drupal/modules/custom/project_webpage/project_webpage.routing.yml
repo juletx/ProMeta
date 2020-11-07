@@ -1,0 +1,7 @@
+project_webpage.routing:
+   path: project_webpage
+   defaults:
+      _title: 'Project Documents'
+      _controller: Drupal\project_webpage\Controller\ProjectWebpageController::test
+   requirements:
+      _permission: 'access content+access user profiles'

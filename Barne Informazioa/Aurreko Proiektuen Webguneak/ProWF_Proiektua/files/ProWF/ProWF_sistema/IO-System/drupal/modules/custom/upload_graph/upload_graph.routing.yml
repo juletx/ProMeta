@@ -1,0 +1,7 @@
+upload_graph.routing:
+   path: 'uploadGraph'
+   defaults:
+      _form: '\Drupal\upload_graph\Form\UploadGraphForm'
+   requirements:
+      _permission: 'access content+access user profiles'
+      _role: 'project_analyst'

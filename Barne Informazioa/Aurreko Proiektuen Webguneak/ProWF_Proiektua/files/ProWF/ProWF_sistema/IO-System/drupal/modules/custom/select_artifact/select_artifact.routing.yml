@@ -1,0 +1,8 @@
+select_artifact.routing:
+   path: select_artifact
+   defaults:
+      _title: 'Assessable artifact(s)'
+      _controller: Drupal\select_artifact\Controller\SelectArtifactController::test
+   requirements:
+      _permission: 'access content+access user profiles'
+      _role: 'project_quality_manager'

@@ -1,0 +1,21 @@
+{% set aux = info|split(';') %}
+
+{% if aux[8] == 'pdf' %}
+	<object id="pdf" data="http://localhost/drupal/sites/default/files/{{aux[7]}}" type="application/pdf" width="750" height="900"></object>
+{% else %}
+	<h2>{{ aux[5] }}</h2>
+	<img src="http://localhost/drupal/sites/default/files/{{aux[7]}}" alt="Graph picture">
+{% endif %}
+
+<br><hr><br>
+<p><b>Editor's assessment: {{ aux[6] }}</b></p>
+
+<form action="http://localhost/drupal/postData2?project={{ aux[0] }}&p_id={{ aux[1] }}&a_id={{ aux[2] }}&t_id={{ aux[3] }}&id={{ aux[4] }}"  method="post">
+	<div style="margin:0 auto;">
+		<label for="assessment_supervisor">Your assessment:</label><br>
+		<input type="number" min="0" max="10" step="1" name="assessment_supervisor" required>
+		<br><br>
+		<input id="WA-submit" class="WA-button" type="submit" value="Assess">
+	</div>
+</form>
+

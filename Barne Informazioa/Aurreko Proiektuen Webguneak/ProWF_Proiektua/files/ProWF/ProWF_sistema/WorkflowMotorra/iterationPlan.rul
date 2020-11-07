@@ -1,0 +1,1158 @@
+; Mon Jul 06 18:09:41 CEST 2020
+; 
+;+ (version "3.5")
+;+ (build "Build 663")
+
+(definstances iterationPlan
+([iterationPlan_data_0] of  data
+
+	(_key "margin")
+	(Text "0.11,0.11"))
+
+([iterationPlan_data_1] of  data
+
+	(_key "label")
+	(Text "fontname"))
+
+([iterationPlan_data_10] of  data
+
+	(_key "fontname")
+	(Text "Arial"))
+
+([iterationPlan_data_100] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([iterationPlan_data_101] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([iterationPlan_data_102] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([iterationPlan_data_103] of  data
+
+	(_key "url")
+	(Text "./Templates/High-levelObjectives.txt"))
+
+([iterationPlan_data_104] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([iterationPlan_data_105] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([iterationPlan_data_106] of  data
+
+	(_key "fontname")
+	(Text "Arial"))
+
+([iterationPlan_data_107] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([iterationPlan_data_108] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([iterationPlan_data_109] of  data
+
+	(_key "fontsize")
+	(Text "12"))
+
+([iterationPlan_data_11] of  data
+
+	(_key "fillcolor")
+	(Text "white"))
+
+([iterationPlan_data_110] of  data
+
+	(_key "label")
+	(Text "2. High-level objectives"))
+
+([iterationPlan_data_111] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([iterationPlan_data_112] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([iterationPlan_data_113] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([iterationPlan_data_114] of  data
+
+	(_key "weight")
+	(Text "1.0"))
+
+([iterationPlan_data_115] of  data
+
+	(_key "fontname")
+	(Text "Arial"))
+
+([iterationPlan_data_116] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([iterationPlan_data_117] of  data
+
+	(_key "fillcolor")
+	(Text "white"))
+
+([iterationPlan_data_118] of  data
+
+	(_key "fontcolor")
+	(Text "blue"))
+
+([iterationPlan_data_119] of  data
+
+	(_key "label")
+	(Text "t"))
+
+([iterationPlan_data_12] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([iterationPlan_data_120] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([iterationPlan_data_121] of  data
+
+	(_key "weight")
+	(Text "1.0"))
+
+([iterationPlan_data_122] of  data
+
+	(_key "url")
+	(Text "./Templates/WorkItemAssignments.txt"))
+
+([iterationPlan_data_123] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([iterationPlan_data_124] of  data
+
+	(_key "x")
+	(Text "-433.13068"))
+
+([iterationPlan_data_125] of  data
+
+	(_key "margin")
+	(Text "0.11,0.11"))
+
+([iterationPlan_data_126] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([iterationPlan_data_127] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([iterationPlan_data_128] of  data
+
+	(_key "x")
+	(Text "293.3465"))
+
+([iterationPlan_data_129] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([iterationPlan_data_13] of  data
+
+	(_key "url")
+	(Text "./Templates/Issues.txt"))
+
+([iterationPlan_data_130] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([iterationPlan_data_131] of  data
+
+	(_key "weight")
+	(Text "1.0"))
+
+([iterationPlan_data_132] of  data
+
+	(_key "label")
+	(Text "Start Iteration Plan"))
+
+([iterationPlan_data_133] of  data
+
+	(_key "x")
+	(Text "-164.89882"))
+
+([iterationPlan_data_134] of  data
+
+	(_key "y")
+	(Text "244.62762"))
+
+([iterationPlan_data_135] of  data
+
+	(_key "y")
+	(Text "164.95935"))
+
+([iterationPlan_data_136] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([iterationPlan_data_137] of  data
+
+	(_key "margin")
+	(Text "0.11,0.11"))
+
+([iterationPlan_data_138] of  data
+
+	(_key "fontname")
+	(Text "Arial"))
+
+([iterationPlan_data_139] of  data
+
+	(_key "x")
+	(Text "-148.94768"))
+
+([iterationPlan_data_14] of  data
+
+	(_key "label")
+	(Text "Iteration Plan"))
+
+([iterationPlan_data_140] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([iterationPlan_data_141] of  data
+
+	(_key "x")
+	(Text "272.9109"))
+
+([iterationPlan_data_142] of  data
+
+	(_key "label")
+	(Text "lemonchiffon"))
+
+([iterationPlan_data_143] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([iterationPlan_data_144] of  data
+
+	(_key "label")
+	(Text "4. Issues"))
+
+([iterationPlan_data_145] of  data
+
+	(_key "x")
+	(Text "465.61163"))
+
+([iterationPlan_data_146] of  data
+
+	(_key "url")
+	(Text "./Templates/KeyMilestones.txt"))
+
+([iterationPlan_data_147] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([iterationPlan_data_148] of  data
+
+	(_key "label")
+	(Text "Arial"))
+
+([iterationPlan_data_149] of  data
+
+	(_key "y")
+	(Text "-399.0765"))
+
+([iterationPlan_data_15] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([iterationPlan_data_150] of  data
+
+	(_key "fontsize")
+	(Text "12"))
+
+([iterationPlan_data_151] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([iterationPlan_data_152] of  data
+
+	(_key "url")
+	(Text "./Templates/Assessment.txt"))
+
+([iterationPlan_data_153] of  data
+
+	(_key "fontsize")
+	(Text "12"))
+
+([iterationPlan_data_154] of  data
+
+	(_key "shape")
+	(Text "component"))
+
+([iterationPlan_data_155] of  data
+
+	(_key "fontcolor")
+	(Text "blue"))
+
+([iterationPlan_data_156] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([iterationPlan_data_157] of  data
+
+	(_key "fillcolor")
+	(Text "white"))
+
+([iterationPlan_data_158] of  data
+
+	(_key "shape")
+	(Text "component"))
+
+([iterationPlan_data_159] of  data
+
+	(_key "shape")
+	(Text "ellipse"))
+
+([iterationPlan_data_16] of  data
+
+	(_key "weight")
+	(Text "1.0"))
+
+([iterationPlan_data_160] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([iterationPlan_data_161] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([iterationPlan_data_162] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([iterationPlan_data_163] of  data
+
+	(_key "y")
+	(Text "-239.56815"))
+
+([iterationPlan_data_164] of  data
+
+	(_key "y")
+	(Text "80.2525"))
+
+([iterationPlan_data_165] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([iterationPlan_data_166] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([iterationPlan_data_167] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([iterationPlan_data_168] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([iterationPlan_data_169] of  data
+
+	(_key "x")
+	(Text "301.1725"))
+
+([iterationPlan_data_17] of  data
+
+	(_key "fillcolor")
+	(Text "royalblue3"))
+
+([iterationPlan_data_170] of  data
+
+	(_key "x")
+	(Text "-290.32324"))
+
+([iterationPlan_data_171] of  data
+
+	(_key "y")
+	(Text "261.16913"))
+
+([iterationPlan_data_172] of  data
+
+	(_key "fontcolor")
+	(Text "blue"))
+
+([iterationPlan_data_173] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([iterationPlan_data_174] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([iterationPlan_data_175] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([iterationPlan_data_176] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([iterationPlan_data_177] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([iterationPlan_data_178] of  data
+
+	(_key "y")
+	(Text "360.06067"))
+
+([iterationPlan_data_18] of  data
+
+	(_key "y")
+	(Text "300.10162"))
+
+([iterationPlan_data_19] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([iterationPlan_data_2] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([iterationPlan_data_20] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([iterationPlan_data_21] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([iterationPlan_data_22] of  data
+
+	(_key "shape")
+	(Text "component"))
+
+([iterationPlan_data_23] of  data
+
+	(_key "fontcolor")
+	(Text "blue"))
+
+([iterationPlan_data_24] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([iterationPlan_data_25] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([iterationPlan_data_26] of  data
+
+	(_key "fillcolor")
+	(Text "royalblue3"))
+
+([iterationPlan_data_27] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([iterationPlan_data_28] of  data
+
+	(_key "fillcolor")
+	(Text "white"))
+
+([iterationPlan_data_29] of  data
+
+	(_key "shape")
+	(Text "component"))
+
+([iterationPlan_data_3] of  data
+
+	(_key "margin")
+	(Text "0.11,0.11"))
+
+([iterationPlan_data_30] of  data
+
+	(_key "fontname")
+	(Text "Arial"))
+
+([iterationPlan_data_31] of  data
+
+	(_key "margin")
+	(Text "0.11,0.11"))
+
+([iterationPlan_data_32] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([iterationPlan_data_33] of  data
+
+	(_key "label")
+	(Text "1. Key milestones"))
+
+([iterationPlan_data_34] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([iterationPlan_data_35] of  data
+
+	(_key "shape")
+	(Text "component"))
+
+([iterationPlan_data_36] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([iterationPlan_data_37] of  data
+
+	(_key "x")
+	(Text "240.80794"))
+
+([iterationPlan_data_38] of  data
+
+	(_key "shape")
+	(Text "ellipse"))
+
+([iterationPlan_data_39] of  data
+
+	(_key "y")
+	(Text "-122.51987"))
+
+([iterationPlan_data_4] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([iterationPlan_data_40] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([iterationPlan_data_41] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([iterationPlan_data_42] of  data
+
+	(_key "label")
+	(Text "End Iteration Plan"))
+
+([iterationPlan_data_43] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([iterationPlan_data_44] of  data
+
+	(_key "y")
+	(Text "-164.99905"))
+
+([iterationPlan_data_45] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([iterationPlan_data_46] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([iterationPlan_data_47] of  data
+
+	(_key "fillcolor")
+	(Text "white"))
+
+([iterationPlan_data_48] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([iterationPlan_data_49] of  data
+
+	(_key "margin")
+	(Text "0.11,0.11"))
+
+([iterationPlan_data_5] of  data
+
+	(_key "x")
+	(Text "-195.80687"))
+
+([iterationPlan_data_50] of  data
+
+	(_key "label")
+	(Text "16"))
+
+([iterationPlan_data_51] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([iterationPlan_data_52] of  data
+
+	(_key "x")
+	(Text "-31.613634"))
+
+([iterationPlan_data_53] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([iterationPlan_data_54] of  data
+
+	(_key "y")
+	(Text "-204.35388"))
+
+([iterationPlan_data_55] of  data
+
+	(_key "fontsize")
+	(Text "12"))
+
+([iterationPlan_data_56] of  data
+
+	(_key "y")
+	(Text "246.10266"))
+
+([iterationPlan_data_57] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([iterationPlan_data_58] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([iterationPlan_data_59] of  data
+
+	(_key "x")
+	(Text "128.43929"))
+
+([iterationPlan_data_6] of  data
+
+	(_key "label")
+	(Text "6. Assessment"))
+
+([iterationPlan_data_60] of  data
+
+	(_key "y")
+	(Text "-189.75266"))
+
+([iterationPlan_data_61] of  data
+
+	(_key "y")
+	(Text "-457.4097"))
+
+([iterationPlan_data_62] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([iterationPlan_data_63] of  data
+
+	(_key "fontname")
+	(Text "Arial"))
+
+([iterationPlan_data_64] of  data
+
+	(_key "y")
+	(Text "404.04785"))
+
+([iterationPlan_data_65] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([iterationPlan_data_66] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([iterationPlan_data_67] of  data
+
+	(_key "x")
+	(Text "224.57234"))
+
+([iterationPlan_data_68] of  data
+
+	(_key "x")
+	(Text "-335.14914"))
+
+([iterationPlan_data_69] of  data
+
+	(_key "label")
+	(Text "bgcolor"))
+
+([iterationPlan_data_7] of  data
+
+	(_key "fontcolor")
+	(Text "blue"))
+
+([iterationPlan_data_70] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([iterationPlan_data_71] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([iterationPlan_data_72] of  data
+
+	(_key "fontcolor")
+	(Text "blue"))
+
+([iterationPlan_data_73] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([iterationPlan_data_74] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([iterationPlan_data_75] of  data
+
+	(_key "y")
+	(Text "234.23505"))
+
+([iterationPlan_data_76] of  data
+
+	(_key "fontsize")
+	(Text "12"))
+
+([iterationPlan_data_77] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([iterationPlan_data_78] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([iterationPlan_data_79] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([iterationPlan_data_8] of  data
+
+	(_key "x")
+	(Text "337.58105"))
+
+([iterationPlan_data_80] of  data
+
+	(_key "x")
+	(Text "-502.63742"))
+
+([iterationPlan_data_81] of  data
+
+	(_key "label")
+	(Text "5. Evaluation criteria"))
+
+([iterationPlan_data_82] of  data
+
+	(_key "y")
+	(Text "-221.0776"))
+
+([iterationPlan_data_83] of  data
+
+	(_key "label")
+	(Text "label"))
+
+([iterationPlan_data_84] of  data
+
+	(_key "weight")
+	(Text "1.0"))
+
+([iterationPlan_data_85] of  data
+
+	(_key "shape")
+	(Text "component"))
+
+([iterationPlan_data_86] of  data
+
+	(_key "fillcolor")
+	(Text "white"))
+
+([iterationPlan_data_87] of  data
+
+	(_key "x")
+	(Text "-129.63106"))
+
+([iterationPlan_data_88] of  data
+
+	(_key "url")
+	(Text "./Templates/EvaluationCriteria.txt"))
+
+([iterationPlan_data_89] of  data
+
+	(_key "label")
+	(Text "fontsize"))
+
+([iterationPlan_data_9] of  data
+
+	(_key "label")
+	(Text "3. Work Item assignments"))
+
+([iterationPlan_data_90] of  data
+
+	(_key "weight")
+	(Text "1.0"))
+
+([iterationPlan_data_91] of  data
+
+	(_key "fontsize")
+	(Text "12"))
+
+([iterationPlan_data_92] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([iterationPlan_data_93] of  data
+
+	(_key "x")
+	(Text "-32.303696"))
+
+([iterationPlan_data_94] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([iterationPlan_data_95] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([iterationPlan_data_96] of  data
+
+	(_key "y")
+	(Text "-296.799"))
+
+([iterationPlan_data_97] of  data
+
+	(_key "weight")
+	(Text "1.0"))
+
+([iterationPlan_data_98] of  data
+
+	(_key "label")
+	(Text "labelloc"))
+
+([iterationPlan_data_99] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([iterationPlan_edge_0] of  edge
+
+	(_id "5")
+	(_source "Artifact SectionWT 1 1 2 3 5 6 5 Evaluation criteria | Templates/IterationPlan/EvaluationCriteria.txt")
+	(_target "Artifact SectionWT 1 1 2 3 5 6 6 Assessment | Templates/IterationPlan/Assessment.txt")
+	(dataSlot [iterationPlan_data_84]))
+
+([iterationPlan_edge_1] of  edge
+
+	(_id "4")
+	(_source "Artifact SectionWT 1 1 2 3 5 6 4 Issues | Templates/IterationPlan/Issues.txt")
+	(_target "Artifact SectionWT 1 1 2 3 5 6 5 Evaluation criteria | Templates/IterationPlan/EvaluationCriteria.txt")
+	(dataSlot [iterationPlan_data_90]))
+
+([iterationPlan_edge_2] of  edge
+
+	(_id "3")
+	(_source "Artifact SectionWT 1 1 2 3 5 6 3 Work Item assignments | Templates/IterationPlan/WorkItemAssignments.txt")
+	(_target "Artifact SectionWT 1 1 2 3 5 6 4 Issues | Templates/IterationPlan/Issues.txt")
+	(dataSlot [iterationPlan_data_97]))
+
+([iterationPlan_edge_3] of  edge
+
+	(_id "0")
+	(_source "Artifact Start 1 1 2 3 5 6 0 Iteration Plan |")
+	(_target "Artifact SectionWT 1 1 2 3 5 6 1 Key milestones | Templates/IterationPlan/KeyMilestones.txt")
+	(dataSlot [iterationPlan_data_121]))
+
+([iterationPlan_edge_4] of  edge
+
+	(_id "6")
+	(_source "Artifact SectionWT 1 1 2 3 5 6 6 Assessment | Templates/IterationPlan/Assessment.txt")
+	(_target "Artifact End 1 1 2 3 5 6 0 Iteration Plan |")
+	(dataSlot [iterationPlan_data_131]))
+
+([iterationPlan_edge_5] of  edge
+
+	(_id "2")
+	(_source "Artifact SectionWT 1 1 2 3 5 6 2 High-level objectives | Templates/IterationPlan/High-levelObjectives.txt")
+	(_target "Artifact SectionWT 1 1 2 3 5 6 3 Work Item assignments | Templates/IterationPlan/WorkItemAssignments.txt")
+	(dataSlot [iterationPlan_data_16]))
+
+([iterationPlan_edge_6] of  edge
+
+	(_id "1")
+	(_source "Artifact SectionWT 1 1 2 3 5 6 1 Key milestones | Templates/IterationPlan/KeyMilestones.txt")
+	(_target "Artifact SectionWT 1 1 2 3 5 6 2 High-level objectives | Templates/IterationPlan/High-levelObjectives.txt")
+	(dataSlot [iterationPlan_data_114]))
+
+([iterationPlan_graph_0] of  graph
+
+	(_edgedefault "directed")
+	(edgeSlot [iterationPlan_edge_3])
+	(nodeSlot [iterationPlan_node_12]))
+
+([iterationPlan_key_0] of  key
+
+	(_attr.name "fontname")
+	(_attr.type "string")
+	(_for "node")
+	(_id "fontname"))
+
+([iterationPlan_key_1] of  key
+
+	(_attr.name "fillcolor")
+	(_attr.type "string")
+	(_for "node")
+	(_id "fillcolor"))
+
+([iterationPlan_key_10] of  key
+
+	(_attr.name "size")
+	(_attr.type "float")
+	(_for "node")
+	(_id "size"))
+
+([iterationPlan_key_11] of  key
+
+	(_attr.name "shape")
+	(_attr.type "string")
+	(_for "node")
+	(_id "shape"))
+
+([iterationPlan_key_12] of  key
+
+	(_attr.name "label")
+	(_attr.type "string")
+	(_for "node")
+	(_id "label"))
+
+([iterationPlan_key_13] of  key
+
+	(_attr.name "fontsize")
+	(_attr.type "string")
+	(_for "node")
+	(_id "fontsize"))
+
+([iterationPlan_key_14] of  key
+
+	(_attr.name "url")
+	(_attr.type "string")
+	(_for "node")
+	(_id "url"))
+
+([iterationPlan_key_15] of  key
+
+	(_attr.name "weight")
+	(_attr.type "double")
+	(_for "edge")
+	(_id "weight"))
+
+([iterationPlan_key_2] of  key
+
+	(_attr.name "b")
+	(_attr.type "int")
+	(_for "node")
+	(_id "b"))
+
+([iterationPlan_key_3] of  key
+
+	(_attr.name "fontcolor")
+	(_attr.type "string")
+	(_for "node")
+	(_id "fontcolor"))
+
+([iterationPlan_key_4] of  key
+
+	(_attr.name "margin")
+	(_attr.type "string")
+	(_for "node")
+	(_id "margin"))
+
+([iterationPlan_key_5] of  key
+
+	(_attr.name "r")
+	(_attr.type "int")
+	(_for "node")
+	(_id "r"))
+
+([iterationPlan_key_6] of  key
+
+	(_attr.name "x")
+	(_attr.type "float")
+	(_for "node")
+	(_id "x"))
+
+([iterationPlan_key_7] of  key
+
+	(_attr.name "Edge Label")
+	(_attr.type "string")
+	(_for "edge")
+	(_id "edgelabel"))
+
+([iterationPlan_key_8] of  key
+
+	(_attr.name "g")
+	(_attr.type "int")
+	(_for "node")
+	(_id "g"))
+
+([iterationPlan_key_9] of  key
+
+	(_attr.name "y")
+	(_attr.type "float")
+	(_for "node")
+	(_id "y"))
+
+([iterationPlan_node_0] of  node
+
+	(_id "Artifact SectionWT 1 1 2 3 5 6 4 Issues | Templates/IterationPlan/Issues.txt")
+	(dataSlot [iterationPlan_data_144]))
+
+([iterationPlan_node_1] of  node
+
+	(_id "bgcolor")
+	(dataSlot [iterationPlan_data_69]))
+
+([iterationPlan_node_10] of  node
+
+	(_id "Artifact SectionWT 1 1 2 3 5 6 2 High-level objectives | Templates/IterationPlan/High-levelObjectives.txt")
+	(dataSlot [iterationPlan_data_110]))
+
+([iterationPlan_node_11] of  node
+
+	(_id "t")
+	(dataSlot [iterationPlan_data_119]))
+
+([iterationPlan_node_12] of  node
+
+	(_id "fontsize")
+	(dataSlot [iterationPlan_data_89]))
+
+([iterationPlan_node_13] of  node
+
+	(_id "Artifact Start 1 1 2 3 5 6 0 Iteration Plan |")
+	(dataSlot [iterationPlan_data_132]))
+
+([iterationPlan_node_14] of  node
+
+	(_id "fontname")
+	(dataSlot [iterationPlan_data_1]))
+
+([iterationPlan_node_15] of  node
+
+	(_id "Iteration Plan")
+	(dataSlot [iterationPlan_data_14]))
+
+([iterationPlan_node_16] of  node
+
+	(_id "Artifact SectionWT 1 1 2 3 5 6 5 Evaluation criteria | Templates/IterationPlan/EvaluationCriteria.txt")
+	(dataSlot [iterationPlan_data_81]))
+
+([iterationPlan_node_17] of  node
+
+	(_id "Artifact SectionWT 1 1 2 3 5 6 6 Assessment | Templates/IterationPlan/Assessment.txt")
+	(dataSlot [iterationPlan_data_6]))
+
+([iterationPlan_node_2] of  node
+
+	(_id "lemonchiffon")
+	(dataSlot [iterationPlan_data_142]))
+
+([iterationPlan_node_3] of  node
+
+	(_id "Artifact End 1 1 2 3 5 6 0 Iteration Plan |")
+	(dataSlot [iterationPlan_data_42]))
+
+([iterationPlan_node_4] of  node
+
+	(_id "Artifact SectionWT 1 1 2 3 5 6 3 Work Item assignments | Templates/IterationPlan/WorkItemAssignments.txt")
+	(dataSlot [iterationPlan_data_9]))
+
+([iterationPlan_node_5] of  node
+
+	(_id "16")
+	(dataSlot [iterationPlan_data_50]))
+
+([iterationPlan_node_6] of  node
+
+	(_id "labelloc")
+	(dataSlot [iterationPlan_data_98]))
+
+([iterationPlan_node_7] of  node
+
+	(_id "Arial")
+	(dataSlot [iterationPlan_data_148]))
+
+([iterationPlan_node_8] of  node
+
+	(_id "label")
+	(dataSlot [iterationPlan_data_83]))
+
+([iterationPlan_node_9] of  node
+
+	(_id "Artifact SectionWT 1 1 2 3 5 6 1 Key milestones | Templates/IterationPlan/KeyMilestones.txt")
+	(dataSlot [iterationPlan_data_33]))
+)

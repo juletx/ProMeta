@@ -1,0 +1,6 @@
+show_lifecycle.routing:
+   path: showLifecycle
+   defaults:
+      _controller: Drupal\show_lifecycle\Controller\ShowLifecycleController::test
+   requirements:
+      _permission: 'access content+access user profiles'

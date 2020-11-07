@@ -1,0 +1,80 @@
+{% if artifacts %}
+	<div class="ex1">
+	{% set cont = 0 %}
+	{% for artifact in artifacts %}
+		{% set result = artifact|split(';') %}
+		{% if cont == 0 %}
+			{% if result[7]=="Write" %}
+				<div class="left">
+					<a href="http:\\localhost\drupal\writeArtifact?project={{ result[8] }}&p_id={{ result[4] }}&a_id={{ result[5] }}&t_id={{ result[6] }}&id={{ result[0] }}">
+						<img src="http:\\localhost\drupal\images\doc_image.png" alt="DOC IMAGE" width="90" height="150">
+					</a><br>
+					<b>{{ result[1] }}</b> <br>
+					Role: {{ result[3] }} <br>
+					Type: Write artifact <br>
+				</div>
+			{% else %}
+				<div class="left">
+					<a href="http:\\localhost\drupal\uploadGraph?project={{ result[8] }}&p_id={{ result[4] }}&a_id={{ result[5] }}&t_id={{ result[6] }}&id={{ result[0] }}">
+						<img src="http:\\localhost\drupal\images\upload_image.png" alt="UPLOAD IMAGE" width="90" height="150">
+					</a><br>
+					<b>{{ result[1] }}</b> <br>
+					Role: {{ result[3] }} <br>
+					Type: Upload graph <br>
+				</div>
+			{% endif %}
+			{% set cont = 1 %}
+		{% elseif cont==1 %}
+			{% if result[7]=="Write" %}
+				<div class="center">
+					<a href="http:\\localhost\drupal\writeArtifact?project={{ result[8] }}&p_id={{ result[4] }}&a_id={{ result[5] }}&t_id={{ result[6] }}&id={{ result[0] }}">
+						<img src="http:\\localhost\drupal\images\doc_image.png" alt="DOC IMAGE" width="90" height="150">
+					</a><br>
+					<b>{{ result[1] }}</b> <br>
+					Role: {{ result[3] }} <br>
+					Type: Write artifact <br>
+				</div>
+			{% else %}
+				<div class="center">
+					<a href="http:\\localhost\drupal\uploadGraph?project={{ result[8] }}&p_id={{ result[4] }}&a_id={{ result[5] }}&t_id={{ result[6] }}&id={{ result[0] }}">
+						<img src="http:\\localhost\drupal\images\upload_image.png" alt="UPLOAD IMAGE" width="90" height="150">
+					</a><br>
+					<b>{{ result[1] }}</b> <br>
+					Role: {{ result[3] }} <br>
+					Type: Upload graph <br>
+				</div>
+			{% endif %}
+			{% set cont = 2 %}
+		{% else %}
+			{% if result[7]=="Write" %}
+				<div class="right">
+					<a href="http:\\localhost\drupal\writeArtifact?project={{ result[8] }}&p_id={{ result[4] }}&a_id={{ result[5] }}&t_id={{ result[6] }}&id={{ result[0] }}">
+						<img src="http:\\localhost\drupal\images\doc_image.png" alt="DOC IMAGE" width="90" height="150">
+					</a><br>
+					<b>{{ result[1] }}</b> <br>
+					Role: {{ result[3] }} <br>
+					Type: Write artifact <br>
+				</div>
+				<br><br>
+			{% else %}
+				<div class="right">
+					<a href="http:\\localhost\drupal\uploadGraph?project={{ result[8] }}&p_id={{ result[4] }}&a_id={{ result[5] }}&t_id={{ result[6] }}&id={{ result[0] }}">
+						<img src="http:\\localhost\drupal\images\upload_image.png" alt="UPLOAD IMAGE" width="90" height="150">
+					</a><br>
+					<b>{{ result[1] }}</b> <br>
+					Role: {{ result[3] }} <br>
+					Type: Upload graph <br>
+				</div>
+				<br><br>
+			{% endif %}
+			{% set cont = 0 %}
+		{% endif %}
+	{% endfor %}
+	</div>
+
+{% else %}
+
+<p><b>All artifacts completed</b></p>
+
+{% endif %}
+

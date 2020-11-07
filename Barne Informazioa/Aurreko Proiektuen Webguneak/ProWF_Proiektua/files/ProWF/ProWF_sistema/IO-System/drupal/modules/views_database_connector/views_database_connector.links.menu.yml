@@ -1,0 +1,5 @@
+views_database_connector.settings:
+  title: 'Views Database Connector Settings'
+  description: 'Set which databases are available to Views Database Connector.'
+  parent: system.admin_config_development
+  route_name: views_database_connector.settings

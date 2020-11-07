@@ -1,0 +1,24 @@
+﻿
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+(clear)
+
+(bload "_DFS_SakonerakoBilaketaGrafoan.bin")
+
+(reset)
+	
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; Files in CSV format (use LibreOffice Calc to manage)
+
+(assert (GrafoBatenHasierakoErpina  "Methodology Start 1 0 0 0 0 0 0 OpenUp Lifecycle | Alpha"))
+
+(open "_log.txt" log  "w")
+(bind ?*log* log)                  	;; log fitategiaren izen lodikoa aldagai orokor batean eskuragarri
+
+					;;Con conector de 64 bits no funciona, el de 32 bits si. Data base connected? 81279520
+(assert (ProcessDataDB "process_db" ))  ;; "process_db"  MySql. 
+(assert (DocumentsDB "document_db" ))  	;; "document_db"  MySql. 
+					;;64 bitekoa behar bada ez dabil, 32 bitekoa bai. Data base connected?  
+
+(run)
+;;;;

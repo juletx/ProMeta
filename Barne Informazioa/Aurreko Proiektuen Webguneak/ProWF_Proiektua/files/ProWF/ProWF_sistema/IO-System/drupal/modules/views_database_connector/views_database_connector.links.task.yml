@@ -1,0 +1,4 @@
+views_database_connector.settings:
+  title: 'Views Database Connector Settings'
+  route_name: views_database_connector.settings
+  base_route: views_database_connector.settings

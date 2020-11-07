@@ -1,0 +1,4 @@
+name: 'Assess Artifact'
+description: 'View and assess an artifact'
+core: 8.x
+type: module

@@ -1,0 +1,30 @@
+div.ex1 {
+  background-color: #e6e6e6;
+  text-align:center;
+  width: 650px;
+  height: 300px;
+  overflow: auto;
+  padding: 50px;
+}
+
+div.left{
+    float: left;
+	transition: all 0.5s; 
+}
+div.right{
+    float: right;
+	transition: all 0.5s; 
+}
+div.center{
+    margin:0 auto;
+    display:inline-block;
+	transition: all 0.5s; 
+}
+
+div.left:hover, div.right:hover, div.center:hover {
+    background-color: #b3b3b3;
+}
+
+div.left, div.right, div.center{
+	padding: 2px;
+}

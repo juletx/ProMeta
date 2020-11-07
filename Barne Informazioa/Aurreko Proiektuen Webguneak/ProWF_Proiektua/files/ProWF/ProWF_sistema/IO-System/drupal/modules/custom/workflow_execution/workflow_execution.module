@@ -1,0 +1,21 @@
+<?php
+
+
+function workflow_execution_page_attachments(array &$page){
+	$page['#attached']['library'][] = 'workflow_execution/workflow_execution_css';
+}
+
+
+function workflow_execution_theme($existing,$type,$theme,$path){
+	return array(
+		'indexWE' => array (
+			'variables' => array(
+				'func' => '',
+				'method' => '',
+				'current_task' => '',
+				'project' => '',
+				'project_artifacts' => array(),
+			)
+		)
+	);
+}

@@ -1,0 +1,8 @@
+write_artifact_css:
+    version: 1.0
+    css:
+        theme:
+            css/write_artifact.css: {}
+    js: 
+        js/write_artifact.js: {}
+   

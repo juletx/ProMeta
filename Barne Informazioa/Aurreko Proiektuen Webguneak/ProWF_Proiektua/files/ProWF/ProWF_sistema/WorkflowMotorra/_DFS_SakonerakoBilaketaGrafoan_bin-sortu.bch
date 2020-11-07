@@ -1,0 +1,94 @@
+﻿
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+(clear)
+
+
+;;----------------------------------------------------------------KLASEAK
+								  ;; klase konkretuetan (pattern-match reactive) gehitu
+(load "_graphml_klaseak.rul")
+
+
+;;----------------------------------------------------------------INSTANTZIAK
+								  ;; (definstances <izena> )
+								  ;; instantzia guztien izenak aldatu:
+								  ;; 	workflow edo azpiworkflowaren aurretik
+
+(load "agreeOnTheTechnicalApproach.rul")
+(load "architectureNotebook.rul")
+(load "assessResults.rul")
+(load "assessResults_1.rul")
+(load "createTestCases.rul")
+(load "createTestCases_1.rul")
+(load "defineVision.rul")
+(load "detailRequirements.rul")
+(load "detailRequirements_1.rul")
+(load "elaboration.rul")
+(load "findAndOutlineRequirements.rul")
+(load "findAndOutlineRequirements_1.rul")
+(load "glossary.rul")
+(load "glossary_1.rul")
+(load "glossary_2.rul")
+(load "glossary_3.rul")
+(load "glossary_4.rul")
+(load "identifyAndRefineRequirements.rul")
+(load "identifyAndRefineRequirements_1.rul")
+(load "inception.rul")
+(load "initiateProject.rul")
+(load "iterationPlan.rul")
+(load "iterationPlan_1.rul")
+(load "iterationPlan_2.rul")
+(load "iterationPlan_3.rul")
+(load "iterationPlan_4.rul")
+(load "iterationPlan_5.rul")
+(load "manageIteration.rul")
+(load "manageIteration_1.rul")
+(load "openUp_lifecycle.rul")        ;; Workflow nagusia
+(load "outlineTheArchitecture.rul")
+(load "planAndManageIteration.rul")
+(load "planAndManageIteration_1.rul")
+(load "planIteration.rul")
+(load "planIteration_1.rul")
+(load "planProject.rul")
+(load "projectPlan.rul")
+(load "projectPlan_1.rul")
+(load "projectPlan_2.rul")
+(load "projectPlan_3.rul")
+(load "projectPlan_4.rul")
+(load "riskList.rul")
+(load "riskList_1.rul")
+(load "riskList_2.rul")
+(load "riskList_3.rul")
+(load "riskList_4.rul")
+(load "supportingRequirements.rul")
+(load "supportingRequirements_1.rul")
+(load "supportingRequirements_2.rul")
+(load "supportingRequirements_3.rul")
+(load "testCase.rul")
+(load "testCase_1.rul")
+(load "useCase.rul")
+(load "useCase_1.rul")
+(load "useCase_2.rul")
+(load "useCase_3.rul")
+(load "useCaseModel.rul")
+(load "useCaseModel_1.rul")
+(load "useCaseModel_2.rul")
+(load "useCaseModel_3.rul")
+(load "vision.rul")
+(load "workItemsList.rul")
+(load "workItemsList_1.rul")
+(load "workItemsList_2.rul")
+(load "workItemsList_3.rul")
+(load "workItemsList_4.rul")
+(load "workItemsList_5.rul")
+(load "workItemsList_6.rul")
+(load "workItemsList_7.rul")
+(load "workItemsList_8.rul")
+(load "workItemsList_9.rul")
+
+;;----------------------------------------------------------------ERREGELAK
+
+(load "_DFS_SakonerakoBilaketaGrafoan.rul")
+
+(bsave "_DFS_SakonerakoBilaketaGrafoan.bin")
+;;;;

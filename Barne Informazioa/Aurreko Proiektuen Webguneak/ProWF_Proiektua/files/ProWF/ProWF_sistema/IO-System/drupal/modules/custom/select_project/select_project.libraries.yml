@@ -1,0 +1,6 @@
+select_project_css:
+    version: 1.0
+    css:
+        theme:
+            css/select_project.css: {}
+    

@@ -1,0 +1,23 @@
+#assess-input input{
+	float:left;
+}
+
+.WA-button {
+  margin:0 2px 0;
+  background-color: #20232c;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 17px;
+  font-family: Raleway;
+  cursor: pointer;
+}
+
+.WA-button:hover {
+  opacity: 0.8;
+}
+
+#WA-submit{
+	background-color: #206040;
+}
+

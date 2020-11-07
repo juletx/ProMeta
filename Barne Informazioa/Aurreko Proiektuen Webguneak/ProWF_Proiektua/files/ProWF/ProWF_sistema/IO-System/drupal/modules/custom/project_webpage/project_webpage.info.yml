@@ -1,0 +1,4 @@
+name: 'Web del proyecto'
+description: 'Muestra los documentos del proyecto'
+core: 8.x
+type: module

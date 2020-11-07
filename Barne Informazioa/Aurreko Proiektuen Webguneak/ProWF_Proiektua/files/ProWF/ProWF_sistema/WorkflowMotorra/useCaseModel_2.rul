@@ -1,0 +1,699 @@
+; Mon Jul 06 18:27:43 CEST 2020
+; 
+;+ (version "3.5")
+;+ (build "Build 663")
+
+(definstances useCaseModel_2
+([useCaseModel_2_data_0] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([useCaseModel_2_data_1] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([useCaseModel_2_data_10] of  data
+
+	(_key "label")
+	(Text "fontname"))
+
+([useCaseModel_2_data_100] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([useCaseModel_2_data_101] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([useCaseModel_2_data_11] of  data
+
+	(_key "label")
+	(Text "Arial"))
+
+([useCaseModel_2_data_12] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([useCaseModel_2_data_13] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([useCaseModel_2_data_14] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([useCaseModel_2_data_15] of  data
+
+	(_key "label")
+	(Text "End Use-Case Model"))
+
+([useCaseModel_2_data_16] of  data
+
+	(_key "x")
+	(Text "-365.76614"))
+
+([useCaseModel_2_data_17] of  data
+
+	(_key "label")
+	(Text "lemonchiffon"))
+
+([useCaseModel_2_data_18] of  data
+
+	(_key "y")
+	(Text "274.56607"))
+
+([useCaseModel_2_data_19] of  data
+
+	(_key "fillcolor")
+	(Text "white"))
+
+([useCaseModel_2_data_2] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([useCaseModel_2_data_20] of  data
+
+	(_key "weight")
+	(Text "1.0"))
+
+([useCaseModel_2_data_21] of  data
+
+	(_key "y")
+	(Text "197.15518"))
+
+([useCaseModel_2_data_22] of  data
+
+	(_key "fillcolor")
+	(Text "royalblue3"))
+
+([useCaseModel_2_data_23] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([useCaseModel_2_data_24] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([useCaseModel_2_data_25] of  data
+
+	(_key "shape")
+	(Text "ellipse"))
+
+([useCaseModel_2_data_26] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([useCaseModel_2_data_27] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([useCaseModel_2_data_28] of  data
+
+	(_key "y")
+	(Text "-283.8018"))
+
+([useCaseModel_2_data_29] of  data
+
+	(_key "y")
+	(Text "31.425148"))
+
+([useCaseModel_2_data_3] of  data
+
+	(_key "fontsize")
+	(Text "12"))
+
+([useCaseModel_2_data_30] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([useCaseModel_2_data_31] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([useCaseModel_2_data_32] of  data
+
+	(_key "y")
+	(Text "192.33493"))
+
+([useCaseModel_2_data_33] of  data
+
+	(_key "y")
+	(Text "-230.3328"))
+
+([useCaseModel_2_data_34] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([useCaseModel_2_data_35] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([useCaseModel_2_data_36] of  data
+
+	(_key "y")
+	(Text "-97.07232"))
+
+([useCaseModel_2_data_37] of  data
+
+	(_key "label")
+	(Text "Use-Case Model"))
+
+([useCaseModel_2_data_38] of  data
+
+	(_key "x")
+	(Text "-148.33621"))
+
+([useCaseModel_2_data_39] of  data
+
+	(_key "label")
+	(Text "bgcolor"))
+
+([useCaseModel_2_data_4] of  data
+
+	(_key "x")
+	(Text "192.65613"))
+
+([useCaseModel_2_data_40] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([useCaseModel_2_data_41] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([useCaseModel_2_data_42] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([useCaseModel_2_data_43] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([useCaseModel_2_data_44] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([useCaseModel_2_data_45] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([useCaseModel_2_data_46] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([useCaseModel_2_data_47] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([useCaseModel_2_data_48] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([useCaseModel_2_data_49] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([useCaseModel_2_data_5] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([useCaseModel_2_data_50] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([useCaseModel_2_data_51] of  data
+
+	(_key "x")
+	(Text "-463.97192"))
+
+([useCaseModel_2_data_52] of  data
+
+	(_key "x")
+	(Text "58.173893"))
+
+([useCaseModel_2_data_53] of  data
+
+	(_key "fillcolor")
+	(Text "royalblue3"))
+
+([useCaseModel_2_data_54] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([useCaseModel_2_data_55] of  data
+
+	(_key "margin")
+	(Text "0.11,0.11"))
+
+([useCaseModel_2_data_56] of  data
+
+	(_key "weight")
+	(Text "1.0"))
+
+([useCaseModel_2_data_57] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([useCaseModel_2_data_58] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([useCaseModel_2_data_59] of  data
+
+	(_key "label")
+	(Text "Create and Upload graph"))
+
+([useCaseModel_2_data_6] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([useCaseModel_2_data_60] of  data
+
+	(_key "label")
+	(Text "fontsize"))
+
+([useCaseModel_2_data_61] of  data
+
+	(_key "y")
+	(Text "-370.6655"))
+
+([useCaseModel_2_data_62] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([useCaseModel_2_data_63] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([useCaseModel_2_data_64] of  data
+
+	(_key "label")
+	(Text "Start Use-Case Model"))
+
+([useCaseModel_2_data_65] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([useCaseModel_2_data_66] of  data
+
+	(_key "label")
+	(Text "t"))
+
+([useCaseModel_2_data_67] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([useCaseModel_2_data_68] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([useCaseModel_2_data_69] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([useCaseModel_2_data_7] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([useCaseModel_2_data_70] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([useCaseModel_2_data_71] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([useCaseModel_2_data_72] of  data
+
+	(_key "y")
+	(Text "265.0311"))
+
+([useCaseModel_2_data_73] of  data
+
+	(_key "y")
+	(Text "90.17753"))
+
+([useCaseModel_2_data_74] of  data
+
+	(_key "x")
+	(Text "292.65997"))
+
+([useCaseModel_2_data_75] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([useCaseModel_2_data_76] of  data
+
+	(_key "y")
+	(Text "-166.9834"))
+
+([useCaseModel_2_data_77] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([useCaseModel_2_data_78] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([useCaseModel_2_data_79] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([useCaseModel_2_data_8] of  data
+
+	(_key "x")
+	(Text "4.693059"))
+
+([useCaseModel_2_data_80] of  data
+
+	(_key "label")
+	(Text "label"))
+
+([useCaseModel_2_data_81] of  data
+
+	(_key "b")
+	(Text "0"))
+
+([useCaseModel_2_data_82] of  data
+
+	(_key "shape")
+	(Text "ellipse"))
+
+([useCaseModel_2_data_83] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([useCaseModel_2_data_84] of  data
+
+	(_key "fontname")
+	(Text "Arial"))
+
+([useCaseModel_2_data_85] of  data
+
+	(_key "x")
+	(Text "272.55835"))
+
+([useCaseModel_2_data_86] of  data
+
+	(_key "y")
+	(Text "-13.3431635"))
+
+([useCaseModel_2_data_87] of  data
+
+	(_key "shape")
+	(Text "component"))
+
+([useCaseModel_2_data_88] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([useCaseModel_2_data_89] of  data
+
+	(_key "y")
+	(Text "111.50895"))
+
+([useCaseModel_2_data_9] of  data
+
+	(_key "g")
+	(Text "0"))
+
+([useCaseModel_2_data_90] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([useCaseModel_2_data_91] of  data
+
+	(_key "size")
+	(Text "10.0"))
+
+([useCaseModel_2_data_92] of  data
+
+	(_key "x")
+	(Text "49.382206"))
+
+([useCaseModel_2_data_93] of  data
+
+	(_key "x")
+	(Text "269.1626"))
+
+([useCaseModel_2_data_94] of  data
+
+	(_key "x")
+	(Text "-347.51508"))
+
+([useCaseModel_2_data_95] of  data
+
+	(_key "r")
+	(Text "0"))
+
+([useCaseModel_2_data_96] of  data
+
+	(_key "x")
+	(Text "-35.152706"))
+
+([useCaseModel_2_data_97] of  data
+
+	(_key "label")
+	(Text "labelloc"))
+
+([useCaseModel_2_data_98] of  data
+
+	(_key "x")
+	(Text "221.45581"))
+
+([useCaseModel_2_data_99] of  data
+
+	(_key "label")
+	(Text "16"))
+
+([useCaseModel_2_edge_0] of  edge
+
+	(_id "189")
+	(_source "Artifact Start 1 2 1 1 1 13 0 Use-Case Model |")
+	(_target "Artifact UploadGraph 1 2 1 1 1 13 0 Create and Upload graph |")
+	(dataSlot [useCaseModel_2_data_56]))
+
+([useCaseModel_2_edge_1] of  edge
+
+	(_id "190")
+	(_source "Artifact UploadGraph 1 2 1 1 1 13 0 Create and Upload graph |")
+	(_target "Artifact End 1 2 1 1 1 13 0 Use-Case Model |")
+	(dataSlot [useCaseModel_2_data_20]))
+
+([useCaseModel_2_graph_0] of  graph
+
+	(_edgedefault "directed")
+	(edgeSlot [useCaseModel_2_edge_0])
+	(nodeSlot [useCaseModel_2_node_5]))
+
+([useCaseModel_2_key_0] of  key
+
+	(_attr.name "weight")
+	(_attr.type "double")
+	(_for "edge")
+	(_id "weight"))
+
+([useCaseModel_2_key_1] of  key
+
+	(_attr.name "shape")
+	(_attr.type "string")
+	(_for "node")
+	(_id "shape"))
+
+([useCaseModel_2_key_10] of  key
+
+	(_attr.name "size")
+	(_attr.type "float")
+	(_for "node")
+	(_id "size"))
+
+([useCaseModel_2_key_11] of  key
+
+	(_attr.name "Edge Label")
+	(_attr.type "string")
+	(_for "edge")
+	(_id "edgelabel"))
+
+([useCaseModel_2_key_12] of  key
+
+	(_attr.name "y")
+	(_attr.type "float")
+	(_for "node")
+	(_id "y"))
+
+([useCaseModel_2_key_13] of  key
+
+	(_attr.name "fillcolor")
+	(_attr.type "string")
+	(_for "node")
+	(_id "fillcolor"))
+
+([useCaseModel_2_key_2] of  key
+
+	(_attr.name "g")
+	(_attr.type "int")
+	(_for "node")
+	(_id "g"))
+
+([useCaseModel_2_key_3] of  key
+
+	(_attr.name "margin")
+	(_attr.type "string")
+	(_for "node")
+	(_id "margin"))
+
+([useCaseModel_2_key_4] of  key
+
+	(_attr.name "r")
+	(_attr.type "int")
+	(_for "node")
+	(_id "r"))
+
+([useCaseModel_2_key_5] of  key
+
+	(_attr.name "fontsize")
+	(_attr.type "string")
+	(_for "node")
+	(_id "fontsize"))
+
+([useCaseModel_2_key_6] of  key
+
+	(_attr.name "b")
+	(_attr.type "int")
+	(_for "node")
+	(_id "b"))
+
+([useCaseModel_2_key_7] of  key
+
+	(_attr.name "x")
+	(_attr.type "float")
+	(_for "node")
+	(_id "x"))
+
+([useCaseModel_2_key_8] of  key
+
+	(_attr.name "label")
+	(_attr.type "string")
+	(_for "node")
+	(_id "label"))
+
+([useCaseModel_2_key_9] of  key
+
+	(_attr.name "fontname")
+	(_attr.type "string")
+	(_for "node")
+	(_id "fontname"))
+
+([useCaseModel_2_node_0] of  node
+
+	(_id "fontname")
+	(dataSlot [useCaseModel_2_data_10]))
+
+([useCaseModel_2_node_1] of  node
+
+	(_id "Artifact Start 1 2 1 1 1 13 0 Use-Case Model |")
+	(dataSlot [useCaseModel_2_data_64]))
+
+([useCaseModel_2_node_10] of  node
+
+	(_id "t")
+	(dataSlot [useCaseModel_2_data_66]))
+
+([useCaseModel_2_node_11] of  node
+
+	(_id "bgcolor")
+	(dataSlot [useCaseModel_2_data_39]))
+
+([useCaseModel_2_node_12] of  node
+
+	(_id "label")
+	(dataSlot [useCaseModel_2_data_80]))
+
+([useCaseModel_2_node_2] of  node
+
+	(_id "Artifact End 1 2 1 1 1 13 0 Use-Case Model |")
+	(dataSlot [useCaseModel_2_data_15]))
+
+([useCaseModel_2_node_3] of  node
+
+	(_id "Use-Case Model")
+	(dataSlot [useCaseModel_2_data_37]))
+
+([useCaseModel_2_node_4] of  node
+
+	(_id "Artifact UploadGraph 1 2 1 1 1 13 0 Create and Upload graph |")
+	(dataSlot [useCaseModel_2_data_59]))
+
+([useCaseModel_2_node_5] of  node
+
+	(_id "fontsize")
+	(dataSlot [useCaseModel_2_data_60]))
+
+([useCaseModel_2_node_6] of  node
+
+	(_id "Arial")
+	(dataSlot [useCaseModel_2_data_11]))
+
+([useCaseModel_2_node_7] of  node
+
+	(_id "labelloc")
+	(dataSlot [useCaseModel_2_data_97]))
+
+([useCaseModel_2_node_8] of  node
+
+	(_id "16")
+	(dataSlot [useCaseModel_2_data_99]))
+
+([useCaseModel_2_node_9] of  node
+
+	(_id "lemonchiffon")
+	(dataSlot [useCaseModel_2_data_17]))
+)
