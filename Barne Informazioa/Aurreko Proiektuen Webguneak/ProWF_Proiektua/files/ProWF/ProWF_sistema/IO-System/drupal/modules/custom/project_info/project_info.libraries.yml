@@ -1,6 +1,0 @@
-project_info_css:
-    version: 1.0
-    css:
-        theme:
-            css/project_info.css: {}
-    

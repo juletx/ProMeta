@@ -1,1 +1,0 @@
-dot -Gcharset=latin1 -Tgif -Tcmapx  elaboration.gv -O elaboration.gif 

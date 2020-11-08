@@ -1,6 +1,0 @@
-select_artifact_css:
-    version: 1.0
-    css:
-        theme:
-            css/select_artifact.css: {}
-    
