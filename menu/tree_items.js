@@ -186,7 +186,8 @@ var TREE_ITEMS =
 				['1.3 - Hizkuntza Hitzarmena', '../Barne Informazioa/Barne Kudeaketa/Hizkuntza Hitzarmena.pdf'],
         ['1.4 - Bilera Aktak', '../Barne Informazioa/Barne Kudeaketa/Bilera Aktak/Bilera Aktak.pdf',
           ['1.4.1 - B1.2020-10-29', '../Barne Informazioa/Barne Kudeaketa/Bilera Aktak/B1.2020-10-29.pdf'],
-          ['1.4.2 - B2.2020-11-06', '../Barne Informazioa/Barne Kudeaketa/Bilera Aktak/B2.2020-11-06.pdf']
+          ['1.4.2 - B2.2020-11-06', '../Barne Informazioa/Barne Kudeaketa/Bilera Aktak/B2.2020-11-06.pdf'],
+          ['1.4.3 - B3.2021-01-15', '../Barne Informazioa/Barne Kudeaketa/Bilera Aktak/B3.2021-01-15.pdf']
         ],
 				['1.5 - Iterazio Plana', '../Barne Informazioa/Barne Kudeaketa/iteration_plan_tpl.pdf'],
 				['1.6 - Proiektu Plana', '../Barne Informazioa/Barne Kudeaketa/project_plan_tpl.pdf'],
