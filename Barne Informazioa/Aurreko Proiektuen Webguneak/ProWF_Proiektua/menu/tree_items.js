@@ -5,7 +5,6 @@ var TREE_ITEMS =
 			['Portada', '../main/home_page.html'],
 			['Laburpen posterra', '../main/Poster_GrAL.png'],
 			['Aurkezpena', '../Proiektua/RojoJulen_GrAL.pptx'],
-			['ProWF sistema (.RAR)', '../files/ProWF.rar'],
 			['MEMORIA','../Proiektua/Memoria/Memoria.pdf'],           
 			['ERANSKINAK',null,
 				['Memoriaren Eranskinak', null,
@@ -38,9 +37,8 @@ var TREE_ITEMS =
 						['Ingurunea',null,
 							['Tresnak','../Proiektua/MemoriarenEranskinak/Tresnak.pdf']
 						],
-						['Inplementazioa',null,
-							['Workflow Editor (.RAR)','../files/WorkflowEditor.rar'],
-							['IO-System (.RAR)','../files/IO-System.rar'],
+            ['Inplementazioa',null,
+              ['ProWF sistema (.RAR)', '../files/ProWF.rar'],
 							['OpenUP lifecycle: Workflow','../OpenUpLifecycle/pageWithScrollbar.html']
 						]
 					]
