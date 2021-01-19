@@ -1,7 +1,7 @@
 /* --- menu items --- */
 var TREE_ITEMS =
 	[
-		['GrAL Proiektua', '../main/home_page.html',
+		['ProMeta Proiektua', '../main/home_page.html',
 			['Portada', '../Proiektua/Portada.pdf'],
 			['Laburpen Posterra', '../Proiektua/Laburpen Posterra.pdf'],
 			['Aurkezpena', '../Proiektua/Aurkezpena.pdf'],
@@ -93,7 +93,7 @@ var TREE_ITEMS =
 				['A5 - Segurtasun Plana', '../Proiektua/Memoriaren Eranskinak/A5 - Segurtasun Plana/A5 - Segurtasun Plana.pdf'],
 				['A6 - Beste Eranskinak', '../Proiektua/Memoriaren Eranskinak/A6 - Beste Eranskinak/A6 - Beste Eranskinak.pdf',
 					['A6.1 - Hedapena', '../Proiektua/Memoriaren Eranskinak/A6 - Beste Eranskinak/Hedapena/0_hedapena.pdf',
-						['A6.1.1 - Produktuaren dokumentazioa', '../Proiektua/Memoriaren Eranskinak/A6 - Beste Eranskinak/Hedapena/Product Documentation.pdf'],
+						['A6.1.1 - Produktuaren Dokumentazioa', '../Proiektua/Memoriaren Eranskinak/A6 - Beste Eranskinak/Hedapena/Product Documentation.pdf'],
 						['A6.1.2 - Laguntza Dokumentazioa', '../Proiektua/Memoriaren Eranskinak/A6 - Beste Eranskinak/Hedapena/Support Documentation.pdf'],
 						['A6.1.3 - Erabiltzaile Dokumentazioa', '../Proiektua/Memoriaren Eranskinak/A6 - Beste Eranskinak/Hedapena/User Documentation.pdf'],
 						['A6.1.4 - Trebatzeko Materialak', '../Proiektua/Memoriaren Eranskinak/A6 - Beste Eranskinak/Hedapena/Training Materials.pdf'],
@@ -147,7 +147,7 @@ var TREE_ITEMS =
 				['2 - Edukia', '../Proiektua/Ikerlanak/Ikerlanak.pdf']
 			]
 		],
-		['GrAL Barne Informazioa', '../Barne Informazioa/Barne Informazioa.pdf',
+		['ProMeta Barne Informazioa', '../Barne Informazioa/Barne Informazioa.pdf',
 			['1 - Barne Kudeaketa', '../Barne Informazioa/Barne Kudeaketa/Barne Kudeaketa.pdf',
         ['1.1 - Artefaktuen Txantiloiak PDF', '../Barne Informazioa/Barne Kudeaketa/Artefaktuen Txantiloiak.pdf',
           ['1.1.1 - Arkitektura Koadernoa', '../Proiektua/Memoriaren Eranskinak/A2 - Analisia eta Diseinua/architecture_notebook_tpl.pdf'],
