@@ -32,7 +32,7 @@ function loadTop()
 
     for(i=document.links.length-1;i>=0;i--)
     {
-       if(document.links[i].href.indexOf("index.htm")!=-1)
+       if(document.links[i].href.indexOf("index.html")!=-1)
        {
          new_ory_doc_loc = document.links[i].href;
          break;
@@ -60,7 +60,7 @@ function loadTop()
     var new_ory_doc_loc=null;
     for(i=document.links.length-1;i>=0;i--)
     {
-       if(document.links[i].href.indexOf("index.htm")!=-1)
+       if(document.links[i].href.indexOf("index.html")!=-1)
        {
          new_ory_doc_loc = document.links[i].href.substring(0,document.links[i].href.lastIndexOf("/"));
          new_ory_doc_loc = new_ory_doc_loc + "" + image;
@@ -103,4 +103,3 @@ if (ory_toc_exist == "undefined") {
 else {
 	document.write("&nbsp;");
 }
-

@@ -1,8 +1,8 @@
 /* --- menu items --- */
 var TREE_ITEMS = 
 [
-	['ProWF Proiektua', '../main/home_page.htm',
-			['Portada', '../main/home_page.htm'],
+	['ProWF Proiektua', '../main/home_page.html',
+			['Portada', '../main/home_page.html'],
 			['Laburpen posterra', '../main/Poster_GrAL.png'],
 			['Aurkezpena', '../Proiektua/RojoJulen_GrAL.pptx'],
 			['ProWF sistema (.RAR)', '../files/ProWF.rar'],
