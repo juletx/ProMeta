@@ -191,7 +191,7 @@ var TREE_ITEMS =
           ['1.4.3 - B3.2021-01-15', '../Barne Informazioa/Barne Kudeaketa/Bilera Aktak/B3.2021-01-15.pdf']
         ],
 				['1.5 - Iterazio Plana', '../Barne Informazioa/Barne Kudeaketa/iteration_plan_tpl.pdf'],
-				['1.6 - Proiektu Plana', '../Barne Informazioa/Barne Kudeaketa/project_plan_tpl.pdf'],
+				['1.6 - Proiektu Plana', '../Barne Informazioa/Barne Kudeaketa/Project Plan.pdf'],
 				['1.7 - Arrisku Zerrenda', '../Barne Informazioa/Barne Kudeaketa/risk_list_tpl.pdf'],
 				['1.8 - Lan Atazen Zerrenda', '../Barne Informazioa/Barne Kudeaketa/work_items_list_tpl.pdf'],
 				['1.9 - Proiektuko Artefaktuen Ziurtagiriak', '../Barne Informazioa/Barne Kudeaketa/Proiektuko Artefaktuen Ziurtagiriak.pdf'],
