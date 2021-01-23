@@ -1,1 +1,0 @@
-dot -Gcharset=latin1 -Tgif -Tcmapx  supportingRequirements.gv -O supportingRequirements.gif 
