@@ -133,7 +133,7 @@ var TREE_ITEMS =
       ['Sistemaren Espezifikazioa', '../Proiektua/Sistemaren Espezifikazioa/Sistemaren Espezifikazioa.pdf',
         ['1 - Glosategia', '../Proiektua/Sistemaren Espezifikazioa/Glosategia.pdf'],
         ['2 - Ikuspegia', '../Proiektua/Sistemaren Espezifikazioa/Ikuspegia.pdf'],
-        ['3 - Betebeharren Espezifikazioa', '../Proiektua/Sistemaren Espezifikazioa/systemwide_req_spec.pdf'],
+        ['3 - Betebeharren Espezifikazioa', '../Proiektua/Sistemaren Espezifikazioa/Betebeharren Espezifikazioa.pdf'],
         ['4 - Erabilpen Kasuak', '../Proiektua/Sistemaren Espezifikazioa/Erabilpen Kasuak/usecase_specification_tpl.pdf',
           ['4.1 - Erabilpen Kasua', '../Proiektua/Sistemaren Espezifikazioa/Erabilpen Kasuak/usecase_specification_tpl.pdf']
         ],
