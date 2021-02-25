@@ -198,7 +198,7 @@ var TREE_ITEMS =
         ['1.6 - Iterazio Planak', '../Barne Informazioa/Barne Kudeaketa/Iterazio Planak/Iterazio Planak.pdf',
           ['1.6.1 - Iterazio Plana 1', '../Barne Informazioa/Barne Kudeaketa/Iterazio Planak/Iterazio Plana 1.pdf'],
         ],
-        ['1.7 - Arrisku Zerrenda', '../Barne Informazioa/Barne Kudeaketa/risk_list_tpl.pdf'],
+        ['1.7 - Arrisku Zerrenda', '../Barne Informazioa/Barne Kudeaketa/Arrisku Zerrenda.pdf'],
         ['1.8 - Lan Atazen Zerrenda', '../Barne Informazioa/Barne Kudeaketa/work_items_list_tpl.pdf'],
         ['1.9 - Proiektuko Artefaktuen Ziurtagiriak', '../Barne Informazioa/Barne Kudeaketa/Proiektuko Artefaktuen Ziurtagiriak.pdf'],
         ['1.10 - Arriskuen Kudeaketa eta Analisia', '../Barne Informazioa/Barne Kudeaketa/Arriskuen Kudeaketa eta Analisia/Referencia.pdf',
