@@ -192,6 +192,7 @@ var TREE_ITEMS =
           ['1.4.5 - 2021-02-04', '../Barne Informazioa/Barne Kudeaketa/Bilera Aktak/2021-02-04.pdf'],
           ['1.4.6 - 2021-02-11', '../Barne Informazioa/Barne Kudeaketa/Bilera Aktak/2021-02-11.pdf'],
           ['1.4.7 - 2021-02-18', '../Barne Informazioa/Barne Kudeaketa/Bilera Aktak/2021-02-18.pdf'],
+          ['1.4.8 - 2021-02-25', '../Barne Informazioa/Barne Kudeaketa/Bilera Aktak/2021-02-25.pdf'],
         ],
         ['1.5 - Proiektu Plana', '../Barne Informazioa/Barne Kudeaketa/Proiektu Plana.pdf'],
         ['1.6 - Iterazio Planak', '../Barne Informazioa/Barne Kudeaketa/Iterazio Planak/Iterazio Planak.pdf',
