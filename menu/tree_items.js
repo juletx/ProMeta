@@ -197,6 +197,7 @@ var TREE_ITEMS =
         ['1.5 - Proiektu Plana', '../Barne Informazioa/Barne Kudeaketa/Proiektu Plana.pdf'],
         ['1.6 - Iterazio Planak', '../Barne Informazioa/Barne Kudeaketa/Iterazio Planak/Iterazio Planak.pdf',
           ['1.6.1 - Iterazio Plana 1', '../Barne Informazioa/Barne Kudeaketa/Iterazio Planak/Iterazio Plana 1.pdf'],
+          ['1.6.2 - Iterazio Plana 2', '../Barne Informazioa/Barne Kudeaketa/Iterazio Planak/Iterazio Plana 2.pdf'],
         ],
         ['1.7 - Arrisku Zerrenda', '../Barne Informazioa/Barne Kudeaketa/Arrisku Zerrenda.pdf'],
         ['1.8 - Lan Atazen Zerrenda', '../Barne Informazioa/Barne Kudeaketa/Lan Atazen Zerrenda.pdf'],
