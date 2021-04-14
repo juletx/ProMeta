@@ -254,9 +254,9 @@ var TREE_ITEMS =
           ['4.4.2 - Osagaiak', '../Barne Informazioa/Ingurunea/tools.pdf'],
           ['4.4.3 - Beste Erreminta Batzuk', '../Barne Informazioa/Ingurunea/tools.pdf'],
         ],
-        ['4.5 - Garapen Prozesuaren Planifikazioa', '../Barne Informazioa/Ingurunea/Lanaren Planifikazioa.pdf'],
-        ['4.6 - Garapen Prozesuko Erabakien Justifikazioa', '../Barne Informazioa/Ingurunea/Erabakien Justifikazioa.pdf'],
-        ['4.7 - Garapen Prozesuren Inplementazio Ideiak', '../Barne Informazioa/Ingurunea/Inplementazio Ideiak.pdf'],
+        ['4.5 - Prozesuaren Planifikazioa', '../Barne Informazioa/Ingurunea/Lanaren Planifikazioa.pdf'],
+        ['4.6 - Prozesuaren Erabakien Justifikazioa', '../Barne Informazioa/Ingurunea/Erabakien Justifikazioa.pdf'],
+        ['4.7 - Prozesuaren Inplementazio Ideiak', '../Barne Informazioa/Ingurunea/Inplementazio Ideiak.pdf'],
       ],
       ['5 - Trebatzeko Materialak', '../Barne Informazioa/Barne Kudeaketa/Trebatzeko Materialak/Trebatzeko Materialak.pdf'],
     ]
