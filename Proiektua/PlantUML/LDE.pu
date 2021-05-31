@@ -1,0 +1,25 @@
+@startwbs
+* ProMeta
+**[#blue] Dokumentazioa
+***[#blue] Webgunea
+***[#blue] Memoria
+***[#blue] Aurkezpena
+***[#blue] Posterra
+**[#orange] Memoriaren Eranskinak
+***[#orange] OpenUP
+***[#orange] CCII-2016N-02
+***[#orange] Sistemaren Espezifikazioa
+***[#orange] Aurrekontua
+***[#orange] Ikerlanak
+**[#green] Barne Kudeaketa
+***[#green] Plangintza
+***[#green] Jarraipen eta Kontrola
+**[#red] ModelEditor
+***[#red] OpenUP Eredua
+***[#red] Editore Grafikoa
+***[#red] Testu Editorea
+**[#yellow] IO-System
+***[#yellow] Datu Basea
+***[#yellow] Web Interfazea
+***[#yellow] Web Kodea
+@endwbs

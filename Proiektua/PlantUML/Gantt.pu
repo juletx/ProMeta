@@ -1,0 +1,10 @@
+@startgantt
+scale 5/2
+printscale weekly
+project starts the 2021/01/14
+2021/06/20 is closed
+[Webgunea] starts 2021/01/14 and ends 2021/06/20
+[Memoria] starts 2021/01/14 and ends 2021/06/20
+[Aurkezpena] starts 2021/05/18 and ends 2021/06/20
+[Posterra] starts 2021/05/18 and ends 2021/06/20
+@endgantt
