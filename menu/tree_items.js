@@ -107,8 +107,8 @@ var TREE_ITEMS =
             ['A6.2.4 - Diseinua', '../Proiektua/Memoriaren Eranskinak/A6 - Beste Eranskinak/Garapena/design_tpl.pdf']
           ],
           ['A6.3 - Ingurunea', '../Proiektua/Memoriaren Eranskinak/A6 - Beste Eranskinak/Ingurunea/0_ingurunea.pdf',
-            ['A6.3.1 - Garapen Kasua', '../Proiektua/Memoriaren Eranskinak/A6 - Beste Eranskinak/Ingurunea/development_case_tpl.pdf'],
-            ['A6.3.2 - Tresnak', '../Proiektua/Memoriaren Eranskinak/A6 - Beste Eranskinak/Ingurunea/tools.pdf'],
+            ['A6.3.1 - Garapen Kasua', '../Proiektua/Memoriaren Eranskinak/A6 - Beste Eranskinak/Ingurunea/Garapen Kasua.pdf'],
+            ['A6.3.2 - Tresnak', '../Proiektua/Memoriaren Eranskinak/A6 - Beste Eranskinak/Ingurunea/Tresnak.pdf'],
           ],
           ['A6.4 - Proba', '../Proiektua/Memoriaren Eranskinak/A6 - Beste Eranskinak/Proba/0_probak.pdf',
             ['A6.4.1 - Proba Kasuak', '../Proiektua/Memoriaren Eranskinak/A6 - Beste Eranskinak/Proba/test_cases_tpl.pdf'],
