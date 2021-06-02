@@ -1,0 +1,91 @@
+@startuml UCM_IO-System
+left to right direction
+
+actor Anonymous
+actor Authenticated
+actor Administrator
+
+rectangle Basic {
+    actor Analyst
+    actor Architect
+    actor Developer
+    actor "Project Manager" as ProjectManager
+    actor Tester
+}
+
+rectangle Deployment {
+    actor "Course Developer" as CourseDeveloper
+    actor "Deployment Engineer" as DeploymentEngineer
+    actor "Deployment Manager" as DeploymentManager
+    actor "Technical Writer" as TechnicalWriter
+    actor Trainer
+}
+
+rectangle Environment {
+    actor "Process Engineer" as ProcessEngineer
+    actor "Tool Specialist" as ToolSpecialist
+}
+
+rectangle Administration {
+    usecase "Add Role" as AddRole
+    usecase "Remove Role" as RemoveRole
+    usecase "Change Permissions" as ChangePermissions
+}
+
+rectangle Authentication {
+    usecase "Log In" as LogIn
+    usecase "Log Out" as LogOut
+    usecase "Create Account" as CreateAccount
+    usecase "View Account" as ViewAccount
+    usecase "Edit Account" as EditAccount
+    usecase "Reset Password" as ResetPassword
+}
+
+rectangle Methodology {
+    usecase "Create Methodology" as CreateMethodology
+    usecase "View Methodology" as ViewMethodology
+    usecase "Edit Methodology" as EditMethodology
+}
+
+rectangle Project {
+    usecase "Create Project" as CreateProject
+    usecase "View Project" as ViewProject
+    usecase "Edit Project" as EditProject
+}
+
+rectangle Content {
+    usecase "Search Content" as SearchContent
+    usecase "View Content" as ViewContent
+    usecase "Edit Content" as EditContent
+    usecase "Add Content" as AddContent
+}
+
+Anonymous --> LogIn
+Anonymous --> CreateAccount
+Anonymous --> ResetPassword
+Anonymous --> SearchContent
+Anonymous --> ViewContent
+
+Authenticated --> LogOut
+Authenticated --> ViewAccount
+Authenticated --> EditAccount
+Authenticated --> SearchContent
+Authenticated --> ViewContent
+Authenticated --> EditContent
+Authenticated --> AddContent
+
+Authenticated <|-- Basic
+Authenticated <|-- Administrator
+
+Administrator --> AddRole
+Administrator --> RemoveRole
+Administrator --> ChangePermissions
+
+ProcessEngineer --> CreateMethodology
+ProcessEngineer --> ViewMethodology
+ProcessEngineer --> EditMethodology
+
+ProjectManager --> CreateProject
+ProjectManager --> ViewProject
+ProjectManager --> EditProject
+@enduml

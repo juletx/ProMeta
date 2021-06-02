@@ -1,0 +1,32 @@
+@startuml UCM_ModelEditor
+left to right direction
+
+actor "Process Engineer" as ProcessEngineer
+
+rectangle "EPF Composer" as EPFComposer {
+    usecase "Import Model" as ImportModel
+    usecase "Export Model" as ExportModel
+    usecase "Edit Model" as EditModel
+    usecase "Publish Website" as PublishWebsite
+}
+
+rectangle Eclipse {
+    usecase "Transform Model" as TransformModel
+    usecase "Edit Text Model" as EditTextModel
+    usecase "Edit Graphical Model" as EditGraphicalModel
+    usecase "Create Text Model" as CreateTextModel
+    usecase "Create Graphical Model" as CreateGraphicalModel
+    usecase "Create SQL" as CreateSQL
+}
+
+ProcessEngineer --> ImportModel
+ProcessEngineer --> ExportModel
+ProcessEngineer --> EditModel
+ProcessEngineer --> PublishWebsite
+ProcessEngineer --> TransformModel
+ProcessEngineer --> EditTextModel
+ProcessEngineer --> EditGraphicalModel
+ProcessEngineer --> CreateTextModel
+ProcessEngineer --> CreateGraphicalModel
+ProcessEngineer --> CreateSQL
+@enduml

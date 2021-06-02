@@ -1,4 +1,4 @@
-@startgantt
+@startgantt Gantt
 scale 5/2
 printscale weekly
 project starts the 2021/01/14
@@ -7,4 +7,8 @@ project starts the 2021/01/14
 [Memoria] starts 2021/01/14 and ends 2021/06/20
 [Aurkezpena] starts 2021/05/18 and ends 2021/06/20
 [Posterra] starts 2021/05/18 and ends 2021/06/20
+[Webgunea] is colored in Blue
+[Memoria] is colored in Blue
+[Aurkezpena] is colored in Blue
+[Posterra] is colored in Blue
 @endgantt

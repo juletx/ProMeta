@@ -124,7 +124,10 @@ var TREE_ITEMS =
         ['4 - Erabilpen Kasuak', '../Proiektua/Sistemaren Espezifikazioa/Erabilpen Kasuak/usecase_specification_tpl.pdf',
           ['4.1 - Erabilpen Kasua', '../Proiektua/Sistemaren Espezifikazioa/Erabilpen Kasuak/usecase_specification_tpl.pdf']
         ],
-        ['5 - Erabilpen Kasuen Eredua', '../Proiektua/Sistemaren Espezifikazioa/Use Case Model/index.html']
+        ['5 - Erabilpen Kasuen Ereduak', null,
+          ['5.1 - ModelEditor', '../Proiektua/PlantUML/UCM_ModelEditor.png'],
+          ['5.2 - IO-System', '../Proiektua/PlantUML/UCM_IO-System.png']
+        ]
       ],
       ['Aurrekontua', '../Proiektua/Aurrekontua/Aurrekontua.pdf'],
       ['Ikerlanak', '../Proiektua/Ikerlanak/Ikerlanak.pdf'],
