@@ -13,7 +13,7 @@ var TREE_ITEMS =
         ['Irudien Aurkibidea', '../Proiektua/Memoria/Irudien Aurkibidea.pdf'],
         ['Taulen Aurkibidea', '../Proiektua/Memoria/Taulen Aurkibidea.pdf'],
         ['1 - Sarrera', '../Proiektua/Memoria/1 - Sarrera.pdf'],
-        ['2 - Helburua', '../Proiektua/Memoria/2 - Helburua.pdf'],
+        ['2 - Helburuak', '../Proiektua/Memoria/2 - Helburuak.pdf'],
         ['3 - Aurrekariak', '../Proiektua/Memoria/3 - Aurrekariak.pdf'],
         ['4 - Egungo Egoera', '../Proiektua/Memoria/4 - Egungo Egoera.pdf'],
         ['5 - Arauak eta Erreferentziak', '../Proiektua/Memoria/5 - Arauak eta Erreferentziak.pdf'],
