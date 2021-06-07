@@ -1,0 +1,21 @@
+@startuml Arkitektura_IO-System
+!include <logos/mysql>
+!include <logos/drupal>
+
+database "<$mysql>\nDatabase" as Database
+component Importer
+database "<$drupal>\nDatabase" as DrupalDatabase
+component "<$drupal>\nInterface" as Interface
+folder Files {
+    artifact Artifacts
+}
+
+Database -> Importer : Get Data
+Importer -> DrupalDatabase : Add Data
+
+DrupalDatabase -> Interface : Get Data
+Interface -> DrupalDatabase : Edit Data
+
+Files -> Interface : Get Files
+Interface -> Files : Edit Files
+@enduml
