@@ -116,8 +116,8 @@ var TREE_ITEMS =
           ['4.1 - Erabilpen Kasua', '../Proiektua/Sistemaren Espezifikazioa/Erabilpen Kasuak/Erabilpen Kasua.pdf']
         ],
         ['5 - Erabilpen Kasuen Ereduak', null,
-          ['5.1 - ModelEditor', '../Proiektua/PlantUML/UCM_ModelEditor.png'],
-          ['5.2 - IO-System', '../Proiektua/PlantUML/UCM_IO-System.png']
+          ['5.1 - ModelEditor', '../Proiektua/Sistemaren Espezifikazioa/Erabilpen Kasuen Ereduak/Erabilpen Kasuen Eredua ModelEditor.pdf'],
+          ['5.2 - IO-System', '../Proiektua/Sistemaren Espezifikazioa/Erabilpen Kasuen Ereduak/Erabilpen Kasuen Eredua IO-System.pdf']
         ]
       ],
       ['Aurrekontua', '../Proiektua/Aurrekontua/Aurrekontua.pdf'],
