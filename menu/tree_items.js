@@ -111,7 +111,10 @@ var TREE_ITEMS =
       ['Sistemaren Espezifikazioa', null,
         ['1 - Glosategia', '../Proiektua/Sistemaren Espezifikazioa/Glosategia.pdf'],
         ['2 - Ikuspegia', '../Proiektua/Sistemaren Espezifikazioa/Ikuspegia.pdf'],
-        ['3 - Betebeharren Espezifikazioa', '../Proiektua/Sistemaren Espezifikazioa/Betebeharren Espezifikazioa.pdf'],
+        ['3 - Betebeharren Espezifikazioak', null,
+          ['3.1 - ModelEditor', '../Proiektua/Sistemaren Espezifikazioa/Betebeharren Espezifikazioak/Betebeharren Espezifikazioa ModelEditor.pdf'],
+          ['3.2 - IO-System', '../Proiektua/Sistemaren Espezifikazioa/Betebeharren Espezifikazioak/Betebeharren Espezifikazioa IO-System.pdf']
+        ],
         ['4 - Erabilpen Kasuak', null,
           ['4.1 - Erabilpen Kasua', '../Proiektua/Sistemaren Espezifikazioa/Erabilpen Kasuak/Erabilpen Kasua.pdf']
         ],
