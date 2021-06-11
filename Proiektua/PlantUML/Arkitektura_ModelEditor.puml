@@ -3,15 +3,18 @@
 !include <logos/eclipse>
 
 component "<$eclipse>\nEPF Composer" as EPFComposer
-component Importer
-component "<$eclipse>\nText Editor" as TextEditor
-component Synchronizer
-component "<$eclipse>\nGraphic Editor" as GraphicEditor
+component Transformer
+together {
+    component "<$eclipse>\nGraphic Editor" as GraphicEditor
+    component Synchronizer
+    component "<$eclipse>\nText Editor" as TextEditor
+}
+
 component Exporter
 database "<$mysql>\nDatabase" as Database
 
-EPFComposer -> Importer
-Importer -> GraphicEditor
+EPFComposer -> Transformer
+Transformer -> GraphicEditor
 GraphicEditor <-> Synchronizer
 Synchronizer <-> TextEditor
 GraphicEditor -> Exporter

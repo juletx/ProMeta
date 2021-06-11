@@ -1,0 +1,43 @@
+@startuml Arkitektura
+!include <logos/mysql>
+!include <logos/drupal>
+!include <logos/eclipse>
+
+node ModelEditor {
+    component "<$eclipse>\nEPF Composer" as EPFComposer
+    component Transformer
+    together {
+        component "<$eclipse>\nGraphic Editor" as GraphicEditor
+        component Synchronizer
+        component "<$eclipse>\nText Editor" as TextEditor
+    }
+    component Exporter
+}
+
+database "<$mysql>\nDatabase" as Database
+
+EPFComposer -> Transformer
+Transformer -> GraphicEditor
+GraphicEditor <-> Synchronizer
+Synchronizer <-> TextEditor
+GraphicEditor -> Exporter
+Exporter -down-> Database
+
+node IO-System {
+    component Importer
+    database "<$drupal>\nDatabase" as DrupalDatabase
+    component "<$drupal>\nInterface" as Interface
+    folder Files {
+        artifact Artifacts
+    }
+}
+
+Database -> Importer : Get Data
+Importer -> DrupalDatabase : Add Data
+
+DrupalDatabase -> Interface : Get Data
+Interface -left-> DrupalDatabase : Edit Data
+
+'Files -> Interface : Get Files'
+Interface -> Files : Edit Files
+@enduml

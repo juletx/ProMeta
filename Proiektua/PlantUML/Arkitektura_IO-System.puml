@@ -16,6 +16,6 @@ Importer -> DrupalDatabase : Add Data
 DrupalDatabase -> Interface : Get Data
 Interface -> DrupalDatabase : Edit Data
 
-Files -> Interface : Get Files
+'Files -> Interface : Get Files'
 Interface -> Files : Edit Files
 @enduml
