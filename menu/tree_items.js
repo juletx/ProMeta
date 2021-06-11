@@ -102,9 +102,9 @@ var TREE_ITEMS =
             ['A6.3.2 - Tresnak', '../Proiektua/Memoriaren Eranskinak/A6 - Beste Eranskinak/Ingurunea/Tresnak.pdf'],
           ],
           ['A6.4 - Proba', null,
-            ['A6.4.1 - Proba Kasuak', '../Proiektua/Memoriaren Eranskinak/A6 - Beste Eranskinak/Proba/test_cases_tpl.pdf'],
+            ['A6.4.1 - Proba Kasuak', '../Proiektua/Memoriaren Eranskinak/A6 - Beste Eranskinak/Proba/Proba Kasuak.pdf'],
             ['A6.4.2 - Proba Log-ak', '../Proiektua/Memoriaren Eranskinak/A6 - Beste Eranskinak/Proba/test_log.pdf'],
-            ['A6.4.3 - Proba Script-ak', '../Proiektua/Memoriaren Eranskinak/A6 - Beste Eranskinak/Proba/test_script_tpl.pdf']
+            ['A6.4.3 - Proba Script-ak', '../Proiektua/Memoriaren Eranskinak/A6 - Beste Eranskinak/Proba/Proba Script-ak.pdf']
           ]
         ]
       ],
@@ -158,6 +158,7 @@ var TREE_ITEMS =
           ['1.6.17 - 2021-05-21', '../Barne Informazioa/Barne Kudeaketa/Bilera Aktak/2021-05-21.pdf'],
           ['1.6.18 - 2021-05-28', '../Barne Informazioa/Barne Kudeaketa/Bilera Aktak/2021-05-28.pdf'],
           ['1.6.19 - 2021-06-04', '../Barne Informazioa/Barne Kudeaketa/Bilera Aktak/2021-06-04.pdf'],
+          ['1.6.20 - 2021-06-11', '../Barne Informazioa/Barne Kudeaketa/Bilera Aktak/2021-06-11.pdf'],
         ],
       ],
       ['2 - Artefaktuen Txantiloiak', null,
