@@ -161,6 +161,7 @@ var TREE_ITEMS =
           ['1.6.20 - 2021-06-11', '../Barne Informazioa/Barne Kudeaketa/Bilera Aktak/2021-06-11.pdf'],
           ['1.6.21 - 2021-06-18', '../Barne Informazioa/Barne Kudeaketa/Bilera Aktak/2021-06-18.pdf'],
           ['1.6.22 - 2021-06-25', '../Barne Informazioa/Barne Kudeaketa/Bilera Aktak/2021-06-25.pdf'],
+          ['1.6.23 - 2021-07-23', '../Barne Informazioa/Barne Kudeaketa/Bilera Aktak/2021-07-23.pdf'],
         ],
       ],
       ['2 - Artefaktuen Txantiloiak', null,
