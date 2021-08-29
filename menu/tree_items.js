@@ -2,8 +2,8 @@
 var TREE_ITEMS =
   [
     ['ProMeta Proiektua', null,
-      ['Portada', '../Proiektua/Memoria/Portada.pdf'],
-      ['Laburpen Posterra', '../Proiektua/Laburpen Posterra.pdf'],
+      ['Posterra', '../Proiektua/Memoria/Posterra.pdf'],
+      ['Laburpena', '../Proiektua/Memoria/Laburpena.pdf'],
       ['Aurkezpena', '../Proiektua/Aurkezpena.pdf'],
       ['Aurkibide Orokorra', '../Proiektua/Memoria/Aurkibide Orokorra.pdf'],
       ['Memoria', '../Proiektua/Memoria/Memoria.pdf',
@@ -11,6 +11,7 @@ var TREE_ITEMS =
         ['Aurkibide Orokorra', '../Proiektua/Memoria/Aurkibide Orokorra.pdf'],
         ['Irudien Aurkibidea', '../Proiektua/Memoria/Irudien Aurkibidea.pdf'],
         ['Taulen Aurkibidea', '../Proiektua/Memoria/Taulen Aurkibidea.pdf'],
+        ['Laburdurak', '../Proiektua/Memoria/Laburdurak.pdf'],
         ['1 - Sarrera', '../Proiektua/Memoria/1 - Sarrera.pdf'],
         ['2 - Helburuak', '../Proiektua/Memoria/2 - Helburuak.pdf'],
         ['3 - Aurrekariak', '../Proiektua/Memoria/3 - Aurrekariak.pdf'],
