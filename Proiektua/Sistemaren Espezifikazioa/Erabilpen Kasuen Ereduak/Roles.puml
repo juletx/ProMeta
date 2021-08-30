@@ -1,0 +1,25 @@
+@startuml Roles
+left to right direction
+
+rectangle Basic {
+    actor Analyst
+    actor Architect
+    actor Developer
+    actor "Project Manager" as ProjectManager
+    actor Tester
+}
+
+rectangle Deployment {
+    actor "Course Developer" as CourseDeveloper
+    actor "Deployment Engineer" as DeploymentEngineer
+    actor "Deployment Manager" as DeploymentManager
+    actor "Technical Writer" as TechnicalWriter
+    actor Trainer
+}
+
+rectangle Environment {
+    actor "Process Engineer" as ProcessEngineer
+    actor "Tool Specialist" as ToolSpecialist
+}
+
+@enduml

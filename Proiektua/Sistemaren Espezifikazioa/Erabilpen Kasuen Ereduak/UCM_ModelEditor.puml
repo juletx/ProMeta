@@ -12,7 +12,6 @@ rectangle "EPF Composer" as EPFComposer {
 
 rectangle Eclipse {
     usecase "Transform Model" as TransformModel
-    usecase "Edit Model" as EditModel
     usecase "Edit Text Model" as EditTextModel
     usecase "Edit Graphical Model" as EditGraphicalModel
     usecase "Create Text Model" as CreateTextModel
@@ -25,9 +24,8 @@ ProcessEngineer --> ExportLibrary
 ProcessEngineer --> EditLibrary
 ProcessEngineer --> PublishWebsite
 ProcessEngineer --> TransformModel
-ProcessEngineer --> EditModel
-EditTextModel ..> EditModel : extends
-EditGraphicalModel ..> EditModel : extends
+ProcessEngineer --> EditTextModel
+ProcessEngineer --> EditGraphicalModel
 ProcessEngineer --> CreateTextModel
 ProcessEngineer --> CreateGraphicalModel
 ProcessEngineer --> CreateSQL
