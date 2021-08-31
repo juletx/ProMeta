@@ -2,7 +2,8 @@
 var TREE_ITEMS =
   [
     ['ProMeta Proiektua', null,
-      ['Posterra', '../Proiektua/Memoria/Posterra.pdf'],
+      ['Posterra', '../Proiektua/Posterra.pdf'],
+      ['Portada', '../Proiektua/Memoria/Portada.pdf'],
       ['Laburpena', '../Proiektua/Memoria/Laburpena.pdf'],
       ['Aurkezpena', '../Proiektua/Aurkezpena.pdf'],
       ['Aurkibide Orokorra', '../Proiektua/Memoria/Aurkibide Orokorra.pdf'],
