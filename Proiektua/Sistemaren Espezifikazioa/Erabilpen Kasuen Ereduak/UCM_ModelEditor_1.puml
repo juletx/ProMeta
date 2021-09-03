@@ -1,0 +1,17 @@
+@startuml UCM_ModelEditor_1
+left to right direction
+
+actor "Process Engineer" as ProcessEngineer
+
+rectangle "EPF Composer" as EPFComposer {
+    usecase "Import Library" as ImportLibrary
+    usecase "Export Library" as ExportLibrary
+    usecase "Edit Library" as EditLibrary
+    usecase "Publish Website" as PublishWebsite
+}
+
+ProcessEngineer --> ImportLibrary
+ProcessEngineer --> ExportLibrary
+ProcessEngineer --> EditLibrary
+ProcessEngineer --> PublishWebsite
+@enduml

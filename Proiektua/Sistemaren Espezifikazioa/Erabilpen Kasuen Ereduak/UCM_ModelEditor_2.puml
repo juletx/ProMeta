@@ -1,0 +1,21 @@
+@startuml UCM_ModelEditor_2
+left to right direction
+
+actor "Process Engineer" as ProcessEngineer
+
+rectangle Eclipse {
+    usecase "Transform Model" as TransformModel
+    usecase "Edit Text Model" as EditTextModel
+    usecase "Edit Graphical Model" as EditGraphicalModel
+    usecase "Create Text Model" as CreateTextModel
+    usecase "Create Graphical Model" as CreateGraphicalModel
+    usecase "Create SQL" as CreateSQL
+}
+
+ProcessEngineer --> TransformModel
+ProcessEngineer --> EditTextModel
+ProcessEngineer --> EditGraphicalModel
+ProcessEngineer --> CreateTextModel
+ProcessEngineer --> CreateGraphicalModel
+ProcessEngineer --> CreateSQL
+@enduml
