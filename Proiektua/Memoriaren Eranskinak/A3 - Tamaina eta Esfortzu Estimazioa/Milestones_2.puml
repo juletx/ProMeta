@@ -1,0 +1,20 @@
+@startgantt Milestones_2
+scale 2
+printscale weekly
+
+project starts the 2021/01/14
+2021/09/05 is closed
+
+[Proiektuaren hasiera] happens 2021/01/14
+[1. Iterazioaren amaiera] happens 2021/02/14
+[2. Iterazioaren amaiera] happens 2021/03/16
+[3. Iterazioaren amaiera] happens 2021/04/17
+[4. Iterazioaren amaiera] happens 2021/05/18
+[5. Iterazioaren amaiera] happens 2021/06/20
+[6. Iterazioaren amaiera] happens 2021/07/23
+[Lana GAURen matrikulatu] happens 2021/07/23
+[7. Iterazioaren amaiera] happens 2021/09/05
+[Lanaren posterra bidali] happens 2021/09/05
+[Lana ADDIra igo] happens 2021/09/05
+[Proiektuaren amaiera] happens 2021/09/05
+@endgantt
