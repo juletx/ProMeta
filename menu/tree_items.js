@@ -3,11 +3,10 @@ var TREE_ITEMS =
   [
     ['ProMeta Proiektua', null,
       ['Posterra', '../Proiektua/Posterra.pdf'],
-      ['Portada', '../Proiektua/Memoria/Portada.pdf'],
-      ['Laburpena', '../Proiektua/Memoria/Laburpena.pdf'],
       ['Aurkezpena', '../Proiektua/Aurkezpena.pdf'],
       ['Aurkibide Orokorra', '../Proiektua/Memoria/Aurkibide Orokorra.pdf'],
       ['Memoria', '../Proiektua/Memoria/Memoria.pdf',
+        ['Portada', '../Proiektua/Memoria/Portada.pdf'],
         ['Laburpena', '../Proiektua/Memoria/Laburpena.pdf'],
         ['Aurkibide Orokorra', '../Proiektua/Memoria/Aurkibide Orokorra.pdf'],
         ['Irudien Aurkibidea', '../Proiektua/Memoria/Irudien Aurkibidea.pdf'],
@@ -28,7 +27,10 @@ var TREE_ITEMS =
         ['13 - Proiektuaren Antolamendua eta Kudeaketa', '../Proiektua/Memoria/13 - Proiektuaren Kudeaketa eta Antolamendua.pdf'],
         ['14 - Denbora Planifikazioa', '../Proiektua/Memoria/14 - Denbora Planifikazioa.pdf'],
         ['15 - Aurrekontuaren Laburpena', '../Proiektua/Memoria/15 - Aurrekontuaren Laburpena.pdf'],
-        ['16 - Dokumentuen Lehentasun Ordena', '../Proiektua/Memoria/16 - Dokumentuen Lehentasun Ordena.pdf']
+        ['16 - Dokumentuen Lehentasun Ordena', '../Proiektua/Memoria/16 - Dokumentuen Lehentasun Ordena.pdf'],
+        ['ERANSKINAK', '../Proiektua/Memoria/ERANSKINAK.pdf'],
+        ['IV.1 - Arriskuen Analisia', '../Proiektua/Memoria/IV.1 - Arriskuen Analisia.pdf'],
+        ['IV.2 - Denbora Planifikazioa', '../Proiektua/Memoria/IV.2 - Denbora Planifikazioa.pdf']
       ],
       ['Memoriaren Eranskinak', null,
         ['A1 - Sarrerako Dokumentazioa', null,
