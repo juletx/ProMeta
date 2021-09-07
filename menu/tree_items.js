@@ -94,7 +94,7 @@ var TREE_ITEMS =
             ['A6.3.2 - Tresnak', '../Proiektua/Memoriaren Eranskinak/A6 - Beste Eranskinak/Ingurunea/Tresnak.pdf'],
           ],
           ['A6.4 - Proba', null,
-            ['A6.4.1 - Proba Kasuak', '../Proiektua/Memoriaren Eranskinak/A6 - Beste Eranskinak/Proba/Proba Kasuak.pdf'],
+            ['A6.4.1 - Proba', '../Proiektua/Memoriaren Eranskinak/A6 - Beste Eranskinak/Proba/Proba.pdf'],
           ]
         ]
       ],
@@ -121,6 +121,8 @@ var TREE_ITEMS =
           ['1.2.3 - Iterazio Plana 3', '../Barne Informazioa/Barne Kudeaketa/Iterazio Planak/Iterazio Plana 3.pdf'],
           ['1.2.4 - Iterazio Plana 4', '../Barne Informazioa/Barne Kudeaketa/Iterazio Planak/Iterazio Plana 4.pdf'],
           ['1.2.5 - Iterazio Plana 5', '../Barne Informazioa/Barne Kudeaketa/Iterazio Planak/Iterazio Plana 5.pdf'],
+          ['1.2.6 - Iterazio Plana 6', '../Barne Informazioa/Barne Kudeaketa/Iterazio Planak/Iterazio Plana 6.pdf'],
+          ['1.2.7 - Iterazio Plana 7', '../Barne Informazioa/Barne Kudeaketa/Iterazio Planak/Iterazio Plana 7.pdf'],
         ],
         ['1.3 - Lan Atazen Zerrenda', '../Barne Informazioa/Barne Kudeaketa/Lan Atazen Zerrenda.pdf'],
         ['1.4 - Arrisku Zerrenda', '../Barne Informazioa/Barne Kudeaketa/Arrisku Zerrenda.pdf'],
