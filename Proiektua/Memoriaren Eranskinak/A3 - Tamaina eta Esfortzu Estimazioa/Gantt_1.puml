@@ -10,10 +10,10 @@ project starts the 2021/01/14
 [Dokumentazioa - Memoria] starts 2021/01/14 and ends 2021/06/20
 [Dokumentazioa - Aurkezpena] starts 2021/05/12 and ends 2021/06/20
 [Dokumentazioa - Posterra] starts 2021/05/12 and ends 2021/06/20
-[Dokumentazioa - Webgunea] is colored in Blue
-[Dokumentazioa - Memoria] is colored in Blue
-[Dokumentazioa - Aurkezpena] is colored in Blue
-[Dokumentazioa - Posterra] is colored in Blue
+[Dokumentazioa - Webgunea] is colored in DodgerBlue
+[Dokumentazioa - Memoria] is colored in DodgerBlue
+[Dokumentazioa - Aurkezpena] is colored in DodgerBlue
+[Dokumentazioa - Posterra] is colored in DodgerBlue
 
 'Memoriaren Eranskinak'
 [Memoriaren Eranskinak - OpenUP] starts 2021/01/14 and ends 2021/06/20
@@ -26,16 +26,16 @@ project starts the 2021/01/14
 'Barne Kudeaketa'
 [Barne Kudeaketa - Plangintza] starts 2021/01/14 and ends 2021/06/20
 [Barne Kudeaketa - Jarraipen eta Kontrola] starts 2021/01/14 and ends 2021/06/20
-[Barne Kudeaketa - Plangintza] is colored in Green
-[Barne Kudeaketa - Jarraipen eta Kontrola] is colored in Green
+[Barne Kudeaketa - Plangintza] is colored in LimeGreen
+[Barne Kudeaketa - Jarraipen eta Kontrola] is colored in LimeGreen
 
 'ModelEditor'
 [ModelEditor - OpenUP Eredua] starts 2021/01/14 and ends 2021/03/15
 [ModelEditor - Editore Grafikoa] starts 2021/01/14 and ends 2021/03/15
 [ModelEditor - Testu Editorea] starts 2021/01/14 and ends 2021/03/15
-[ModelEditor - OpenUP Eredua] is colored in Red
-[ModelEditor - Editore Grafikoa] is colored in Red
-[ModelEditor - Testu Editorea] is colored in Red
+[ModelEditor - OpenUP Eredua] is colored in OrangeRed
+[ModelEditor - Editore Grafikoa] is colored in OrangeRed
+[ModelEditor - Testu Editorea] is colored in OrangeRed
 
 'IO-System'
 [IO-System - Datu Basea] starts 2021/03/16 and ends 2021/06/20

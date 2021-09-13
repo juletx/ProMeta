@@ -1,21 +1,21 @@
 @startwbs LDE
 * ProMeta
-**[#blue] Dokumentazioa
-***[#blue] Webgunea
-***[#blue] Memoria
-***[#blue] Aurkezpena
-***[#blue] Posterra
+**[#DodgerBlue] Dokumentazioa
+***[#DodgerBlue] Webgunea
+***[#DodgerBlue] Memoria
+***[#DodgerBlue] Aurkezpena
+***[#DodgerBlue] Posterra
 **[#orange] Memoriaren Eranskinak
 ***[#orange] OpenUP
 ***[#orange] CCII-2016N-02
 ***[#orange] Sistemaren Espezifikazioa
-**[#green] Barne Kudeaketa
-***[#green] Plangintza
-***[#green] Jarraipen eta Kontrola
-**[#red] ModelEditor
-***[#red] OpenUP Eredua
-***[#red] Editore Grafikoa
-***[#red] Testu Editorea
+**[#LimeGreen] Barne Kudeaketa
+***[#LimeGreen] Plangintza
+***[#LimeGreen] Jarraipen eta Kontrola
+**[#OrangeRed] ModelEditor
+***[#OrangeRed] OpenUP Eredua
+***[#OrangeRed] Editore Grafikoa
+***[#OrangeRed] Testu Editorea
 **[#yellow] IO-System
 ***[#yellow] Datu Basea
 ***[#yellow] Web Interfazea
